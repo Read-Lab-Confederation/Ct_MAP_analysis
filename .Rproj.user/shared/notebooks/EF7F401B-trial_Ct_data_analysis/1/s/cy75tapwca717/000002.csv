@@ -1,0 +1,19 @@
+"0","potential_true_minors <- S26C_MAP %>%"
+"2","Warning messages:
+"
+"2","1: "
+"2","In readChar(file, size, TRUE) :"
+"2"," truncating string with embedded nuls
+"
+"2","2: "
+"2","In readChar(file, size, TRUE) :"
+"2"," truncating string with embedded nuls
+"
+"2","3: "
+"2","In readChar(file, size, TRUE) :"
+"2"," truncating string with embedded nuls
+"
+"0","  filter(regular == 1) %>%"
+"0","  filter(Coverage > 100) %>%"
+"0","  filter(minor_counts > 5) %>%"
+"0","  filter((Ref_cov) > (Coverage/2))"

@@ -1,0 +1,7 @@
+"0","S26C_MAP %>%"
+"0","  filter(Coverage > 25) %>%"
+"0","  filter(Map_value <= 1) %>%"
+"0","  mutate(SNP_percent = round(Ref_cov/(Ref_cov + Aa + Gg + Cc + Tt)*100),digits = 1) %>%"
+"0","  filter(SNP_percent < 99) %>%"
+"0","  ggplot(aes(SNP_percent)) + "
+"0","  geom_histogram(binwidth=1)"

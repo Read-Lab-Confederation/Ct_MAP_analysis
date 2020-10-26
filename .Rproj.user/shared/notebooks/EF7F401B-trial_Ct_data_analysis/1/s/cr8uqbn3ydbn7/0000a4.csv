@@ -1,0 +1,3 @@
+"0","S26C_MAP %>% "
+"0","  filter(Map_value == 1 | regular == 1 & minor_counts == 0) %>%"
+"0","  tally()"
