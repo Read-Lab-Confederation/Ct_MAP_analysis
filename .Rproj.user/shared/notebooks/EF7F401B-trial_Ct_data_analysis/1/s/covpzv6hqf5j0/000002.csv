@@ -1,0 +1,3 @@
+"0","ggplot(S26C_MAP, aes(Position, regular)) + "
+"0","  geom_line(aes(y=rollmean(regular, 1000, fill = NA))) +"
+"0","  theme_bw()"
