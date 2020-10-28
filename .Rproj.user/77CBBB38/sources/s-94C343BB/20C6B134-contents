@@ -11,7 +11,7 @@ library(zoo)
 source(here("MAP_functions.R"))
 ```
 
-**"regular"** is a statistic I developed after seeing that the Ref_cov+alternate bases did not always quite equal the total coverage.  In most cases, regular = 0, which mewans that the coverages do add up. There are a few bases +1 or -1.  Fewer still have greater deviaiotn but a few positions have huge deviation +/1 3000nt which probably is an indication of weird mapping problems.
+**"regular"** is a statistic I developed after seeing that the Ref_cov+alternate bases did not always quite equal the total coverage.  In most cases, regular = 0, which means that the coverages do add up. There are a few bases +1 or -1.  Fewer still have greater deviaiotn but a few positions have huge deviation +/1 3000nt which probably is an indication of weird mapping problems.
 
 **pot_true_minors** means that coverage is at least 10, "regular" is -1,0 or 1 and there are alternate SNPs that fall between 0.1 and 0.9 allele frequency (this is what *SNP_percent* means).
 
@@ -22,36 +22,38 @@ source(here("MAP_functions.R"))
 **map_value1** means "map_value" (Sandeep's statistic meaning percent of the highest coverage) is 1 or less. All bases *should* be 1 or less but a few have weirdness.
 
 ```{r}
+MAP_file_info <- file.info(list.files("~/Box/TIMOTHY_READ/DATA/2020-Chlamydia_Agilent_project/MAP_ASR/",full.names = T,pattern = "*.txt"))
 MAP_files <- list.files("~/Box/TIMOTHY_READ/DATA/2020-Chlamydia_Agilent_project/MAP_ASR/",full.names = T,pattern = "*.txt")
+MAP_files <- MAP_files[MAP_file_info$size > 1000000]
 out_dir <- "~/Desktop/MAP_out_files/"
 ```
 
 ```{r}
-loop_file <- MAP_files[2]
-f_name <- sub("_MAP.txt","",sub("//","",regmatches(loop_file, regexpr("//.{3,6}_MAP.txt", loop_file))))
-```
-
-```{r}
+for (i in seq_along(MAP_files)){
+loop_file <- MAP_files[i]
+f_name <- sub("_MAP.txt","",sub("//","",regmatches(loop_file, regexpr("//.{3,10}_MAP.txt", loop_file))))
 MAP <- read_MAP(loop_file,f_name)
-```
-
-```{r}
 MAP_stats <- MAP_stats_summary(MAP,out_dir,f_name)
-MAP_stats
-```
-
-```{r}
-plot_MAP_histo(MAP,f_name)
-```
-
-
-```{r}
-plot_MAP_coverage(MAP,f_name)
-```
-
-
-```{r}
+plot_MAP_histo(MAP,out_dir,f_name)
+plot_MAP_coverage(MAP,out_dir,f_name)
 write_potential_minors(MAP,out_dir,f_name)
 write_potential_SNPs(MAP,out_dir,f_name)
+}
+
+```
+
+Create summary table
+```{r}
+MAP_summaries <- list.files("~/Box/TIMOTHY_READ/DATA/2020-Chlamydia_Agilent_project/MAP_ASR/MAP_out_files/",full.names = T,pattern = "*_stats.tsv")
+```
+`
+
+```{r}
+MAP_summary_df <- read_tsv(MAP_summaries[1])
+for (j in 2:length(MAP_summaries)) {
+  temp_df <- read_tsv(MAP_summaries[j])
+  MAP_summary_df <- bind_rows(MAP_summary_df,temp_df)
+}
+write_tsv(MAP_summary_df,here("MAP_analysis_summary.tsv"))
 ```
 

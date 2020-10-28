@@ -1,7 +1,6 @@
 read_MAP <- function(path_mapfile,mfn) {
   mapdf <- read.table(path_mapfile, row.names = NULL, sep = "\t")
   colnames(mapdf) <- c("Position","Refnt","Coverage","E","E.1","Aa","Gg","Cc","Tt","Ref_cov","Map_value")
-  mapdf <- mapdf[-c(1,2,3,4,5),]
   mapdf$Position <- as.integer(mapdf$Position)
   # find all places where the numbers add up. The "regular" column means that the ref coverage + all minor bases == total coverage
   mapdf <- mapdf %>% 
@@ -13,23 +12,31 @@ read_MAP <- function(path_mapfile,mfn) {
   return(mapdf)
 }
 
-plot_MAP_histo <- function(mapDF,mfn) {
-  mapDF %>%
+plot_MAP_histo <- function(mapDF,map_file_out,mfn) {
+  plotDF <- mapDF %>%
     filter(Coverage > 10) %>%
     filter(SNP_percent < 99) %>%
-    filter(regular > -1 & regular < 1) %>%
-    ggplot(aes(SNP_percent)) + 
+    filter(regular > -1 & regular < 1)
+    ggplot(plotDF,aes(SNP_percent)) + 
     geom_histogram(binwidth=1, fill = "red") +
     ggtitle(mfn) +
     theme_bw()
+  plot_fn <- paste0(mfn,"_histo.pdf")
+  ggsave(filename= plot_fn, path=map_file_out,device = pdf)
+  
 }
 
-plot_MAP_coverage <- function(mapDF,mfn) {
-  ggplot(mapDF, aes(Position, Coverage)) + 
+plot_MAP_coverage <- function(mapDF,map_file_out,mfn) {
+  # remove 90% of positions for speed
+  plotDF <- mapDF %>%
+    filter(Position%%10 == 0) 
+  ggplot(plotDF,aes(Position, Coverage)) + 
     geom_line(aes(y=rollmean(Coverage, 1000, fill = NA))) +
     geom_smooth() +
     ggtitle(mfn) +
     theme_bw()
+  plot_fn <- paste0(mfn,"_covplot.pdf")
+  ggsave(filename= plot_fn, path=map_file_out,device = pdf)
 }
 
 write_potential_minors <- function(mapDF,map_file_out,mfn) {

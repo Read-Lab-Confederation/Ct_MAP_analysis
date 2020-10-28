@@ -1,2 +1,0 @@
-"0","MAP_files <- list.files(""~/Box/TIMOTHY_READ/DATA/2020-Chlamydia_Agilent_project/MAP_ASR/"",full.names = T,pattern = ""*.txt"")"
-"0","out_dir <- ""~/Desktop/MAP_out_files/"""
