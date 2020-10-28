@@ -1,0 +1,57 @@
+---
+title: "Pipeline analysis of *C. trachomatis* MAP data - October 2020"
+output: html_notebook
+---
+
+
+```{r}
+library(tidyverse)
+library(here)
+library(zoo)
+source(here("MAP_functions.R"))
+```
+
+**"regular"** is a statistic I developed after seeing that the Ref_cov+alternate bases did not always quite equal the total coverage.  In most cases, regular = 0, which mewans that the coverages do add up. There are a few bases +1 or -1.  Fewer still have greater deviaiotn but a few positions have huge deviation +/1 3000nt which probably is an indication of weird mapping problems.
+
+**pot_true_minors** means that coverage is at least 10, "regular" is -1,0 or 1 and there are alternate SNPs that fall between 0.1 and 0.9 allele frequency (this is what *SNP_percent* means).
+
+**pot_true_SNP** means that coverage is at least 10, "regular" is -1,0 or 1 and there are alternate SNPs that fall below 0.1 and 0.9 allele frequency (ie dominated by the alternative, nonAST allele).
+
+**cov10** means number of bases with 10 or above coverage
+
+**map_value1** means "map_value" (Sandeep's statistic meaning percent of the highest coverage) is 1 or less. All bases *should* be 1 or less but a few have weirdness.
+
+```{r}
+MAP_files <- list.files("~/Box/TIMOTHY_READ/DATA/2020-Chlamydia_Agilent_project/MAP_ASR/",full.names = T,pattern = "*.txt")
+out_dir <- "~/Desktop/MAP_out_files/"
+```
+
+```{r}
+loop_file <- MAP_files[2]
+f_name <- sub("_MAP.txt","",sub("//","",regmatches(loop_file, regexpr("//.{3,6}_MAP.txt", loop_file))))
+```
+
+```{r}
+MAP <- read_MAP(loop_file,f_name)
+```
+
+```{r}
+MAP_stats <- MAP_stats_summary(MAP,out_dir,f_name)
+MAP_stats
+```
+
+```{r}
+plot_MAP_histo(MAP,f_name)
+```
+
+
+```{r}
+plot_MAP_coverage(MAP,f_name)
+```
+
+
+```{r}
+write_potential_minors(MAP,out_dir,f_name)
+write_potential_SNPs(MAP,out_dir,f_name)
+```
+

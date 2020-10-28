@@ -1,0 +1,4 @@
+"0","ggplot(S26C_MAP, aes(Position, Coverage)) + "
+"0","  geom_line(aes(y=rollmean(Coverage, 1000, fill = NA))) +"
+"0","  geom_smooth() +"
+"0","  theme_bw()"

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1603827764040.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B5C3C8",
+    "lastKnownWriteTime" : 1603843179,
+    "last_content_update" : 1603843179047,
+    "path" : "~/GitHub/Ct_MAP_analysis/MAP_functions.R",
+    "project_path" : "MAP_functions.R",
+    "properties" : {
+        "cursorPosition" : "26,42",
+        "scrollLine" : "4",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : true,
+    "source_window" : "",
+    "type" : "r_source"
+}

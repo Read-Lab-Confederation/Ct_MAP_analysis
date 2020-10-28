@@ -1,3 +1,0 @@
-"0","S26C_MAP %>% "
-"0","  filter(Map_value == 1 | regular == 1) %>%"
-"0","  tally()"

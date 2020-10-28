@@ -1,0 +1,2 @@
+"0","loop_file <- MAP_files[2]"
+"0","f_name <- sub(""_MAP.txt"","""",sub(""//"","""",regmatches(loop_file, regexpr(""//.{3,6}_MAP.txt"", loop_file))))"

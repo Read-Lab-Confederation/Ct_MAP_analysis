@@ -1,4 +1,0 @@
-"0","potential_true_SNPs <- S26C_MAP %>%"
-"0","  filter(regular == 1) %>%"
-"0","  filter(Coverage > 100) %>%"
-"0","  filter(minor_counts > (Coverage * 0.9))"
