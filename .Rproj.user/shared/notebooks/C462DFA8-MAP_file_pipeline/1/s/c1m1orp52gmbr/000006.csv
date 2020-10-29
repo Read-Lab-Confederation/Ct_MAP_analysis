@@ -1,0 +1,13 @@
+"0",""
+"0","minor_mutation_summary <- MAP_minor_allele_df %>%"
+"0","  mutate(Altnt = case_when("
+"0","    Aa > Gg | Aa > Cc | Aa > Tt ~ ""A"","
+"0","    Gg > Aa | Gg > Cc | Gg > Tt ~ ""G"","
+"0","    Cc > Aa | Cc > Gg | Cc > Tt ~ ""C"","
+"0","    Tt > Aa | Tt > Gg | Tt > Cc ~ ""T"","
+"0","    TRUE ~ NA"
+"0","  ))"
+"2","Error: Problem with `mutate()` input `Altnt`.
+[31mx[39m must be a character vector, not a logical vector.
+[34mℹ[39m Input `Altnt` is `case_when(...)`.
+"

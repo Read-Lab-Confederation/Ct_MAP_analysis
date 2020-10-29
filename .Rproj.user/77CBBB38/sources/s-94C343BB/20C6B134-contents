@@ -42,7 +42,8 @@ write_potential_SNPs(MAP,out_dir,f_name)
 
 ```
 
-Create summary table
+
+## Create summary table
 ```{r}
 MAP_summaries <- list.files("~/Box/TIMOTHY_READ/DATA/2020-Chlamydia_Agilent_project/MAP_ASR/MAP_out_files/",full.names = T,pattern = "*_stats.tsv")
 ```
@@ -56,4 +57,87 @@ for (j in 2:length(MAP_summaries)) {
 }
 write_tsv(MAP_summary_df,here("MAP_analysis_summary.tsv"))
 ```
+
+### Take a look at high quality data
+
+```{r}
+MAP_summary_df %>%
+  filter(cov10 > 1030000) %>%
+  ggplot(aes(pot_true_minors)) +
+  geom_histogram(binwidth=100) +
+    ggtitle("No of strains with potential true minor alleles") +
+    theme_bw()
+```
+```{r}
+MAP_summary_df %>%
+  filter(cov10 > 1030000) %>%
+  filter(pot_true_minors > 200)
+```
+
+
+
+## Aggregate minor alleles
+
+```{r}
+MAP_minor_allele_files <- list.files("~/Box/TIMOTHY_READ/DATA/2020-Chlamydia_Agilent_project/MAP_ASR/MAP_out_files/",full.names = T,pattern = "*_minors.tsv")
+```
+`
+```{r}
+MAP_minor_allele_df <- read_tsv(MAP_minor_allele_files[1],col_types=(cols(
+  strain = col_character(),
+  Position = col_integer(),
+  Refnt = col_character(),
+  Coverage = col_integer(),
+  Ref_cov = col_integer(),
+  Aa = col_integer(),
+  Gg = col_integer(),
+  Cc = col_integer(),
+  Tt = col_integer())
+))
+for (j in 2:length(MAP_minor_allele_files)) {
+  temp_df2 <- read_tsv(MAP_minor_allele_files[j],col_types=(cols(
+  strain = col_character(),
+  Position = col_integer(),
+  Refnt = col_character(),
+  Coverage = col_integer(),
+  Ref_cov = col_integer(),
+  Aa = col_integer(),
+  Gg = col_integer(),
+  Cc = col_integer(),
+  Tt = col_integer())
+))
+  MAP_minor_allele_df <- bind_rows(MAP_minor_allele_df,temp_df2)
+}
+write_tsv(MAP_minor_allele_df,here("MAP_minor_alleles_df.tsv"))
+```
+
+Find common and rare mutations
+
+
+```{r}
+Posiiotn_count <- MAP_minor_allele_df %>%
+  group_by(Position) %>%
+  tally
+ggplot(Posiiotn_count,aes(n)) + 
+    geom_histogram(binwidth=1) +
+    ggtitle("No of strains with minor allele") +
+    theme_bw()
+```
+This show that by far the majority of minor alleles are rare (found in 10 strains or fewer)
+
+Next step maybe to see if common minor alelles explain most of the minor alleles in strain with < 200
+
+```{r}
+
+minor_mutation_summary <- MAP_minor_allele_df %>%
+  mutate(Altnt = case_when(
+    Aa > Gg | Aa > Cc | Aa > Tt ~ "A",
+    Gg > Aa | Gg > Cc | Gg > Tt ~ "G",
+    Cc > Aa | Cc > Gg | Cc > Tt ~ "C",
+    Tt > Aa | Tt > Gg | Tt > Cc ~ "T",
+    TRUE ~ NA
+  ))
+
+```
+
 
