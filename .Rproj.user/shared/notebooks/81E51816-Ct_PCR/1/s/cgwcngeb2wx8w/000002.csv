@@ -1,0 +1,19 @@
+"0","ggplot(PCR_data_no_control, aes(x=log(Ct_qPCR_copies_uL), y=Mean_depth_coverage, color = as.factor(Body_site))) + geom_point()"
+"2","Warning messages:
+"
+"2","1: "
+"2","In readChar(file, size, TRUE) :"
+"2"," truncating string with embedded nuls
+"
+"2","2: "
+"2","In readChar(file, size, TRUE) :"
+"2"," truncating string with embedded nuls
+"
+"2","3: "
+"2","In readChar(file, size, TRUE) :"
+"2"," truncating string with embedded nuls
+"
+"2","4: "
+"2","In readChar(file, size, TRUE) :"
+"2"," truncating string with embedded nuls
+"

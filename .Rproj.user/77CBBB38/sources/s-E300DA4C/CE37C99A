@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1617043505598.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CE37C99A",
+    "lastKnownWriteTime" : 4565785731,
+    "last_content_update" : 1617043505598,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "D2AB991C",
+        "caption" : "PCR_data",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=PCR_data&cache_key=D2AB991C",
+        "displayedObservations" : "90",
+        "environment" : "",
+        "expression" : "PCR_data",
+        "object" : "PCR_data",
+        "preview" : "0",
+        "totalObservations" : "90",
+        "variables" : "12"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

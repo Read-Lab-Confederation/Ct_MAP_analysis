@@ -1,7 +1,0 @@
-"0","Posiiotn_count <- MAP_minor_allele_df %>%"
-"0","  group_by(Position) %>%"
-"0","  tally"
-"0","ggplot(Posiiotn_count,aes(n)) + "
-"0","    geom_histogram(binwidth=1) +"
-"0","    ggtitle(""No of strians with minor allele"") +"
-"0","    theme_bw()"

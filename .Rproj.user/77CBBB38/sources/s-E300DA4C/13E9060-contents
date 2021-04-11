@@ -1,0 +1,84 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Analysis of Ct PCR data
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+
+PCR_data <- read.csv("~/GitHub/Ct_MAP_analysis/Fiji_qPCR-WGS_metadata_ompA.csv") %>%
+  filter(DNA_concentration_ng > 0) %>%
+  mutate(Subject = ifelse(grepl("Ct",Sample_name),NA,sub("\\D","",Sample_name))) %>%
+  mutate(Body_site = ifelse(grepl("Ct",Sample_name),NA,sub("\\d+","",Sample_name)))
+PCR_data_no_control <- filter(PCR_data,!is.na(Body_site))
+```
+
+```{r}
+# number of subjects
+length(unique(PCR_data$Subject))
+```
+
+# min and max values of raw Ct qPCR
+```{r}
+signif(max(PCR_data$Ct_qPCR_copies_uL),2)
+signif(min(PCR_data$Ct_qPCR_copies_uL),2)
+```
+
+
+```{r}
+ggplot(PCR_data_no_control, aes(x=as.factor(Body_site), y=log(Ct_qPCR_copies_uL))) + 
+  geom_boxplot()
+
+```
+
+```{r}
+a1 <- aov(log(Ct_qPCR_copies_uL) ~ as.factor(Body_site), data = PCR_data_no_control) 
+summary(a1)
+```
+
+
+
+```{r}
+ggplot(PCR_data_no_control, aes(x=Body_site, y=log(Ct_qPCR_rload_ompA.b.actin))) + 
+  geom_boxplot()
+
+```
+
+```{r}
+a2 <- aov(log(Ct_qPCR_rload_ompA.b.actin) ~ as.factor(Body_site), data = PCR_data_no_control) 
+summary(a2)
+```
+
+```{r}
+attach(PCR_data_no_control)
+pairwise.t.test(log(Ct_qPCR_rload_ompA.b.actin),as.factor(Body_site),p.adj = "bonf")
+detach()
+```
+
+
+
+```{r}
+ggplot(PCR_data_no_control, aes(x=log(Ct_qPCR_copies_uL), y=Mean_depth_coverage, color = as.factor(Body_site))) + geom_point()
+```
+
+```{r}
+ggplot(PCR_data, aes(x=log(Ct_qPCR_rload_ompA.b.actin), y=Mean_depth_coverage, color = as.factor(Body_site))) + geom_point()
+```
+Linear model of raw DNA yield versus Reads
+```{r}
+linmod1 <- lm(Mean_depth_coverage ~ log(Ct_qPCR_copies_uL), data = PCR_data)
+summary(linmod1)
+```
+
+# Fixed effect model for body site (although there is no biological reason)
+```{r}
+fixed.mod1 <-lm(Mean_depth_coverage ~ log(Ct_qPCR_copies_uL) + factor(Body_site), data = PCR_data)
+summary(fixed.mod1)
+```
+
