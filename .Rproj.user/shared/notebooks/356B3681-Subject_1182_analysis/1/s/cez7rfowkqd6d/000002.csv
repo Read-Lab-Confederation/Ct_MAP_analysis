@@ -1,0 +1,17 @@
+"0","Sub_1182R_potential_minors <- read.delim(""~/Documents/2021-Fiji-Ct_paper/MAP_results/1182R_potential_minors.tsv"")"
+"2","Warning messages:
+"
+"2","1: "
+"2","In readChar(file, size, TRUE) :"
+"2"," truncating string with embedded nuls
+"
+"2","2: "
+"2","In readChar(file, size, TRUE) :"
+"2"," truncating string with embedded nuls
+"
+"0","Sub_1182V_potential_minors <- read.delim(""~/Documents/2021-Fiji-Ct_paper/MAP_results/1182V_potential_minors.tsv"")"
+"0","Sub_1182C_potential_minors <- read.delim(""~/Documents/2021-Fiji-Ct_paper/MAP_results/1182C_potential_minors.tsv"")"
+"0","Sub_1182V_SNPs <- read.delim(""~/Documents/2021-Fiji-Ct_paper/MAP_results/1182V_potential_SNPs.tsv"")"
+"0","Sub_1182R_SNPs <- read.delim(""~/Documents/2021-Fiji-Ct_paper/MAP_results/1182R_potential_SNPs.tsv"")"
+"0","Sub_1182C_SNPs <- read.delim(""~/Documents/2021-Fiji-Ct_paper/MAP_results/1182C_potential_SNPs.tsv"")"
+"0",""

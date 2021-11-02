@@ -1,0 +1,53 @@
+---
+title: "SNP_matrix"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+mat <- as.matrix(read.table("/Users/timothyread/Documents/2021-Fiji-Ct_paper/Manuscript_Figures_data/Global_PhylogeneticTree/Gubbins/filtered_polymorphic_sites.disty.matrix"))
+```
+
+```{r}
+hist(mat[lower.tri(mat)], breaks = 500)
+```
+
+```{r}
+Fiji_names <- dimnames(mat)[[1]][grepl("\\dV|\\dR|\\dC",dimnames(mat)[[1]])]
+Ref_names <- dimnames(mat)[[1]][!grepl("\\dV|\\dR|\\dC",dimnames(mat)[[1]])]
+```
+
+# top 4 close reference strain to 1082R
+(subsetting and ordering named integers example)
+```{r}
+mat["1078R",which(colnames(mat) %in% Ref_names)][order(mat["1078R",which(colnames(mat) %in% Ref_names)])][c(1,2,3,4)]
+```
+
+# close reference strain to 1082V
+```{r}
+mat["1078V",which(colnames(mat) %in% Ref_names)][order(mat["1078V",which(colnames(mat) %in% Ref_names)])][c(1,2,3,4)]
+```
+
+#32V and 1176V
+```{r}
+
+mat[colnames(mat) == "X32V",colnames(mat) == "X1176V"]
+```
+```
+
+
+
+```{r}
+Fiji_prefixes <- unique(gsub("\\D+","",Fiji_names[order(Fiji_names)]))
+for (i in 1:length(Fiji_prefixes)) {
+  print(mat[grepl(Fiji_prefixes[i],colnames(mat)),grepl(Fiji_prefixes[i],colnames(mat))])
+}
+```
+

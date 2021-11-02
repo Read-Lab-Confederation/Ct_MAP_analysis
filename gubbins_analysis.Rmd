@@ -1,0 +1,155 @@
+---
+title: "Gubbins analysis"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(ape)
+library(stringr)
+```
+
+```{r}
+Gubbins_recombination_predictions <- read.delim("~/Documents/2021-Fiji-Ct_paper/Manuscript_Figures_data/Global_PhylogeneticTree/Gubbins/CT_Gubbins_184_05_22_MASKED.recombination_predictions.gff", header=FALSE, comment.char="#") %>%
+  separate(V9,into=c("nodes","liklihood","taxa","snps"),sep=";") %>%
+  select(-V1,-V2,-V3,-V6,-V7,-V8,-liklihood) %>%
+  mutate(taxa = gsub("taxa=","",taxa)) %>%
+  mutate(taxa = trimws(taxa,which="both")) %>%
+  mutate(snps=as.numeric(gsub("snp_count=","",snps))) %>%
+  mutate(nodes=gsub("node=","",nodes))
+```
+
+
+
+```{r}
+final_tree <- read.tree("~/Documents/2021-Fiji-Ct_paper/Manuscript_Figures_data/Global_PhylogeneticTree/Gubbins/CT_Gubbins_184_05_22_MASKED.node_labelled.final_tree.tre")
+```
+
+```{r}
+Fiji_tips <- final_tree$tip.label[grepl("\\dV|\\dR|\\dC",final_tree$tip.label)]
+```
+
+
+```{r}
+test_tips <- function(in_str,test_vec) {
+  in_vec <- unlist(strsplit(in_str,"\\s+"))
+  print(in_vec)
+  result <- in_vec %in% test_vec
+  print(result)
+  if (length(result) == sum(result)) {
+    return(TRUE) 
+  } else {
+    return(FALSE)
+  }
+}
+```
+
+```{r}
+tt_vector <- sapply(1:nrow(Gubbins_recombination_predictions), function(x) test_tips(Gubbins_recombination_predictions$taxa[x],Fiji_tips))
+```
+
+
+```{r}
+Gubbins_Fiji <- add_column(Gubbins_recombination_predictions,tt_vector) %>%
+  mutate(recomb_len = V5-V4) %>%
+  mutate(tt_vector = ifelse("TRUE","Fiji-tip","not-Fiji-tips"))
+```
+
+```{r}
+Gubbins_Fiji %>% group_by(tt_vector) %>% 
+  summarise(mean_len = mean(recomb_len))
+```
+
+
+
+```{r}
+kruskal.test(recomb_len ~ tt_vector, data = Gubbins_Fiji)
+```
+
+```{r}
+plot(final_tree)
+```
+
+```{r}
+Gubbins_stats <- read.delim("~/Documents/2021-Fiji-Ct_paper/Manuscript_Figures_data/Global_PhylogeneticTree/Gubbins/CT_Gubbins_184_05_22_MASKED.per_branch_statistics.csv") %>%
+  mutate(group = case_when(grepl("\\dV|\\dR|\\dC",Node) ~ "Fiji",
+                           grepl("internal",Node) ~ "Internal",
+                           TRUE ~ "Reference"))
+Gubbins_stats_tips <- Gubbins_stats %>%
+  filter(group %in% c("Fiji","Reference"))
+```
+
+```{r}
+kruskal.test(r.m ~ group, data = Gubbins_stats_tips)
+```
+
+
+```{r}
+kruskal.test(rho.theta ~ group, data = Gubbins_stats_tips)
+```
+
+```{r}
+Gubbins_stats_tips %>%
+  filter(group == "Fiji") %>%
+  ggplot(aes(x=Num.of.Recombination.Blocks)) +
+  geom_histogram(color="black", fill="white") +
+  stat_bin(binwidth=1,geom="text", aes(label=..count..) , vjust = -1)
+```
+
+```{r}
+Gubbins_stats_tips %>%
+  filter(group == "Fiji") %>%
+  filter(Num.of.Recombination.Blocks > 0)  %>%
+  arrange(Node)
+```
+
+
+## 1182V
+
+```{r}
+Gubbins_Fiji %>%
+  filter(taxa == "1182V")
+```
+
+
+```{r}
+Gubbins_Fiji %>%
+  filter(taxa == "1182V") %>%
+  select(taxa, chromStart = V4,chromEnd = V5) %>%
+  write_delim(file="~/Documents/2021-Fiji-Ct_paper/Manuscript_Figures_data/Global_PhylogeneticTree/Snippy_alignment/1182V.bed", delim = "\t")
+```
+
+Sort through the reuslts of blast against the aln file
+
+```{r}
+tophits_1182V <- read.delim("~/Documents/2021-Fiji-Ct_paper/Manuscript_Figures_data/Global_PhylogeneticTree/Snippy_alignment/1182V-recombinant_blast.out", header=FALSE) %>%
+  filter(V2 == "1182V") %>%
+  filter(V3 == 100) %>%
+  select(V2,V9,V10)
+```
+
+
+```{r}
+blast_1187V <- read.delim("~/Documents/2021-Fiji-Ct_paper/Manuscript_Figures_data/Global_PhylogeneticTree/Snippy_alignment/1182V-recombinant_blast.out", header=FALSE) %>%
+  select(-V11,-V6) %>%
+  filter(V3 > 99) %>%
+  group_by(V1,V9) %>% 
+  slice_max(V12) %>%
+  filter(V9 %in% tophits_1182V$V9) %>%
+  filter(V10 %in% tophits_1182V$V10) %>%
+  group_by(V2) %>%
+  summarise(matches = n()) %>%
+  arrange(desc(matches))
+```
+
+```{r}
+read.delim("~/Documents/2021-Fiji-Ct_paper/Manuscript_Figures_data/Global_PhylogeneticTree/Snippy_alignment/1182V-recombinant_blast.out", header=FALSE) %>%
+  select(-V11,-V6) %>%
+  filter(V3 > 99) %>%
+  group_by(V1,V9) %>% 
+  slice_max(V12) %>%
+  filter(V9 %in% tophits_1182V$V9) %>%
+  filter(V10 %in% tophits_1182V$V10) %>%
+  arrange(V9)
+```
+

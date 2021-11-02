@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1633360423802.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5A870337",
+    "lastKnownWriteTime" : 4475851004,
+    "last_content_update" : 1633360423802,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "19F51A7",
+        "caption" : "Sub_1182V_SNPs",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Sub_1182V_SNPs&cache_key=19F51A7",
+        "displayedObservations" : "4534",
+        "environment" : "",
+        "expression" : "Sub_1182V_SNPs",
+        "object" : "Sub_1182V_SNPs",
+        "preview" : "0",
+        "totalObservations" : "4534",
+        "variables" : "9"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

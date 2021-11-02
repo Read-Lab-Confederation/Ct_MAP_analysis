@@ -1,0 +1,5 @@
+"0","Gubbins_stats_tips %>%"
+"0","  filter(group == ""Fiji"") %>%"
+"0","  ggplot(aes(x=Num.of.Recombination.Blocks)) +"
+"0","  geom_histogram(color=""black"", fill=""white"") +"
+"0","  stat_bin(binwidth=1,geom=""text"", aes(label=..count..) , vjust = -1)"

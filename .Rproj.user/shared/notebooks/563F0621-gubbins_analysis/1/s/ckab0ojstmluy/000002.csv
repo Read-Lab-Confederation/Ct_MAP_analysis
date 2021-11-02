@@ -1,0 +1,8 @@
+"0","Gubbins_recombination_predictions <- read.delim(""~/Documents/2021-Fiji-Ct_paper/Manuscript_Figures_data/Global_PhylogeneticTree/Gubbins/CT_Gubbins_184_05_22_MASKED.recombination_predictions.gff"", header=FALSE, comment.char=""#"") %>%"
+"0","  separate(V9,into=c(""nodes"",""liklihood"",""taxa"",""snps""),sep="";"") %>%"
+"0","  select(-V1,-V2,-V3,-V6,-V7,-V8,-liklihood) %>%"
+"0","  mutate(taxa = gsub(""taxa="","""",taxa)) %>%"
+"0","  mutate(taxa = trimws(taxa,which=""both"")) %>%"
+"0","  mutate(snps=as.numeric(gsub(""snp_count="","""",snps))) %>%"
+"0","  mutate(nodes=gsub(""node="","""",nodes))"
+"2","Expected 4 pieces. Additional pieces discarded in 408 rows [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, ...]."

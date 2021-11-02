@@ -1,0 +1,8 @@
+"0","read.delim(""~/Documents/2021-Fiji-Ct_paper/Manuscript_Figures_data/Global_PhylogeneticTree/Snippy_alignment/1182V-recombinant_blast.out"", header=FALSE) %>%"
+"0","  select(-V11,-V6) %>%"
+"0","  filter(V3 > 99) %>%"
+"0","  group_by(V1,V9) %>% "
+"0","  slice_max(V12) %>%"
+"0","  filter(V9 %in% tophits_1182V$V9) %>%"
+"0","  filter(V10 %in% tophits_1182V$V10) %>%"
+"0","  arrange(V9)"

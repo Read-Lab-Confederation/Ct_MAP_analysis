@@ -1,0 +1,5 @@
+"0","goodQdata %>%"
+"0","  ggplot(aes(intermediate_SNPs)) +"
+"0","  geom_histogram(binwidth=100) +"
+"0","    ggtitle(""Intermediate alleles across good quality strains"") +"
+"0","    theme_bw()"
