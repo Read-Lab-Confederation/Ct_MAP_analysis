@@ -1,0 +1,5 @@
+"0",""
+"0","RConlyRI <- Total_iSNPs %>%"
+"0","  filter(V_percent >= 90 & C_percent >= 10 & C_percent < 90 & R_percent >= 10 & R_percent < 90) %>%"
+"0","  filter(SNP == ""rare_iSNP"") %>%"
+"0","  nrow()"

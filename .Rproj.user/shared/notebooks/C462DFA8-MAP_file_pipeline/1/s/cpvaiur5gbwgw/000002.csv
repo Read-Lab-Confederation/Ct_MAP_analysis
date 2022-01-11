@@ -1,3 +1,7 @@
 "0","MAP_summary_df %>%"
-"0","  filter(cov10 > 1030000) %>%"
-"0","  filter(pot_true_minors > 200)"
+"2","Warning message:
+"
+"2","In readChar(file, size, TRUE) :"
+"2"," truncating string with embedded nuls
+"
+"0","  filter(pot_true_minors > 1000)"

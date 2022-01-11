@@ -23,4 +23,4 @@
 "0","))"
 "0","  MAP_minor_allele_df <- bind_rows(MAP_minor_allele_df,temp_df2)"
 "0","}"
-"0","write_tsv(MAP_minor_allele_df,here(""MAP_minor_alleles_df.tsv""))"
+"0","write_tsv(MAP_minor_allele_df,here(""MAP_minor_alleles_df2.tsv""))"

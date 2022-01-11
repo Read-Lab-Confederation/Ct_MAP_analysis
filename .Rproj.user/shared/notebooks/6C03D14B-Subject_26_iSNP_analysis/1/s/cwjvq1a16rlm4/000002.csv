@@ -1,0 +1,2 @@
+"0","RVplot +"
+"0","  labs(title = paste(""Minor SNPs in R(x) versus V(y). Subject:"",subject_id))"

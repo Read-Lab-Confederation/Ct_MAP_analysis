@@ -1,0 +1,4 @@
+"0","res_files <- list.files(""./iSNP_analysis_table/iSNPs*"",full.names = T)"
+"0","res_table <- read.delim(res_files[1])"
+"2","Error in file(file, ""rt"") : invalid 'description' argument
+"

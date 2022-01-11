@@ -1,0 +1,5 @@
+"0","ggplot(R_C_Shared_iSNPs_pos_count,aes(n)) + geom_histogram(binwidth=1) +"
+"0","    xlab(""n iSNPs"") +"
+"0","    ylab(""count"") +"
+"0","    ggtitle(""Global frequency of shared R-C iSNPs"") +"
+"0","    theme_bw()"

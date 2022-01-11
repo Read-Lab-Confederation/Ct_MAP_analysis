@@ -1,6 +1,0 @@
-"0","MAP_summary_df %>%"
-"0","  filter(cov10 > 1030000) %>%"
-"0","  ggplot(aes(pot_true_minors)) +"
-"0","  geom_histogram(binwidth=100) +"
-"0","    ggtitle(""No of strains with potential true minor alleles"") +"
-"0","    theme_bw()"

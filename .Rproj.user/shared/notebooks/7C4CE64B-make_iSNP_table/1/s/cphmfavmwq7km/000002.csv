@@ -1,0 +1,2 @@
+"0","mean_doc <- grand_summary %>% "
+"0","  select(Sample,Mean.depth.of.coverage)"

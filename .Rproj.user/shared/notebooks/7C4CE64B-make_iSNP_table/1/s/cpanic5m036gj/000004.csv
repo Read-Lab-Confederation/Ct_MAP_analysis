@@ -1,0 +1,4 @@
+"0","ggplot(RI_SNPs,aes(x=Mean.depth.of.coverage,y=SNPs)) +"
+"0","  geom_point()+"
+"0","  theme_bw() +"
+"0","  ggtitle(""Numbers of rare intermediate SNPs versus sample depth of coverage"")"

@@ -1,0 +1,5 @@
+"0",""
+"0","AllF <- Total_iSNPs %>%"
+"0","  filter(R_percent <10 & V_percent < 10 & C_percent < 10) %>%"
+"0","  filter(SNP == ""other_SNP"" | SNP == ""rare_iSNP"" | SNP == ""common_iSNP"" ) %>%"
+"0","  nrow()"
