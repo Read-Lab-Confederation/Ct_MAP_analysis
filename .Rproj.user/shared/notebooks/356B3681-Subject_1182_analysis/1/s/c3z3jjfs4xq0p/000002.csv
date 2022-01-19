@@ -1,2 +1,0 @@
-"0","Sub_1182R_SNPs %>% "
-"0","  filter(Position %in% Sub_1182V_potential_minors$Position)"

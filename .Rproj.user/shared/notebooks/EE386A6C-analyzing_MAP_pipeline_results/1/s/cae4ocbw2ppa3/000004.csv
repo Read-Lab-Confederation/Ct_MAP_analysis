@@ -1,6 +1,0 @@
-"0","ggplot(filter(MAP_minor_alleles_df,strain == ""1182R""),aes(Position)) + "
-"0","  geom_histogram(binwidth=10000) +"
-"0","    ggtitle(""1182R Minor alleles across the genome"") +"
-"0","    xlim(1,1042519) +"
-"0","    ylim(0,450) +"
-"0","    theme_bw()"

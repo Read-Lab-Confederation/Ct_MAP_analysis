@@ -1,0 +1,27 @@
+{
+    "id": "954D6D5D",
+    "path": "~/GitHub/Ct_MAP_analysis/analyzing_MAP_pipeline_results.Rmd",
+    "project_path": "analyzing_MAP_pipeline_results.Rmd",
+    "type": "r_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1642180890570.0,
+    "source_on_save": false,
+    "relative_order": 8,
+    "properties": {
+        "chunk_output_type": "inline",
+        "cursorPosition": "15,63",
+        "scrollLine": "0",
+        "tempName": "Untitled1",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1642181222,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1642181222442,
+    "read_only": false,
+    "read_only_alternatives": []
+}

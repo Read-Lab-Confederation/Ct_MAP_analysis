@@ -1,0 +1,135 @@
+---
+title: "SNP pipeline analysis of subjects with 3 body site results"
+output: html_notebook
+---
+
+
+
+```{r}
+library(tidyverse)
+source("MAP_functions.R")
+```
+
+### Subject 26
+```{r}
+SNP_analysis_pipeline(subject_id = 26)
+```
+### Subject 32
+```{r}
+SNP_analysis_pipeline(subject_id = 32)
+```
+
+### Subject 68
+```{r}
+SNP_analysis_pipeline(subject_id = 68)
+```
+
+### Subject 72
+```{r}
+SNP_analysis_pipeline(subject_id = 72)
+```
+
+### Subject 87
+```{r}
+SNP_analysis_pipeline(subject_id = 26)
+```
+
+### Subject 98
+```{r}
+SNP_analysis_pipeline(subject_id = 98)
+```
+
+### Subject 107
+```{r}
+SNP_analysis_pipeline(subject_id = 107)
+```
+
+### Subject 192
+```{r}
+SNP_analysis_pipeline(subject_id = 192)
+```
+
+### Subject 227
+```{r}
+SNP_analysis_pipeline(subject_id = 227)
+```
+
+### Subject 362
+```{r}
+SNP_analysis_pipeline(subject_id = 362)
+```
+
+### Subject 519
+```{r}
+SNP_analysis_pipeline(subject_id = 519)
+```
+
+### Subject 564
+```{r}
+SNP_analysis_pipeline(subject_id = 564)
+```
+
+### Subject 753
+```{r}
+SNP_analysis_pipeline(subject_id = 753)
+```
+
+### Subject 908
+```{r}
+SNP_analysis_pipeline(subject_id = 908)
+```
+
+### Subject 927
+```{r}
+SNP_analysis_pipeline(subject_id = 927)
+```
+
+### Subject 951
+```{r}
+SNP_analysis_pipeline(subject_id = 951)
+```
+
+### Subject 1077
+```{r}
+SNP_analysis_pipeline(subject_id = 1077)
+```
+
+### Subject 1078
+```{r}
+SNP_analysis_pipeline(subject_id = 1078)
+```
+
+### Subject 1079
+```{r}
+SNP_analysis_pipeline(subject_id = 1079)
+```
+
+### Subject 1106
+```{r}
+SNP_analysis_pipeline(subject_id = 1106)
+```
+
+### Subject 1145
+```{r}
+SNP_analysis_pipeline(subject_id = 1145)
+```
+
+### Subject 1176
+```{r}
+SNP_analysis_pipeline(subject_id = 1176)
+```
+
+### Subject 1182
+```{r}
+SNP_analysis_pipeline(subject_id = 1182)
+```
+
+### Subject 1201
+```{r}
+SNP_analysis_pipeline(subject_id = 1201)
+```
+
+### Subject 1226
+```{r}
+SNP_analysis_pipeline(subject_id = 1226)
+```

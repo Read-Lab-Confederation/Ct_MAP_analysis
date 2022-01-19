@@ -1,19 +1,4 @@
-"0","write_tsv(Pos_count,""Pos_count.tsv""))
-"
-"2","Error: unexpected ')' in ""write_tsv(Pos_count,""Pos_count.tsv""))""
-"
-"2","In addition: "
-"2","Warning messages:
-"
-"2","1: "
-"2","In readChar(file, size, TRUE) :"
-"2"," truncating string with embedded nuls
-"
-"2","2: "
-"2","In readChar(file, size, TRUE) :"
-"2"," truncating string with embedded nuls
-"
-"2","3: "
-"2","In readChar(file, size, TRUE) :"
-"2"," truncating string with embedded nuls
-"
+"0","Pos_count <- MAP_minor_alleles_df %>%"
+"0","  group_by(Position) %>%"
+"0","  tally"
+"0","write_tsv(Pos_count,""Pos_count.tsv"")"

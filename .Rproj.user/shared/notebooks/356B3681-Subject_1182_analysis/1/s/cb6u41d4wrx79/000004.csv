@@ -1,4 +1,0 @@
-"0","    ggplot(partition_1182V_SNPs,aes(x=Position,fill = pos1182R)) + "
-"0","    geom_histogram(binwidth=20000, alpha=0.2, position=""identity"") +"
-"0","    ggtitle(""Chromosome position of 1182V SNPs by match to 1182R"") +"
-"0","    theme_bw()"

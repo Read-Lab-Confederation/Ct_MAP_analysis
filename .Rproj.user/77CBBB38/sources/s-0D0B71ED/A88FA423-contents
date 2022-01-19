@@ -1,0 +1,15 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+
+```{r}
+library(tidyverse)
+source("MAP_functions.R")
+```
+
+```{r}
+SNP_analysis_pipeline(subject_id = 1078)
+```
+

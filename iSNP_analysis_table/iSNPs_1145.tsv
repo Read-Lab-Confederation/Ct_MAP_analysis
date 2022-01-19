@@ -1,2 +1,2 @@
-subject_name	AllF	AllRI	RonlyF	RonlyRI	ConlyF	ConlyRI	VonlyF	VonlyRI	RConlyF	RConlyRI	RVonlyF	RVonlyRI	VConlyF	VConlyRI
-1145	4136	0	1	2	0	1	0	116	0	0	0	0	0	0
+subject_name	R_bases	C_bases	V_bases	R_recomb_bases	C_recomb_bases	V_recomb_bases	AllF	AllFrare	AllFrecomb	AllRI	AllRIrare	AllRIrecomb	RonlyF	RonlyFrare	RonlyFrecomb	RonlyRI	RonlyRIrare	RonlyRIrecomb	ConlyF	ConlyFrare	ConlyFrecomb	ConlyRI	ConlyRIrare	ConlyRIrecomb	VonlyF	VonlyFrare	VonlyFrecomb	VonlyRI	VonlyRIrare	VonlyRIrecomb	RConlyF	RConlyFrare	RConlyFrecomb	RConlyRI	RConlyRIrare	RConlyRIrecomb	RVonlyF	RVonlyFrare	RVonlyFrecomb	RVonlyRI	RVonlyRIrare	RVonlyRIrecomb	VConlyF	VConlyFrare	VConlyFrecomb	VConlyRI	VConlyRIrare	VConlyRIrecomb
+1145	1026277	1034922	888302	261	474	177	4155	780	19	7	0	0	1	1	0	3	2	0	0	0	0	1	1	0	0	0	0	139	116	0	0	0	0	2	0	0	0	0	0	1	0	0	0	0	0	0	0	0
