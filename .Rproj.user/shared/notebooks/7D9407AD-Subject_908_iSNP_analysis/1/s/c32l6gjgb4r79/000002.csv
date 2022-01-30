@@ -1,5 +1,0 @@
-"0","Pos_count <- read_delim(""Pos_count.tsv"", show_col_types = FALSE)"
-"0","rare_iSNPs <- Pos_count %>% filter(n<4) %>%"
-"0","  .$Position"
-"0","common_iSNPs <- Pos_count %>% filter(n>3) %>%"
-"0","  .$Position"

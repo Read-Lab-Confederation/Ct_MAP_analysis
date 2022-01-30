@@ -1,0 +1,6 @@
+"0","res_files <- list.files(""./iSNPs_by_subject/"",full.names = T, pattern = ""iSNP*"")"
+"0","res_table_iSNP <- read.delim(res_files[1])"
+"0","for (i in 2:length(res_files)){"
+"0","  temp_df <- read.delim(res_files[i])"
+"0","  res_table_iSNP <- bind_rows(res_table_iSNP,temp_df)"
+"0","}"

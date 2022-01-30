@@ -1,4 +1,0 @@
-"0","Total_iSNPs %>%"
-"0","  filter(V_percent < 10 & C_percent >= 90 & R_percent >= 90) %>%"
-"0","  group_by(SNP) %>%"
-"0","  tally()"

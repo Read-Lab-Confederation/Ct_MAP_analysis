@@ -1,0 +1,8 @@
+"0","list_of_87 <- read.delim(""list_87_strains.txt"", header = F)"
+"0","mean_doc <- grand_summary %>%"
+"0","  mutate(Sample = sub(""-WGS"","""",Sample)) %>%"
+"0","  mutate(Sample = sub(""Rs"",""R"",Sample)) %>%"
+"0","  mutate(Sample = sub(""Vs"",""V"",Sample)) %>%"
+"0","  filter(Sample %in% list_of_87$V1) %>%"
+"0","  select(Sample,Subject,Body.Site,Mean.depth.of.coverage,intermediate_SNPs)"
+"0",""

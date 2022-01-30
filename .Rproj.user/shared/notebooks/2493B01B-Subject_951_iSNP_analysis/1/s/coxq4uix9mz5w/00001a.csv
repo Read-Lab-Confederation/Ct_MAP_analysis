@@ -1,2 +1,0 @@
-"0","outfile <- paste0(""./iSNP_analysis_table/iSNPs_"",subject_id,"".tsv"")"
-"0","write_tsv(result_table,outfile)"

@@ -1,2 +1,0 @@
-"0","RCplot +"
-"0","  labs(title = paste(""Minor SNPs in R(x) versus C(y). Subject:"",subject_id))"

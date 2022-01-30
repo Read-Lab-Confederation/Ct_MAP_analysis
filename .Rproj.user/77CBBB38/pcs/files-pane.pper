@@ -1,13 +1,13 @@
 {
-    "path" : "~/GitHub/Ct_MAP_analysis",
-    "sortOrder" : [
+    "path": "~/GitHub/Ct_MAP_analysis",
+    "sortOrder": [
         {
-            "ascending" : false,
-            "columnIndex" : 4
+            "columnIndex": 4,
+            "ascending": false
         },
         {
-            "ascending" : true,
-            "columnIndex" : 2
+            "columnIndex": 2,
+            "ascending": true
         }
     ]
 }
