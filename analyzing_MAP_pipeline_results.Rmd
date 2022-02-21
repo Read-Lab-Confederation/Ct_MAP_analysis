@@ -35,11 +35,7 @@ Pos_count <- MAP_minor_alleles_df %>%
   tally
 write_tsv(Pos_count,"Pos_count.tsv")
 ```
-
-
-```{r}
-ggplot()
-```
+`
 
 
 ```{r}
@@ -50,11 +46,15 @@ Pos_count %>%
 
 
 ```{r}
-ggplot(Pos_count,aes(n)) + 
+Pos_count %>%
+  mutate(rare = ifelse(n < 4,"yes","no")) %>%
+  ggplot(aes(x = n, fill = rare)) + 
     geom_histogram(binwidth=1) +
     ylab("Number of iSNPs") +
     xlab("Number of strains") +
     ggtitle("Figure_Y1 - How many strains were each iSNP found in?") +
+    scale_fill_manual(values = c("gainsboro","red")) +
+    geom_vline(xintercept = 3, color = "red", linetype = "dotted") +
     theme_bw()
 ```
 # look at posiiotns of common SNPs

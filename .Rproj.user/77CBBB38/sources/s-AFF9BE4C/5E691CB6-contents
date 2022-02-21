@@ -1,0 +1,78 @@
+---
+title: "snippy analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
+```{r}
+fa_filest <- read.table("~/Documents/2021-Fiji-Ct_paper/Published_CT_Genomes/fa_filest.list", quote="\"", comment.char="")
+Tip_Labels_BigTree <- read.delim("~/Documents/2021-Fiji-Ct_paper/Published_CT_Genomes/Tip_Labels_BigTree.txt") %>%
+  filter(grepl("urogenital",Lineage)) %>%
+  filter(grepl("^\\D",taxa)) %>%
+  mutate(Clade = ifelse(grepl("Non",Lineage),"T2","T1"))
+CT_Mapping_05_27 <- read.delim("~/Documents/2021-Fiji-Ct_paper/Published_CT_Genomes/CT_Mapping_05_27.txt", header=FALSE) %>%
+  select(filenm = V1,taxa = V2) %>%
+  mutate(filenm = gsub(".fa|.fasta","",filenm)) 
+T1T2 <- inner_join(Tip_Labels_BigTree,CT_Mapping_05_27, by = "taxa") %>%
+  mutate(fa_filenm = paste0(filenm,".fa")) %>%
+  filter(fa_filenm %in% fa_filest$V1)
+
+```
+Make snippy table
+```{r}
+filepa <- "/Users/timothyread/Documents/2021-Fiji-Ct_paper/Published_CT_Genomes/"
+T1T2_tab <- T1T2 %>%
+  mutate(taxa = paste0(Clade,"_",taxa)) %>% 
+  select(taxa,fa_filenm) %>%
+  filter(taxa != "T1_E-160") %>%
+  filter(taxa != "T1_E-8873") %>%
+  mutate(fa_filenm = paste0(filepa,fa_filenm))
+write_tsv(T1T2_tab,"/Users/timothyread/Documents/2021-Fiji-Ct_paper/2022-02-T1T2-snippy/input.tab")
+```
+read output of snippy_core
+```{r}
+core_tab <- read.delim("~/Documents/2021-Fiji-Ct_paper/2022-02-T1T2-snippy/core.tab")
+```
+
+use if_all and across for filtering see https://dplyr.tidyverse.org/articles/colwise.html
+```{r}
+core_tab %>%
+  filter(if_all(contains("T1"), ~ .x == REF)) %>%
+  filter(if_all(contains("T2"), ~ .x != REF))
+```
+There are no SNPs that are conserved across all strains
+
+```{r}
+core_concord <- core_tab %>%
+  mutate(across(contains("T1"), ~ .x == REF)) %>%
+  mutate(across(contains("T2"), ~ .x != REF)) %>%
+  rowwise() %>% 
+  mutate(concordant_strains = sum(c_across(starts_with("T")))) %>% 
+  ungroup()
+```
+
+
+```{r}
+ggplot(core_concord,aes(concordant_strains)) +
+  geom_histogram(binwidth = 1) +
+  theme_bw()
+```
+
+```{r}
+ggplot(filter(core_concord,concordant_strains > 30),aes(POS)) +
+  geom_histogram(binwidth = 1000) +
+  theme_bw()
+```
+```{r}
+T1T2_snps_30 <- core_concord %>%
+  filter(concordant_strains > 30) %>% .$POS
+T1T2_snps_39 <- core_concord %>%
+  filter(concordant_strains > 39) %>% .$POS
+write_lines(T1T2_snps_30,"T1T2_snps_30.list")
+write_lines(T1T2_snps_30,"T1T2_snps_39.list")
+```
+
+

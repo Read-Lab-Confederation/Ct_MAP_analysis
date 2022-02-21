@@ -8,10 +8,11 @@ sandbox for running the SNP pipeline on individual subjects to check
 ```{r}
 library(tidyverse)
 source("MAP_functions.R")
+library(tidyquant)
 ```
 
 ```{r}
-subject_id = 362
+subject_id = 1176
 rare_cutoff = 3
 cov_cutoff = 10
 ```
@@ -385,4 +386,44 @@ print(paste("SUBJECT_ID is",subject_id))
 Total_iSNPs %>%
     filter(V_percent < 10 & C_percent >= 10 & C_percent < 90)
 ```
+```{r}
+ggplot(filter(R_MAP,SNP_percent < 90), aes(x=Position, y=SNP_percent)) +
+  geom_segment( aes(x=Position, xend=Position, y=0, yend=SNP_percent), size=0.1, alpha=0.9) +
+  theme_light() +
+  xlim(1,1042504)+
+  xlab("Position") +
+  ylab("Major allele frequency")
+
+```
+
+```{r}
+ggplot(filter(V_MAP,SNP_percent < 90), aes(x=Position, y=SNP_percent)) +
+  geom_segment( aes(x=Position, xend=Position, y=0, yend=SNP_percent), size=0.1, alpha=0.9) +
+  theme_light() +
+  xlim(1,1042504)+
+  xlab("Position") +
+  ylab("Major allele frequency")
+```
+```{r}
+ggplot(filter(V_MAP,SNP_percent < 90), aes(x=Position)) +
+  geom_histogram(binwidth = 1000) +
+  theme_light() +
+  xlim(1,1042504)+
+  xlab("Position") +
+  ylab("Count") +
+  ggtitle("Histogram of positions < 90%")
+```
+
+
+
+```{r}
+ggplot(V_MAP, aes(x=Position, y=SNP_percent)) +
+geom_ma(n=100, ma_fun = SMA) +
+  theme_light() +
+  xlim(1,1042504)+
+  xlab("Position") +
+  ylab("Major allele frequency")
+```
+
+
 

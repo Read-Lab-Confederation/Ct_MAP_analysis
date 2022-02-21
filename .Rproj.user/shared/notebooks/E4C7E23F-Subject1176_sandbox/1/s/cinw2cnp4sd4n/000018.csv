@@ -1,0 +1,7 @@
+"0","ggplot(filter(R_MAP,SNP_percent < 90), aes(x=Position, y=SNP_percent)) +"
+"0","  geom_segment( aes(x=Position, xend=Position, y=0, yend=SNP_percent), size=0.1, alpha=0.9) +"
+"0","  theme_light() +"
+"0","  xlim(1,1042504)+"
+"0","  xlab(""Position"") +"
+"0","  ylab(""Major allele frequency"")"
+"0",""

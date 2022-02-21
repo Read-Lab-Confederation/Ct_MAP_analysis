@@ -1,0 +1,7 @@
+"0","Filtered_iSNPs <- Total_iSNPs %>% filter(C_percent > 12.5 & C_percent < 101 & R_percent > 30 & R_percent < 75) %>%"
+"0","  mutate(iSNP_class = case_when(V_percent > 80 & C_percent > 60  ~ ""class1"","
+"0","                                V_percent > 55 &  C_percent < 50 ~ ""class2"","
+"0","                                V_percent < 50  ~ ""class3"","
+"0","                                TRUE ~ ""other""))"
+"0",""
+"0",""

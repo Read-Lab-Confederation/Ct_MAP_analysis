@@ -1,0 +1,6 @@
+"0","ggplot(V_MAP, aes(x=Position, y=SNP_percent)) +"
+"0","geom_ma(n=100, ma_fun = SMA) +"
+"0","  theme_light() +"
+"0","  xlim(1,1042504)+"
+"0","  xlab(""Position"") +"
+"0","  ylab(""Major allele frequency"")"

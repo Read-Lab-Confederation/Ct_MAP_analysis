@@ -1,0 +1,6 @@
+"0","T1T2_snps_30 <- core_concord %>%"
+"0","  filter(concordant_strains > 30) %>% .$POS"
+"0","T1T2_snps_39 <- core_concord %>%"
+"0","  filter(concordant_strains > 39) %>% .$POS"
+"0","write_lines(T1T2_snps_30,""T1T2_snps_30.list"")"
+"0","write_lines(T1T2_snps_39,""T1T2_snps_39.list"")"

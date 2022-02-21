@@ -1,0 +1,6 @@
+"0","ggparcoord(data = Filtered_iSNPs,"
+"0","           columns = 2:4,"
+"0","           scale = ""globalminmax"","
+"0","           alphaLines = 0.3,"
+"0","           groupColumn = ""iSNP_class"") +"
+"0","            scale_color_brewer(palette = ""Accent"")"

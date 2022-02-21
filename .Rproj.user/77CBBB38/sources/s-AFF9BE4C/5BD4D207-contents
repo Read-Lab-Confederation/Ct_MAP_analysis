@@ -1,0 +1,499 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+sandbox for running the SNP pipeline on individual subjects to check
+
+```{r}
+library(tidyverse)
+source("MAP_functions.R")
+library(tidyquant)
+library(GGally)
+```
+
+```{r}
+subject_id = 1176
+rare_cutoff = 3
+cov_cutoff = 10
+```
+
+
+```{r}
+print(paste("SUBJECT_ID is",subject_id))
+  
+  library(tidyverse)
+  source("MAP_functions.R")
+  library(assertthat)
+  #load Pos_count
+  #rare_cutoff <- 3
+  Pos_count <- read_delim("Pos_count.tsv", show_col_types = FALSE)
+  assert_that(nrow(Pos_count) > 0)
+  rare_iSNPs <- Pos_count %>% filter(n<=rare_cutoff) %>%
+    .$Position
+  common_iSNPs <- Pos_count %>% filter(n>rare_cutoff) %>%
+    .$Position
+  num_rare = length(rare_iSNPs)
+  num_common = length(common_iSNPs)
+  print(paste("Rare iSNP cutoff = ",rare_cutoff))
+  print(paste("num rare iSNPs = ",num_rare))
+  print(paste("num common iSNPs = ",num_common))
+  
+  #load recomb_coords - recombination blocks cutoffs = 1
+  fastgear_fiji_recombs <- read.delim("~/GitHub/Ct_MAP_analysis/fastgear_fiji_recombs") %>%
+    select(Start,End,...1,...2,...3)
+  print("Recombination block cutoff = 3")
+  assert_that(nrow(fastgear_fiji_recombs) > 0)
+  colnames(fastgear_fiji_recombs) <- c("Start","End","c1","c2","c3")
+  R_name = paste0(subject_id,"R")
+  V_name = paste0(subject_id,"V")
+  C_name = paste0(subject_id,"C")
+  C_recomb <- recomb_coords(fastgear_fiji_recombs,C_name)
+  R_recomb <- recomb_coords(fastgear_fiji_recombs,R_name)
+  V_recomb <- recomb_coords(fastgear_fiji_recombs,V_name)
+  C_recomb_bases <- length(C_recomb)
+  R_recomb_bases <- length(R_recomb)
+  V_recomb_bases <- length(V_recomb)
+  print(paste("Num bases in C recomb blocks= ",C_recomb_bases))
+  print(paste("Num bases in R recomb = blocks",R_recomb_bases))
+  print(paste("Num bases in V recomb = blocks",V_recomb_bases))
+  
+  # load SNPs from MAP analysis (NOTE cutoff cov=10)
+  #cov_cutoff = 10
+  print(paste("Coverage cutoff = ",cov_cutoff))
+  R_MAP <- read_MAP(paste0("~/Documents/2021-Fiji-Ct_paper/MAP_results/MAP_files/",subject_id,"R_MAP.txt"),"R") %>%
+    filter(regular > -1 & regular < 1) %>%
+    filter(Coverage > cov_cutoff) %>%
+    select(Position,SNP_percent)
+  assert_that(nrow(R_MAP) > 0)
+  R_bases <- nrow(R_MAP)
+  print(paste("Numbers of R bases above cutoff is ",R_bases))
+  C_MAP <- read_MAP(paste0("~/Documents/2021-Fiji-Ct_paper/MAP_results/MAP_files/",subject_id,"C_MAP.txt"),"C") %>%
+    filter(regular > -1 & regular < 1) %>%
+    filter(Coverage > cov_cutoff) %>%
+    select(Position,SNP_percent)
+  assert_that(nrow(C_MAP) > 0)
+  C_bases <- nrow(C_MAP)
+  print(paste("Numbers of C bases above cutoff is ",C_bases))
+  V_MAP <- read_MAP(paste0("~/Documents/2021-Fiji-Ct_paper/MAP_results/MAP_files/",subject_id,"V_MAP.txt"),"V") %>%
+    filter(regular > -1 & regular < 1) %>%
+    filter(Coverage > cov_cutoff) %>%
+    select(Position,SNP_percent)
+  assert_that(nrow(V_MAP) > 0)
+  V_bases <- nrow(V_MAP)
+  print(paste("Numbers of V bases above cutoff is ", V_bases))
+  
+# Join all 3 together and parse out the rare sites (ie < 90% in any of the 3)  
+  Total_iSNPs <- inner_join(R_MAP,V_MAP, by = "Position") %>%
+    inner_join(.,C_MAP, by = "Position") %>%
+    filter(!(SNP_percent.x > 90 & SNP_percent.y > 90 & SNP_percent > 90)) %>%
+    mutate(SNP = case_when(
+      Position %in% rare_iSNPs ~ "rare_iSNP",
+      Position %in% common_iSNPs ~ "common_iSNP",
+      TRUE ~ "other_SNP"
+    )) %>%
+    mutate(fastGEAR = ifelse(Position %in% c(R_recomb,C_recomb,V_recomb),"fastGEAR_block","other")) %>%
+    add_column(subject_id = subject_id)
+  colnames(Total_iSNPs) <- c("Position","R_percent","V_percent","C_percent","SNP","fastGEAR_block", "subject_id")
+  outfile2 <- paste0("./iSNPs_by_subject/iSNPs_subject_",subject_id,".tsv")
+  write_tsv(Total_iSNPs,outfile2)
+  assert_that(nrow(Total_iSNPs) > 0)
+  print(paste("Number of iSNP positions = ",nrow(Total_iSNPs)))
+  
+  # R only fixed SNPs
+  RonlyF <- Total_iSNPs %>%
+    filter(R_percent < 10 & V_percent >= 90 & C_percent >= 90) %>%
+    nrow()
+  RonlyFrare <- Total_iSNPs %>%
+    filter(R_percent < 10 & V_percent >= 90 & C_percent >= 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  RonlyFrecomb <- Total_iSNPs %>%
+    filter(R_percent < 10 & V_percent >= 90 & C_percent >= 90) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("R only fixed SNPs (RonlyF) = ",RonlyF))
+  print(paste("R only rare fixed SNPs (RonlyFrare) = ",RonlyFrare))
+  print(paste("R only fixed SNPs in recombinant regions (RonlyFrecomb) = ",RonlyFrecomb))
+  
+  #R only iSNPs
+  RonlyRI <- Total_iSNPs %>%
+    filter(R_percent >= 10 & R_percent < 90 & V_percent >= 90 & C_percent >= 90) %>%
+    nrow()
+  RonlyRIrare <- Total_iSNPs %>%
+    filter(R_percent >= 10 & R_percent < 90 & V_percent >= 90 & C_percent >= 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  RonlyRIrecomb <- Total_iSNPs %>%
+    filter(R_percent >= 10 & R_percent < 90 & V_percent >= 90 & C_percent >= 90) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("R only iSNPs (RonlyRI) = ",RonlyRI))
+  print(paste("R only rare iSNPs (RonlyRIrare) = ",RonlyRIrare))
+  print(paste("R only iSNPs in recombinant regions (RonlyRIrecomb) = ",RonlyRIrecomb))
+  
+  #C only fixed
+  ConlyF <-  Total_iSNPs %>%
+    filter(C_percent < 10 & V_percent >= 90 & R_percent >= 90) %>%
+    nrow()
+  ConlyFrare <- Total_iSNPs %>%
+    filter(C_percent < 10 & V_percent >= 90 & R_percent >= 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  ConlyFrecomb <- Total_iSNPs %>%
+    filter(C_percent < 10 & V_percent >= 90 & R_percent >= 90) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("C only fixed SNPs (ConlyF) = ",ConlyF))
+  print(paste("C only rare fixed SNPs (ConlyFrare) = ",ConlyFrare))
+  print(paste("C only fixed SNPs in recombinant regions (ConlyFrecomb) = ",ConlyFrecomb))
+  
+  #C only iSNPs
+  ConlyRI <- Total_iSNPs %>%
+    filter(C_percent >= 10 & C_percent < 90 & V_percent >= 90 & R_percent >= 90) %>%
+    nrow()
+  ConlyRIrare <- Total_iSNPs %>%
+    filter(C_percent >= 10 & C_percent < 90 & V_percent >= 90 & R_percent >= 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  ConlyRIrecomb <- Total_iSNPs %>%
+    filter(C_percent >= 10 & C_percent < 90 & V_percent >= 90 & R_percent >= 90) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("C only iSNPs (ConlyRI) = ",ConlyRI))
+  print(paste("C only rare iSNPs (ConlyRIrare) = ",ConlyRIrare))
+  print(paste("C only iSNPs in recombinant regions (ConlyRIrecomb) = ",ConlyRIrecomb))
+  
+  #V only fixed
+  VonlyF <- Total_iSNPs %>%
+    filter(V_percent < 10 & C_percent >= 90 & R_percent >= 90) %>%
+    nrow()
+  VonlyFrare <- Total_iSNPs %>%
+    filter(V_percent < 10 & C_percent >= 90 & R_percent >= 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  VonlyFrecomb <- Total_iSNPs %>%
+    filter(V_percent < 10 & C_percent >= 90 & R_percent >= 90) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("V only fixed SNPs (VonlyF) = ",VonlyF))
+  print(paste("V only rare fixed SNPs (VonlyFrare) = ",VonlyFrare))
+  print(paste("V only fixed SNPs in recombinant regions (VonlyFrecombb) = ",VonlyFrecomb))
+  
+  #V only iSNPs
+  VonlyRI <- Total_iSNPs %>%
+    filter(V_percent >= 10 & V_percent < 90 & C_percent >= 90 & R_percent >= 90) %>%
+    nrow()
+  VonlyRIrare <- Total_iSNPs %>%
+    filter(V_percent >= 10 & V_percent < 90 & C_percent >= 90 & R_percent >= 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  VonlyRIrecomb <- Total_iSNPs %>%
+    filter(V_percent >= 10 & V_percent < 90 & C_percent >= 90 & R_percent >= 90) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("V only iSNPs (VonlyRI) = ",VonlyRI))
+  print(paste("V only rare iSNPs (VonlyRIrare) = ",VonlyRIrare))
+  print(paste("V only iSNPs in recombinant regions (VonlyRIrecomb) = ",VonlyRIrecomb))
+  
+  #RC only fixed
+  RConlyF <- Total_iSNPs %>%
+    filter(V_percent >= 90 & C_percent < 10 & R_percent < 10) %>%
+    nrow()
+  RConlyFrare <- Total_iSNPs %>%
+    filter(V_percent >= 90 & C_percent < 10 & R_percent < 10) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  RConlyFrecomb <- Total_iSNPs %>%
+    filter(V_percent >= 90 & C_percent < 10 & R_percent < 10) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("RC only fixed SNPs (RConlyF) = ",RConlyF))
+  print(paste("RC only rare fixed SNPs (RConlyFrare) = ",RConlyFrare))
+  print(paste("RC only fixed SNPs in recombinant regions (RConlyFrecomb) = ",RConlyFrecomb))
+  
+  #RC only iSNPs
+  RConlyRI <- Total_iSNPs %>%
+    filter(V_percent >= 90 & C_percent >= 10 & C_percent < 90 & R_percent >= 10 & R_percent < 90) %>%
+    nrow()
+  RConlyRIrare <- Total_iSNPs %>%
+    filter(V_percent >= 90 & C_percent >= 10 & C_percent < 90 & R_percent >= 10 & R_percent < 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  RConlyRIrecomb <- Total_iSNPs %>%
+    filter(V_percent >= 90 & C_percent >= 10 & C_percent < 90 & R_percent >= 10 & R_percent < 90) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("RC only iSNPs (RConlyRI) = ",RConlyRI))
+  print(paste("RC only rare iSNPs (RConlyRIrare) = ",RConlyRIrare))
+  print(paste("RC only iSNPs in recombinant regions (RConlyRIrecomb) = ",RConlyRIrecomb))
+  
+  #RV only fixed
+  RVonlyF <- Total_iSNPs %>%
+    filter(C_percent >= 90 & V_percent < 10 & R_percent < 10) %>%
+    nrow()
+  RVonlyFrare <- Total_iSNPs %>%
+    filter(C_percent >= 90 & V_percent < 10 & R_percent < 10) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  RVonlyFrecomb <- Total_iSNPs %>%
+    filter(C_percent >= 90 & V_percent < 10 & R_percent < 10) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("RV only fixed SNPs (RVonlyF) = ",RVonlyF))
+  print(paste("RV only rare fixed SNPs (RVonlyFrare) = ",RVonlyFrare))
+  print(paste("RV only fixed SNPs in recombinant regions (RVonlyFrecomb) = ",RVonlyFrecomb))
+  
+  #RV only iSNPs
+  RVonlyRI <- Total_iSNPs %>%
+    filter(C_percent >= 90 & V_percent >= 10 & V_percent < 90 & R_percent >= 10 & R_percent < 90) %>%
+    nrow()
+  RVonlyRIrare <- Total_iSNPs %>%
+    filter(C_percent >= 90 & V_percent >= 10 & V_percent < 90 & R_percent >= 10 & R_percent < 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  RVonlyRIrecomb <- Total_iSNPs %>%
+    filter(C_percent >= 90 & V_percent >= 10 & V_percent < 90 & R_percent >= 10 & R_percent < 90) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("RV only iSNPs (RVonlyRI) = ",RVonlyRI))
+  print(paste("RV only rare iSNPs (RVonlyRIrare) = ",RVonlyRIrare))
+  print(paste("RV only iSNPs in recombinant regions (RVonlyRIrecomb) = ",RVonlyRIrecomb))
+  
+  #VC only fixed
+  VConlyF <- Total_iSNPs %>%
+    filter(R_percent >= 90 & V_percent < 10 & C_percent < 10) %>%
+    nrow()
+  VConlyFrare <- Total_iSNPs %>%
+    filter(R_percent >= 90 & V_percent < 10 & C_percent < 10) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  VConlyFrecomb <- Total_iSNPs %>%
+    filter(R_percent >= 90 & V_percent < 10 & C_percent < 10) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("VC only fixed SNPs (VConlyF) = ",VConlyF))
+  print(paste("VC only rare fixed SNPs (VConlyFrare) = ",VConlyFrare))
+  print(paste("VC only fixed SNPs in recombinant regions (VConlyFrecomb) = ",VConlyFrecomb))
+  
+  #VC only iSNPs
+  VConlyRI <- Total_iSNPs %>%
+    filter(R_percent >= 90 & V_percent >= 10 & V_percent < 90 & C_percent >= 10 & C_percent < 90) %>%
+    nrow()
+  VConlyRIrare <- Total_iSNPs %>%
+    filter(R_percent >= 90 & V_percent >= 10 & V_percent < 90 & C_percent >= 10 & C_percent < 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  VConlyRIrecomb <- Total_iSNPs %>%
+    filter(R_percent >= 90 & V_percent >= 10 & V_percent < 90 & C_percent >= 10 & C_percent < 90) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("VC only iSNPs (VConlyRI) = ",VConlyRI))
+  print(paste("VC only rare iSNPs (VConlyRIrare) = ",VConlyRIrare))
+  print(paste("VC only iSNPs in recombinant regions (VConlyRIrecomb) = ",VConlyRIrecomb))
+  
+  #all_fixed
+  AllF <- Total_iSNPs %>%
+    filter(R_percent <10 & V_percent < 10 & C_percent < 10) %>%
+    nrow()
+  AllFrare <- Total_iSNPs %>%
+    filter(R_percent <10 & V_percent < 10 & C_percent < 10) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  AllFrecomb <- Total_iSNPs %>%
+    filter(R_percent <10 & V_percent < 10 & C_percent < 10) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("All fixed SNPs (AllF) = ",AllF))
+  print(paste("All rare fixed SNPs (AllFrare) = ",AllFrare))
+  print(paste("All fixed SNPs in recombinant regions (AllFrecomb) = ",AllFrecomb))
+  
+  #all iSNPs
+  AllRI <- Total_iSNPs %>%
+    filter(R_percent >= 10 & R_percent < 90 & V_percent >= 10 & V_percent < 90 & C_percent >= 10 & C_percent < 90) %>%
+    nrow()
+  AllRIrare <- Total_iSNPs %>%
+    filter(R_percent >= 10 & R_percent < 90 & V_percent >= 10 & V_percent < 90 & C_percent >= 10 & C_percent < 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  AllRIrecomb <- Total_iSNPs %>%
+    filter(R_percent >= 10 & R_percent < 90 & V_percent >= 10 & V_percent < 90 & C_percent >= 10 & C_percent < 90) %>%
+    filter(fastGEAR_block == "fastGEAR_block") %>%
+    nrow()
+  print(paste("All iSNPs (AllRI) = ",AllRI))
+  print(paste("All rare  iSNPs (AllRIrare) = ",AllRIrare))
+  print(paste("All iSNPs in recombinant regions (AllRIrecomb) = ",AllRIrecomb))
+  
+  #fixed in one compartment, intermediate in others
+  
+  RonlyF_VIrare <- Total_iSNPs %>%
+    filter(R_percent < 10 & V_percent >= 10 & V_percent < 90 & C_percent >= 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  
+  RonlyF_CIrare <- Total_iSNPs %>%
+    filter(R_percent < 10 & C_percent >= 10 & C_percent < 90 & V_percent >= 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  
+  RonlyF_CandVIrare <- Total_iSNPs %>%
+    filter(R_percent < 10 & C_percent >= 10 & C_percent < 90 & V_percent >= 10 & V_percent < 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  
+  ConlyF_VIrare <- Total_iSNPs %>%
+    filter(C_percent < 10 & V_percent >= 10 & V_percent < 90 & R_percent >= 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  
+  ConlyF_RIrare <- Total_iSNPs %>%
+    filter(C_percent < 10 & R_percent >= 10 & R_percent < 90 & V_percent >= 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  
+  ConlyF_RandVIrare <- Total_iSNPs %>%
+    filter(C_percent < 10 & R_percent >= 10 & R_percent < 90 & V_percent >= 10 & V_percent < 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  
+  VonlyF_RIrare <- Total_iSNPs %>%
+    filter(V_percent < 10 & R_percent >= 10 & R_percent < 90 & C_percent >= 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  
+  VonlyF_CIrare <- Total_iSNPs %>%
+    filter(V_percent < 10 & C_percent >= 10 & C_percent < 90 & R_percent >= 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  
+  VonlyF_CandRIrare <- Total_iSNPs %>%
+    filter(V_percent < 10 & R_percent >= 10 & R_percent < 90 & C_percent >= 10 & C_percent < 90) %>%
+    filter(SNP == "other_SNP" | SNP == "rare_iSNP") %>%
+    nrow()
+  
+  print(paste("R is fixed, V only is intermediate, and rare (RonlyF_VIrare) = ",RonlyF_VIrare))
+  print(paste("R is fixed, C only is intermediate, and rare (RonlyF_CIrare) = ",RonlyF_CIrare))
+  print(paste("R is fixed, V and C are intermediate, and rare (RonlyF_CandVIrare) = ",RonlyF_CandVIrare))
+  print(paste("C is fixed, V only is intermediate, and rare (ConlyF_VIrare) = ",ConlyF_VIrare))
+  print(paste("C is fixed, R only is intermediate, and rare (ConlyF_RIrare) = ",ConlyF_RIrare))
+  print(paste("C is fixed, R and V are intermediate, and rare (ConlyF_RandVIrare) = ",ConlyF_RandVIrare))
+  print(paste("V is fixed, C only is intermediate, and rare (VonlyF_CIrare) = ",VonlyF_CIrare))
+  print(paste("V is fixed, R only is intermediate, and rare (VonlyF_RIrare) = ",VonlyF_RIrare))
+  print(paste("V is fixed, R and C are intermediate, and rare (VonlyF_CandRIrare) = ",VonlyF_CandRIrare))
+  
+```
+
+```{r}
+Total_iSNPs %>%
+    filter(V_percent < 10 & C_percent >= 10 & C_percent < 90)
+```
+```{r}
+ggplot(filter(R_MAP,SNP_percent < 90), aes(x=Position, y=SNP_percent)) +
+  geom_segment( aes(x=Position, xend=Position, y=0, yend=SNP_percent), size=0.1, alpha=0.9) +
+  theme_light() +
+  xlim(1,1042504)+
+  xlab("Position") +
+  ylab("Major allele frequency")
+
+```
+
+```{r}
+ggplot(filter(V_MAP,SNP_percent < 90), aes(x=Position, y=SNP_percent)) +
+  geom_segment( aes(x=Position, xend=Position, y=0, yend=SNP_percent), size=0.1, alpha=0.9) +
+  theme_light() +
+  xlim(1,1042504)+
+  xlab("Position") +
+  ylab("Major allele frequency")
+```
+```{r}
+ggplot(filter(V_MAP,SNP_percent < 90), aes(x=Position)) +
+  geom_histogram(binwidth = 1000) +
+  theme_light() +
+  xlim(1,1042504)+
+  xlab("Position") +
+  ylab("Count") +
+  ggtitle("Histogram of positions < 90%")
+```
+
+
+```{r}
+ggplot(V_MAP, aes(x=Position, y=SNP_percent)) +
+geom_ma(n=100, ma_fun = SMA) +
+  theme_light() +
+  xlim(1,1042504)+
+  xlab("Position") +
+  ylab("Major allele frequency")
+```
+
+Lower recombination block
+```{r}
+Total_iSNPs %>% filter(C_percent > 12.5 & C_percent < 45 & R_percent > 30 & R_percent < 75) %>%
+  ggplot(aes(x=Position)) +
+  geom_histogram(binwidth = 1000) +
+  theme_light() +
+  xlim(1,1042504)+
+  xlab("Position") +
+  ylab("Count") +
+  ggtitle("SNPs in lower block")
+  
+```
+Lower recomb vblock, parallel coordinate (https://r-charts.com/ranking/parallel-coordinates-ggplot2/)
+
+```{r}
+parcoord_title <- paste("Subject",subject_id,", number iSNPs =",nrow(Total_iSNPs))
+ggparcoord(data = Total_iSNPs,
+           columns = 2:4,
+           scale = "globalminmax",
+           alphaLines = 0.05,
+           title = parcoord_title)
+```
+
+
+
+```{r}
+ggparcoord(data = filter(Total_iSNPs,C_percent > 60 & C_percent < 101 & R_percent > 30 & R_percent < 75),
+           columns = 2:4,
+           scale = "globalminmax",
+           alphaLines = 0.2)
+```
+
+Combined upper-lower
+
+```{r}
+Filtered_iSNPs <- Total_iSNPs %>% filter(C_percent > 12.5 & C_percent < 101 & R_percent > 30 & R_percent < 75) %>%
+  mutate(iSNP_class = case_when(V_percent > 80 & C_percent > 60  ~ "class1",
+                                V_percent > 55 &  C_percent < 50 ~ "class2",
+                                V_percent < 50  ~ "class3",
+                                TRUE ~ "other"))
+
+
+```
+
+```{r}
+ggparcoord(data = Filtered_iSNPs,
+           columns = 2:4,
+           scale = "globalminmax",
+           alphaLines = 0.2) 
+```
+
+
+```{r}
+ggparcoord(data = Filtered_iSNPs,
+           columns = 2:4,
+           scale = "globalminmax",
+           alphaLines = 0.3,
+           groupColumn = "iSNP_class") +
+            scale_color_brewer(palette = "Accent")
+```
+
+Color by groups
+
+```{r}
+  ggplot(Filtered_iSNPs, aes(x=Position, color=iSNP_class)) +
+  geom_histogram(binwidth = 1000) +
+   scale_color_brewer(palette = "Accent") +
+  xlim(1,1042504)+
+  xlab("Position") +
+  ylab("Count") +
+  ggtitle("Chromosome position by group")
+```

@@ -1,0 +1,7 @@
+"0","ggplot(T1T2_30_df_long, aes(x= Position, y= SNP_percent,color=Body_site)) +"
+"0","  geom_line(alpha = 0.7) + "
+"0","  scale_color_brewer(palette = ""Accent"") +"
+"0","  xlim(1,1042504)+"
+"0","  ggtitle(paste0(""c30 reference SNPs along genome "",subject_id)) +"
+"0","  ylab(""Percent_c30_reference"") +"
+"0","  theme_bw()"
