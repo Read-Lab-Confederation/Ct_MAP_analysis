@@ -1,0 +1,2 @@
+scaffold	length	coverage	breadth	nucl_diversity	coverage_median	coverage_std	coverage_SEM	breadth_minCov	breadth_expected	nucl_diversity_median	nucl_diversity_rarefied	nucl_diversity_rarefied_median	breadth_rarefied	conANI_reference	popANI_reference	SNS_count	SNV_count	divergent_site_count	consensus_divergent_sites	population_divergent_sites
+CtDUw	1042511	230.3125405871017	0.9992489287882814	0.0026605887992617	227	51.11007895642162	0.0500571866130983	0.9984038537722864	1.0	0.0	0.0025642395669153	0.0	0.9964652651147088	0.9993159417282272	0.9993610972602122	659	154	813	712	665

@@ -1,0 +1,4 @@
+"0","all_SNPs <- "
+"0"," inner_join(R_MAP,V_MAP, by = ""Position"") %>%"
+"0","    inner_join(.,C_MAP, by = ""Position"") "
+"0","colnames(all_SNPs) <- c(""Position"",""Rectum"",""Vagina"",""Endocervix"")"

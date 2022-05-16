@@ -1,0 +1,23 @@
+"0","recombinations_recent %>% "
+"0","  filter(DonorLineage == 2) %>%"
+"0","  filter(RecipientStrain < 83) %>%"
+"0","  group_by(DonorLineage,log.BF.,Start,End,Length) %>%"
+"0","  summarise(y = list(StrainName)) %>%"
+"0","  unnest_wider(y)"
+"1","`summarise()` has grouped output by 'DonorLineage', 'log.BF.', 'Start', 'End'. You can override using the `.groups` argument.
+"
+"2","New names:
+* `` -> ...1
+"
+"2","New names:
+* `` -> ...1
+"
+"2","New names:
+* `` -> ...1
+"
+"2","New names:
+* `` -> ...1
+"
+"2","New names:
+* `` -> ...1
+"

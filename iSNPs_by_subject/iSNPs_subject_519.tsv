@@ -2919,7 +2919,7 @@ Position	R_percent	V_percent	C_percent	SNP	fastGEAR_block	subject_id
 774067	0	0	0.1	common_iSNP	other	519
 774085	0	0	0.1	common_iSNP	other	519
 774091	0	0	0.1	common_iSNP	other	519
-774141	0	0	0.4	rare_iSNP	fastGEAR_block	519
+774141	0	0	0.4	rare_iSNP	other	519
 774163	0	0	0.1	common_iSNP	fastGEAR_block	519
 774166	0	0	0.2	common_iSNP	fastGEAR_block	519
 774175	0	0	0.1	common_iSNP	fastGEAR_block	519

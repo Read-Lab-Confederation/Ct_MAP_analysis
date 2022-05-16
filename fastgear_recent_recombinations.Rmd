@@ -10,34 +10,36 @@ library(tidyverse)
 ```
 
 ```{r}
-recent_reomb <- read.csv("~/Documents/2021-Fiji-Ct_paper/fastGEAR_With_Fiji_isolates_Only/recombinations_recent.txt", sep="") %>%
+recombinations_recent <- read.csv("~/Documents/2021-Fiji-Ct_paper/fastGEAR_withGlobal_189/recombinations_recent.txt", sep="") %>%
   mutate(Length = End-Start+1)
 ```
 
 # The Fiji strains are indexed as 1-82
 
-# putative recombination events from LGV
-```{r}
-recent_reomb %>% 
-  filter(DonorLineage == 1) %>%
-  filter(RecipientStrain < 83) %>%
-  group_by(DonorLineage,Start,End,Length) %>%
-  summarise(y = list(StrainName)) 
-```
-
 # putative recombination events from Ocular
 ```{r}
-recent_reomb %>% 
+recombinations_recent %>% 
+  filter(DonorLineage == 1) %>%
+  filter(RecipientStrain < 83) %>%
+  group_by(DonorLineage,log.BF.,Start,End,Length) %>%
+  summarise(y = list(StrainName)) %>%
+  unnest_wider(y)
+```
+
+# putative recombination events from LGV
+```{r}
+recombinations_recent %>% 
   filter(DonorLineage == 2) %>%
   filter(RecipientStrain < 83) %>%
-  group_by(DonorLineage,Start,End,Length) %>%
-  summarise(y = list(StrainName)) 
+  group_by(DonorLineage,log.BF.,Start,End,Length) %>%
+  summarise(y = list(StrainName)) %>%
+  unnest_wider(y)
 ```
 
 # table of all recombinations and which strain is involved
 
 ```{r}
-fiji_recombs <- recent_reomb %>% 
+fiji_recombs <- recombinations_recent %>% 
   filter(RecipientStrain < 83) %>%
   group_by(DonorLineage,Start,End,Length) %>%
   summarise(y = list(StrainName)) %>%

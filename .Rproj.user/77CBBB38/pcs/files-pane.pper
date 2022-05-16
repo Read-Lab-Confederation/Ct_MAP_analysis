@@ -1,13 +1,13 @@
 {
-    "path": "~/GitHub/Ct_MAP_analysis",
+    "path": "~/GitHub/Ct_MAP_analysis/genome_info_results",
     "sortOrder": [
-        {
-            "columnIndex": 4,
-            "ascending": false
-        },
         {
             "columnIndex": 2,
             "ascending": true
+        },
+        {
+            "columnIndex": 4,
+            "ascending": false
         }
     ]
 }

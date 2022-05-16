@@ -1,0 +1,237 @@
+"0","for (i in 2:length(instr_files)){"
+"0","  temp2.df <- read.delim(instr_files[i]) %>% "
+"0","    add_column(sample[i], .before = 1, .name_repair = ""universal"" ) %>%"
+"0","  rename(sample = sample.i.) "
+"0","  temp.df <- bind_rows(temp.df,temp2.df)"
+"0","}"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"
+"2","New names:
+* `sample[i]` -> sample.i.
+"

@@ -63,11 +63,6 @@ ggplot(core_concord,aes(concordant_strains)) +
 ```
 
 ```{r}
-ggplot(filter(core_concord,concordant_strains > 30),aes(POS)) +
-  geom_histogram(binwidth = 1000) +
-  theme_bw()
-```
-```{r}
 T1T2_snps_30 <- core_concord %>%
   filter(concordant_strains > 30) %>% .$POS
 T1T2_snps_39 <- core_concord %>%
@@ -123,10 +118,41 @@ ggplot(filter(core_concord2,concordant_strains > 18),aes(POS)) +
   geom_histogram(binwidth = 1000) +
   theme_bw()
 ```
-5520 denovo SNPs , reasonably well_spread across the genome
+
+
+Attempt to remove recombinant regions based on gubbins
+
+```{r}
+CT_Gubbins <- read.delim("~/Documents/2021-Fiji-Ct_paper/Fiji_onlyTree_12_06_2021/CT_Gubbins_All_fiji_Only_aln_12_06.recombination_predictions_no_head.txt", header=FALSE) %>%
+  select(V4,V5)
+result <- vector()
+for (i in 1:nrow(CT_Gubbins)) {
+      result <- c(result,seq(CT_Gubbins$V4[i],CT_Gubbins$V5[i]))
+}
+result <- unique(result)
+```
+
+filter reuslts
 ```{r}
 T1T2_denovo_snps <- core_concord2 %>%
-  filter(concordant_strains > 17) %>% .$POS
+  filter(concordant_strains > 17) %>%
+  filter(!POS %in% result) %>% 
+  .$POS
+
+```
+
+```{r}
 write_lines(T1T2_denovo_snps,"T1T2_snps_denovo.list")
 ```
 
+without filtering for recombinant regions
+```{r}
+T1T2_denovo_snps_v2 <- core_concord2 %>%
+  filter(concordant_strains > 17) %>%
+  .$POS
+```
+
+
+```{r}
+write_lines(T1T2_denovo_snps_v2,"T1T2_snps_denovo_v2.list")
+```

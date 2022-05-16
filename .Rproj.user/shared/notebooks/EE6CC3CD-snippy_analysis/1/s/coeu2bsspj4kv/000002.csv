@@ -1,3 +1,0 @@
-"0","T1T2_denovo_snps <- core_concord2 %>%"
-"0","  filter(concordant_strains > 17) %>% .$POS"
-"0","write_lines(T1T2_denovo_snps,""T1T2_snps_denovo.list"")"

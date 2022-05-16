@@ -1,0 +1,10 @@
+"0","ggplot(T1T2_denovo_df_long, aes(x=SNP_percent,color = Body_site)) +"
+"0","    geom_boxplot() + "
+"0","    scale_color_brewer(palette = ""Accent"") +"
+"0","    xlab(""Percent_cDenovo_reference"") +"
+"0","    ggtitle(paste0(""cDenovo reference SNPs for "",subject_id)) +"
+"0","    theme_bw() +"
+"0","    theme(axis.text.y = element_blank())"
+"2","Warning:"
+"2"," Removed 270 rows containing non-finite values (stat_boxplot).
+"

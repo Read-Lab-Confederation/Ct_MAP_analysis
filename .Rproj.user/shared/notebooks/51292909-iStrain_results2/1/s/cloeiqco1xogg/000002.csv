@@ -1,0 +1,2 @@
+"0","genomes_files <- list.files(path = ""./genome_info_results"",full.names = T, pattern = ""*.tsv"")"
+"0","sample_g <- sub(""(_|-).+"","""",list.files(path = ""./scaffold_info_results"",full.names = F, pattern = ""*.tsv""))"

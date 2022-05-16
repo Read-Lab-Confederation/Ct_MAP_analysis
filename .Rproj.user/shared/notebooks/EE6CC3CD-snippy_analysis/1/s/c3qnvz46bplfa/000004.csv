@@ -1,0 +1,7 @@
+"0","CT_Gubbins <- read.delim(""~/Documents/2021-Fiji-Ct_paper/Fiji_onlyTree_12_06_2021/CT_Gubbins_All_fiji_Only_aln_12_06.recombination_predictions_no_head.txt"", header=FALSE) %>%"
+"0","  select(V4,V5)"
+"0","result <- vector()"
+"0","for (i in 1:nrow(CT_Gubbins)) {"
+"0","      result <- c(result,seq(CT_Gubbins$V4[i],CT_Gubbins$V5[i]))"
+"0","}"
+"0","result <- unique(result)"

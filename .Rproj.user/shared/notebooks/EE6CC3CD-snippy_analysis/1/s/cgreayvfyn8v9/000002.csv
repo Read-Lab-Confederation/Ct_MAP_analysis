@@ -1,3 +1,0 @@
-"0","ggplot(filter(core_concord,concordant_strains > 30),aes(POS)) +"
-"0","  geom_histogram(binwidth = 1000) +"
-"0","  theme_bw()"
