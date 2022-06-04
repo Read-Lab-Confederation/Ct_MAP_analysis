@@ -1,8 +1,0 @@
-"0","T1T2_denovo_snps <- read_lines(""T1T2_snps_denovo.list"")"
-"0","  "
-"0","  T1T2_denovo_df <- full_join(R_MAP,V_MAP, by = ""Position"") %>%"
-"0","    full_join(.,C_MAP, by = ""Position"") %>%"
-"0","    filter(Position %in% T1T2_denovo_snps)"
-"0","  colnames(T1T2_denovo_df) <- c(""Position"",""Rectum"",""Vagina"",""Endocervix"")"
-"0","  "
-"0","  T1T2_denovo_df_long <- gather(T1T2_denovo_df,""Body_site"",""SNP_percent"",-Position)"

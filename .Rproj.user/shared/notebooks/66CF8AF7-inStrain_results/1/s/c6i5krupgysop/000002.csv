@@ -1,2 +1,0 @@
-"0","instr_files <- list.files(path = ""./scaffold_info_results"",full.names = T, pattern = ""*.tsv"")"
-"0","sample <- sub(""(_|-).+"","""",list.files(path = ""./scaffold_info_results"",full.names = F, pattern = ""*.tsv""))"

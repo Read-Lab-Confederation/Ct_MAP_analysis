@@ -1,5 +1,0 @@
-"0","ggparcoord(data = T1T2_denovo_df,"
-"0","             columns = 2:4,"
-"0","             scale = ""globalminmax"","
-"0","             alphaLines = 0.2,"
-"0","             title = paste0(""cDenovo_SNPs for"" ,subject_id))"

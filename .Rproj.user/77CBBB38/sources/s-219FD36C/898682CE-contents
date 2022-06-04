@@ -1,0 +1,79 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+recombinations_recent <- read.csv("~/Documents/2021-Fiji-Ct_paper/fastGEAR_withGlobal_189/recombinations_recent.txt", sep="") %>%
+  mutate(Length = End-Start+1)
+```
+
+# The Fiji strains are indexed as 1-82
+
+# putative recombination events from Ocular
+```{r}
+recombinations_recent %>% 
+  filter(DonorLineage == 1) %>%
+  filter(RecipientStrain < 83) %>%
+  group_by(DonorLineage,log.BF.,Start,End,Length) %>%
+  summarise(y = list(StrainName)) %>%
+  unnest_wider(y)
+```
+
+# putative recombination events from LGV
+```{r}
+recombinations_recent %>% 
+  filter(DonorLineage == 2) %>%
+  filter(RecipientStrain < 83) %>%
+  group_by(DonorLineage,log.BF.,Start,End,Length) %>%
+  summarise(y = list(StrainName)) %>%
+  unnest_wider(y)
+```
+
+# table of all recombinations and which strain is involved
+
+```{r}
+fiji_recombs <- recombinations_recent %>% 
+  filter(RecipientStrain < 83) %>%
+  group_by(DonorLineage,Start,End,Length) %>%
+  summarise(y = list(StrainName)) %>%
+  unnest_wider(y)
+
+write_tsv(fiji_recombs,"fastgear_fiji_recombs")
+```
+
+
+```{r}
+fiji_recombs_count <- recent_reomb %>% 
+  filter(RecipientStrain < 83) %>%
+  group_by(DonorLineage,Start,End,Length) %>%
+  tally()
+```
+
+```{r}
+ggplot(fiji_recombs_count,aes(n)) + 
+    geom_histogram(binwidth=1) +
+    ggtitle("Number of strains in each recombination event") +
+    theme_bw()
+```
+Looks at where the strain specific recombination events fall
+```{r}
+ggplot(filter(fiji_recombs_count,n == 1),aes(Start)) + 
+    geom_histogram(binwidth=10000) +
+    ggtitle("Start site of strain specific recombinations") +
+    xlim(1,1042519) +
+    ylim(0,5) +
+    theme_bw()
+```
+```{r}
+fiji_recombs_count %>%
+  filter(n > 2) %>%
+  arrange(Start)
+```
+Lineage 1 = LGV; Lineage 2 = trachoma

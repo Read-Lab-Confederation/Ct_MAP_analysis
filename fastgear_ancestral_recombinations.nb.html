@@ -220,6 +220,20 @@ pre code {
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubGlicmFyeSh0aWR5dmVyc2UpXG5gYGAifQ== -->
 <pre class="r"><code>library(tidyverse)</code></pre>
 <!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUmVnaXN0ZXJlZCBTMyBtZXRob2RzIG92ZXJ3cml0dGVuIGJ5ICdkYnBseXInOlxuICBtZXRob2QgICAgICAgICBmcm9tXG4gIHByaW50LnRibF9sYXp5ICAgICBcbiAgcHJpbnQudGJsX3NxbCAgICAgIFxu4pSA4pSAIEF0dGFjaGluZyBwYWNrYWdlcyDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAgdGlkeXZlcnNlIDEuMy4xIOKUgOKUgFxu4pyTIGdncGxvdDIgMy4zLjUgICAgIOKckyBwdXJyciAgIDAuMy40XG7inJMgdGliYmxlICAzLjEuNCAgICAg4pyTIGRwbHlyICAgMS4wLjdcbuKckyB0aWR5ciAgIDEuMS4zICAgICDinJMgc3RyaW5nciAxLjQuMFxu4pyTIHJlYWRyICAgMi4wLjEgICAgIOKckyBmb3JjYXRzIDAuNS4xXG7ilIDilIAgQ29uZmxpY3RzIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgCB0aWR5dmVyc2VfY29uZmxpY3RzKCkg4pSA4pSAXG54IGRwbHlyOjpmaWx0ZXIoKSBtYXNrcyBzdGF0czo6ZmlsdGVyKClcbnggZHBseXI6OmxhZygpICAgIG1hc2tzIHN0YXRzOjpsYWcoKVxuIn0= -->
+<pre><code>Registered S3 methods overwritten by &#39;dbplyr&#39;:
+  method         from
+  print.tbl_lazy     
+  print.tbl_sql      
+── Attaching packages ─────────────────────────────────────────────────────────────────────────────── tidyverse 1.3.1 ──
+✓ ggplot2 3.3.5     ✓ purrr   0.3.4
+✓ tibble  3.1.4     ✓ dplyr   1.0.7
+✓ tidyr   1.1.3     ✓ stringr 1.4.0
+✓ readr   2.0.1     ✓ forcats 0.5.1
+── Conflicts ────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <!-- rnb-text-end -->
@@ -236,7 +250,7 @@ pre code {
 <pre class="r"><code>recombinations_ancestral %&gt;%
   filter(Lineage2 == 4) </code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibnJvdyI6MTAsIm5jb2wiOjYsInN1bW1hcnkiOnsiRGVzY3JpcHRpb24iOlsiZGYgWzEwIMOXIDZdIl19fSwicmRmIjoiSDRzSUFBQUFBQUFBQTQxUnZTOEVVUkNmZlh0M3pqc093WVZFSVJMbGJYQ1JLQlJMbklSY0l2RVJLckh1OXM3RjJqMjdLeFNLNnhRU25jL21LSVFvVmY0QUpRbVI2Q1ZJTkhvS3pPNTd6OGRXSnBuODVqZHZadDU4akEvTnBPZ01CUUFaUWtCQURxTUo0YW5KNFdRZlFJZ2drZkNoMnNNMURHcEVJNEphaTBwQnFsd0I2ZHNFY3ZNTThuSWFvdVZwb0cwRFFQc1BJVlpKUUkyMUFmSDc3Wi80cHpRUXB3amt2UUhrdHpHSTdqMEM3WWdBSFVsQTdPUVlhdGJ2SVA0UytvN0hUdjZwSWo3MFQ0MTc4V3B2Nno3S2dkcjFuUGRFN2M0ekhIVlNucWlkbk1kU2pDYzRiK2U4NmNxVGE3VjUzNi96WGZkMnR1eXRVYjIyR0Y3dWdJOFAwcHlQRjF1TTc3WXdQSDFsZU5UTzhPeUE0WGtKbVB3NVJOalVsblFIalhyL0dOdzU0V3EyeTRtY05uUGNqR2FLcHE0VjlPNEE3K0c4eXJBS3l1Q3d3bWtrbzVzRmR5SHdZN1Z0clNyaVYyL1ZwTXo2b3NIV3NvYm1pTmFFaytZMFYxUHlOdVlqK3dpa1ZGa2x0MmlabUVRYStURi9KMHQyd0ZHM1lucWQ1SkxaaFJWek1kbkREeS94VGRWeW0vNnlJK3hMOHNsTGhjV3dPQ3R1US9SdWFQTzZ3VWtjSi9ZSFZrcDIwUlI3cGVoMUZOZHlOUkZIczVZaFBQNXM4UEVGbGEzMEdWTURBQUE9In0= -->
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibnJvdyI6MTAsIm5jb2wiOjYsInN1bW1hcnkiOnsiRGVzY3JpcHRpb24iOlsiZGYgWzEwIMOXIDZdIl19fSwicmRmIjoiSDRzSUFBQUFBQUFBQTQxUnZTOEVVUkNmZlh0M3pqc09PUzRrQ3BFb2I0T0xSS0ZZNGk0aEVvbVBVSWwxdDNjdTF1N1pYYUZRWEtlUTZIdzJLSVFvVmY0QUpRbVI2Q1ZJTkhvS3pPNTd6OGRXSnBuODVqZHZadDU4akExT3ArazBCUUFaUWtCQURxTUo0Y21KYktvWElFU1FTUGhRN2VFcUJpWFFpS0RXb2xLUURxNkE5RzRBdVhrR2VTa0QwY29VME5aK29IMkhFRHRJUW8yMUR2SDdyWi80cHd3UXB3VGt2UUhrdDFHSTdqNENiWThBSFVwQzdPUVlhdGJ1SVA0UytvN0hUdjZwSWo3MFQ0MTc4V3BQeXg3S3Z0cjVYUEJFN1Nvd0hIYlNucWdkbk1mU2pDYzViK084OGNxVGE3VnB6Ni96WGZkMnB1S3RVYjIyR0Y1dWc0OFAwcXlQRjV1TTd6UXpQSDFsZU5URzhHeWY0WGtabVB3NVJOalVGblVIalhyL0dOdzU3bXEyeTRtY01mUGNqSTZVVEYwcjZsMEIzczE1bFdFVmxZR3N3bWxrUkRlTDduemd4MnJiV2xIRXI5NnFTWVgxUllPdDVRek5FYTBKSjgxcnJxWVViTXhIOWhGSXFiTEtic2t5TVlraytERi9KMHQyd0ZHM2JIcWQ1Rk81K1dWeklaWG1oNWY0cG1xNVRYL1pFZllsK2VTbHdtSlluQlczSVhvM3REbmQ0Q1NPRS9zREsyVzdaSXE5VXZRNmltdTVtb2lqT2NzUUhuODIrUGdDdDQrcWVsTURBQUE9In0= -->
 <div data-pagedtable="false">
 <script data-pagedtable-source type="application/json">
 {"columns":[{"label":["Start"],"name":[1],"type":["int"],"align":["right"]},{"label":["End"],"name":[2],"type":["int"],"align":["right"]},{"label":["Lineage1"],"name":[3],"type":["int"],"align":["right"]},{"label":["Lineage2"],"name":[4],"type":["int"],"align":["right"]},{"label":["log.BF."],"name":[5],"type":["dbl"],"align":["right"]},{"label":["Length"],"name":[6],"type":["dbl"],"align":["right"]}],"data":[{"1":"106444","2":"124229","3":"5","4":"4","5":"21.1","6":"17786"},{"1":"145547","2":"160617","3":"5","4":"4","5":"16.9","6":"15071"},{"1":"184550","2":"195089","3":"5","4":"4","5":"17.4","6":"10540"},{"1":"225605","2":"260431","3":"5","4":"4","5":"52.9","6":"34827"},{"1":"557143","2":"563428","3":"5","4":"4","5":"10.7","6":"6286"},{"1":"662593","2":"664070","3":"5","4":"4","5":"3.4","6":"1478"},{"1":"670880","2":"674070","3":"5","4":"4","5":"5.6","6":"3191"},{"1":"761622","2":"763813","3":"5","4":"4","5":"8.1","6":"2192"},{"1":"814983","2":"818387","3":"5","4":"4","5":"5.2","6":"3405"},{"1":"972437","2":"977156","3":"5","4":"4","5":"5.4","6":"4720"}],"options":{"columns":{"min":{},"max":[10],"total":[6]},"rows":{"min":[10],"max":[10],"total":[10]},"pages":{}}}
