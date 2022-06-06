@@ -1,0 +1,14 @@
+"0","SNP_analysis_for_pub(subject_id = 26)"
+"1","[1]"
+"1"," ""SUBJECT_ID is 26"""
+"1","
+"
+"2","
+Attaching package: ‘assertthat’
+
+"
+"2","The following object is masked from ‘package:tibble’:
+
+    has_name
+
+"

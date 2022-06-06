@@ -1,0 +1,39 @@
+---
+title: "SNP pipeline analysis of subjects with 3 body site results"
+output: html_notebook
+---
+
+
+
+```{r}
+library(tidyverse)
+source("MAP_functions.R")
+```
+
+### Subject 1201
+```{r}
+SNP_analysis_for_pub(subject_id = 1201)
+```
+
+
+
+### Subject 32
+```{r}
+SNP_analysis_for_pub(subject_id = 32)
+```
+
+
+### Subject 1176
+```{r}
+SNP_analysis_for_pub(subject_id = 1176)
+```
+
+### Subject 564
+```{r}
+SNP_analysis_for_pub(subject_id = 564)
+```
+
+### Subject 1078
+```{r}
+SNP_analysis_for_pub(subject_id = 1078)
+```

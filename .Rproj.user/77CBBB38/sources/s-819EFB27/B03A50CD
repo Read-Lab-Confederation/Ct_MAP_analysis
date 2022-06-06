@@ -1,28 +1,28 @@
 {
-    "id": "2F3BC3C4",
-    "path": "~/GitHub/Ct_MAP_analysis/counting_suppl_table1.Rmd",
-    "project_path": "counting_suppl_table1.Rmd",
+    "id": "B03A50CD",
+    "path": "~/GitHub/Ct_MAP_analysis/SNP_analysis_figures.Rmd",
+    "project_path": "SNP_analysis_figures.Rmd",
     "type": "r_markdown",
-    "hash": "2862876924",
+    "hash": "254227062",
     "contents": "",
     "dirty": false,
-    "created": 1654361603091.0,
+    "created": 1654454286680.0,
     "source_on_save": false,
-    "relative_order": 5,
+    "relative_order": 3,
     "properties": {
         "tempName": "Untitled1",
         "chunk_output_type": "inline",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "34,54",
-        "scrollLine": "26"
+        "cursorPosition": "37,38",
+        "scrollLine": "23"
     },
     "folds": "",
-    "lastKnownWriteTime": 1654369660,
+    "lastKnownWriteTime": 1654532175,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1654369660174,
+    "last_content_update": 1654532175147,
     "read_only": false,
     "read_only_alternatives": []
 }

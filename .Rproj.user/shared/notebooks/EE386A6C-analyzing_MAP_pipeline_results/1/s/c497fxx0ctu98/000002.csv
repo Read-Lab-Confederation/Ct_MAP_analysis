@@ -1,0 +1,2 @@
+"0","list_of_87 <- read.delim(""list_87_strains.txt"", header = F)"
+"0","list_77 <- filter(list_of_87, !V1 %in% c(""486C"",""486V"",""589C"",""600C"",""600V"",""648V"",""680C"",""680V"",""699C"",""699V""))"

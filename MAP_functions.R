@@ -656,3 +656,177 @@ SNP_analysis_pipeline <- function(subject_id, rare_cutoff = 3,cov_cutoff = 10) {
   return(list(tryptich1, tryptich2,RCplot_title,RVplot_title,VCplot_title,parplot,CSNP_plot1,CSNP_plot2,CSNP_plot3))
   print("")
 } #end SNP_analysis_pipeline function block
+
+
+SNP_analysis_for_pub <- function(subject_id, rare_cutoff = 3,cov_cutoff = 10) {
+  print(paste("SUBJECT_ID is",subject_id))
+  
+  library(tidyverse)
+  source("MAP_functions.R")
+  library(assertthat)
+  #load Pos_count
+  #rare_cutoff <- 3
+  Pos_count <- read_delim("Pos_count.tsv", show_col_types = FALSE)
+  assert_that(nrow(Pos_count) > 0)
+  rare_iSNPs <- Pos_count %>% filter(n<=rare_cutoff) %>%
+    .$Position
+  common_iSNPs <- Pos_count %>% filter(n>rare_cutoff) %>%
+    .$Position
+  num_rare = length(rare_iSNPs)
+  num_common = length(common_iSNPs)
+  print(paste("Rare iSNP cutoff = ",rare_cutoff))
+  print(paste("num rare iSNPs = ",num_rare))
+  print(paste("num common iSNPs = ",num_common))
+  
+  #load recomb_coords - recombination blocks cutoffs = 1
+  fastgear_fiji_recombs <- read.delim("~/GitHub/Ct_MAP_analysis/fastgear_fiji_recombs") %>%
+    select(Start,End,...1,...2,...3)
+  print("Recombination block cutoff = 3")
+  assert_that(nrow(fastgear_fiji_recombs) > 0)
+  colnames(fastgear_fiji_recombs) <- c("Start","End","c1","c2","c3")
+  R_name = paste0(subject_id,"R")
+  V_name = paste0(subject_id,"V")
+  C_name = paste0(subject_id,"C")
+  C_recomb <- recomb_coords(fastgear_fiji_recombs,C_name)
+  R_recomb <- recomb_coords(fastgear_fiji_recombs,R_name)
+  V_recomb <- recomb_coords(fastgear_fiji_recombs,V_name)
+  C_recomb_bases <- length(C_recomb)
+  R_recomb_bases <- length(R_recomb)
+  V_recomb_bases <- length(V_recomb)
+  print(paste("Num bases in C recomb blocks= ",C_recomb_bases))
+  print(paste("Num bases in R recomb = blocks",R_recomb_bases))
+  print(paste("Num bases in V recomb = blocks",V_recomb_bases))
+  
+  # load SNPs from MAP analysis (NOTE cutoff cov=10)
+  #cov_cutoff = 10
+  print(paste("Coverage cutoff = ",cov_cutoff))
+  R_MAP <- read_MAP(paste0("~/Documents/2021-Fiji-Ct_paper/MAP_results/MAP_files/",subject_id,"R_MAP.txt"),"R") %>%
+    filter(regular > -1 & regular < 1) %>%
+    filter(Coverage > cov_cutoff) %>%
+    select(Position,SNP_percent)
+  assert_that(nrow(R_MAP) > 0)
+  R_bases <- nrow(R_MAP)
+  print(paste("Numbers of R bases above cutoff is ",R_bases))
+  C_MAP <- read_MAP(paste0("~/Documents/2021-Fiji-Ct_paper/MAP_results/MAP_files/",subject_id,"C_MAP.txt"),"C") %>%
+    filter(regular > -1 & regular < 1) %>%
+    filter(Coverage > cov_cutoff) %>%
+    select(Position,SNP_percent)
+  assert_that(nrow(C_MAP) > 0)
+  C_bases <- nrow(C_MAP)
+  print(paste("Numbers of C bases above cutoff is ",C_bases))
+  V_MAP <- read_MAP(paste0("~/Documents/2021-Fiji-Ct_paper/MAP_results/MAP_files/",subject_id,"V_MAP.txt"),"V") %>%
+    filter(regular > -1 & regular < 1) %>%
+    filter(Coverage > cov_cutoff) %>%
+    select(Position,SNP_percent)
+  assert_that(nrow(V_MAP) > 0)
+  V_bases <- nrow(V_MAP)
+  print(paste("Numbers of V bases above cutoff is ", V_bases))
+  
+  # Join all 3 together and parse out the rare sites (ie < 90% in any of the 3)  
+  Total_iSNPs <- inner_join(R_MAP,V_MAP, by = "Position") %>%
+    inner_join(.,C_MAP, by = "Position") %>%
+    filter(!(SNP_percent.x > 90 & SNP_percent.y > 90 & SNP_percent > 90)) %>%
+    mutate(SNP = case_when(
+      Position %in% rare_iSNPs ~ "rare_SNV",
+      Position %in% common_iSNPs ~ "common_SNV",
+      TRUE ~ "fixed_SNP"
+    )) %>%
+    mutate(fastGEAR = ifelse(Position %in% c(R_recomb,C_recomb,V_recomb),"fastGEAR_block","other")) %>%
+    add_column(subject_id = subject_id)
+  colnames(Total_iSNPs) <- c("Position","R_percent","V_percent","C_percent","SNP","fastGEAR_block", "subject_id")
+  outfile2 <- paste0("./iSNPs_by_subject/iSNPs_subject_",subject_id,".tsv")
+  write_tsv(Total_iSNPs,outfile2)
+  assert_that(nrow(Total_iSNPs) > 0)
+  print(paste("Number of iSNP positions = ",nrow(Total_iSNPs)))
+  
+  
+  
+  #Tryptich 1
+  library(cowplot)
+  RCplot <- ggplot(filter(Total_iSNPs,!(R_percent > 90 & C_percent > 90)), aes(x=R_percent, y=C_percent, color = SNP)) + 
+    geom_point() +
+    xlab("Ref allele % rectal") +
+    ylab("Ref allele % cervical") +
+    xlim(0,100) + 
+    scale_color_manual(values = c("gainsboro","orange","red","blue")) +
+    theme_bw() 
+  RVplot <- ggplot(filter(Total_iSNPs,!(R_percent > 90 & V_percent > 90)), aes(x=R_percent, y=V_percent, color = SNP)) + 
+    geom_point() +
+    xlab("Ref allele % rectal") +
+    ylab("Ref allele % vaginal") +
+    xlim(0,100) +
+    scale_color_manual(values = c("gainsboro","orange","red","blue")) +
+    theme_bw() 
+  VCplot <- ggplot(filter(Total_iSNPs,!(V_percent > 90 & C_percent > 90)), aes(x=V_percent, y=C_percent, color = SNP)) + 
+    geom_point() +
+    xlab("Ref allele % vaginal") +
+    ylab("Ref allele % cervical") +
+    xlim(0,100) +
+    scale_color_manual(values = c("gainsboro","orange","red","blue")) +
+    theme_bw() 
+  try1_title <- ggdraw() +
+    theme(plot.margin = margin(0, 0, 0, 7))
+  tryptich1 <- plot_grid(
+    RCplot, RVplot, VCplot,
+    labels = c("e","f","g")
+  )
+  
+  
+  #canonical SNP analysis
+  T1T2_denovo_snps <- read_lines("T1T2_snps_denovo.list")
+  
+  T1T2_denovo_df <- full_join(R_MAP,V_MAP, by = "Position") %>%
+    full_join(.,C_MAP, by = "Position") %>%
+    filter(Position %in% T1T2_denovo_snps)
+  colnames(T1T2_denovo_df) <- c("Position","Rectum","Vagina","Endocervix")
+  
+  T1T2_denovo_df_long <- gather(T1T2_denovo_df,"Body_site","SNP_percent",-Position)
+ 
+  
+  
+  library(RColorBrewer)
+  cust_pal <- brewer.pal(3,"Accent")
+  snps_ref1 <- ggplot(filter(T1T2_denovo_df_long,Body_site == "Endocervix"), aes(x= Position, y= SNP_percent, color = Body_site)) +
+    geom_point(alpha = 0.7, size = 0.5) + 
+    scale_color_manual(values = cust_pal[1]) +
+    xlim(1,1042504)+
+    ylab("% ref") +
+    theme_bw() +
+    theme(axis.text = element_text(size=9))
+  
+  snps_ref2 <- ggplot(filter(T1T2_denovo_df_long,Body_site == "Rectum"), aes(x= Position, y= SNP_percent, color = Body_site)) +
+    geom_point(alpha = 0.7, size = 0.5) + 
+    scale_color_manual(values = cust_pal[2]) +
+    xlim(1,1042504)+
+    labs(y = "% ref") +
+    theme_bw() +
+    theme(axis.text = element_text(size=9))
+  
+  snps_ref3 <- ggplot(filter(T1T2_denovo_df_long,Body_site == "Vagina"), aes(x= Position, y= SNP_percent, color = Body_site)) +
+    geom_point(alpha = 0.7, size = 0.5) + 
+    scale_color_manual(values = cust_pal[3]) +
+    xlim(1,1042504)+
+    labs(y = "% ref") +
+    theme_bw()+
+    theme(axis.text = element_text(size=9))
+  
+  snps_ref4 <- ggplot(T1T2_denovo_df_long, aes(x=SNP_percent,color = Body_site)) +
+    geom_boxplot() + 
+    scale_color_brewer(palette = "Accent") +
+    xlab("Percent_cDenovo_reference") +
+    theme_bw() +
+    theme(axis.text.y = element_blank())
+  
+  CSNP_plot2 <- plot_grid(snps_ref1,snps_ref2,snps_ref3, ncol = 1, align = 'v',labels = c('a', 'b','c'),label_y = 0.95)
+  
+  CSNP_plot3 <- plot_grid(snps_ref4, ncol = 1, align = 'v',labels = c('d'),label_y = 0.98,label_x = 0.015) 
+  
+  #combined_plot <- plot_grid(CSNP_plot2,CSNP_plot3,tryptich1,align = 'v')
+  plot_filename = paste0(subject_id,"_combined.jpg")
+  #ggsave2(filename=plot_filename,device = "jpeg",dpi = 300,units = "in", width = 8, height = 3)
+  
+  
+  # return all the plots
+  return(list(CSNP_plot2,CSNP_plot3,tryptich1))
+  print("")
+} #end SNP_analysis_for_pub function block
