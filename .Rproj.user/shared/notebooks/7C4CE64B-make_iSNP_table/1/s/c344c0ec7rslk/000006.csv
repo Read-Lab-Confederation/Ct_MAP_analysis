@@ -1,0 +1,3 @@
+"0","Supplemental_Table_3 <- read.delim(""~/GitHub/Ct_MAP_analysis/Supplemental_Table_3-2022-06-08.tsv"") %>%"
+"0","  select(c(1:5))"
+"0","Supp_Table_3_res <- inner_join(Supplemental_Table_3,res_table, by = c(""Participant""=""subject_name""))"

@@ -113,4 +113,3 @@ potential_true_SNPs <- S26C_MAP %>%
   filter(SNP_percent < 10) %>%
   select(Position,Refnt,Coverage,Ref_cov,Aa,Gg,Cc,Tt)
 ```
-

@@ -1,0 +1,37 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+res_files <- list.files("./iSNPs_by_subject/",full.names = T, pattern = "iSNP*")
+res_table_iSNP <- read.delim(res_files[1])
+for (i in 2:length(res_files)){
+  temp_df <- read.delim(res_files[i])
+  res_table_iSNP <- bind_rows(res_table_iSNP,temp_df)
+}
+```
+
+```{r}
+common_intermediates <- res_table_iSNP %>%
+  filter(R_percent >= 10 & R_percent < 90 & C_percent >= 10 & C_percent <  90 & V_percent >= 10 & V_percent <  90) %>% 
+  filter(SNP == "common_iSNP") %>%
+  group_by(Position) %>%
+  tally()
+```
+
+```{r}
+ggplot(filter(common_intermediates),aes(Position)) + 
+    geom_histogram(binwidth=10000) +
+    ggtitle("common iSNPs on the genome") +
+    xlim(1,1042519) +
+    ylim(0,5) +
+    theme_bw()
+```
+

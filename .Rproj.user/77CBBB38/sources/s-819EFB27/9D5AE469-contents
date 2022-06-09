@@ -1,0 +1,84 @@
+---
+title: "Grand Summary parsing"
+output: html_notebook
+---
+
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+gsumm <- read.delim("~/GitHub/Ct_MAP_analysis/2021_08_24-Grand_Summary - MAP_analysis_summary.tsv")
+
+```
+
+```{r}
+humanSubs <- grep("Reference isolate",unique(gsumm$Subject),invert=TRUE,value=TRUE)
+goodQdata <- gsumm %>% 
+  filter(Mean.depth.of.coverage >= 10) %>%
+  filter(X..of.nucleotide.positions.covered.in.the.reference.with...5.reads >= 900000)
+humanSubsGQ <- grep("Reference isolate",unique(goodQdata$Subject),invert=TRUE,value=TRUE)
+samples_GQ_data_three_body_sites <- goodQdata %>% 
+  filter(!grepl("Reference",Subject)) %>% 
+  group_by(Subject) %>% 
+  summarize(num_BS = n()) %>% 
+  filter(num_BS == 3)
+samples_GQ_data_two_body_sites <- goodQdata %>% 
+  filter(!grepl("Reference",Subject)) %>% 
+  group_by(Subject) %>% 
+  summarize(num_BS = n()) %>% 
+  filter(num_BS == 2)
+samples_GQ_data_one_body_sites <- goodQdata %>% 
+  filter(!grepl("Reference",Subject)) %>% 
+  group_by(Subject) %>% 
+  summarize(num_BS = n()) %>% 
+  filter(num_BS == 1)
+medQdata <- gsumm %>% 
+  filter(Mean.depth.of.coverage < 10 & Mean.depth.of.coverage >= 5) %>%
+  filter(X..of.nucleotide.positions.covered.in.the.reference.with...5.reads >= 573385)
+humanSubsGQ <- grep("Reference isolate",unique(goodQdata$Subject),invert=TRUE,value=TRUE)
+
+```
+
+```{r}
+
+```
+
+
+The number of human subjects = `r length(humanSubs)`
+
+Total number of samples with DNA sequence = `r nrow(gsumm)`  
+Total number of samples with "DNA"good quality" sequence = `r nrow(goodQdata)`  
+Number of human subjects with "good quality" data = `r length(humanSubsGQ)`  
+Number of samples with GQ data and all 3 body sites = `r nrow(samples_GQ_data_three_body_sites)`  
+Number of samples with GQ data and 2 body sites = `r nrow(samples_GQ_data_two_body_sites)`  
+Number of samples with GQ data and 1 body sites = `r nrow(samples_GQ_data_one_body_sites)`  
+Number of samples with GQ data and Cervix = `r nrow(filter(goodQdata,Body.Site == "Cervix"))`  
+Number of samples with GQ data and Vagina = `r nrow(filter(goodQdata,Body.Site == "Vagina"))`
+Number of samples with GQ data and Rectum = `r nrow(filter(goodQdata,Body.Site == "Rectum"))`  
+Number of samples with GQ data and possibly mixed infection = `r nrow(filter(goodQdata,mixed.within.sample. == "Yes"))`  
+Number of women with GQ data abd possibly mixed infection = `r nrow(filter(goodQdata,mixed.within.sample. == "Yes") %>% group_by(Subject) %>% summarise(n()))`  
+Breakdown of body sites with possibly mixed strains = `r filter(goodQdata,mixed.within.sample. == "Yes") %>% select(Body.Site) %>% table()`  
+
+# 
+```{r}
+goodQdata %>%
+  ggplot(aes(intermediate_SNPs)) +
+  geom_histogram(binwidth=100) +
+    ggtitle("Intermediate alleles across good quality strains") +
+    theme_bw()
+```
+```{r}
+goodQdata %>%
+  filter(!grepl("Reference",Subject)) %>% 
+  group_by(Clade,ompA.sanger.ompA) %>% 
+  summarise(number = n())
+```
+
+## Looking at the Snippy alignment the phylogeny is based on:
+(blaster) Timothys-MacBook-Pro:Snippy_alignment timothyread$ grep '>' CT_aln_184_05_22.full.clean.aln | grep '[C|V|R]'| grep -v 'ef'| grep -v 'Ct' | wc -l
+      87
+
+This indicates 87 strains/samples used in this phylogeny
