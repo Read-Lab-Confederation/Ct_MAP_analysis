@@ -1,5 +1,0 @@
-"0","common_intermediates <- res_table_iSNP %>%"
-"0","  filter(R_percent >= 10 & R_percent < 90 & C_percent >= 10 & C_percent <  90 & V_percent >= 10 & V_percent <  90) %>% "
-"0","  filter(SNP == ""common_iSNP"") %>%"
-"0","  group_by(Position) %>%"
-"0","  tally()"

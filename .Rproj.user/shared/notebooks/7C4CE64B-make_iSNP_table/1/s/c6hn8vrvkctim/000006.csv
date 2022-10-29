@@ -1,5 +1,0 @@
-"0","gpA_rectal_fixed <- Supp_Table_3_res %>%"
-"0","  filter(Group == ""A"") %>%"
-"0","  filter(RonlyF > 0) %>%"
-"0","  nrow()"
-"0","  "

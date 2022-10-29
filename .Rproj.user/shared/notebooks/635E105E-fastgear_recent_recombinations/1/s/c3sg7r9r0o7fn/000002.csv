@@ -1,4 +1,0 @@
-"0","ggplot(fiji_recombs_count,aes(n)) + "
-"0","    geom_histogram(binwidth=1) +"
-"0","    ggtitle(""Number of strains in each recombination event"") +"
-"0","    theme_bw()"

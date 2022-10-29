@@ -1,6 +1,0 @@
-"0","core_concord <- core_tab %>%"
-"0","  mutate(across(contains(""T1""), ~ .x == REF)) %>%"
-"0","  mutate(across(contains(""T2""), ~ .x != REF)) %>%"
-"0","  rowwise() %>% "
-"0","  mutate(concordant_strains = sum(c_across(starts_with(""T"")))) %>% "
-"0","  ungroup()"

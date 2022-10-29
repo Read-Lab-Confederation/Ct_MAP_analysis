@@ -1,6 +1,0 @@
-"0","Gubbins_stats <- read.delim(""~/Documents/2021-Fiji-Ct_paper/Manuscript_Figures_data/Global_PhylogeneticTree/Gubbins/CT_Gubbins_184_05_22_MASKED.per_branch_statistics.csv"") %>%"
-"0","  mutate(group = case_when(grepl(""\\dV|\\dR|\\dC"",Node) ~ ""Fiji"","
-"0","                           grepl(""internal"",Node) ~ ""Internal"","
-"0","                           TRUE ~ ""Reference""))"
-"0","Gubbins_stats_tips <- Gubbins_stats %>%"
-"0","  filter(group %in% c(""Fiji"",""Reference""))"

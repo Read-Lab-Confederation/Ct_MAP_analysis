@@ -1,3 +1,0 @@
-"0","MAP_minor_alleles_df %>%"
-"0","  group_by(strain) %>%"
-"0","  tally"

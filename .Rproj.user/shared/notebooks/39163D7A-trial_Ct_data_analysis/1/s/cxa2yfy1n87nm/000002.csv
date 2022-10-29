@@ -1,5 +1,0 @@
-"0","```r
-ggplot(S26C_MAP, aes(Position, Map_value)) + 
-  geom_line(aes(y=rollmean(Map_value, 1000, fill = NA))) +
-  theme_bw()
-```"

@@ -1,4 +1,0 @@
-"0","ggplot(mean_doc,aes(x=Mean.depth.of.coverage,y=intermediate_SNPs)) +"
-"0","  geom_point()+"
-"0","  theme_bw() +"
-"0","  ggtitle(""Numbers of intermediate SNPs versus sample depth of coverage"")"

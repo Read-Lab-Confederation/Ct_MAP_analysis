@@ -1,9 +1,0 @@
-"0","```r
-S26C_MAP %>%
-  filter(Coverage > 10) %>%
-  filter(SNP_percent < 99) %>%
-  filter(regular > -1 & regular < 1) %>%
-  ggplot(aes(SNP_percent)) + 
-  geom_histogram(binwidth=1, fill = \"red\") +
-  theme_bw()
-```"

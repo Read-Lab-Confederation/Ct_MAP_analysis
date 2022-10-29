@@ -1,4 +1,0 @@
-"0","kruskal.test(recomb_len ~ tt_vector, data = Gubbins_Fiji)"
-"2","Error in kruskal.test.default(c(39915L, 20385L, 7L, 2407L, 57L, 503L,  : 
-  all observations are in the same group
-"

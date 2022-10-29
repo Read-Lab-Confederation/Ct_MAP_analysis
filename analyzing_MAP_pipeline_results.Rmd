@@ -54,6 +54,14 @@ Pos_count %>%
   filter(n == 1) %>%
   tally()
 ```
+``
+```{r}
+Pos_count %>%
+  filter(n < 4) %>%
+  tally()
+```
+
+
 
 ```{r}
 Pos_count %>%

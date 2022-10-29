@@ -1,0 +1,63 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+Making two comparisons -
+
+1. Compare instrain of FASTQs mapped against the reference D to those mapped against the V shotgun contigs 
+2. Compare instrain of FASTQs mapped against the reference D to results from the pipeline based on mpileup
+
+# PART 1.  inStrain ref D mapping versus shotgun
+
+## 1.1 Download results from instrain ref D mapping at all three body siers and filter out common SNPs
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+
+## 1.2 Download results from mapping C and R samples against V
+
+```{r}
+library(tidyverse)
+source("MAP_functions.R")
+```
+
+```{r}
+Subj_362R_CT.sorted.instrain_profile_SNVs <- read.delim("~/Documents/2021-Fiji-Ct_paper/inStrain_results/instrain_profile_SNV_results/362R_CT.sorted.instrain_profile_SNVs.tsv") %>%
+  mutate(position = position + 1)
+Subj_362V_CT.sorted.instrain_profile_SNVs <- read.delim("~/Documents/2021-Fiji-Ct_paper/inStrain_results/instrain_profile_SNV_results/362V_CT.sorted.instrain_profile_SNVs.tsv") %>%
+  mutate(position = position + 1)
+Subj_362C_CT.sorted.instrain_profile_SNVs <- read.delim("~/Documents/2021-Fiji-Ct_paper/inStrain_results/instrain_profile_SNV_results/362C_CT.sorted.instrain_profile_SNVs.tsv") %>%
+  mutate(position = position + 1)
+```
+
+```{r}
+Subj_362C_MAP <- read_MAP("/Users/timothyread/Documents/2021-Fiji-Ct_paper/MAP_results/MAP_files/362C_MAP.txt","362C")
+Subj_362V_MAP <- read_MAP("/Users/timothyread/Documents/2021-Fiji-Ct_paper/MAP_results/MAP_files/362V_MAP.txt","362C")
+```
+
+```{r}
+Subj_362C_potential_SNPs <- read.delim("~/Documents/2021-Fiji-Ct_paper/MAP_results/MAP_files/MAP_processing_results/362C_potential_SNPs.tsv")
+```
+
+#filer out reads that have same coord as the V
+```{r}
+V_positions <- Subj_362V_CT.sorted.instrain_profile_SNVs$position
+Subj_362C_filtered <- Subj_362C_CT.sorted.instrain_profile_SNVs %>%
+  filter(!position %in% V_positions)
+Subj_362R_filtered <- Subj_362R_CT.sorted.instrain_profile_SNVs %>%
+  filter(!position %in% V_positions)
+```
+
+## !This result shows that cant just subtract the inStrain results of the reference to get the difference between the C, V and R strains.  ie C_mapped_to_ref - V_mapped_to_ref is not equal to C-V
+
+
+## 1.3 Compare results

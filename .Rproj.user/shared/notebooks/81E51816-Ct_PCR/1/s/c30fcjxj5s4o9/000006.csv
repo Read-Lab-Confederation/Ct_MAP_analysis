@@ -1,6 +1,0 @@
-"0",""
-"0","PCR_data <- read.csv(""~/GitHub/Ct_MAP_analysis/Fiji_qPCR-WGS_metadata_ompA.csv"") %>%"
-"0","  filter(DNA_concentration_ng > 0) %>%"
-"0","  mutate(Subject = ifelse(grepl(""Ct"",Sample_name),NA,sub(""\\D"","""",Sample_name))) %>%"
-"0","  mutate(Body_site = ifelse(grepl(""Ct"",Sample_name),NA,sub(""\\d+"","""",Sample_name)))"
-"0","PCR_data_no_control <- filter(PCR_data,!is.na(Body_site))"

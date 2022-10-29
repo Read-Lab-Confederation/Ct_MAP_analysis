@@ -1,8 +1,0 @@
-"0","filepa2 <- ""/Users/timothyread/Documents/2021-Fiji-Ct_paper/CT_denovo_assemblies/"""
-"0","T1T2v2_tab <- T1T2v2 %>%"
-"0","  mutate(taxa = paste0(Clade,""_"",taxa)) %>% "
-"0","  select(taxa,fa_filenm) %>%"
-"0","  filter(taxa != ""T1_E-160"") %>%"
-"0","  filter(taxa != ""T1_E-8873"") %>%"
-"0","  mutate(fa_filenm = paste0(filepa2,fa_filenm))"
-"0","write_tsv(T1T2v2_tab,""/Users/timothyread/Documents/2021-Fiji-Ct_paper/2022-02-T1T2-snippy/input.tab"")"

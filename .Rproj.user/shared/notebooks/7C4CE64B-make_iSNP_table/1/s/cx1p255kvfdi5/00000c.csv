@@ -1,4 +1,0 @@
-"0","#Figure W3"
-"0","ggplot(mean_doc,aes(x=Body.Site,y=Mean.depth.of.coverage)) +"
-"0","  geom_boxplot() +"
-"0","  theme_bw()"

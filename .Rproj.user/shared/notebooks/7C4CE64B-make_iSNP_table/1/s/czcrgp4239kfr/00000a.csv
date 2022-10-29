@@ -1,2 +1,0 @@
-"0","RI_SNPs %>% filter(Mean.depth.of.coverage > 1000) %>%"
-"0","  filter(SNPs > 0)"

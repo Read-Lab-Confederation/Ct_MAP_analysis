@@ -1,4 +1,0 @@
-"0","Pos_count <- MAP_minor_alleles_df %>%"
-"0","  group_by(Position) %>%"
-"0","  tally"
-"0","write_tsv(Pos_count,""Pos_count.tsv"")"

@@ -1,4 +1,0 @@
-"0","tophits_1182V <- read.delim(""~/Documents/2021-Fiji-Ct_paper/Manuscript_Figures_data/Global_PhylogeneticTree/Snippy_alignment/1182V-recombinant_blast.out"", header=FALSE) %>%"
-"0","  filter(V2 == ""1182V"") %>%"
-"0","  filter(V3 == 100) %>%"
-"0","  select(V2,V9,V10)"

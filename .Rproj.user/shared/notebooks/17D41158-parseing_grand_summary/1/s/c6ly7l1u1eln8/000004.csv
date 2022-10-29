@@ -1,6 +1,0 @@
-"0","goodQdata %>%"
-"0","  filter(!grepl(""Reference"",Subject)) %>% "
-"0","  group_by(Clade,ompA.sanger.ompA) %>% "
-"0","  summarise(number = n())"
-"2","`summarise()` has grouped output by 'Clade'. You can override using the `.groups` argument.
-"

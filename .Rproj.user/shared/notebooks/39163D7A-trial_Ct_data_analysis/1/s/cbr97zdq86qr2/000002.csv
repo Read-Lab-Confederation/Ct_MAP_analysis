@@ -1,8 +1,0 @@
-"0","```r
-summary <- data_frame(total_nt,reg0,map_value1,reg_more_than_1,map_value_more_than1,cov10,pot_true_SNPs,pot_true_minors)
-
-```"
-"1","Error: unexpected symbol in:
-\"  tally(name=\"pot_true_minors\"
-summary\"
-"

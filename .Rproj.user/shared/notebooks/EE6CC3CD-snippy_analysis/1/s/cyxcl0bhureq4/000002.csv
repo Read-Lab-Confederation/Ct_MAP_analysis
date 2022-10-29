@@ -1,3 +1,0 @@
-"0","T1T2_denovo_snps_v2 <- core_concord2 %>%"
-"0","  filter(concordant_strains > 17) %>%"
-"0","  .$POS"

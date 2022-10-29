@@ -1,7 +1,0 @@
-"0","MAP_summary_df %>%"
-"0","  ggplot(aes(pot_true_minors)) +"
-"0","  geom_histogram(binwidth=100) +"
-"0","    xlab(""Number of iSNPs"") +"
-"0","    ylab(""Number of Fiji isolates"") +"
-"0","    ggtitle(""Figure_Y2"") +"
-"0","    theme_bw()"

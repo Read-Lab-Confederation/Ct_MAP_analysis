@@ -1,8 +1,0 @@
-"0","F_SNPs <- res_table %>% "
-"0","  select(subject_name,RonlyF,ConlyF,VonlyF) %>%"
-"0","  gather(""site"",""SNPs"",-subject_name) %>%"
-"0","  mutate(Sample = case_when(site == ""RonlyF"" ~ paste0(subject_name,""R""),"
-"0","                                site == ""ConlyF"" ~ paste0(subject_name,""C""),"
-"0","                                site == ""VonlyF"" ~ paste0(subject_name,""V"")"
-"0","                                )) %>% "
-"0","  inner_join(.,mean_doc, by = ""Sample"")"

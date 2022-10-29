@@ -1,5 +1,0 @@
-"0","potential_true_minors <- S26C_MAP %>%"
-"0","  filter(regular > -1 & regular < 1) %>%"
-"0","  filter(Coverage > 10) %>%"
-"0","  filter(SNP_percent >= 10 & SNP_percent < 90) %>%"
-"0","  select(Position,Refnt,Coverage,Ref_cov,Aa,Gg,Cc,Tt)"

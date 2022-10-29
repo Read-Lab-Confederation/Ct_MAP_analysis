@@ -1,3 +1,0 @@
-"0","Gubbins_Fiji <- add_column(Gubbins_recombination_predictions,tt_vector) %>%"
-"0","  mutate(recomb_len = V5-V4) %>%"
-"0","  mutate(tt_vector = ifelse(""TRUE"",""Fiji-tip"",""not-Fiji-tips""))"

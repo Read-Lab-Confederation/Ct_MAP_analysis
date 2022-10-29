@@ -1,8 +1,0 @@
-"0","Gubbins_Fiji %>%
-  filter(taxa == ""1182V"") %>%
-  select(chrom, chromStart = V4,chromEnd = V5)
-"
-"2","Error: Can't subset columns that don't exist.
-[31mx[39m Column `chrom` doesn't exist.
-[90mRun `rlang::last_error()` to see where the error occurred.[39m
-"

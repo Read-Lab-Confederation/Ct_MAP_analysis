@@ -1,1 +1,0 @@
-"0","MAP_minor_allele_files <- list.files(out_dir,full.names = T,pattern = ""*_minors.tsv"")"
