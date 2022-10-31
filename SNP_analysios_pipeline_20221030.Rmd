@@ -1,0 +1,147 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+---
+title: "SNP pipeline analysis of subjects with 3 body site results"
+output: html_notebook
+---
+
+
+
+```{r}
+library(tidyverse)
+source("MAP_functions.R")
+```
+
+### Subject 26
+```{r}
+SNP_analysis_pipeline(subject_id = 26, cov_cutoff = 5)
+```
+### Subject 32
+```{r}
+SNP_analysis_pipeline(subject_id = 32, cov_cutoff = 5)
+```
+
+### Subject 68
+```{r}
+SNP_analysis_pipeline(subject_id = 68, cov_cutoff = 5)
+```
+
+### Subject 72
+```{r}
+SNP_analysis_pipeline(subject_id = 72, cov_cutoff = 5)
+```
+
+### Subject 87
+```{r}
+SNP_analysis_pipeline(subject_id = 87, cov_cutoff = 5)
+```
+
+### Subject 98
+```{r}
+SNP_analysis_pipeline(subject_id = 98, cov_cutoff = 5)
+```
+
+### Subject 107
+```{r}
+SNP_analysis_pipeline(subject_id = 107, cov_cutoff = 5)
+```
+
+### Subject 192
+```{r}
+SNP_analysis_pipeline(subject_id = 192, cov_cutoff = 5)
+```
+
+### Subject 227
+```{r}
+SNP_analysis_pipeline(subject_id = 227, cov_cutoff = 5)
+```
+
+### Subject 362
+```{r}
+SNP_analysis_pipeline(subject_id = 362, cov_cutoff = 5)
+```
+
+### Subject 519
+```{r}
+SNP_analysis_pipeline(subject_id = 519, cov_cutoff = 5)
+```
+
+### Subject 564
+```{r}
+SNP_analysis_pipeline(subject_id = 564, cov_cutoff = 5)
+```
+
+### Subject 753
+```{r}
+SNP_analysis_pipeline(subject_id = 753, cov_cutoff = 5)
+```
+
+### Subject 908
+```{r}
+SNP_analysis_pipeline(subject_id = 908, cov_cutoff = 5)
+```
+
+### Subject 927
+```{r}
+SNP_analysis_pipeline(subject_id = 927, cov_cutoff = 5)
+```
+
+### Subject 951
+```{r}
+SNP_analysis_pipeline(subject_id = 951, cov_cutoff = 5)
+```
+
+
+### Subject 968
+```{r}
+SNP_analysis_pipeline(subject_id = 968, cov_cutoff = 5)
+```
+
+
+### Subject 1077
+```{r}
+SNP_analysis_pipeline(subject_id = 1077, cov_cutoff = 5)
+```
+
+### Subject 1078
+```{r}
+SNP_analysis_pipeline(subject_id = 1078, cov_cutoff = 5)
+```
+
+### Subject 1079
+```{r}
+SNP_analysis_pipeline(subject_id = 1079, cov_cutoff = 5)
+```
+
+### Subject 1106
+```{r}
+SNP_analysis_pipeline(subject_id = 1106, cov_cutoff = 5)
+```
+
+### Subject 1145
+```{r}
+SNP_analysis_pipeline(subject_id = 1145, cov_cutoff = 5)
+```
+
+### Subject 1176
+```{r}
+SNP_analysis_pipeline(subject_id = 1176, cov_cutoff = 5)
+```
+
+### Subject 1182
+```{r}
+SNP_analysis_pipeline(subject_id = 1182, cov_cutoff = 5)
+```
+
+### Subject 1201
+```{r}
+SNP_analysis_pipeline(subject_id = 1201, cov_cutoff = 5)
+```
+
+### Subject 1226
+```{r}
+SNP_analysis_pipeline(subject_id = 1226, cov_cutoff = 5)
+```

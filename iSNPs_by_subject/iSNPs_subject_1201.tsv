@@ -1,1148 +1,1489 @@
-Position	R_percent	V_percent	C_percent	SNP	fastGEAR_block	subject_id
-7124	8.2	0	0.8	rare_SNV	other	1201
-7259	0	0	0	common_SNV	other	1201
-7443	0	0	0	common_SNV	other	1201
-7576	0	0	0	common_SNV	other	1201
-8460	2.3	0.5	0	rare_SNV	other	1201
-8604	0	0	0	fixed_SNP	other	1201
-14089	1.7	0.9	0.6	common_SNV	other	1201
-15176	2.4	0.8	0.5	rare_SNV	other	1201
-23929	0	0	0	rare_SNV	other	1201
-25482	2.2	1.1	0.1	common_SNV	other	1201
-29801	0	0	0	rare_SNV	other	1201
-29853	4.4	0.4	0.4	rare_SNV	other	1201
-30572	0	0	0	fixed_SNP	other	1201
-35608	0	0	0	rare_SNV	other	1201
-38797	1.2	0.5	0.2	common_SNV	other	1201
-41528	0	0	0	fixed_SNP	other	1201
-42972	1.9	0	0.2	rare_SNV	other	1201
-43009	1.9	0	0.4	rare_SNV	other	1201
-44405	1.2	0.4	0.2	rare_SNV	other	1201
-44918	1.7	0.6	1.4	rare_SNV	other	1201
-48967	1.5	0.5	0.1	rare_SNV	other	1201
-49410	3.7	0.4	0.5	rare_SNV	other	1201
-53922	89.7	99.5	99.3	common_SNV	other	1201
-54277	12.5	2	3.1	common_SNV	other	1201
-54281	11.1	0	2.9	common_SNV	other	1201
-54289	8.3	0	2.3	common_SNV	other	1201
-54298	7.7	0	1.9	common_SNV	other	1201
-54367	6.8	2.7	1.1	common_SNV	other	1201
-54430	11.5	2	0.6	common_SNV	other	1201
-54431	0	0	0	fixed_SNP	other	1201
-54432	0	0	0	fixed_SNP	other	1201
-54445	11.8	2	0.8	common_SNV	other	1201
-54484	11.9	1.2	0.8	common_SNV	other	1201
-54496	3.3	0	1	rare_SNV	other	1201
-54514	10.7	1.5	1.1	common_SNV	other	1201
-54562	2.6	0	0.9	fixed_SNP	other	1201
-54569	0	0	0	fixed_SNP	other	1201
-54605	10.3	0	0.9	common_SNV	other	1201
-54606	13.8	0	0.9	common_SNV	other	1201
-54607	9.7	0	0.9	rare_SNV	other	1201
-54614	7.4	0	1	rare_SNV	other	1201
-54622	15.8	0	2.4	rare_SNV	other	1201
-54625	21.4	0	3.1	rare_SNV	other	1201
-54628	18.2	0	2.2	rare_SNV	other	1201
-54691	73.3	100	99.2	common_SNV	other	1201
-54706	10.5	1.4	2.1	rare_SNV	other	1201
-54707	10.5	1.4	2.1	rare_SNV	other	1201
-54712	10	1.3	1.8	rare_SNV	other	1201
-54716	9.1	1.2	1.6	rare_SNV	other	1201
-54718	8.7	1.1	1.6	rare_SNV	other	1201
-54721	8.3	1	1.4	rare_SNV	other	1201
-54724	8.3	0.9	1.3	rare_SNV	other	1201
-54742	2.9	0.7	1	common_SNV	other	1201
-54801	1.3	0	0.3	fixed_SNP	other	1201
-54814	1.1	0	0.1	fixed_SNP	other	1201
-54838	1.1	0	0.3	fixed_SNP	other	1201
-55047	0	0	0	fixed_SNP	other	1201
-55099	0	0	0	fixed_SNP	other	1201
-55237	4.8	0.9	0.2	common_SNV	other	1201
-55240	4.8	0.9	0.2	common_SNV	other	1201
-55246	2.9	1.3	0.3	common_SNV	other	1201
-55250	8.3	3.1	0.4	common_SNV	other	1201
-55252	4.3	1.6	0.7	common_SNV	other	1201
-55253	4.3	1.6	0.7	common_SNV	other	1201
-55256	8.3	3.1	1.7	common_SNV	other	1201
-55259	8.3	1.6	0.4	common_SNV	other	1201
-55260	8.3	1.6	0.4	common_SNV	other	1201
-55269	10	1.9	0.4	common_SNV	other	1201
-55285	7.1	2.5	0.8	rare_SNV	other	1201
-55564	0	0	0	fixed_SNP	other	1201
-55573	0	0	0	fixed_SNP	other	1201
-55590	0	0	0	fixed_SNP	other	1201
-55697	0	0	0	fixed_SNP	other	1201
-55707	0	0	0	fixed_SNP	other	1201
-55726	0	0	0	fixed_SNP	other	1201
-55727	0	0	0	fixed_SNP	other	1201
-55750	8.3	6.2	3	common_SNV	other	1201
-55755	0	0	0	fixed_SNP	other	1201
-56673	4.3	2.8	0	rare_SNV	other	1201
-56682	4.2	2.4	0	rare_SNV	other	1201
-56693	80	86.1	84.5	common_SNV	other	1201
-56700	4.6	3.5	0.1	rare_SNV	other	1201
-56718	3.8	2.2	0	rare_SNV	other	1201
-56730	3.7	1.8	0	rare_SNV	other	1201
-56742	3.7	1.7	0.1	rare_SNV	other	1201
-56756	3.8	2.9	0.1	rare_SNV	other	1201
-56834	4.2	3.5	0.1	rare_SNV	other	1201
-56842	3.4	3.9	0.2	rare_SNV	other	1201
-56853	83.7	87.3	86.3	common_SNV	other	1201
-56923	10.1	6.6	3	common_SNV	other	1201
-56936	4.6	3	0.2	rare_SNV	other	1201
-56967	3.8	2.8	0.1	rare_SNV	other	1201
-57135	0.8	0.6	0.1	common_SNV	other	1201
-57150	0.9	0.6	0	common_SNV	other	1201
-57156	0	0	0	rare_SNV	other	1201
-57180	0.9	0.6	0	rare_SNV	other	1201
-57736	0.7	0	0.1	rare_SNV	fastGEAR_block	1201
-57740	0	0	0.1	rare_SNV	fastGEAR_block	1201
-57748	0	0	0.2	rare_SNV	fastGEAR_block	1201
-57762	0	0	0.2	rare_SNV	fastGEAR_block	1201
-57765	0	0	0.1	rare_SNV	fastGEAR_block	1201
-57774	0	0	0.1	rare_SNV	fastGEAR_block	1201
-58319	4.2	1	0.7	common_SNV	fastGEAR_block	1201
-58327	5.1	1.3	1	common_SNV	fastGEAR_block	1201
-58329	5	1.3	1	common_SNV	fastGEAR_block	1201
-58338	6.9	1.7	1.4	common_SNV	fastGEAR_block	1201
-58339	6.9	1.8	1.4	common_SNV	fastGEAR_block	1201
-58340	7.1	1.7	1.4	common_SNV	fastGEAR_block	1201
-58348	8.7	2.1	1.8	rare_SNV	fastGEAR_block	1201
-58350	8.7	2	1.7	rare_SNV	fastGEAR_block	1201
-58354	10	2.4	2	common_SNV	fastGEAR_block	1201
-58636	0	3.8	0.6	common_SNV	other	1201
-58664	0	2.6	0.4	common_SNV	other	1201
-58666	0	2.6	0.4	common_SNV	other	1201
-58864	0	0.8	0	rare_SNV	other	1201
-59117	0	0	0	fixed_SNP	other	1201
-59391	3	1	0.1	rare_SNV	other	1201
-59499	3.2	1.8	0.5	rare_SNV	other	1201
-62559	6	0.8	0.2	common_SNV	other	1201
-62939	1.2	1	0.4	common_SNV	other	1201
-63306	0	0	0.1	fixed_SNP	other	1201
-65206	1.4	1.1	0.2	rare_SNV	other	1201
-65211	2.7	1.2	0.3	rare_SNV	other	1201
-65365	0	0	0	fixed_SNP	other	1201
-66255	1.4	0	0.2	common_SNV	other	1201
-67549	1.1	1.5	0	common_SNV	other	1201
-67608	0	0	0	fixed_SNP	other	1201
-68326	2.2	0.4	0.4	common_SNV	other	1201
-68520	0	0	0.2	fixed_SNP	other	1201
-68528	1.3	1.5	0.3	common_SNV	other	1201
-71100	0	0	0.5	rare_SNV	other	1201
-71307	2.4	1.3	0	rare_SNV	other	1201
-72210	1.2	1.3	0.2	rare_SNV	other	1201
-72311	0	0	0	rare_SNV	other	1201
-72510	1.3	0.5	0.2	rare_SNV	other	1201
-73416	0	0.5	0.4	rare_SNV	other	1201
-75632	2.2	0.4	0.2	rare_SNV	other	1201
-79833	0	0.9	0.4	rare_SNV	other	1201
-87159	0	0.4	0.3	rare_SNV	other	1201
-87518	2.6	0	0.2	rare_SNV	other	1201
-87990	0	1.2	0	rare_SNV	other	1201
-92354	0	0	0	rare_SNV	other	1201
-93188	1.1	0	0	rare_SNV	other	1201
-93321	5.3	0.9	0.1	rare_SNV	other	1201
-93965	0	0	0	rare_SNV	other	1201
-96443	1.7	0.5	0.1	rare_SNV	other	1201
-99416	0	0	0	fixed_SNP	other	1201
-100061	1.5	0.6	0.2	rare_SNV	other	1201
-100213	0	0.5	0.1	rare_SNV	other	1201
-100360	4.1	0.4	0.1	rare_SNV	other	1201
-101561	3.5	0.7	0.1	rare_SNV	other	1201
-101708	1.1	0.4	0	rare_SNV	other	1201
-102020	0	0.5	0.2	rare_SNV	other	1201
-102491	0	0.4	0.4	common_SNV	other	1201
-103123	0	0.5	0.1	common_SNV	other	1201
-103622	0	0.5	0	common_SNV	other	1201
-106047	5.1	2.1	0.6	rare_SNV	other	1201
-106392	2.2	0	0	common_SNV	other	1201
-109175	0	0	0.1	fixed_SNP	other	1201
-110667	1.3	1.5	0.4	common_SNV	other	1201
-112086	0	0.5	0.2	common_SNV	other	1201
-112114	0	1	0.2	common_SNV	other	1201
-112440	0	0	0	common_SNV	other	1201
-112576	2.1	1.3	0	common_SNV	other	1201
-113431	0	0	0.2	fixed_SNP	other	1201
-114254	2.9	0.7	1.1	common_SNV	other	1201
-114454	0	0	0.3	fixed_SNP	other	1201
-115012	2.2	1.1	0.2	common_SNV	other	1201
-115569	1	1	0.3	common_SNV	other	1201
-115570	1	1	0	common_SNV	other	1201
-116275	1.2	1.2	0	rare_SNV	other	1201
-120761	1.1	1.4	0.2	common_SNV	other	1201
-121191	0.6	0	0.8	fixed_SNP	other	1201
-121746	0	0	1	fixed_SNP	other	1201
-121755	1.2	0	1.5	fixed_SNP	other	1201
-124272	0	0	0.2	fixed_SNP	other	1201
-124638	0	2	0.9	common_SNV	other	1201
-124874	2.3	1.3	0.6	common_SNV	other	1201
-125482	3	0	0.7	common_SNV	other	1201
-126720	3.3	0.4	0.4	common_SNV	other	1201
-127104	0	0.4	0.7	common_SNV	other	1201
-127406	3.3	0	1	common_SNV	other	1201
-128071	0	0.4	0.3	common_SNV	other	1201
-128109	0	0	0.3	common_SNV	other	1201
-128830	0	1	0.9	rare_SNV	other	1201
-129293	1.2	1.4	0.8	common_SNV	other	1201
-129435	2.9	0.8	0.3	common_SNV	other	1201
-129808	1.4	0.5	0	common_SNV	other	1201
-129917	1.5	0	0	common_SNV	other	1201
-130044	0	0	0	common_SNV	other	1201
-130344	2.7	1.5	1.1	common_SNV	other	1201
-130426	2.9	0.5	0.3	common_SNV	other	1201
-132308	1.4	0	0.5	rare_SNV	other	1201
-132440	0	0	0.3	common_SNV	other	1201
-133427	4.8	0	1	common_SNV	other	1201
-133629	1.6	0	0	rare_SNV	other	1201
-133826	4.5	0	0.2	common_SNV	other	1201
-134692	0	1.2	0.3	rare_SNV	other	1201
-134916	1.5	0	0.2	rare_SNV	other	1201
-134941	1.6	0	0.2	common_SNV	other	1201
-135140	1.3	0.4	0.2	common_SNV	other	1201
-135480	1.7	0.8	0.8	common_SNV	other	1201
-135490	1.6	0.8	0.9	common_SNV	other	1201
-135780	2.8	0.6	0.2	common_SNV	other	1201
-135905	0.8	0.2	0.2	rare_SNV	other	1201
-137712	1.2	0.4	0.3	common_SNV	other	1201
-138085	2.9	0.5	0.2	common_SNV	other	1201
-138975	1.7	0	0	common_SNV	other	1201
-139937	5.1	0.8	0.2	rare_SNV	other	1201
-140118	4.1	0.9	0.1	common_SNV	other	1201
-140428	0	0	0	common_SNV	other	1201
-140879	2.7	1.8	0.2	common_SNV	other	1201
-141352	0	0	0	common_SNV	other	1201
-142845	0	0.4	0.7	common_SNV	other	1201
-143324	0	0	0	common_SNV	other	1201
-144248	2.4	0.7	0.6	common_SNV	other	1201
-144285	2.2	0.6	0.2	rare_SNV	other	1201
-150939	1.2	0	0	rare_SNV	other	1201
-151252	1.6	0.5	0.3	rare_SNV	other	1201
-153923	2.5	0.5	0.3	rare_SNV	other	1201
-154613	0	0	0	rare_SNV	other	1201
-155083	1	0.5	0.1	common_SNV	other	1201
-156942	1.6	1.1	0.5	rare_SNV	other	1201
-157125	1.4	0.5	0.5	common_SNV	other	1201
-157144	1.2	0.4	0.7	common_SNV	other	1201
-157831	1.2	0.8	0.1	common_SNV	other	1201
-158027	5.5	0	0	rare_SNV	other	1201
-158034	5.6	0	0	rare_SNV	other	1201
-158253	1.6	0	0	rare_SNV	other	1201
-158642	0	1.8	0.2	rare_SNV	other	1201
-159363	3.4	0.6	0.2	rare_SNV	other	1201
-159373	3.3	0.6	0.6	rare_SNV	other	1201
-159968	0	0	0.1	common_SNV	other	1201
-160702	0.9	0	0.4	common_SNV	other	1201
-160732	0.9	0.4	0.4	common_SNV	other	1201
-160744	0.9	0	0.5	common_SNV	other	1201
-160777	2.4	2.6	2.6	common_SNV	other	1201
-160779	2.5	1	1.3	common_SNV	other	1201
-161044	4.4	0.7	0.6	common_SNV	other	1201
-161104	1.5	1.5	0.8	common_SNV	other	1201
-161126	1.8	1.7	0.8	common_SNV	other	1201
-161171	0	0	1.7	fixed_SNP	other	1201
-161172	0	0	1.7	fixed_SNP	other	1201
-161174	0	0	1.7	fixed_SNP	other	1201
-161180	0	0	1.4	fixed_SNP	other	1201
-161189	4.2	3.6	2.1	rare_SNV	other	1201
-161191	0	0	2.1	fixed_SNP	other	1201
-161194	0	2.1	2.4	fixed_SNP	other	1201
-161197	0	0	2.5	fixed_SNP	other	1201
-161201	0	0	7.8	rare_SNV	other	1201
-161203	0	0	9.4	rare_SNV	other	1201
-161205	0	0	9.6	rare_SNV	other	1201
-161210	0	0	4.7	rare_SNV	other	1201
-161212	0	0	4.5	rare_SNV	other	1201
-161218	0	0	5.1	rare_SNV	other	1201
-161227	0	1.3	3.9	fixed_SNP	other	1201
-161229	0	1.2	3.8	rare_SNV	other	1201
-161235	0	1.1	2.9	rare_SNV	other	1201
-161236	0	1.1	2.9	rare_SNV	other	1201
-161247	2.2	0.8	2.1	common_SNV	other	1201
-161272	3.5	0.6	1.6	common_SNV	other	1201
-161365	4.3	1.5	0.8	common_SNV	other	1201
-161371	4.2	1.1	0.7	common_SNV	other	1201
-161380	4.2	1.5	0.7	common_SNV	other	1201
-161680	1.3	0	0.2	common_SNV	other	1201
-161715	1.4	0	0	common_SNV	other	1201
-162249	2	0.6	0.2	common_SNV	other	1201
-162460	1.4	0.5	0.2	fixed_SNP	other	1201
-162614	1.2	1.4	0	rare_SNV	other	1201
-163253	0	0	0.3	common_SNV	other	1201
-163254	0	0	0.1	common_SNV	other	1201
-164275	2.2	0.4	0.6	common_SNV	other	1201
-164293	0	0.8	0.1	common_SNV	other	1201
-164409	2.4	0.9	0.4	common_SNV	other	1201
-164476	2.8	0.5	0.5	common_SNV	other	1201
-164527	1.4	0.6	0.3	common_SNV	other	1201
-164992	2.6	0.8	0.4	fixed_SNP	other	1201
-165086	2.9	1.4	0.2	rare_SNV	other	1201
-165674	4.1	1.7	1.7	rare_SNV	other	1201
-165676	4.1	0.8	1.2	rare_SNV	other	1201
-165832	3.8	0	0	common_SNV	other	1201
-166610	1.5	0.5	0.3	common_SNV	other	1201
-166656	3	0	0.3	common_SNV	other	1201
-166869	0	0.9	0.4	common_SNV	other	1201
-166885	0	0.9	0.3	common_SNV	other	1201
-167033	1.2	0.5	0.4	common_SNV	other	1201
-167181	3.6	0.4	0	common_SNV	other	1201
-167432	1.2	0	0.3	common_SNV	other	1201
-167960	4.5	0.4	0.3	rare_SNV	other	1201
-168770	2.5	0.5	0.4	common_SNV	other	1201
-168965	4.1	0.7	0.4	common_SNV	other	1201
-169072	3.8	1.2	0.5	rare_SNV	other	1201
-169291	1.4	0.5	0.4	common_SNV	other	1201
-169340	4.4	0.8	0.6	common_SNV	other	1201
-169941	4.8	1.4	0.2	common_SNV	other	1201
-170531	1.8	0.6	0.9	common_SNV	other	1201
-171058	1.7	0.6	0	common_SNV	other	1201
-171430	0	0.5	0.5	rare_SNV	other	1201
-171973	1.3	0.8	0.2	rare_SNV	other	1201
-172289	1.3	0	0	common_SNV	other	1201
-172834	3.6	0.7	0	common_SNV	other	1201
-173412	4.9	0.5	0.2	common_SNV	other	1201
-173932	4.5	0	0.1	common_SNV	other	1201
-174664	1.4	1.1	0	common_SNV	other	1201
-174759	3	0.7	0	common_SNV	other	1201
-175248	1.6	0	0	common_SNV	other	1201
-176680	1.2	1.3	0.1	common_SNV	other	1201
-176836	3.8	1.2	0.1	common_SNV	other	1201
-177199	4.8	0.8	0.2	common_SNV	other	1201
-177856	4.5	1.9	0.3	rare_SNV	other	1201
-178250	2.6	1.3	0	common_SNV	other	1201
-178339	2.2	0.4	0.1	common_SNV	other	1201
-178608	4.5	0.7	0.5	common_SNV	other	1201
-179498	0	0	0	fixed_SNP	other	1201
-179586	0	0	0.2	fixed_SNP	other	1201
-180165	0	0	0.2	fixed_SNP	other	1201
-180452	4.6	0.5	0.2	common_SNV	other	1201
-180476	5.6	0.5	0.2	common_SNV	other	1201
-181070	2.2	0	0	fixed_SNP	other	1201
-181406	2.7	0.8	0.2	rare_SNV	other	1201
-181625	4.6	1	0.1	common_SNV	other	1201
-181648	5.4	0.8	0.2	common_SNV	other	1201
-181972	0	0	0	rare_SNV	other	1201
-182050	0	0.9	0	rare_SNV	other	1201
-182178	0	0	0	rare_SNV	other	1201
-182484	0	0	0.3	rare_SNV	other	1201
-182758	0	0	0.3	rare_SNV	other	1201
-183050	1.5	0.5	0.2	rare_SNV	other	1201
-183258	3.9	0.9	0.2	rare_SNV	other	1201
-183337	0	1.4	0	rare_SNV	other	1201
-183373	0	0.5	0	common_SNV	other	1201
-183446	0	1.9	0.2	common_SNV	other	1201
-183666	2.2	0.5	0	rare_SNV	other	1201
-183720	2.6	0.4	0.2	rare_SNV	other	1201
-183744	2.5	0.8	0.1	rare_SNV	other	1201
-183877	2.4	0	0	rare_SNV	other	1201
-183987	3.7	1.7	0.2	rare_SNV	other	1201
-184024	5.2	2.1	0.5	rare_SNV	other	1201
-184539	1.5	1.6	0.2	rare_SNV	other	1201
-184993	6	1.1	0.1	common_SNV	other	1201
-186692	1.4	0	0.1	fixed_SNP	other	1201
-186746	0	0	0	fixed_SNP	other	1201
-187724	0	0	0.1	fixed_SNP	other	1201
-187977	1.2	1.4	0	rare_SNV	other	1201
-188959	8.2	0.6	0.2	rare_SNV	other	1201
-189212	0	0.6	0.1	rare_SNV	other	1201
-190009	0	0	0.1	rare_SNV	other	1201
-190696	0	0	0.1	rare_SNV	other	1201
-191912	0	0	0.1	fixed_SNP	other	1201
-195134	2	1.7	0.1	common_SNV	other	1201
-195220	1.2	1	0.1	rare_SNV	other	1201
-195225	2.4	1.6	0.1	rare_SNV	other	1201
-196043	0	0	0	rare_SNV	other	1201
-196254	1.3	0	0.1	fixed_SNP	other	1201
-196694	0	0	0	fixed_SNP	other	1201
-196719	0	0	0	rare_SNV	other	1201
-197030	0	0.6	0.1	rare_SNV	other	1201
-197462	5.4	0.6	0	common_SNV	other	1201
-197937	1.5	1.4	0.3	rare_SNV	other	1201
-198403	0	2.1	0	common_SNV	other	1201
-198512	3.1	2.1	0.3	fixed_SNP	other	1201
-199088	1.1	0.8	0.2	rare_SNV	other	1201
-199866	3.2	1.7	0.2	common_SNV	other	1201
-199943	2.7	1.8	0	common_SNV	other	1201
-202159	2.9	0.9	0.1	rare_SNV	other	1201
-202824	1.8	0.5	0.1	rare_SNV	other	1201
-204213	0	0	0	rare_SNV	other	1201
-205946	0	0.5	0	rare_SNV	other	1201
-207427	0	0	0	rare_SNV	other	1201
-209926	0	0	0	fixed_SNP	other	1201
-211651	4.4	0.8	0.1	rare_SNV	other	1201
-215874	0	0	0	rare_SNV	other	1201
-215897	0	0.4	0	rare_SNV	other	1201
-215933	2.2	1.9	0.1	rare_SNV	other	1201
-215940	0	0	0	rare_SNV	other	1201
-216387	1.4	0.5	0.3	rare_SNV	other	1201
-217358	1.4	1	0.2	rare_SNV	other	1201
-220090	0	0	0	rare_SNV	other	1201
-222381	1.1	0.8	0	common_SNV	other	1201
-223515	1.5	1.4	0.2	common_SNV	other	1201
-224656	2.3	0.5	0	rare_SNV	other	1201
-224980	0.8	1.3	0.4	rare_SNV	other	1201
-227663	3.3	0	0.1	common_SNV	other	1201
-230687	2.8	0.4	0	common_SNV	other	1201
-231327	0	0.9	0.3	rare_SNV	other	1201
-233680	0	0	0.5	common_SNV	other	1201
-234088	0	0.6	0	common_SNV	other	1201
-237248	0	0	0	fixed_SNP	other	1201
-238487	2.8	1	0	rare_SNV	other	1201
-239342	2.2	0.4	0	rare_SNV	other	1201
-239822	1.3	1.3	0	rare_SNV	other	1201
-240074	0	0.6	0.3	rare_SNV	other	1201
-240191	1.3	0.5	0.2	rare_SNV	other	1201
-240572	5.3	0.6	0	rare_SNV	other	1201
-241191	4.1	0.9	0.2	rare_SNV	other	1201
-241461	0	0	0	rare_SNV	other	1201
-241884	2.8	0	0.2	common_SNV	other	1201
-242034	0	0	0.2	common_SNV	other	1201
-246417	2.6	1.3	0.5	rare_SNV	other	1201
-248739	7.3	0.8	0.7	rare_SNV	other	1201
-249502	0	4.3	0	rare_SNV	other	1201
-250193	2.8	1.3	0.2	rare_SNV	other	1201
-251590	2.1	0.8	0	rare_SNV	other	1201
-251611	2	0.5	0	rare_SNV	other	1201
-251740	4.7	0.6	0.4	rare_SNV	other	1201
-251752	3.6	0.6	0	rare_SNV	other	1201
-251754	3.6	0.6	0.1	rare_SNV	other	1201
-253013	0	1	0.7	rare_SNV	other	1201
-253504	1.7	0.5	0.2	rare_SNV	other	1201
-254123	2	0	0	rare_SNV	other	1201
-254916	1	0.7	0.1	common_SNV	other	1201
-255079	5.6	0.4	0.2	common_SNV	other	1201
-257482	0	0	0	fixed_SNP	other	1201
-271237	1.5	2.1	0	rare_SNV	other	1201
-271372	2.9	1.8	0	rare_SNV	other	1201
-272623	0	0	0.4	fixed_SNP	other	1201
-272938	0	0	0	fixed_SNP	other	1201
-272971	0	0	0.5	rare_SNV	other	1201
-273041	1.7	0	0	rare_SNV	other	1201
-273106	1.4	0	0	common_SNV	other	1201
-273219	0	0	0.6	rare_SNV	other	1201
-274024	0	0	0.6	common_SNV	other	1201
-274532	3.8	1.4	0.2	common_SNV	other	1201
-274983	0	0	0	rare_SNV	other	1201
-275397	1.1	0.9	0.3	rare_SNV	other	1201
-275849	0	0	0.2	rare_SNV	other	1201
-276484	0	0	0	rare_SNV	other	1201
-276555	1.1	0	0	rare_SNV	other	1201
-276591	0	0	0.2	rare_SNV	other	1201
-276740	1.3	0	0.6	rare_SNV	other	1201
-280261	1.3	2.4	0.2	rare_SNV	other	1201
-282342	0	0	0	rare_SNV	other	1201
-283157	0	0	0	rare_SNV	other	1201
-285941	1.3	0.5	0.4	rare_SNV	other	1201
-286638	1.3	0.5	0.5	rare_SNV	other	1201
-286821	0	0.8	0	rare_SNV	other	1201
-286875	0	0.8	0	rare_SNV	other	1201
-294071	2.7	0.5	0.6	rare_SNV	other	1201
-294217	0	0	0.2	rare_SNV	other	1201
-295046	0	0	0	fixed_SNP	other	1201
-295189	2.3	0.4	0.3	rare_SNV	other	1201
-309409	0	0.4	0.2	common_SNV	other	1201
-313555	0	0	0.1	fixed_SNP	other	1201
-319016	3.8	0.5	0.4	rare_SNV	other	1201
-327468	2.6	2.6	0.5	rare_SNV	other	1201
-348756	0	0	0.2	rare_SNV	other	1201
-357790	1.2	1	0.6	rare_SNV	other	1201
-359077	1.2	1	0	rare_SNV	other	1201
-362841	5.7	0	0.4	rare_SNV	other	1201
-367400	1	0.9	0	rare_SNV	other	1201
-368005	2.8	1.6	0	rare_SNV	other	1201
-368378	1.3	0.5	1	fixed_SNP	other	1201
-370081	6	0.5	0	rare_SNV	other	1201
-371011	0	0	0	common_SNV	other	1201
-377053	0	0	0	rare_SNV	other	1201
-379489	0	0	0	fixed_SNP	other	1201
-380732	0	0	0	rare_SNV	other	1201
-382514	0	0	0	rare_SNV	other	1201
-382712	3.4	2.1	0	rare_SNV	other	1201
-384630	0	1.7	0	rare_SNV	other	1201
-391614	0	0.9	0.5	rare_SNV	other	1201
-399639	0	0	0	fixed_SNP	other	1201
-401362	0	1.4	0.2	rare_SNV	other	1201
-403784	0	0	0	fixed_SNP	other	1201
-416798	0	0	0	fixed_SNP	other	1201
-416915	0	0	0	rare_SNV	other	1201
-420822	0	0	0	fixed_SNP	other	1201
-425295	4.1	1.3	0.2	rare_SNV	other	1201
-430589	0	3	0.3	rare_SNV	other	1201
-433161	1.3	0.8	0.6	rare_SNV	other	1201
-433729	0	0	0	fixed_SNP	other	1201
-448034	0	0	0	fixed_SNP	other	1201
-449548	3.4	1	0.4	rare_SNV	other	1201
-450477	0	0	0	fixed_SNP	other	1201
-457269	0	0	0.3	common_SNV	other	1201
-462304	0	0	0	rare_SNV	other	1201
-462309	0	0	0	fixed_SNP	other	1201
-463156	1.2	1.3	0.4	rare_SNV	other	1201
-463648	3.6	0.5	0.6	rare_SNV	other	1201
-468145	4.2	0	0	common_SNV	other	1201
-473363	2.5	0	0.2	common_SNV	other	1201
-474689	0	0	0	rare_SNV	other	1201
-474713	1.5	0.5	0.3	rare_SNV	other	1201
-474746	0	0	0	rare_SNV	other	1201
-474859	0	0	0	fixed_SNP	other	1201
-475249	0	1.1	0.3	rare_SNV	other	1201
-475853	2.9	0	0.2	rare_SNV	other	1201
-476198	0	0	0	rare_SNV	other	1201
-476295	0	0	0.2	rare_SNV	other	1201
-476610	3.5	1.5	0.4	common_SNV	other	1201
-476812	0	0.8	0	rare_SNV	other	1201
-477603	1	1.9	0	rare_SNV	other	1201
-477868	0	0	0	rare_SNV	other	1201
-477884	0	1.4	0	rare_SNV	other	1201
-477920	0	1.5	0	rare_SNV	other	1201
-478086	0	0.8	0	rare_SNV	other	1201
-478135	0	0	0	rare_SNV	other	1201
-479204	0	0	0	fixed_SNP	other	1201
-479882	0	0	0.2	fixed_SNP	other	1201
-482564	0	0	0	fixed_SNP	other	1201
-489006	0	0	0	fixed_SNP	other	1201
-492206	1.2	0.4	0.3	rare_SNV	other	1201
-492867	0	0	0	rare_SNV	other	1201
-493335	0	0	0	rare_SNV	other	1201
-493396	3.3	0	0.3	rare_SNV	other	1201
-496850	2.5	1.7	0.5	rare_SNV	other	1201
-503852	4.2	2.1	0.6	rare_SNV	other	1201
-506259	2.1	1.4	0.4	rare_SNV	other	1201
-514506	0	0	0	fixed_SNP	other	1201
-515836	1.3	1.6	0.3	fixed_SNP	other	1201
-517109	0	0	0	fixed_SNP	other	1201
-526864	0	0.8	0.1	rare_SNV	other	1201
-528709	0	0	0	fixed_SNP	other	1201
-530824	0	0	0	fixed_SNP	other	1201
-531131	0	0	0	rare_SNV	other	1201
-531462	0	0	0	rare_SNV	other	1201
-531767	73.8	80	79	common_SNV	other	1201
-532923	0	0.3	0	rare_SNV	other	1201
-535809	3.1	0.8	0.1	rare_SNV	other	1201
-536085	100	88.7	72.7	rare_SNV	other	1201
-539622	0	0.4	0	rare_SNV	other	1201
-546091	0	0	0	rare_SNV	other	1201
-549408	1.4	0.8	0	fixed_SNP	other	1201
-556681	0	0	0	fixed_SNP	other	1201
-569980	0	0	0.2	rare_SNV	other	1201
-571357	3	0.4	0	common_SNV	other	1201
-573251	0.9	1.5	0.1	rare_SNV	other	1201
-575881	0	0	0	rare_SNV	other	1201
-579578	0	0	0	fixed_SNP	other	1201
-588168	0	0	0	fixed_SNP	other	1201
-588263	1.1	0.4	0	fixed_SNP	other	1201
-592567	0	0.4	0.1	rare_SNV	other	1201
-592850	0	1.1	0	rare_SNV	other	1201
-595274	0	0.5	0	rare_SNV	other	1201
-595747	1	0.4	0.7	rare_SNV	other	1201
-595927	0	0	0	rare_SNV	other	1201
-596697	2.4	1.1	0	common_SNV	other	1201
-597258	3.6	0.5	0.4	rare_SNV	other	1201
-597651	1.5	0.5	0.4	rare_SNV	other	1201
-597722	0	0	0.2	rare_SNV	other	1201
-601297	0	0.4	0	rare_SNV	other	1201
-602109	0	0	0	rare_SNV	other	1201
-602143	0	0	0	rare_SNV	other	1201
-602689	0	0	0	rare_SNV	other	1201
-603438	3.5	0.9	0.2	rare_SNV	other	1201
-603727	0	0	0	rare_SNV	other	1201
-603828	1.9	0.5	0.1	rare_SNV	other	1201
-604431	0	0.5	0.4	rare_SNV	other	1201
-604784	2.3	0.8	0.5	common_SNV	other	1201
-606483	0	2	1	rare_SNV	other	1201
-606982	4.5	2	0.4	rare_SNV	other	1201
-607829	3.7	0.5	0.2	rare_SNV	other	1201
-611268	2.1	0.4	0.4	rare_SNV	other	1201
-611748	0	0	0	rare_SNV	other	1201
-612213	0	0.4	0	rare_SNV	other	1201
-613106	0	0	0	rare_SNV	other	1201
-614140	0.8	0.4	0	common_SNV	other	1201
-614372	1.2	0.5	0	rare_SNV	other	1201
-615046	0	0	0	rare_SNV	other	1201
-615137	0	0	0	rare_SNV	other	1201
-615320	0	1.7	0.8	rare_SNV	other	1201
-615352	0	0	0	rare_SNV	other	1201
-615774	0	0	0	common_SNV	other	1201
-615964	0	1.1	0	rare_SNV	other	1201
-616000	0	0.5	0	rare_SNV	other	1201
-616285	2.7	0.9	0.3	rare_SNV	other	1201
-616323	3.1	0.5	0.3	rare_SNV	other	1201
-616403	0	0	0	rare_SNV	other	1201
-617801	1.2	0	0	rare_SNV	other	1201
-619786	0	0.5	0	rare_SNV	other	1201
-621462	0	0	0.4	rare_SNV	other	1201
-626252	3.2	0.5	0.4	rare_SNV	other	1201
-628641	4.8	0	0.6	rare_SNV	other	1201
-628823	1.8	0.3	0.1	rare_SNV	other	1201
-628883	0	0	0	fixed_SNP	other	1201
-628956	0	0.4	0	rare_SNV	other	1201
-629025	1	0.5	0	rare_SNV	other	1201
-630084	0	0	0	rare_SNV	other	1201
-630433	0	0	0	fixed_SNP	other	1201
-631323	0	0	0	rare_SNV	other	1201
-631485	0	0	0	fixed_SNP	other	1201
-633866	0	0	0	fixed_SNP	other	1201
-636283	0.8	1.9	0.2	rare_SNV	other	1201
-639953	0	0	0	fixed_SNP	other	1201
-640331	0	0	0	fixed_SNP	other	1201
-643346	0	0	0	fixed_SNP	other	1201
-644444	0	0	0	fixed_SNP	other	1201
-649990	4.1	0.5	0.5	common_SNV	other	1201
-650144	2.7	0.5	0.3	rare_SNV	other	1201
-652015	1.2	0.8	0.7	common_SNV	other	1201
-652666	4.5	0.9	0	rare_SNV	other	1201
-653976	0	0	0.2	rare_SNV	other	1201
-654603	0	0	0.3	rare_SNV	other	1201
-657371	2.9	0.5	0.2	common_SNV	other	1201
-659854	3.8	0.7	0.5	rare_SNV	other	1201
-667084	0	0	0	fixed_SNP	other	1201
-668755	0	0	0	fixed_SNP	other	1201
-670230	0	0	0	fixed_SNP	other	1201
-674235	1.1	1.6	0.1	common_SNV	other	1201
-676136	0	0	0	fixed_SNP	other	1201
-677515	3.3	0.8	0.2	rare_SNV	other	1201
-684100	5.4	0.3	0.4	rare_SNV	other	1201
-684265	7.6	0.4	0.5	rare_SNV	other	1201
-685358	5.4	1.1	0.2	rare_SNV	other	1201
-686121	2.1	0	0.4	rare_SNV	other	1201
-689385	0	0	0	rare_SNV	other	1201
-694976	0	0.4	0.9	common_SNV	other	1201
-696167	0	0	0	rare_SNV	other	1201
-699581	2.1	0.6	0.6	common_SNV	other	1201
-703175	0	0	0	rare_SNV	other	1201
-703930	0	0	0.6	rare_SNV	other	1201
-704155	0.9	0	0	rare_SNV	other	1201
-704567	3.3	0.8	0	common_SNV	other	1201
-706330	0	0	0	fixed_SNP	other	1201
-706375	1.6	1.7	0	common_SNV	other	1201
-706395	3.3	0.8	0	rare_SNV	other	1201
-707584	2.4	1.1	1.7	rare_SNV	other	1201
-708153	5.6	1.8	1.3	common_SNV	other	1201
-708156	5.7	1.9	1.3	common_SNV	other	1201
-708157	5.9	1.9	1.4	common_SNV	other	1201
-708158	5.6	1.9	1.4	common_SNV	other	1201
-708161	5.7	1.9	1.3	common_SNV	other	1201
-708162	5.6	1.9	1.4	common_SNV	other	1201
-708166	5.8	2	1.4	common_SNV	other	1201
-708172	7.3	2	1.5	common_SNV	other	1201
-708181	4.3	2	4.1	common_SNV	other	1201
-708182	4.3	2	4.3	common_SNV	other	1201
-708186	4.3	1.8	3.9	common_SNV	other	1201
-708190	4	1.7	3.8	rare_SNV	other	1201
-708192	4	1.6	3.7	common_SNV	other	1201
-708195	8	1.5	3.6	rare_SNV	other	1201
-708196	7.7	1.6	3.4	common_SNV	other	1201
-708213	0	0	2.9	fixed_SNP	other	1201
-708217	2.4	1	3.7	common_SNV	other	1201
-708220	2.2	0.9	3.3	common_SNV	other	1201
-708226	0	0	2.8	rare_SNV	other	1201
-708265	1.2	0	0.5	common_SNV	other	1201
-708274	0	0	0.9	fixed_SNP	other	1201
-708280	0	0	0.8	fixed_SNP	other	1201
-708643	0.7	0	0.2	fixed_SNP	other	1201
-708661	0.7	0	0.5	fixed_SNP	other	1201
-708680	0.7	0.3	0.2	fixed_SNP	other	1201
-708743	3.2	1.1	0.5	common_SNV	other	1201
-708811	0	0	0	fixed_SNP	other	1201
-709041	6	0	1.1	rare_SNV	other	1201
-709085	0	0	1.7	rare_SNV	other	1201
-709423	3.3	1.1	1.3	common_SNV	other	1201
-709464	3.2	0.8	2.1	rare_SNV	other	1201
-709514	0	0	1	rare_SNV	other	1201
-710718	0	0	0	rare_SNV	other	1201
-711703	1.3	0.4	2.3	rare_SNV	other	1201
-711780	2.9	0	1.3	rare_SNV	other	1201
-715885	0	0.6	0.4	common_SNV	other	1201
-717493	0	0	0	fixed_SNP	other	1201
-717581	0	0	0	fixed_SNP	other	1201
-718761	1.9	0	1	common_SNV	other	1201
-719369	3.3	1.1	2.3	common_SNV	other	1201
-720059	0	0.7	0	fixed_SNP	other	1201
-720275	0	0	0	fixed_SNP	other	1201
-724634	1	0.5	1.4	rare_SNV	other	1201
-725403	1.2	0.8	2.4	common_SNV	other	1201
-733651	2.5	0.9	0.2	common_SNV	other	1201
-733706	0	0	0	fixed_SNP	other	1201
-735879	3	0	0.2	common_SNV	other	1201
-736582	1.6	1.1	0.4	common_SNV	other	1201
-737841	3.9	1.4	0.4	common_SNV	other	1201
-745705	0	0	0.1	fixed_SNP	other	1201
-745762	4.8	0.6	0.2	rare_SNV	other	1201
-747722	0	0	0	fixed_SNP	other	1201
-747814	0	0	0.1	fixed_SNP	other	1201
-747986	0	0.4	0.2	common_SNV	other	1201
-748124	2.3	0.9	0.2	rare_SNV	other	1201
-748320	0	0	0	fixed_SNP	other	1201
-748935	3.2	0.3	0.7	rare_SNV	other	1201
-749708	0	0	0	fixed_SNP	other	1201
-752396	1.7	1	0.1	common_SNV	other	1201
-752483	0	0.4	0.2	fixed_SNP	other	1201
-752749	3.2	0.6	0.7	common_SNV	other	1201
-752824	0	0.5	0.2	common_SNV	other	1201
-752875	0	0.4	0.2	common_SNV	other	1201
-752932	1.1	0.4	0.2	common_SNV	other	1201
-753110	2.5	0	0.2	common_SNV	other	1201
-753148	2.5	0.4	0.2	common_SNV	other	1201
-753172	4.5	0.4	0.2	common_SNV	other	1201
-753232	3.8	0.3	0	common_SNV	other	1201
-753373	2.6	0.9	0	common_SNV	other	1201
-753388	2.6	1	0	common_SNV	other	1201
-753394	2.7	1	0	common_SNV	other	1201
-753400	2.7	0.7	0	common_SNV	other	1201
-753466	0	0.3	0	fixed_SNP	other	1201
-753502	0	0.3	0	rare_SNV	other	1201
-753524	0.9	1	0.2	common_SNV	other	1201
-753546	1.1	1.1	0	common_SNV	other	1201
-753732	0	0	0	common_SNV	other	1201
-753750	0	0.4	0.2	common_SNV	other	1201
-753804	1	1.1	0.1	common_SNV	other	1201
-753834	1.6	0.9	0.3	common_SNV	other	1201
-753879	0.7	0.5	0	fixed_SNP	other	1201
-753924	0	0.2	0	fixed_SNP	other	1201
-754156	0.6	0.4	0.2	common_SNV	other	1201
-754161	0.6	0.4	0.1	common_SNV	other	1201
-754170	0.6	0.6	0.1	common_SNV	other	1201
-754188	1.3	0.2	0.1	common_SNV	other	1201
-754206	1.2	0	0	common_SNV	other	1201
-754218	1.2	0	0	common_SNV	other	1201
-754221	1.2	0.2	0	common_SNV	other	1201
-754335	0	0.7	0	rare_SNV	other	1201
-755081	0	2.2	0.4	common_SNV	other	1201
-755218	2	0.8	0.6	rare_SNV	other	1201
-755381	0	0	0.2	rare_SNV	other	1201
-755872	2.1	0.7	0.5	rare_SNV	other	1201
-756566	0	0	0	fixed_SNP	other	1201
-758138	0	0	0.6	fixed_SNP	other	1201
-759490	3.8	0.4	0.4	common_SNV	other	1201
-759561	0.8	0	0.2	fixed_SNP	other	1201
-759771	1.3	1	0.2	common_SNV	other	1201
-759799	0	0	0	fixed_SNP	other	1201
-759859	0	0	0	fixed_SNP	other	1201
-759910	0	0	0	fixed_SNP	other	1201
-760047	0	0	0	fixed_SNP	other	1201
-760085	0	0	0.4	fixed_SNP	other	1201
-760287	2.6	0.4	0.2	common_SNV	other	1201
-760509	0	0	0	fixed_SNP	other	1201
-760730	2.2	1.1	0.2	common_SNV	other	1201
-761023	0	0	0.4	fixed_SNP	other	1201
-763260	0	0	0	fixed_SNP	other	1201
-763823	2.9	0.8	1.1	rare_SNV	other	1201
-764150	0	0	0	fixed_SNP	other	1201
-764342	0	0	0	fixed_SNP	other	1201
-764700	0	1.5	0.7	common_SNV	other	1201
-766060	0	0	0	fixed_SNP	other	1201
-768562	2.9	0	0.7	common_SNV	other	1201
-768596	0	0	0.1	fixed_SNP	other	1201
-768602	0	0	0.2	rare_SNV	other	1201
-768819	0.7	0	0.4	rare_SNV	other	1201
-768904	0.8	0.3	0.8	common_SNV	other	1201
-769252	1.7	0	0.4	common_SNV	other	1201
-769601	0	0	0.2	rare_SNV	other	1201
-770646	0	0	0.4	rare_SNV	other	1201
-770674	0	0	0.5	rare_SNV	other	1201
-770739	0.9	0	0.9	common_SNV	other	1201
-770743	0	0	0.5	rare_SNV	other	1201
-770766	0	0	0.5	rare_SNV	other	1201
-770768	0	0	0.6	rare_SNV	other	1201
-770773	0	0	0.4	rare_SNV	other	1201
-770777	0	0	0.2	rare_SNV	other	1201
-770781	0	0.3	0.4	rare_SNV	other	1201
-770790	0	0.3	0.4	rare_SNV	other	1201
-770951	0	0	0	rare_SNV	other	1201
-771151	0	0.3	0	rare_SNV	other	1201
-771267	2	0.5	0.3	common_SNV	other	1201
-771290	0	0.3	0.2	rare_SNV	other	1201
-771501	0	0.2	0.4	rare_SNV	other	1201
-771522	0	0	0.3	rare_SNV	other	1201
-771540	0	0	0.3	rare_SNV	other	1201
-771546	0	0	0.4	rare_SNV	other	1201
-771549	0	0	0.2	rare_SNV	other	1201
-771579	0	0.2	0.2	rare_SNV	other	1201
-771606	0	0	0.3	rare_SNV	other	1201
-771834	3.2	0.4	0.9	common_SNV	other	1201
-771870	1.1	0.4	0.5	common_SNV	other	1201
-771945	1.1	0	0.8	common_SNV	other	1201
-771966	2.2	0	0.9	rare_SNV	other	1201
-771991	2.2	0	1	common_SNV	other	1201
-772017	1.1	0	0.9	common_SNV	other	1201
-772041	1.1	0	1.1	rare_SNV	other	1201
-772054	1.2	0	0.8	common_SNV	other	1201
-772098	1.1	0	0.7	common_SNV	other	1201
-772134	0	0	0.4	rare_SNV	other	1201
-772194	1.1	0.4	0.3	rare_SNV	other	1201
-772245	1	0.4	0.2	rare_SNV	other	1201
-772251	1	0.4	0.2	rare_SNV	other	1201
-772263	1	0.4	0.2	rare_SNV	other	1201
-772266	1	0.4	0.3	rare_SNV	other	1201
-772269	1	0.4	0.3	rare_SNV	other	1201
-772272	0.9	0.4	0.3	rare_SNV	other	1201
-772278	0.9	0.4	0.3	rare_SNV	other	1201
-772290	1	0.4	0.3	rare_SNV	other	1201
-772293	1	0.4	0.3	rare_SNV	other	1201
-772309	1	0.3	0.2	rare_SNV	other	1201
-772317	3	0.3	0.2	rare_SNV	other	1201
-772320	3.1	0.3	0.2	rare_SNV	other	1201
-772422	2.8	0	0.3	rare_SNV	other	1201
-772431	0	0	0.1	rare_SNV	other	1201
-772446	0	0	0.1	rare_SNV	other	1201
-772458	0	0	0.2	rare_SNV	other	1201
-772467	0	0	0.1	rare_SNV	other	1201
-772488	0	0	0	rare_SNV	other	1201
-772536	0	0	0	rare_SNV	other	1201
-772575	0	0	0	rare_SNV	other	1201
-772612	0	0	0	rare_SNV	other	1201
-772626	0	0	0	rare_SNV	other	1201
-772725	0	0	0	rare_SNV	other	1201
-772764	1.3	0	0.3	rare_SNV	other	1201
-772899	0	0	0.3	rare_SNV	other	1201
-773390	4.1	0	0.1	common_SNV	other	1201
-774980	4.3	1.8	0.6	rare_SNV	other	1201
-774982	2.9	1.1	0.4	rare_SNV	other	1201
-774983	3	1.1	0.3	rare_SNV	other	1201
-774989	2.6	1	0.2	rare_SNV	other	1201
-774998	2.7	1	0.3	rare_SNV	other	1201
-775022	1.8	1.1	0.2	rare_SNV	other	1201
-775049	1.2	0.9	0.2	rare_SNV	other	1201
-775055	1.2	0.7	0.2	rare_SNV	other	1201
-775064	1.2	0.2	0.2	rare_SNV	other	1201
-775070	0.6	0.2	0.2	rare_SNV	other	1201
-775072	0.6	0.2	0.2	rare_SNV	other	1201
-775103	1.2	0.4	0.2	rare_SNV	other	1201
-775173	0.7	0.5	0.1	rare_SNV	other	1201
-776534	1	1.4	0.3	rare_SNV	other	1201
-776964	0	0	0	rare_SNV	other	1201
-777159	0	0	0	rare_SNV	other	1201
-778691	2	0.6	0.5	rare_SNV	other	1201
-778692	2	0	0.5	rare_SNV	other	1201
-778696	2.1	0	0.5	rare_SNV	other	1201
-778821	0	0	0	rare_SNV	other	1201
-778841	0	0	0.7	rare_SNV	other	1201
-778845	0	0	0.7	rare_SNV	other	1201
-778856	0	0	0.7	rare_SNV	other	1201
-778863	0	0	0.7	rare_SNV	other	1201
-778865	0	0	0.6	rare_SNV	other	1201
-778909	2	0	0.9	rare_SNV	other	1201
-778963	89.1	99.2	98.6	common_SNV	other	1201
-778972	89.4	99.2	98.6	common_SNV	other	1201
-779017	21.4	1.2	2	rare_SNV	other	1201
-779029	80.8	98.6	98.5	common_SNV	other	1201
-779041	75	98.3	98	rare_SNV	other	1201
-779158	18.2	0	6.5	rare_SNV	other	1201
-779164	16.7	0	5.9	rare_SNV	other	1201
-779179	16.7	0	4.9	rare_SNV	other	1201
-779218	16.7	0	2.5	rare_SNV	other	1201
-779220	83.3	100	97.6	rare_SNV	other	1201
-779230	15.4	0	2.5	rare_SNV	other	1201
-779235	15.4	0	2.5	rare_SNV	other	1201
-779251	0	0	0	rare_SNV	other	1201
-779275	0	0	0	rare_SNV	other	1201
-779281	0	0	0	rare_SNV	other	1201
-779284	0	0	0	rare_SNV	other	1201
-779812	0	0	2	rare_SNV	other	1201
-779814	19	2.2	2	common_SNV	other	1201
-779815	81.8	98.2	100	common_SNV	other	1201
-779818	17.4	1.6	1.3	common_SNV	other	1201
-779833	82.8	98.9	100	common_SNV	other	1201
-779875	0	0	0.9	common_SNV	other	1201
-779877	0	0	0.8	common_SNV	other	1201
-780530	2.3	0.4	1	rare_SNV	other	1201
-780533	0.8	0.4	0.5	rare_SNV	other	1201
-780534	0	0	0.5	rare_SNV	other	1201
-780824	0	0	0	rare_SNV	other	1201
-781217	0	0.3	0	rare_SNV	other	1201
-781325	1	0	0.4	rare_SNV	other	1201
-781359	1	0	0.4	rare_SNV	other	1201
-788493	0	0	0	rare_SNV	other	1201
-791841	0	0	0.1	rare_SNV	other	1201
-792727	2.8	1.7	0	rare_SNV	other	1201
-797165	2.9	0.3	0.6	rare_SNV	other	1201
-802193	0	0.9	0.2	rare_SNV	other	1201
-804189	2.6	1.3	0.9	rare_SNV	other	1201
-804208	2.7	0.5	0.9	rare_SNV	other	1201
-804264	1.3	0	0.4	rare_SNV	other	1201
-805567	0	0	0	fixed_SNP	other	1201
-805746	0	0	0	rare_SNV	other	1201
-806097	0	0	0	rare_SNV	other	1201
-808251	0	1.4	0	rare_SNV	other	1201
-810454	1.3	0	0.8	fixed_SNP	other	1201
-810670	3.3	0.4	0.3	rare_SNV	other	1201
-811020	1.2	0.8	0.4	rare_SNV	other	1201
-831658	0	0	0	fixed_SNP	other	1201
-832019	2.7	0	0.6	fixed_SNP	other	1201
-832171	1	0	0.3	fixed_SNP	other	1201
-832942	2.2	0.8	0	rare_SNV	other	1201
-833058	4	0.5	0.2	common_SNV	other	1201
-836112	0	0	0	fixed_SNP	other	1201
-836719	2.7	0	0.6	rare_SNV	other	1201
-836959	0	0	0.3	fixed_SNP	other	1201
-838530	1.1	0.4	0.8	rare_SNV	other	1201
-843544	0	0.7	0.3	rare_SNV	other	1201
-843667	6.5	0.6	0.5	rare_SNV	other	1201
-844015	3.3	0.7	0.2	rare_SNV	other	1201
-846592	0	0.5	0	rare_SNV	other	1201
-846689	0	0	0.5	rare_SNV	other	1201
-847555	1.2	0.8	0.4	rare_SNV	other	1201
-847974	2.4	1.4	0.6	rare_SNV	other	1201
-849952	0	0	0	fixed_SNP	other	1201
-853616	1.4	0.5	1.4	rare_SNV	other	1201
-853664	0	0.8	0.8	rare_SNV	other	1201
-853834	0	0	0.2	rare_SNV	other	1201
-853884	0.9	0.6	1.2	rare_SNV	other	1201
-858971	0	0	0	rare_SNV	other	1201
-859511	0	0.4	0	rare_SNV	other	1201
-859656	0	0.9	0.1	rare_SNV	other	1201
-859750	0	0	0	fixed_SNP	other	1201
-859758	0	1	0	rare_SNV	other	1201
-860085	2.8	2.7	0.2	common_SNV	other	1201
-860286	0	0	0	rare_SNV	other	1201
-860356	0	0	0	rare_SNV	other	1201
-861408	1.2	0.8	0.3	rare_SNV	other	1201
-862291	1.2	0.4	0.1	rare_SNV	other	1201
-862360	1.4	0.5	0	rare_SNV	other	1201
-862516	0	0	0	rare_SNV	other	1201
-862681	4.8	1.5	0.2	rare_SNV	other	1201
-862755	0	2.1	0.3	fixed_SNP	other	1201
-875880	0	0	0.5	rare_SNV	other	1201
-881016	0	0	0	rare_SNV	other	1201
-884499	0	0.7	0.2	rare_SNV	other	1201
-885589	0	0	0	fixed_SNP	other	1201
-890893	4.5	0.7	0.3	rare_SNV	other	1201
-894717	3.1	2.7	0.5	rare_SNV	other	1201
-897326	1.6	0.9	0.4	rare_SNV	other	1201
-898073	4.3	0	0.2	rare_SNV	other	1201
-899057	2.7	2.7	0.2	common_SNV	other	1201
-899244	2.5	0.5	0.4	common_SNV	other	1201
-899510	0	0	0	fixed_SNP	other	1201
-901665	0	0	0.3	fixed_SNP	other	1201
-901784	0	0	0.2	fixed_SNP	other	1201
-902170	86.3	100	100	common_SNV	other	1201
-902173	86.3	100	100	common_SNV	other	1201
-902249	6.1	0.8	0	common_SNV	other	1201
-907585	3	1.2	0.6	rare_SNV	other	1201
-907667	0	0	0	rare_SNV	other	1201
-908027	0	0	0.1	fixed_SNP	other	1201
-908082	0	0	0.1	fixed_SNP	other	1201
-908183	0	0.4	0.5	fixed_SNP	other	1201
-909211	0	0	0	fixed_SNP	other	1201
-909312	0	1	0.3	fixed_SNP	other	1201
-909608	0	0	0.4	fixed_SNP	other	1201
-909620	2.1	0.9	0.8	common_SNV	other	1201
-909754	3.8	0.9	0.3	common_SNV	other	1201
-910105	0	0	0.1	rare_SNV	other	1201
-912395	1.3	0	0	common_SNV	other	1201
-912643	2.8	0.5	0.2	rare_SNV	other	1201
-913770	0	0	0	fixed_SNP	other	1201
-916400	2.6	1.8	0.1	common_SNV	other	1201
-917129	0	0	0.6	common_SNV	other	1201
-919714	0	0	0	fixed_SNP	other	1201
-921232	1.9	2.6	0.4	rare_SNV	other	1201
-930872	2	100	100	fixed_SNP	other	1201
-932419	4.2	0	0.2	rare_SNV	other	1201
-932471	2.7	0	0.4	common_SNV	other	1201
-932500	5	0.5	0.4	common_SNV	other	1201
-934306	0	0	0	fixed_SNP	other	1201
-937697	2	0.8	0.2	rare_SNV	other	1201
-941009	5.6	0.6	0.9	rare_SNV	other	1201
-941075	6.2	1.2	0.4	rare_SNV	other	1201
-941583	6.8	0.7	0	rare_SNV	other	1201
-941606	7.4	0.7	0	rare_SNV	other	1201
-945524	5.1	0	0.5	common_SNV	other	1201
-948543	0	1.8	0.4	rare_SNV	other	1201
-949756	2.7	0	0.2	fixed_SNP	other	1201
-955255	0	0.5	0	rare_SNV	other	1201
-955574	2.4	1.8	0.2	common_SNV	other	1201
-955611	1.4	1.9	0.2	common_SNV	other	1201
-955804	3.6	1.1	0.3	common_SNV	other	1201
-955841	2.4	1.2	0.2	rare_SNV	other	1201
-955881	1.3	0.5	0.6	common_SNV	other	1201
-956103	4.5	2.1	0.2	common_SNV	other	1201
-957282	0	0	0	fixed_SNP	other	1201
-961214	0	0	0.3	rare_SNV	other	1201
-961710	0	0	0.1	rare_SNV	other	1201
-961740	0	0	0.1	rare_SNV	other	1201
-961778	0	0	0	rare_SNV	other	1201
-961801	4.1	0.5	0	rare_SNV	other	1201
-961843	0	0	0	rare_SNV	other	1201
-961891	0	0	0.1	rare_SNV	other	1201
-977200	3.2	0.4	0	common_SNV	other	1201
-980687	0	0	0	fixed_SNP	other	1201
-985682	0	0	0	fixed_SNP	other	1201
-987113	1.2	0	0.3	rare_SNV	other	1201
-994347	2.5	0.5	0.2	rare_SNV	other	1201
-995730	0	0	0.2	fixed_SNP	other	1201
-1000308	0	1.7	0.4	rare_SNV	other	1201
-1000870	0	0.4	0	fixed_SNP	other	1201
-1001508	0	0	0	fixed_SNP	other	1201
-1001963	6	0.9	0.3	common_SNV	other	1201
-1003581	0	0	0	fixed_SNP	other	1201
-1003781	4.3	0.6	0	rare_SNV	other	1201
-1005968	2.7	0.8	0.5	rare_SNV	other	1201
-1010634	5.6	1	0.4	rare_SNV	other	1201
-1012609	0	0	0	fixed_SNP	other	1201
-1013625	0	0	0	rare_SNV	other	1201
-1013635	0	0	0	fixed_SNP	other	1201
-1015539	0	1.6	0.8	common_SNV	other	1201
-1017575	2.5	0.8	0.8	rare_SNV	other	1201
-1019608	1.2	0	0.2	rare_SNV	other	1201
-1019812	0	0	0	rare_SNV	other	1201
-1020001	0	0	0.2	rare_SNV	other	1201
-1021885	1.9	1.7	0.2	rare_SNV	other	1201
-1024247	0	1.2	0	rare_SNV	other	1201
-1024274	0	0	0	common_SNV	other	1201
-1024707	3.8	1.3	0.2	rare_SNV	other	1201
-1024722	0	0	0	common_SNV	other	1201
-1024963	0.9	0	0.1	common_SNV	other	1201
-1024964	0	0	0	rare_SNV	other	1201
-1025202	1	0	0.1	rare_SNV	other	1201
-1025440	0	0	0	rare_SNV	other	1201
-1025496	1.2	1.1	0.2	common_SNV	other	1201
-1025807	0	0.3	0	rare_SNV	other	1201
-1025819	0	0.3	0.1	rare_SNV	other	1201
-1025839	0.7	0.3	0	rare_SNV	other	1201
-1025850	0	0.3	0	rare_SNV	other	1201
-1025909	0	0.4	0.1	rare_SNV	other	1201
-1026131	0	0	0	rare_SNV	other	1201
-1026167	0	0	0	rare_SNV	other	1201
-1026191	0	0	0	rare_SNV	other	1201
-1026209	0	0	0	rare_SNV	other	1201
-1026223	0	0	0	rare_SNV	other	1201
-1026299	1.1	0	0	rare_SNV	other	1201
-1026353	1	0	0	rare_SNV	other	1201
-1026359	1	0	0	rare_SNV	other	1201
-1026483	0	0	0.1	rare_SNV	other	1201
-1026551	1	0	0.2	common_SNV	other	1201
-1026554	0.9	0	0.2	common_SNV	other	1201
-1026578	0.9	0	0.1	common_SNV	other	1201
-1026596	0.8	0	0.1	rare_SNV	other	1201
-1026608	1	0	0.1	rare_SNV	other	1201
-1026611	1	0	0.1	rare_SNV	other	1201
-1026616	1	1.1	0.1	rare_SNV	other	1201
-1026629	1	0	0.2	common_SNV	other	1201
-1026653	0	0	0.2	rare_SNV	other	1201
-1026656	0	1.4	0.2	common_SNV	other	1201
-1026664	83.1	76.1	77	common_SNV	other	1201
-1026665	87.3	78.1	77.1	common_SNV	other	1201
-1026668	0	1.5	0.4	common_SNV	other	1201
-1026669	83.1	72.6	74.4	common_SNV	other	1201
-1026725	1	0.4	0.4	common_SNV	other	1201
-1026752	0	0	0.1	common_SNV	other	1201
-1026758	0	0	0.1	common_SNV	other	1201
-1026763	1.1	0	0.2	common_SNV	other	1201
-1026764	0	0	0.2	common_SNV	other	1201
-1026767	0	0	0.2	common_SNV	other	1201
-1026771	0	0	0.1	common_SNV	other	1201
-1026772	0	0	0.1	common_SNV	other	1201
-1026785	0	0	0	rare_SNV	other	1201
-1026833	0	0	0.1	rare_SNV	other	1201
-1026857	0	0.6	0	rare_SNV	other	1201
-1026863	0	0.6	0	rare_SNV	other	1201
-1027287	5.2	1	0	common_SNV	other	1201
-1027298	5.3	1	0.1	common_SNV	other	1201
-1027415	2.9	1.2	0.1	common_SNV	other	1201
-1027430	1.9	1.3	0	common_SNV	other	1201
-1027508	2.4	0.9	0	common_SNV	other	1201
-1027540	2.4	0.4	0.6	common_SNV	other	1201
-1028104	90	85.6	82	common_SNV	other	1201
-1028108	12.5	19.2	19.9	common_SNV	other	1201
-1028112	79	80.3	84.8	common_SNV	other	1201
-1028117	11.1	4.9	0.9	common_SNV	other	1201
-1028133	1.7	1	0	common_SNV	other	1201
-1028334	1	0.3	0	rare_SNV	other	1201
-1028938	4	0.4	0.4	rare_SNV	other	1201
-1028941	3.9	0.6	0.4	rare_SNV	other	1201
-1028950	3.2	0.6	0.4	common_SNV	other	1201
-1028968	3.3	0.6	0.5	common_SNV	other	1201
-1028971	3.3	0.6	0.4	rare_SNV	other	1201
-1028977	2.7	0.6	0.3	rare_SNV	other	1201
-1029001	2	0.6	0.2	rare_SNV	other	1201
-1029097	1.4	0.7	0.1	rare_SNV	other	1201
-1029112	1.5	0.8	0.1	common_SNV	other	1201
-1029118	1.5	0.8	0.1	common_SNV	other	1201
-1029151	2.3	0.5	0.2	common_SNV	other	1201
-1029171	1.6	0.3	0.1	common_SNV	other	1201
-1029181	2.4	0.3	0.1	common_SNV	other	1201
-1029418	5.4	0.7	0	rare_SNV	other	1201
-1029421	5.5	0	0	rare_SNV	other	1201
-1029424	6	0	0.2	rare_SNV	other	1201
-1029430	6.5	0	0	rare_SNV	other	1201
-1029469	13.6	1.5	0.4	common_SNV	other	1201
-1029478	20	2	0.6	common_SNV	other	1201
-1029569	16.7	5	1.8	rare_SNV	other	1201
-1029571	16.7	5	1.8	rare_SNV	other	1201
-1029572	16.7	5	1.8	rare_SNV	other	1201
-1029577	11.1	3.1	0.9	common_SNV	other	1201
-1029580	10.5	3.2	0.9	rare_SNV	other	1201
-1029586	10.5	2.3	0.7	rare_SNV	other	1201
-1029596	6.7	1.4	0.4	rare_SNV	other	1201
-1029607	5.7	0	0.3	common_SNV	other	1201
-1029637	3.5	0	0.2	rare_SNV	other	1201
-1029641	3.6	0	0.2	rare_SNV	other	1201
-1029643	3.3	0	0.4	rare_SNV	other	1201
-1029892	4.1	0.6	0.1	rare_SNV	other	1201
-1030198	1	1	0.2	rare_SNV	other	1201
-1030204	2	0.7	0.2	common_SNV	other	1201
-1030478	2.3	0	0	rare_SNV	other	1201
-1030497	2.4	0.8	0.2	rare_SNV	other	1201
-1030571	3.8	1.3	0.1	rare_SNV	other	1201
-1030591	3.5	1.3	0	rare_SNV	other	1201
-1030662	2.2	0.8	0.3	rare_SNV	other	1201
-1030694	1.6	0.8	0.3	rare_SNV	other	1201
-1030773	0.8	0.8	0.3	rare_SNV	other	1201
-1030783	0.8	0.8	0.3	rare_SNV	other	1201
-1030983	1.7	1	0	common_SNV	other	1201
-1030996	2.4	1.3	0	common_SNV	other	1201
-1031106	3.7	0.3	0.2	common_SNV	other	1201
-1031172	3.9	0.3	0.1	common_SNV	other	1201
-1031174	4	0.3	0.3	common_SNV	other	1201
-1031183	3	0.3	0.3	common_SNV	other	1201
-1031200	4.1	0.9	0	common_SNV	other	1201
-1031210	4	0.6	0	common_SNV	other	1201
-1031256	3.4	0.4	0.4	common_SNV	other	1201
-1031281	4.8	0.4	0.1	common_SNV	other	1201
-1031365	8.3	0	0	rare_SNV	other	1201
-1031368	8.2	0	0	rare_SNV	other	1201
-1031371	8.2	0	0	rare_SNV	other	1201
-1031376	9.3	0	0	rare_SNV	other	1201
-1031378	9.3	0	0	rare_SNV	other	1201
-1031380	7.1	0	0	rare_SNV	other	1201
-1031382	9.3	0	0	rare_SNV	other	1201
-1031386	9.3	0.9	0	rare_SNV	other	1201
-1031394	12.5	1.1	0	common_SNV	other	1201
-1031395	12.5	1.1	0	common_SNV	other	1201
-1031404	9.5	1.3	0	rare_SNV	other	1201
-1031413	6.2	1.7	0	rare_SNV	other	1201
-1031501	5.9	8.3	1	rare_SNV	other	1201
-1031502	5.9	8.8	0.9	rare_SNV	other	1201
-1031520	3.6	5.1	0.5	rare_SNV	other	1201
-1031524	3.3	4.4	0.5	rare_SNV	other	1201
-1031548	2	2.8	0.3	common_SNV	other	1201
-1031566	1.7	2.3	0.3	common_SNV	other	1201
-1031575	3.1	2.2	0.3	common_SNV	other	1201
-1031582	2.9	2	0.2	common_SNV	other	1201
-1031584	2.9	2	0.2	common_SNV	other	1201
-1031585	3.1	2	0.3	common_SNV	other	1201
-1031587	3	2	0.2	common_SNV	other	1201
-1031621	2.2	2.3	0.2	common_SNV	other	1201
-1031650	3.1	1.9	0	common_SNV	other	1201
-1031731	2.7	2	0	common_SNV	other	1201
-1031779	0.9	1.6	0.2	rare_SNV	other	1201
-1031780	1.7	1.6	0	rare_SNV	other	1201
-1031878	6.3	1	0.1	rare_SNV	other	1201
-1031907	6.4	1	0	rare_SNV	other	1201
-1031927	7	1	0.5	rare_SNV	other	1201
-1032263	3.4	1.6	0.1	common_SNV	other	1201
-1032525	1.2	0	0	rare_SNV	other	1201
-1032893	4.8	0.9	0.7	common_SNV	other	1201
-1033617	0	0	0	fixed_SNP	other	1201
-1034168	0	0	0.1	rare_SNV	other	1201
-1034255	1.5	0	0.1	rare_SNV	other	1201
-1034270	2.3	0	0.2	rare_SNV	other	1201
-1034274	1.6	0	0.1	rare_SNV	other	1201
-1034279	2.4	0	0.1	rare_SNV	other	1201
-1034294	2.4	0	0.1	rare_SNV	other	1201
-1034318	0.8	0	0	rare_SNV	other	1201
-1034339	1.7	0	0	rare_SNV	other	1201
-1035302	1.2	0	0	rare_SNV	other	1201
-1035337	0.7	0	0	rare_SNV	other	1201
-1035374	68.6	60.7	55.3	common_SNV	other	1201
-1035377	87.9	88.9	84.3	common_SNV	other	1201
-1039139	2.4	0.5	0.1	common_SNV	other	1201
+Position	R_percent	R_regular	V_percent	V_regular	C_percent	C_regular	SNP	fastGEAR_block	subject_id
+1	50	0	84.6	0	55.8	-8	common_iSNP	other	1201
+2	16.7	-17	7.5	-39	8	-125	other_SNP	other	1201
+3	6.5	-23	23.3	-28	12.6	-163	other_SNP	other	1201
+4	7.9	-54	32.5	-25	39.6	-56	other_SNP	other	1201
+5	100	0	62.5	-8	100	0	other_SNP	other	1201
+7124	8.2	0	0	0	0.8	0	rare_iSNP	other	1201
+7259	0	0	0	0	0	0	common_iSNP	other	1201
+7443	0	0	0	0	0	0	common_iSNP	other	1201
+7576	0	0	0	0	0	0	common_iSNP	other	1201
+8460	2.3	0	0.5	0	0	0	rare_iSNP	other	1201
+8604	0	0	0	0	0	0	other_SNP	other	1201
+14089	1.7	0	0.9	0	0.6	0	common_iSNP	other	1201
+15176	2.4	0	0.8	0	0.5	0	rare_iSNP	other	1201
+23929	0	0	0	0	0	0	rare_iSNP	other	1201
+25482	2.2	0	1.1	0	0.1	0	common_iSNP	other	1201
+29801	0	0	0	0	0	0	rare_iSNP	other	1201
+29853	4.4	0	0.4	0	0.4	0	rare_iSNP	other	1201
+30572	0	0	0	0	0	0	other_SNP	other	1201
+35608	0	0	0	0	0	0	rare_iSNP	other	1201
+38797	1.2	0	0.5	0	0.2	0	common_iSNP	other	1201
+41528	0	0	0	0	0	0	other_SNP	other	1201
+42972	1.9	0	0	0	0.2	0	rare_iSNP	other	1201
+43009	1.9	0	0	0	0.4	0	rare_iSNP	other	1201
+44405	1.2	0	0.4	0	0.2	0	rare_iSNP	other	1201
+44918	1.7	0	0.6	0	1.4	0	rare_iSNP	other	1201
+45918	89.6	-7	100	0	100	0	other_SNP	other	1201
+48620	85	-12	96.5	-6	99.8	0	other_SNP	other	1201
+48967	1.5	0	0.5	0	0.1	0	rare_iSNP	other	1201
+49410	3.7	0	0.4	0	0.5	0	rare_iSNP	other	1201
+53922	89.7	0	99.5	0	99.3	0	common_iSNP	other	1201
+54162	80	0	91.7	0	100	0	rare_iSNP	other	1201
+54177	100	0	100	0	87.5	0	other_SNP	other	1201
+54181	43.8	-9	100	0	22.6	-24	other_SNP	other	1201
+54266	100	0	85.7	0	92.3	-3	rare_iSNP	other	1201
+54267	63.6	-4	38.7	-18	38.9	-110	rare_iSNP	other	1201
+54269	25	-13	20	-6	21.5	-4	other_SNP	other	1201
+54277	12.5	0	2	0	3.1	0	common_iSNP	other	1201
+54281	11.1	0	0	0	2.9	0	common_iSNP	other	1201
+54289	8.3	0	0	0	2.3	0	common_iSNP	other	1201
+54298	7.7	0	0	0	1.9	0	common_iSNP	other	1201
+54367	6.8	0	2.7	0	1.1	0	common_iSNP	other	1201
+54430	11.5	0	2	0	0.6	0	common_iSNP	other	1201
+54431	0	0	0	0	0	0	other_SNP	other	1201
+54432	0	0	0	0	0	0	other_SNP	other	1201
+54445	11.8	0	2	0	0.8	0	common_iSNP	other	1201
+54453	65.8	-27	58.1	-111	61.1	-318	other_SNP	other	1201
+54455	65.2	-8	78.9	-8	71.2	-42	other_SNP	other	1201
+54456	73.3	-4	44.6	-31	42.5	-104	other_SNP	other	1201
+54457	88.9	-1	41.7	-21	44.2	-58	other_SNP	other	1201
+54459	91.7	0	77.8	0	72.1	0	common_iSNP	other	1201
+54460	100	0	80	-3	100	0	other_SNP	other	1201
+54461	42.1	-11	41.7	-14	24	-92	other_SNP	other	1201
+54470	63.6	0	28.9	-21	29.1	-27	rare_iSNP	other	1201
+54484	11.9	0	1.2	0	0.8	0	common_iSNP	other	1201
+54496	3.3	0	0	0	1	0	rare_iSNP	other	1201
+54514	10.7	0	1.5	0	1.1	0	common_iSNP	other	1201
+54562	2.6	0	0	0	0.9	0	other_SNP	other	1201
+54569	0	0	0	0	0	0	other_SNP	other	1201
+54605	10.3	0	0	0	0.9	0	common_iSNP	other	1201
+54606	13.8	0	0	0	0.9	0	common_iSNP	other	1201
+54607	9.7	0	0	0	0.9	0	rare_iSNP	other	1201
+54614	7.4	0	0	0	1	0	rare_iSNP	other	1201
+54622	15.8	0	0	0	2.4	0	rare_iSNP	other	1201
+54625	21.4	0	0	0	3.1	0	rare_iSNP	other	1201
+54628	18.2	0	0	0	2.2	0	rare_iSNP	other	1201
+54691	73.3	0	100	0	99.2	0	common_iSNP	other	1201
+54706	10.5	0	1.4	0	2.1	0	rare_iSNP	other	1201
+54707	10.5	0	1.4	0	2.1	0	rare_iSNP	other	1201
+54712	10	0	1.3	0	1.8	0	rare_iSNP	other	1201
+54716	9.1	0	1.2	0	1.6	0	rare_iSNP	other	1201
+54718	8.7	0	1.1	0	1.6	0	rare_iSNP	other	1201
+54721	8.3	0	1	0	1.4	0	rare_iSNP	other	1201
+54724	8.3	0	0.9	0	1.3	0	rare_iSNP	other	1201
+54742	2.9	0	0.7	0	1	0	common_iSNP	other	1201
+54801	1.3	0	0	0	0.3	0	other_SNP	other	1201
+54814	1.1	0	0	0	0.1	0	other_SNP	other	1201
+54835	1.1	1	0	0	0.4	4	other_SNP	other	1201
+54836	1.1	1	0	0	0.4	4	other_SNP	other	1201
+54838	1.1	0	0	0	0.3	0	other_SNP	other	1201
+54952	10.5	-1044	9.4	-3420	9.1	-10436	other_SNP	other	1201
+54960	80.6	-5	90.3	0	89.4	16	other_SNP	other	1201
+54962	94.4	3	90.2	5	88	30	other_SNP	other	1201
+54963	92.9	3	82.4	9	70	43	other_SNP	other	1201
+54964	85.7	3	25	10	15.2	31	other_SNP	other	1201
+55047	0	0	0	0	0	0	other_SNP	other	1201
+55099	0	0	0	0	0	0	other_SNP	other	1201
+55237	4.8	0	0.9	0	0.2	0	common_iSNP	other	1201
+55240	4.8	0	0.9	0	0.2	0	common_iSNP	other	1201
+55246	2.9	0	1.3	0	0.3	0	common_iSNP	other	1201
+55249	83.3	-6	89.3	-9	93.3	-24	other_SNP	other	1201
+55250	8.3	0	3.1	0	0.4	0	common_iSNP	other	1201
+55252	4.3	0	1.6	0	0.7	0	common_iSNP	other	1201
+55253	4.3	0	1.6	0	0.7	0	common_iSNP	other	1201
+55256	8.3	0	3.1	0	1.7	0	common_iSNP	other	1201
+55259	8.3	0	1.6	0	0.4	0	common_iSNP	other	1201
+55260	8.3	0	1.6	0	0.4	0	common_iSNP	other	1201
+55269	10	0	1.9	0	0.4	0	common_iSNP	other	1201
+55285	7.1	0	2.5	0	0.8	0	rare_iSNP	other	1201
+55527	0	0	0	0	0.8	-2	other_SNP	other	1201
+55529	100	0	86.4	-6	97.7	-3	other_SNP	other	1201
+55531	16	-42	15.3	-216	14.7	-750	other_SNP	other	1201
+55564	0	0	0	0	0	0	other_SNP	other	1201
+55573	0	0	0	0	0	0	other_SNP	other	1201
+55590	0	0	0	0	0	0	other_SNP	other	1201
+55697	0	0	0	0	0	0	other_SNP	other	1201
+55707	0	0	0	0	0	0	other_SNP	other	1201
+55726	0	0	0	0	0	0	other_SNP	other	1201
+55727	0	0	0	0	0	0	other_SNP	other	1201
+55750	8.3	0	6.2	0	3	0	common_iSNP	other	1201
+55755	0	0	0	0	0	0	other_SNP	other	1201
+55758	100	0	87.5	-4	74.4	-32	other_SNP	other	1201
+56181	0	0	0	0	0	0	other_SNP	other	1201
+56184	0	0	0	0	0	0	other_SNP	other	1201
+56214	0	0	0	0	0	0	other_SNP	other	1201
+56217	0	0	0	0	0	0	other_SNP	other	1201
+56232	88.9	0	100	0	99.6	0	common_iSNP	other	1201
+56259	0	0	0	0	0	0	other_SNP	other	1201
+56282	0	0	0	0	0	0	other_SNP	other	1201
+56285	0	0	0	0	0.4	0	other_SNP	other	1201
+56287	0	0	0	0	0	0	other_SNP	other	1201
+56303	0	0	0	0	0	1	other_SNP	other	1201
+56474	73.2	-11	100	0	100	0	other_SNP	other	1201
+56476	0	0	0	0	0	0	other_SNP	other	1201
+56479	13	-60	9.6	-216	9.7	-840	other_SNP	other	1201
+56491	16.7	1	12.5	7	5.7	18	other_SNP	other	1201
+56508	15.1	-258	15.1	-680	15.7	-2754	other_SNP	other	1201
+56511	0	3	0	11	2.8	21	rare_iSNP	other	1201
+56514	0	3	0	13	1.2	30	other_SNP	other	1201
+56673	4.3	0	2.8	0	0	0	rare_iSNP	other	1201
+56682	4.2	0	2.4	0	0	0	rare_iSNP	other	1201
+56691	58.2	-64	55.8	-169	55.7	-802	other_SNP	other	1201
+56693	80	0	86.1	0	84.5	0	common_iSNP	other	1201
+56694	44.8	-67	47.2	-173	45.4	-829	other_SNP	other	1201
+56695	16.7	64	17.6	169	0.6	800	other_SNP	other	1201
+56700	4.6	0	3.5	0	0.1	0	rare_iSNP	other	1201
+56702	62.6	-46	57	-136	57	-630	other_SNP	other	1201
+56703	17.4	-3	16.7	-3	0	-45	other_SNP	other	1201
+56705	85	-3	100	0	93.9	-8	other_SNP	other	1201
+56706	23.5	1	24.1	-2	0.9	2	rare_iSNP	other	1201
+56707	41.2	0	42.1	-6	22	3	common_iSNP	other	1201
+56708	36.8	-3	39.5	-6	26.5	-20	other_SNP	other	1201
+56709	28.6	2	27.3	5	0	19	other_SNP	other	1201
+56711	42.9	-2	33.3	5	17.7	-10	rare_iSNP	other	1201
+56718	3.8	0	2.2	0	0	0	rare_iSNP	other	1201
+56730	3.7	0	1.8	0	0	0	rare_iSNP	other	1201
+56742	3.7	0	1.7	0	0.1	0	rare_iSNP	other	1201
+56756	3.8	0	2.9	0	0.1	0	rare_iSNP	other	1201
+56834	4.2	0	3.5	0	0.1	0	rare_iSNP	other	1201
+56842	3.4	0	3.9	0	0.2	0	rare_iSNP	other	1201
+56851	57.1	-67	56.7	-171	56	-851	other_SNP	other	1201
+56853	83.7	0	87.3	0	86.3	0	common_iSNP	other	1201
+56854	47.7	-69	48	-180	47	-879	other_SNP	other	1201
+56855	16.7	68	21.4	174	0.6	854	other_SNP	other	1201
+56864	5.7	0	7.1	0	2.1	-1	common_iSNP	other	1201
+56865	3.5	0	4.4	0	0.2	2	rare_iSNP	other	1201
+56922	80.4	-30	94.3	-15	90.5	-126	other_SNP	other	1201
+56923	10.1	0	6.6	0	3	0	common_iSNP	other	1201
+56928	4.6	2	3.2	6	0.2	10	rare_iSNP	other	1201
+56929	4.5	2	3.2	6	0.2	10	rare_iSNP	other	1201
+56930	4.6	2	3.2	6	0.2	10	rare_iSNP	other	1201
+56936	4.6	0	3	0	0.2	0	rare_iSNP	other	1201
+56945	41.4	-153	38.2	-384	39	-1903	other_SNP	other	1201
+56946	33.3	-2	46.2	-2	4.3	-20	other_SNP	other	1201
+56949	84.6	-2	71.8	-11	68.5	-32	other_SNP	other	1201
+56950	66.7	-2	69.2	-2	12	-2	rare_iSNP	other	1201
+56952	55.6	0	50	0	15.4	-1	rare_iSNP	other	1201
+56967	3.8	0	2.8	0	0.1	0	rare_iSNP	other	1201
+57127	0.8	0	0.6	1	0	0	common_iSNP	other	1201
+57135	0.8	0	0.6	0	0.1	0	common_iSNP	other	1201
+57150	0.9	0	0.6	0	0	0	common_iSNP	other	1201
+57156	0	0	0	0	0	0	rare_iSNP	other	1201
+57180	0.9	0	0.6	0	0	0	rare_iSNP	other	1201
+57391	12.5	-774	11.8	-2376	11.6	-9837	other_SNP	other	1201
+57397	67.9	-8	50	-33	48.9	-110	other_SNP	other	1201
+57736	0.7	0	0	0	0.1	0	rare_iSNP	fastGEAR_block	1201
+57740	0	0	0	0	0.1	0	rare_iSNP	fastGEAR_block	1201
+57748	0	0	0	0	0.2	0	rare_iSNP	fastGEAR_block	1201
+57749	0	0	0	0	0.2	-5	rare_iSNP	fastGEAR_block	1201
+57754	0	0	0.4	-4	0.4	-10	rare_iSNP	fastGEAR_block	1201
+57762	0	0	0	0	0.2	0	rare_iSNP	fastGEAR_block	1201
+57765	0	0	0	0	0.1	0	rare_iSNP	fastGEAR_block	1201
+57771	0	0	0	0	0.1	-6	rare_iSNP	fastGEAR_block	1201
+57774	0	0	0	0	0.1	0	rare_iSNP	fastGEAR_block	1201
+58319	4.2	0	1	0	0.7	0	common_iSNP	fastGEAR_block	1201
+58327	5.1	0	1.3	0	1	0	common_iSNP	fastGEAR_block	1201
+58329	5	0	1.3	0	1	0	common_iSNP	fastGEAR_block	1201
+58338	6.9	0	1.7	0	1.4	0	common_iSNP	fastGEAR_block	1201
+58339	6.9	0	1.8	0	1.4	0	common_iSNP	fastGEAR_block	1201
+58340	7.1	0	1.7	0	1.4	0	common_iSNP	fastGEAR_block	1201
+58348	8.7	0	2.1	0	1.8	0	rare_iSNP	fastGEAR_block	1201
+58350	8.7	0	2	0	1.7	0	rare_iSNP	fastGEAR_block	1201
+58354	10	0	2.4	0	2	0	common_iSNP	fastGEAR_block	1201
+58359	70.6	-5	34.8	-30	36	-130	other_SNP	fastGEAR_block	1201
+58428	100	0	90	0	100	0	other_SNP	fastGEAR_block	1201
+58442	12.5	0	10	0	5.6	0	rare_iSNP	fastGEAR_block	1201
+58444	12.5	0	10	0	5.7	0	rare_iSNP	fastGEAR_block	1201
+58468	14.3	0	10	0	5.5	0	common_iSNP	fastGEAR_block	1201
+58477	12.5	0	10	0	5.3	0	common_iSNP	fastGEAR_block	1201
+58480	12.5	0	10	0	5.3	0	common_iSNP	fastGEAR_block	1201
+58485	14.3	0	10	0	5.5	0	common_iSNP	fastGEAR_block	1201
+58486	12.5	0	10	0	5.4	0	common_iSNP	fastGEAR_block	1201
+58488	14.3	0	10	0	5.3	0	rare_iSNP	fastGEAR_block	1201
+58498	14.3	0	10	0	3.6	0	rare_iSNP	other	1201
+58500	16.7	0	10	0	3.6	0	common_iSNP	other	1201
+58503	14.3	0	10	0	3.6	0	common_iSNP	other	1201
+58509	14.3	0	10	0	3.6	0	common_iSNP	other	1201
+58515	87.5	0	90	0	96.3	0	rare_iSNP	other	1201
+58525	12.5	0	18.2	0	3.8	0	common_iSNP	other	1201
+58546	0	0	20	0	6.1	0	rare_iSNP	other	1201
+58636	0	0	3.8	0	0.6	0	common_iSNP	other	1201
+58664	0	0	2.6	0	0.4	0	common_iSNP	other	1201
+58666	0	0	2.6	0	0.4	0	common_iSNP	other	1201
+58864	0	0	0.8	0	0	0	rare_iSNP	other	1201
+59117	0	0	0	0	0	0	other_SNP	other	1201
+59391	3	0	1	0	0.1	0	rare_iSNP	other	1201
+59499	3.2	0	1.8	0	0.5	0	rare_iSNP	other	1201
+62371	82.9	-24	93.5	-24	99.1	-12	other_SNP	other	1201
+62559	6	0	0.8	0	0.2	0	common_iSNP	other	1201
+62939	1.2	0	1	0	0.4	0	common_iSNP	other	1201
+63306	0	0	0	0	0.1	0	other_SNP	other	1201
+65206	1.4	0	1.1	0	0.2	0	rare_iSNP	other	1201
+65211	2.7	0	1.2	0	0.3	0	rare_iSNP	other	1201
+65365	0	0	0	0	0	0	other_SNP	other	1201
+66255	1.4	0	0	0	0.2	0	common_iSNP	other	1201
+67549	1.1	0	1.5	0	0	0	common_iSNP	other	1201
+67608	0	0	0	0	0	0	other_SNP	other	1201
+67826	89.7	-12	100	0	100	0	other_SNP	other	1201
+68326	2.2	0	0.4	0	0.4	0	common_iSNP	other	1201
+68520	0	0	0	0	0.2	0	other_SNP	other	1201
+68528	1.3	0	1.5	0	0.3	0	common_iSNP	other	1201
+71100	0	0	0	0	0.5	0	rare_iSNP	other	1201
+71307	2.4	0	1.3	0	0	0	rare_iSNP	other	1201
+72210	1.2	0	1.3	0	0.2	0	rare_iSNP	other	1201
+72311	0	0	0	0	0	0	rare_iSNP	other	1201
+72510	1.3	0	0.5	0	0.2	0	rare_iSNP	other	1201
+73416	0	0	0.5	0	0.4	0	rare_iSNP	other	1201
+75632	2.2	0	0.4	0	0.2	0	rare_iSNP	other	1201
+79833	0	0	0.9	0	0.4	0	rare_iSNP	other	1201
+87159	0	0	0.4	0	0.3	0	rare_iSNP	other	1201
+87518	2.6	0	0	0	0.2	0	rare_iSNP	other	1201
+87990	0	0	1.2	0	0	0	rare_iSNP	other	1201
+92354	0	0	0	0	0	0	rare_iSNP	other	1201
+93188	1.1	0	0	0	0	0	rare_iSNP	other	1201
+93321	5.3	0	0.9	0	0.1	0	rare_iSNP	other	1201
+93746	2.3	0	1.3	0	0.5	1	rare_iSNP	other	1201
+93965	0	0	0	0	0	0	rare_iSNP	other	1201
+95908	85.8	-18	97.9	-6	99.4	-6	other_SNP	other	1201
+96443	1.7	0	0.5	0	0.1	0	rare_iSNP	other	1201
+99416	0	0	0	0	0	0	other_SNP	other	1201
+100061	1.5	0	0.6	0	0.2	0	rare_iSNP	other	1201
+100213	0	0	0.5	0	0.1	0	rare_iSNP	other	1201
+100360	4.1	0	0.4	0	0.1	0	rare_iSNP	other	1201
+101219	51	-77	51	-244	51.1	-918	other_SNP	other	1201
+101561	3.5	0	0.7	0	0.1	0	rare_iSNP	other	1201
+101708	1.1	0	0.4	0	0	0	rare_iSNP	other	1201
+102020	0	0	0.5	0	0.2	0	rare_iSNP	other	1201
+102491	0	0	0.4	0	0.4	0	common_iSNP	other	1201
+103123	0	0	0.5	0	0.1	0	common_iSNP	other	1201
+103622	0	0	0.5	0	0	0	common_iSNP	other	1201
+106047	5.1	0	2.1	0	0.6	0	rare_iSNP	other	1201
+106392	2.2	0	0	0	0	0	common_iSNP	other	1201
+109175	0	0	0	0	0.1	0	other_SNP	other	1201
+110667	1.3	0	1.5	0	0.4	0	common_iSNP	other	1201
+112086	0	0	0.5	0	0.2	0	common_iSNP	other	1201
+112114	0	0	1	0	0.2	0	common_iSNP	other	1201
+112440	0	0	0	0	0	0	common_iSNP	other	1201
+112576	2.1	0	1.3	0	0	0	common_iSNP	other	1201
+113431	0	0	0	0	0.2	0	other_SNP	other	1201
+114254	2.9	0	0.7	0	1.1	0	common_iSNP	other	1201
+114454	0	0	0	0	0.3	0	other_SNP	other	1201
+115012	2.2	0	1.1	0	0.2	0	common_iSNP	other	1201
+115569	1	0	1	0	0.3	0	common_iSNP	other	1201
+115570	1	0	1	0	0	0	common_iSNP	other	1201
+116275	1.2	0	1.2	0	0	0	rare_iSNP	other	1201
+117560	52	-71	50.8	-175	51.3	-278	other_SNP	other	1201
+120761	1.1	0	1.4	0	0.2	0	common_iSNP	other	1201
+121191	0.6	0	0	0	0.8	0	other_SNP	other	1201
+121746	0	0	0	0	1	0	other_SNP	other	1201
+121755	1.2	0	0	0	1.5	0	other_SNP	other	1201
+124272	0	0	0	0	0.2	0	other_SNP	other	1201
+124638	0	0	2	0	0.9	0	common_iSNP	other	1201
+124874	2.3	0	1.3	0	0.6	0	common_iSNP	other	1201
+125482	3	0	0	0	0.7	0	common_iSNP	other	1201
+126720	3.3	0	0.4	0	0.4	0	common_iSNP	other	1201
+127104	0	0	0.4	0	0.7	0	common_iSNP	other	1201
+127406	3.3	0	0	0	1	0	common_iSNP	other	1201
+128071	0	0	0.4	0	0.3	0	common_iSNP	other	1201
+128109	0	0	0	0	0.3	0	common_iSNP	other	1201
+128200	0	0	0	0	0	1	common_iSNP	other	1201
+128830	0	0	1	0	0.9	0	rare_iSNP	other	1201
+129293	1.2	0	1.4	0	0.8	0	common_iSNP	other	1201
+129435	2.9	0	0.8	0	0.3	0	common_iSNP	other	1201
+129808	1.4	0	0.5	0	0	0	common_iSNP	other	1201
+129917	1.5	0	0	0	0	0	common_iSNP	other	1201
+130044	0	0	0	0	0	0	common_iSNP	other	1201
+130344	2.7	0	1.5	0	1.1	0	common_iSNP	other	1201
+130426	2.9	0	0.5	0	0.3	0	common_iSNP	other	1201
+132308	1.4	0	0	0	0.5	0	rare_iSNP	other	1201
+132440	0	0	0	0	0.3	0	common_iSNP	other	1201
+133160	1.1	0	0.4	0	0.2	1	rare_iSNP	other	1201
+133427	4.8	0	0	0	1	0	common_iSNP	other	1201
+133629	1.6	0	0	0	0	0	rare_iSNP	other	1201
+133826	4.5	0	0	0	0.2	0	common_iSNP	other	1201
+134692	0	0	1.2	0	0.3	0	rare_iSNP	other	1201
+134916	1.5	0	0	0	0.2	0	rare_iSNP	other	1201
+134941	1.6	0	0	0	0.2	0	common_iSNP	other	1201
+135140	1.3	0	0.4	0	0.2	0	common_iSNP	other	1201
+135480	1.7	0	0.8	0	0.8	0	common_iSNP	other	1201
+135490	1.6	0	0.8	0	0.9	0	common_iSNP	other	1201
+135780	2.8	0	0.6	0	0.2	0	common_iSNP	other	1201
+135819	2.6	0	0.3	0	0.5	-2	common_iSNP	other	1201
+135905	0.8	0	0.2	0	0.2	0	rare_iSNP	other	1201
+137712	1.2	0	0.4	0	0.3	0	common_iSNP	other	1201
+138085	2.9	0	0.5	0	0.2	0	common_iSNP	other	1201
+138975	1.7	0	0	0	0	0	common_iSNP	other	1201
+139937	5.1	0	0.8	0	0.2	0	rare_iSNP	other	1201
+140118	4.1	0	0.9	0	0.1	0	common_iSNP	other	1201
+140428	0	0	0	0	0	0	common_iSNP	other	1201
+140879	2.7	0	1.8	0	0.2	0	common_iSNP	other	1201
+141352	0	0	0	0	0	0	common_iSNP	other	1201
+142845	0	0	0.4	0	0.7	0	common_iSNP	other	1201
+143324	0	0	0	0	0	0	common_iSNP	other	1201
+144248	2.4	0	0.7	0	0.6	0	common_iSNP	other	1201
+144285	2.2	0	0.6	0	0.2	0	rare_iSNP	other	1201
+145526	0	0	0	0	0.2	1	rare_iSNP	other	1201
+150939	1.2	0	0	0	0	0	rare_iSNP	other	1201
+151252	1.6	0	0.5	0	0.3	0	rare_iSNP	other	1201
+153923	2.5	0	0.5	0	0.3	0	rare_iSNP	other	1201
+154613	0	0	0	0	0	0	rare_iSNP	other	1201
+155083	1	0	0.5	0	0.1	0	common_iSNP	other	1201
+155664	0	0	1.3	0	0	1	rare_iSNP	other	1201
+156711	26.3	-171	26	-519	26.4	-1371	other_SNP	other	1201
+156942	1.6	0	1.1	0	0.5	0	rare_iSNP	other	1201
+157125	1.4	0	0.5	0	0.5	0	common_iSNP	other	1201
+157144	1.2	0	0.4	0	0.7	0	common_iSNP	other	1201
+157521	3.2	0	0.3	0	0.5	3	rare_iSNP	other	1201
+157831	1.2	0	0.8	0	0.1	0	common_iSNP	other	1201
+158027	5.5	0	0	0	0	0	rare_iSNP	other	1201
+158034	5.6	0	0	0	0	0	rare_iSNP	other	1201
+158253	1.6	0	0	0	0	0	rare_iSNP	other	1201
+158642	0	0	1.8	0	0.2	0	rare_iSNP	other	1201
+159363	3.4	0	0.6	0	0.2	0	rare_iSNP	other	1201
+159373	3.3	0	0.6	0	0.6	0	rare_iSNP	other	1201
+159968	0	0	0	0	0.1	0	common_iSNP	other	1201
+160702	0.9	0	0	0	0.4	0	common_iSNP	other	1201
+160732	0.9	0	0.4	0	0.4	0	common_iSNP	other	1201
+160744	0.9	0	0	0	0.5	0	common_iSNP	other	1201
+160777	2.4	0	2.6	0	2.6	0	common_iSNP	other	1201
+160779	2.5	0	1	0	1.3	0	common_iSNP	other	1201
+161044	4.4	0	0.7	0	0.6	0	common_iSNP	other	1201
+161104	1.5	0	1.5	0	0.8	0	common_iSNP	other	1201
+161126	1.8	0	1.7	0	0.8	0	common_iSNP	other	1201
+161171	0	0	0	0	1.7	0	other_SNP	other	1201
+161172	0	0	0	0	1.7	0	other_SNP	other	1201
+161174	0	0	0	0	1.7	0	other_SNP	other	1201
+161180	0	0	0	0	1.4	0	other_SNP	other	1201
+161189	4.2	0	3.6	0	2.1	0	rare_iSNP	other	1201
+161191	0	0	0	0	2.1	0	other_SNP	other	1201
+161194	0	0	2.1	0	2.4	0	other_SNP	other	1201
+161197	0	0	0	0	2.5	0	other_SNP	other	1201
+161201	0	0	0	0	7.8	0	rare_iSNP	other	1201
+161203	0	0	0	0	9.4	0	rare_iSNP	other	1201
+161205	0	0	0	0	9.6	0	rare_iSNP	other	1201
+161210	0	0	0	0	4.7	0	rare_iSNP	other	1201
+161212	0	0	0	0	4.5	0	rare_iSNP	other	1201
+161218	0	0	0	0	5.1	0	rare_iSNP	other	1201
+161227	0	0	1.3	0	3.9	0	other_SNP	other	1201
+161229	0	0	1.2	0	3.8	0	rare_iSNP	other	1201
+161235	0	0	1.1	0	2.9	0	rare_iSNP	other	1201
+161236	0	0	1.1	0	2.9	0	rare_iSNP	other	1201
+161239	0	0	1	0	2.8	2	rare_iSNP	other	1201
+161247	2.2	0	0.8	0	2.1	0	common_iSNP	other	1201
+161272	3.5	0	0.6	0	1.6	0	common_iSNP	other	1201
+161365	4.3	0	1.5	0	0.8	0	common_iSNP	other	1201
+161371	4.2	0	1.1	0	0.7	0	common_iSNP	other	1201
+161380	4.2	0	1.5	0	0.7	0	common_iSNP	other	1201
+161680	1.3	0	0	0	0.2	0	common_iSNP	other	1201
+161715	1.4	0	0	0	0	0	common_iSNP	other	1201
+162249	2	0	0.6	0	0.2	0	common_iSNP	other	1201
+162417	2.5	0	0	0	0.2	1	common_iSNP	other	1201
+162460	1.4	0	0.5	0	0.2	0	other_SNP	other	1201
+162614	1.2	0	1.4	0	0	0	rare_iSNP	other	1201
+163253	0	0	0	0	0.3	0	common_iSNP	other	1201
+163254	0	0	0	0	0.1	0	common_iSNP	other	1201
+164275	2.2	0	0.4	0	0.6	0	common_iSNP	other	1201
+164293	0	0	0.8	0	0.1	0	common_iSNP	other	1201
+164409	2.4	0	0.9	0	0.4	0	common_iSNP	other	1201
+164476	2.8	0	0.5	0	0.5	0	common_iSNP	other	1201
+164527	1.4	0	0.6	0	0.3	0	common_iSNP	other	1201
+164992	2.6	0	0.8	0	0.4	0	other_SNP	other	1201
+165086	2.9	0	1.4	0	0.2	0	rare_iSNP	other	1201
+165674	4.1	0	1.7	0	1.7	0	rare_iSNP	other	1201
+165676	4.1	0	0.8	0	1.2	0	rare_iSNP	other	1201
+165832	3.8	0	0	0	0	0	common_iSNP	other	1201
+166610	1.5	0	0.5	0	0.3	0	common_iSNP	other	1201
+166656	3	0	0	0	0.3	0	common_iSNP	other	1201
+166869	0	0	0.9	0	0.4	0	common_iSNP	other	1201
+166885	0	0	0.9	0	0.3	0	common_iSNP	other	1201
+166983	0	1	0.9	0	0.1	0	common_iSNP	other	1201
+167033	1.2	0	0.5	0	0.4	0	common_iSNP	other	1201
+167181	3.6	0	0.4	0	0	0	common_iSNP	other	1201
+167432	1.2	0	0	0	0.3	0	common_iSNP	other	1201
+167960	4.5	0	0.4	0	0.3	0	rare_iSNP	other	1201
+168577	86.6	-11	100	0	99.8	0	other_SNP	other	1201
+168770	2.5	0	0.5	0	0.4	0	common_iSNP	other	1201
+168965	4.1	0	0.7	0	0.4	0	common_iSNP	other	1201
+169072	3.8	0	1.2	0	0.5	0	rare_iSNP	other	1201
+169291	1.4	0	0.5	0	0.4	0	common_iSNP	other	1201
+169340	4.4	0	0.8	0	0.6	0	common_iSNP	other	1201
+169941	4.8	0	1.4	0	0.2	0	common_iSNP	other	1201
+170531	1.8	0	0.6	0	0.9	0	common_iSNP	other	1201
+171058	1.7	0	0.6	0	0	0	common_iSNP	other	1201
+171430	0	0	0.5	0	0.5	0	rare_iSNP	other	1201
+171973	1.3	0	0.8	0	0.2	0	rare_iSNP	other	1201
+172289	1.3	0	0	0	0	0	common_iSNP	other	1201
+172834	3.6	0	0.7	0	0	0	common_iSNP	other	1201
+173412	4.9	0	0.5	0	0.2	0	common_iSNP	other	1201
+173932	4.5	0	0	0	0.1	0	common_iSNP	other	1201
+174664	1.4	0	1.1	0	0	0	common_iSNP	other	1201
+174759	3	0	0.7	0	0	0	common_iSNP	other	1201
+175248	1.6	0	0	0	0	0	common_iSNP	other	1201
+176680	1.2	0	1.3	0	0.1	0	common_iSNP	other	1201
+176836	3.8	0	1.2	0	0.1	0	common_iSNP	other	1201
+177199	4.8	0	0.8	0	0.2	0	common_iSNP	other	1201
+177856	4.5	0	1.9	0	0.3	0	rare_iSNP	other	1201
+178250	2.6	0	1.3	0	0	0	common_iSNP	other	1201
+178339	2.2	0	0.4	0	0.1	0	common_iSNP	other	1201
+178367	88.2	-12	95.5	-12	99.9	0	other_SNP	other	1201
+178608	4.5	0	0.7	0	0.5	0	common_iSNP	other	1201
+179269	17.5	-580	17.5	-1615	17.5	-6101	other_SNP	other	1201
+179498	0	0	0	0	0	0	other_SNP	other	1201
+179586	0	0	0	0	0.2	0	other_SNP	other	1201
+180165	0	0	0	0	0.2	0	other_SNP	other	1201
+180452	4.6	0	0.5	0	0.2	0	common_iSNP	other	1201
+180476	5.6	0	0.5	0	0.2	0	common_iSNP	other	1201
+181070	2.2	0	0	0	0	0	other_SNP	other	1201
+181406	2.7	0	0.8	0	0.2	0	rare_iSNP	other	1201
+181625	4.6	0	1	0	0.1	0	common_iSNP	other	1201
+181648	5.4	0	0.8	0	0.2	0	common_iSNP	other	1201
+181799	34.9	-82	35.6	-224	44.6	-727	other_SNP	other	1201
+181800	NA	49	40	116	53.7	250	other_SNP	other	1201
+181801	NA	50	NA	128	22.7	420	other_SNP	other	1201
+181853	10.2	-1166	10.8	-3120	10.1	-11928	other_SNP	other	1201
+181856	76.7	-8	92	-6	99.4	19	other_SNP	other	1201
+181859	81.8	-3	100	3	94.5	8	other_SNP	other	1201
+181862	0	3	3.3	7	2.9	6	other_SNP	other	1201
+181865	0	3	3.4	8	1.5	46	other_SNP	other	1201
+181866	85.7	0	48.9	1	62.9	1	common_iSNP	other	1201
+181870	94.4	0	61.1	1	72.4	1	common_iSNP	other	1201
+181872	97.5	0	88.5	1	92.3	1	common_iSNP	other	1201
+181972	0	0	0	0	0	0	rare_iSNP	other	1201
+182050	0	0	0.9	0	0	0	rare_iSNP	other	1201
+182178	0	0	0	0	0	0	rare_iSNP	other	1201
+182319	50.7	-70	51.3	-202	50.9	-1008	other_SNP	other	1201
+182484	0	0	0	0	0.3	0	rare_iSNP	other	1201
+182758	0	0	0	0	0.3	0	rare_iSNP	other	1201
+182897	100	0	100	0	74.4	-156	other_SNP	other	1201
+182900	0	0	0	0	4.4	0	common_iSNP	other	1201
+182901	0	0	0	0	4.5	0	common_iSNP	other	1201
+182905	0	0	0	0	2.7	0	rare_iSNP	other	1201
+182906	50	-9	48.6	-37	51.4	-144	other_SNP	other	1201
+182908	15.5	-49	16.9	-157	15.7	-795	other_SNP	other	1201
+183050	1.5	0	0.5	0	0.2	0	rare_iSNP	other	1201
+183258	3.9	0	0.9	0	0.2	0	rare_iSNP	other	1201
+183260	4	0	1.7	-2	0.5	-2	rare_iSNP	other	1201
+183337	0	0	1.4	0	0	0	rare_iSNP	other	1201
+183373	0	0	0.5	0	0	0	common_iSNP	other	1201
+183446	0	0	1.9	0	0.2	0	common_iSNP	other	1201
+183666	2.2	0	0.5	0	0	0	rare_iSNP	other	1201
+183720	2.6	0	0.4	0	0.2	0	rare_iSNP	other	1201
+183744	2.5	0	0.8	0	0.1	0	rare_iSNP	other	1201
+183877	2.4	0	0	0	0	0	rare_iSNP	other	1201
+183987	3.7	0	1.7	0	0.2	0	rare_iSNP	other	1201
+184024	5.2	0	2.1	0	0.5	0	rare_iSNP	other	1201
+184340	0	0	2.3	0	0.2	1	common_iSNP	other	1201
+184539	1.5	0	1.6	0	0.2	0	rare_iSNP	other	1201
+184993	6	0	1.1	0	0.1	0	common_iSNP	other	1201
+186692	1.4	0	0	0	0.1	0	other_SNP	other	1201
+186746	0	0	0	0	0	0	other_SNP	other	1201
+187724	0	0	0	0	0.1	0	other_SNP	other	1201
+187977	1.2	0	1.4	0	0	0	rare_iSNP	other	1201
+188576	95.2	-3	99.5	-1	86.4	-177	other_SNP	other	1201
+188959	8.2	0	0.6	0	0.2	0	rare_iSNP	other	1201
+189212	0	0	0.6	0	0.1	0	rare_iSNP	other	1201
+190009	0	0	0	0	0.1	0	rare_iSNP	other	1201
+190696	0	0	0	0	0.1	0	rare_iSNP	other	1201
+191882	79.3	-19	100	0	99.9	0	other_SNP	other	1201
+191912	0	0	0	0	0.1	0	other_SNP	other	1201
+195134	2	0	1.7	0	0.1	0	common_iSNP	other	1201
+195220	1.2	0	1	0	0.1	0	rare_iSNP	other	1201
+195225	2.4	0	1.6	0	0.1	0	rare_iSNP	other	1201
+195626	35.1	-174	34.7	-430	36.3	-2214	other_SNP	other	1201
+195627	28.6	21	25	44	8.3	387	other_SNP	other	1201
+196043	0	0	0	0	0	0	rare_iSNP	other	1201
+196254	1.3	0	0	0	0.1	0	other_SNP	other	1201
+196694	0	0	0	0	0	0	other_SNP	other	1201
+196719	0	0	0	0	0	0	rare_iSNP	other	1201
+196731	52.8	-84	52.3	-197	52.7	-802	other_SNP	other	1201
+197030	0	0	0.6	0	0.1	0	rare_iSNP	other	1201
+197462	5.4	0	0.6	0	0	0	common_iSNP	other	1201
+197937	1.5	0	1.4	0	0.3	0	rare_iSNP	other	1201
+198403	0	0	2.1	0	0	0	common_iSNP	other	1201
+198512	3.1	0	2.1	0	0.3	0	other_SNP	other	1201
+199088	1.1	0	0.8	0	0.2	0	rare_iSNP	other	1201
+199866	3.2	0	1.7	0	0.2	0	common_iSNP	other	1201
+199943	2.7	0	1.8	0	0	0	common_iSNP	other	1201
+201697	0	0	0	0	0.2	-9	rare_iSNP	other	1201
+202159	2.9	0	0.9	0	0.1	0	rare_iSNP	other	1201
+202824	1.8	0	0.5	0	0.1	0	rare_iSNP	other	1201
+202845	1.6	0	0.5	0	0.2	-6	rare_iSNP	other	1201
+204213	0	0	0	0	0	0	rare_iSNP	other	1201
+205105	90	-8	100	0	99.9	0	other_SNP	other	1201
+205946	0	0	0.5	0	0	0	rare_iSNP	other	1201
+207427	0	0	0	0	0	0	rare_iSNP	other	1201
+209926	0	0	0	0	0	0	other_SNP	other	1201
+211651	4.4	0	0.8	0	0.1	0	rare_iSNP	other	1201
+215742	9.2	-988	8.7	-3263	8.9	-11789	other_SNP	other	1201
+215744	100	1	81.7	-11	100	0	other_SNP	other	1201
+215748	100	3	94.7	-1	88.8	-15	rare_iSNP	other	1201
+215750	57.1	-9	52.1	-33	53.7	-114	other_SNP	other	1201
+215751	66.7	-3	42.1	-28	42.4	-126	other_SNP	other	1201
+215755	0	3	25	9	9.5	34	other_SNP	other	1201
+215807	52.3	-84	51.6	-294	51.1	-1059	other_SNP	other	1201
+215874	0	0	0	0	0	0	rare_iSNP	other	1201
+215897	0	0	0.4	0	0	0	rare_iSNP	other	1201
+215933	2.2	0	1.9	0	0.1	0	rare_iSNP	other	1201
+215940	0	0	0	0	0	0	rare_iSNP	other	1201
+216387	1.4	0	0.5	0	0.3	0	rare_iSNP	other	1201
+217358	1.4	0	1	0	0.2	0	rare_iSNP	other	1201
+220090	0	0	0	0	0	0	rare_iSNP	other	1201
+222381	1.1	0	0.8	0	0	0	common_iSNP	other	1201
+223515	1.5	0	1.4	0	0.2	0	common_iSNP	other	1201
+224656	2.3	0	0.5	0	0	0	rare_iSNP	other	1201
+224980	0.8	0	1.3	0	0.4	0	rare_iSNP	other	1201
+227663	3.3	0	0	0	0.1	0	common_iSNP	other	1201
+230687	2.8	0	0.4	0	0	0	common_iSNP	other	1201
+231327	0	0	0.9	0	0.3	0	rare_iSNP	other	1201
+233680	0	0	0	0	0.5	0	common_iSNP	other	1201
+234088	0	0	0.6	0	0	0	common_iSNP	other	1201
+237248	0	0	0	0	0	0	other_SNP	other	1201
+238487	2.8	0	1	0	0	0	rare_iSNP	other	1201
+239342	2.2	0	0.4	0	0	0	rare_iSNP	other	1201
+239822	1.3	0	1.3	0	0	0	rare_iSNP	other	1201
+240074	0	0	0.6	0	0.3	0	rare_iSNP	other	1201
+240191	1.3	0	0.5	0	0.2	0	rare_iSNP	other	1201
+240572	5.3	0	0.6	0	0	0	rare_iSNP	other	1201
+241191	4.1	0	0.9	0	0.2	0	rare_iSNP	other	1201
+241461	0	0	0	0	0	0	rare_iSNP	other	1201
+241884	2.8	0	0	0	0.2	0	common_iSNP	other	1201
+242034	0	0	0	0	0.2	0	common_iSNP	other	1201
+246417	2.6	0	1.3	0	0.5	0	rare_iSNP	other	1201
+248739	7.3	0	0.8	0	0.7	0	rare_iSNP	other	1201
+249290	86.1	-15	100	0	100	0	other_SNP	other	1201
+249502	0	0	4.3	0	0	0	rare_iSNP	other	1201
+250193	2.8	0	1.3	0	0.2	0	rare_iSNP	other	1201
+251230	50.4	-118	50.7	-304	50.7	-850	other_SNP	other	1201
+251590	2.1	0	0.8	0	0	0	rare_iSNP	other	1201
+251611	2	0	0.5	0	0	0	rare_iSNP	other	1201
+251740	4.7	0	0.6	0	0.4	0	rare_iSNP	other	1201
+251752	3.6	0	0.6	0	0	0	rare_iSNP	other	1201
+251754	3.6	0	0.6	0	0.1	0	rare_iSNP	other	1201
+251769	5.1	0	0.6	0	0.1	3	rare_iSNP	other	1201
+253013	0	0	1	0	0.7	0	rare_iSNP	other	1201
+253504	1.7	0	0.5	0	0.2	0	rare_iSNP	other	1201
+254123	2	0	0	0	0	0	rare_iSNP	other	1201
+254640	11.2	-539	11.4	-1665	10.9	-4803	other_SNP	other	1201
+254916	1	0	0.7	0	0.1	0	common_iSNP	other	1201
+255079	5.6	0	0.4	0	0.2	0	common_iSNP	other	1201
+257482	0	0	0	0	0	0	other_SNP	other	1201
+258036	85.2	-13	100	0	100	0	other_SNP	other	1201
+261646	83.1	-15	100	0	100	0	other_SNP	other	1201
+271237	1.5	0	2.1	0	0	0	rare_iSNP	other	1201
+271372	2.9	0	1.8	0	0	0	rare_iSNP	other	1201
+272593	81.9	-17	100	0	100	0	other_SNP	other	1201
+272623	0	0	0	0	0.4	0	other_SNP	other	1201
+272938	0	0	0	0	0	0	other_SNP	other	1201
+272971	0	0	0	0	0.5	0	rare_iSNP	other	1201
+273041	1.7	0	0	0	0	0	rare_iSNP	other	1201
+273106	1.4	0	0	0	0	0	common_iSNP	other	1201
+273219	0	0	0	0	0.6	0	rare_iSNP	other	1201
+274024	0	0	0	0	0.6	0	common_iSNP	other	1201
+274532	3.8	0	1.4	0	0.2	0	common_iSNP	other	1201
+274983	0	0	0	0	0	0	rare_iSNP	other	1201
+275397	1.1	0	0.9	0	0.3	0	rare_iSNP	other	1201
+275849	0	0	0	0	0.2	0	rare_iSNP	other	1201
+276484	0	0	0	0	0	0	rare_iSNP	other	1201
+276555	1.1	0	0	0	0	0	rare_iSNP	other	1201
+276591	0	0	0	0	0.2	0	rare_iSNP	other	1201
+276740	1.3	0	0	0	0.6	0	rare_iSNP	other	1201
+280177	1.4	0	1.6	0	0.5	1	rare_iSNP	other	1201
+280261	1.3	0	2.4	0	0.2	0	rare_iSNP	other	1201
+282342	0	0	0	0	0	0	rare_iSNP	other	1201
+283157	0	0	0	0	0	0	rare_iSNP	other	1201
+285941	1.3	0	0.5	0	0.4	0	rare_iSNP	other	1201
+286638	1.3	0	0.5	0	0.5	0	rare_iSNP	other	1201
+286821	0	0	0.8	0	0	0	rare_iSNP	other	1201
+286875	0	0	0.8	0	0	0	rare_iSNP	other	1201
+291807	82.4	-16	100	0	96.8	-8	other_SNP	other	1201
+291809	55.3	-48	51.1	-132	53	-210	other_SNP	other	1201
+291810	61.9	-8	93.1	0	92.2	-7	other_SNP	other	1201
+291811	100	0	95.7	0	82.1	-22	other_SNP	other	1201
+294071	2.7	0	0.5	0	0.6	0	rare_iSNP	other	1201
+294217	0	0	0	0	0.2	0	rare_iSNP	other	1201
+295046	0	0	0	0	0	0	other_SNP	other	1201
+295189	2.3	0	0.4	0	0.3	0	rare_iSNP	other	1201
+301967	85.9	-14	100	0	100	0	other_SNP	other	1201
+307824	84.3	-13	94.2	-13	100	0	other_SNP	other	1201
+309409	0	0	0.4	0	0.2	0	common_iSNP	other	1201
+313555	0	0	0	0	0.1	0	other_SNP	other	1201
+315276	87.6	-11	100	0	100	0	other_SNP	other	1201
+316480	89.4	-7	100	0	100	0	other_SNP	other	1201
+317371	87.8	-12	100	0	100	0	other_SNP	other	1201
+319016	3.8	0	0.5	0	0.4	0	rare_iSNP	other	1201
+321739	50.9	-26	52.8	-58	53.4	-233	other_SNP	other	1201
+323935	79.3	-18	93.3	-18	98.5	-18	other_SNP	other	1201
+324285	90.9	-6	87.8	-24	98	-12	other_SNP	other	1201
+327468	2.6	0	2.6	0	0.5	0	rare_iSNP	other	1201
+333758	90	-6	100	0	100	0	other_SNP	other	1201
+344740	87.4	-11	100	0	100	0	other_SNP	other	1201
+345721	88.4	-10	100	0	100	0	other_SNP	other	1201
+348756	0	0	0	0	0.2	0	rare_iSNP	other	1201
+357790	1.2	0	1	0	0.6	0	rare_iSNP	other	1201
+359077	1.2	0	1	0	0	0	rare_iSNP	other	1201
+362841	5.7	0	0	0	0.4	0	rare_iSNP	other	1201
+366242	88.7	-13	100	0	100	0	other_SNP	other	1201
+367232	54	-92	52.8	-290	50.7	-891	other_SNP	other	1201
+367400	1	0	0.9	0	0	0	rare_iSNP	other	1201
+368005	2.8	0	1.6	0	0	0	rare_iSNP	other	1201
+368378	1.3	0	0.5	0	1	0	other_SNP	other	1201
+369297	89.7	-8	96.6	-8	100	0	other_SNP	other	1201
+370081	6	0	0.5	0	0	0	rare_iSNP	other	1201
+371011	0	0	0	0	0	0	common_iSNP	other	1201
+371727	89.9	-9	100	0	100	0	other_SNP	other	1201
+371734	89.7	-8	99.5	0	100	0	common_iSNP	other	1201
+377053	0	0	0	0	0	0	rare_iSNP	other	1201
+379489	0	0	0	0	0	0	other_SNP	other	1201
+380232	1.8	0	0	0	0.4	-4	other_SNP	other	1201
+380732	0	0	0	0	0	0	rare_iSNP	other	1201
+380817	80.2	-20	100	0	100	0	other_SNP	other	1201
+382514	0	0	0	0	0	0	rare_iSNP	other	1201
+382712	3.4	0	2.1	0	0	0	rare_iSNP	other	1201
+384630	0	0	1.7	0	0	0	rare_iSNP	other	1201
+390793	87.8	-11	100	0	100	0	other_SNP	other	1201
+391614	0	0	0.9	0	0.5	0	rare_iSNP	other	1201
+399639	0	0	0	0	0	0	other_SNP	other	1201
+401362	0	0	1.4	0	0.2	0	rare_iSNP	other	1201
+402759	79.7	-36	92.8	-27	98.5	-27	other_SNP	other	1201
+403784	0	0	0	0	0	0	other_SNP	other	1201
+408295	0	0	1	0	0.1	3	rare_iSNP	other	1201
+416798	0	0	0	0	0	0	other_SNP	other	1201
+416915	0	0	0	0	0	0	rare_iSNP	other	1201
+420822	0	0	0	0	0	0	other_SNP	other	1201
+423913	79.1	-23	100	0	100	0	other_SNP	other	1201
+425295	4.1	0	1.3	0	0.2	0	rare_iSNP	other	1201
+430589	0	0	3	0	0.3	0	rare_iSNP	other	1201
+433161	1.3	0	0.8	0	0.6	0	rare_iSNP	other	1201
+433729	0	0	0	0	0	0	other_SNP	other	1201
+436291	73.8	-16	100	0	100	0	other_SNP	other	1201
+447634	88.5	-9	100	0	100	0	other_SNP	other	1201
+448034	0	0	0	0	0	0	other_SNP	other	1201
+449548	3.4	0	1	0	0.4	0	rare_iSNP	other	1201
+450477	0	0	0	0	0	0	other_SNP	other	1201
+457269	0	0	0	0	0.3	0	common_iSNP	other	1201
+462304	0	0	0	0	0	0	rare_iSNP	other	1201
+462309	0	0	0	0	0	0	other_SNP	other	1201
+463156	1.2	0	1.3	0	0.4	0	rare_iSNP	other	1201
+463648	3.6	0	0.5	0	0.6	0	rare_iSNP	other	1201
+468145	4.2	0	0	0	0	0	common_iSNP	other	1201
+473363	2.5	0	0	0	0.2	0	common_iSNP	other	1201
+474689	0	0	0	0	0	0	rare_iSNP	other	1201
+474713	1.5	0	0.5	0	0.3	0	rare_iSNP	other	1201
+474746	0	0	0	0	0	0	rare_iSNP	other	1201
+474859	0	0	0	0	0	0	other_SNP	other	1201
+475249	0	0	1.1	0	0.3	0	rare_iSNP	other	1201
+475853	2.9	0	0	0	0.2	0	rare_iSNP	other	1201
+476198	0	0	0	0	0	0	rare_iSNP	other	1201
+476295	0	0	0	0	0.2	0	rare_iSNP	other	1201
+476610	3.5	0	1.5	0	0.4	0	common_iSNP	other	1201
+476812	0	0	0.8	0	0	0	rare_iSNP	other	1201
+477603	1	0	1.9	0	0	0	rare_iSNP	other	1201
+477868	0	0	0	0	0	0	rare_iSNP	other	1201
+477884	0	0	1.4	0	0	0	rare_iSNP	other	1201
+477920	0	0	1.5	0	0	0	rare_iSNP	other	1201
+478086	0	0	0.8	0	0	0	rare_iSNP	other	1201
+478135	0	0	0	0	0	0	rare_iSNP	other	1201
+479204	0	0	0	0	0	0	other_SNP	other	1201
+479882	0	0	0	0	0.2	0	other_SNP	other	1201
+482564	0	0	0	0	0	0	other_SNP	other	1201
+489006	0	0	0	0	0	0	other_SNP	other	1201
+491074	51.2	-63	51.1	-161	51.1	-495	other_SNP	other	1201
+492206	1.2	0	0.4	0	0.3	0	rare_iSNP	other	1201
+492867	0	0	0	0	0	0	rare_iSNP	other	1201
+493335	0	0	0	0	0	0	rare_iSNP	other	1201
+493396	3.3	0	0	0	0.3	0	rare_iSNP	other	1201
+496850	2.5	0	1.7	0	0.5	0	rare_iSNP	other	1201
+503852	4.2	0	2.1	0	0.6	0	rare_iSNP	other	1201
+505086	86.2	-12	98.8	-3	100	0	other_SNP	other	1201
+506259	2.1	0	1.4	0	0.4	0	rare_iSNP	other	1201
+511727	85.9	-19	98	-6	99.1	-6	other_SNP	other	1201
+514217	88.9	0	100	0	100	0	other_SNP	other	1201
+514302	81.2	-6	100	0	93.8	-6	other_SNP	other	1201
+514506	0	0	0	0	0	0	other_SNP	other	1201
+515836	1.3	0	1.6	0	0.3	0	other_SNP	other	1201
+517109	0	0	0	0	0	0	other_SNP	other	1201
+524290	60	-40	100	0	100	0	other_SNP	other	1201
+526864	0	0	0.8	0	0.1	0	rare_iSNP	other	1201
+528709	0	0	0	0	0	0	other_SNP	other	1201
+530824	0	0	0	0	0	0	other_SNP	other	1201
+531131	0	0	0	0	0	0	rare_iSNP	other	1201
+531416	85.3	-24	100	0	99.8	0	other_SNP	other	1201
+531462	0	0	0	0	0	0	rare_iSNP	other	1201
+531471	73.5	-45	76	-105	72.8	-363	other_SNP	other	1201
+531621	41.8	-435	40.8	-1224	40.7	-3840	other_SNP	other	1201
+531767	73.8	0	80	0	79	0	common_iSNP	other	1201
+532923	0	0	0.3	0	0	0	rare_iSNP	other	1201
+535809	3.1	0	0.8	0	0.1	0	rare_iSNP	other	1201
+536085	100	0	88.7	0	72.7	0	rare_iSNP	other	1201
+539622	0	0	0.4	0	0	0	rare_iSNP	other	1201
+541219	90	0	89.5	0	98.3	0	rare_iSNP	other	1201
+541221	23.1	-2	33.3	-2	4.9	-2	other_SNP	other	1201
+545919	85.7	-11	100	0	100	0	other_SNP	other	1201
+546091	0	0	0	0	0	0	rare_iSNP	other	1201
+549408	1.4	0	0.8	0	0	0	other_SNP	other	1201
+556681	0	0	0	0	0	0	other_SNP	other	1201
+569980	0	0	0	0	0.2	0	rare_iSNP	other	1201
+571357	3	0	0.4	0	0	0	common_iSNP	other	1201
+573251	0.9	0	1.5	0	0.1	0	rare_iSNP	other	1201
+575881	0	0	0	0	0	0	rare_iSNP	other	1201
+576659	79.4	-13	100	0	99.6	0	other_SNP	other	1201
+579578	0	0	0	0	0	0	other_SNP	other	1201
+582745	83.8	-22	100	0	99.9	0	other_SNP	other	1201
+588168	0	0	0	0	0	0	other_SNP	other	1201
+588263	1.1	0	0.4	0	0	0	other_SNP	other	1201
+592465	74.8	-30	87.9	-45	98.6	-15	other_SNP	other	1201
+592567	0	0	0.4	0	0.1	0	rare_iSNP	other	1201
+592850	0	0	1.1	0	0	0	rare_iSNP	other	1201
+595274	0	0	0.5	0	0	0	rare_iSNP	other	1201
+595747	1	0	0.4	0	0.7	0	rare_iSNP	other	1201
+595927	0	0	0	0	0	0	rare_iSNP	other	1201
+596697	2.4	0	1.1	0	0	0	common_iSNP	other	1201
+596726	51.5	-83	50.9	-186	50.3	-364	other_SNP	other	1201
+597258	3.6	0	0.5	0	0.4	0	rare_iSNP	other	1201
+597651	1.5	0	0.5	0	0.4	0	rare_iSNP	other	1201
+597722	0	0	0	0	0.2	0	rare_iSNP	other	1201
+600987	86.7	-13	85.2	-39	88	-54	other_SNP	other	1201
+601297	0	0	0.4	0	0	0	rare_iSNP	other	1201
+602109	0	0	0	0	0	0	rare_iSNP	other	1201
+602143	0	0	0	0	0	0	rare_iSNP	other	1201
+602689	0	0	0	0	0	0	rare_iSNP	other	1201
+603438	3.5	0	0.9	0	0.2	0	rare_iSNP	other	1201
+603727	0	0	0	0	0	0	rare_iSNP	other	1201
+603828	1.9	0	0.5	0	0.1	0	rare_iSNP	other	1201
+604431	0	0	0.5	0	0.4	0	rare_iSNP	other	1201
+604784	2.3	0	0.8	0	0.5	0	common_iSNP	other	1201
+606483	0	0	2	0	1	0	rare_iSNP	other	1201
+606982	4.5	0	2	0	0.4	0	rare_iSNP	other	1201
+607829	3.7	0	0.5	0	0.2	0	rare_iSNP	other	1201
+607937	83.3	-15	100	0	100	0	other_SNP	other	1201
+611268	2.1	0	0.4	0	0.4	0	rare_iSNP	other	1201
+611748	0	0	0	0	0	0	rare_iSNP	other	1201
+612213	0	0	0.4	0	0	0	rare_iSNP	other	1201
+613094	2.6	0	0.9	0	0.2	-2	rare_iSNP	other	1201
+613106	0	0	0	0	0	0	rare_iSNP	other	1201
+614140	0.8	0	0.4	0	0	0	common_iSNP	other	1201
+614372	1.2	0	0.5	0	0	0	rare_iSNP	other	1201
+615046	0	0	0	0	0	0	rare_iSNP	other	1201
+615137	0	0	0	0	0	0	rare_iSNP	other	1201
+615320	0	0	1.7	0	0.8	0	rare_iSNP	other	1201
+615352	0	0	0	0	0	0	rare_iSNP	other	1201
+615774	0	0	0	0	0	0	common_iSNP	other	1201
+615964	0	0	1.1	0	0	0	rare_iSNP	other	1201
+616000	0	0	0.5	0	0	0	rare_iSNP	other	1201
+616285	2.7	0	0.9	0	0.3	0	rare_iSNP	other	1201
+616323	3.1	0	0.5	0	0.3	0	rare_iSNP	other	1201
+616403	0	0	0	0	0	0	rare_iSNP	other	1201
+617801	1.2	0	0	0	0	0	rare_iSNP	other	1201
+619786	0	0	0.5	0	0	0	rare_iSNP	other	1201
+621053	51.3	-109	51.1	-283	51	-748	other_SNP	other	1201
+621462	0	0	0	0	0.4	0	rare_iSNP	other	1201
+626252	3.2	0	0.5	0	0.4	0	rare_iSNP	other	1201
+628641	4.8	0	0	0	0.6	0	rare_iSNP	other	1201
+628823	1.8	0	0.3	0	0.1	0	rare_iSNP	other	1201
+628883	0	0	0	0	0	0	other_SNP	other	1201
+628956	0	0	0.4	0	0	0	rare_iSNP	other	1201
+629025	1	0	0.5	0	0	0	rare_iSNP	other	1201
+630084	0	0	0	0	0	0	rare_iSNP	other	1201
+630433	0	0	0	0	0	0	other_SNP	other	1201
+631323	0	0	0	0	0	0	rare_iSNP	other	1201
+631485	0	0	0	0	0	0	other_SNP	other	1201
+633309	52.2	-75	52.1	-204	53.1	-525	other_SNP	other	1201
+633866	0	0	0	0	0	0	other_SNP	other	1201
+636283	0.8	0	1.9	0	0.2	0	rare_iSNP	other	1201
+639953	0	0	0	0	0	0	other_SNP	other	1201
+640331	0	0	0	0	0	0	other_SNP	other	1201
+643346	0	0	0	0	0	0	other_SNP	other	1201
+644444	0	0	0	0	0	0	other_SNP	other	1201
+649990	4.1	0	0.5	0	0.5	0	common_iSNP	other	1201
+650144	2.7	0	0.5	0	0.3	0	rare_iSNP	other	1201
+652015	1.2	0	0.8	0	0.7	0	common_iSNP	other	1201
+652666	4.5	0	0.9	0	0	0	rare_iSNP	other	1201
+653976	0	0	0	0	0.2	0	rare_iSNP	other	1201
+654603	0	0	0	0	0.3	0	rare_iSNP	other	1201
+657371	2.9	0	0.5	0	0.2	0	common_iSNP	other	1201
+657864	0	0	0	0	0.1	-2	other_SNP	other	1201
+659854	3.8	0	0.7	0	0.5	0	rare_iSNP	other	1201
+667084	0	0	0	0	0	0	other_SNP	other	1201
+668755	0	0	0	0	0	0	other_SNP	other	1201
+670230	0	0	0	0	0	0	other_SNP	other	1201
+671052	51	-94	51.5	-228	50.8	-883	other_SNP	other	1201
+672577	53.6	-98	51.7	-225	51.4	-1023	other_SNP	other	1201
+672795	15.9	-624	15.9	-1560	15.8	-5442	other_SNP	other	1201
+672797	60	-8	86.7	-3	100	4	other_SNP	other	1201
+672799	62.5	0	42.9	4	50.9	10	other_SNP	other	1201
+672800	44.4	1	60	4	55.8	12	other_SNP	other	1201
+672801	47.4	-9	56.5	-5	54.5	-31	other_SNP	other	1201
+672803	85.2	-4	95.1	-2	100	0	other_SNP	other	1201
+673429	79.2	-32	97.3	-8	99.3	-8	other_SNP	other	1201
+674235	1.1	0	1.6	0	0.1	0	common_iSNP	other	1201
+676136	0	0	0	0	0	0	other_SNP	other	1201
+677515	3.3	0	0.8	0	0.2	0	rare_iSNP	other	1201
+684100	5.4	0	0.3	0	0.4	0	rare_iSNP	other	1201
+684265	7.6	0	0.4	0	0.5	0	rare_iSNP	other	1201
+685358	5.4	0	1.1	0	0.2	0	rare_iSNP	other	1201
+685729	86.4	-16	100	0	100	0	other_SNP	other	1201
+686121	2.1	0	0	0	0.4	0	rare_iSNP	other	1201
+689385	0	0	0	0	0	0	rare_iSNP	other	1201
+694976	0	0	0.4	0	0.9	0	common_iSNP	other	1201
+696167	0	0	0	0	0	0	rare_iSNP	other	1201
+699581	2.1	0	0.6	0	0.6	0	common_iSNP	other	1201
+703175	0	0	0	0	0	0	rare_iSNP	other	1201
+703930	0	0	0	0	0.6	0	rare_iSNP	other	1201
+704155	0.9	0	0	0	0	0	rare_iSNP	other	1201
+704567	3.3	0	0.8	0	0	0	common_iSNP	other	1201
+706330	0	0	0	0	0	0	other_SNP	other	1201
+706375	1.6	0	1.7	0	0	0	common_iSNP	other	1201
+706395	3.3	0	0.8	0	0	0	rare_iSNP	other	1201
+707584	2.4	0	1.1	0	1.7	0	rare_iSNP	other	1201
+708153	5.6	0	1.8	0	1.3	0	common_iSNP	other	1201
+708156	5.7	0	1.9	0	1.3	0	common_iSNP	other	1201
+708157	5.9	0	1.9	0	1.4	0	common_iSNP	other	1201
+708158	5.6	0	1.9	0	1.4	0	common_iSNP	other	1201
+708161	5.7	0	1.9	0	1.3	0	common_iSNP	other	1201
+708162	5.6	0	1.9	0	1.4	0	common_iSNP	other	1201
+708166	5.8	0	2	0	1.4	0	common_iSNP	other	1201
+708172	7.3	0	2	0	1.5	0	common_iSNP	other	1201
+708181	4.3	0	2	0	4.1	0	common_iSNP	other	1201
+708182	4.3	0	2	0	4.3	0	common_iSNP	other	1201
+708186	4.3	0	1.8	0	3.9	0	common_iSNP	other	1201
+708190	4	0	1.7	0	3.8	0	rare_iSNP	other	1201
+708192	4	0	1.6	0	3.7	0	common_iSNP	other	1201
+708195	8	0	1.5	0	3.6	0	rare_iSNP	other	1201
+708196	7.7	0	1.6	0	3.4	0	common_iSNP	other	1201
+708213	0	0	0	0	2.9	0	other_SNP	other	1201
+708217	2.4	0	1	0	3.7	0	common_iSNP	other	1201
+708220	2.2	0	0.9	0	3.3	0	common_iSNP	other	1201
+708226	0	0	0	0	2.8	0	rare_iSNP	other	1201
+708265	1.2	0	0	0	0.5	0	common_iSNP	other	1201
+708274	0	0	0	0	0.9	0	other_SNP	other	1201
+708280	0	0	0	0	0.8	0	other_SNP	other	1201
+708607	86.1	-23	79.4	-93	80.3	-105	other_SNP	other	1201
+708608	8.2	-1442	8.3	-3482	8.3	-4094	other_SNP	other	1201
+708643	0.7	0	0	0	0.2	0	other_SNP	other	1201
+708661	0.7	0	0	0	0.5	0	other_SNP	other	1201
+708680	0.7	0	0.3	0	0.2	0	other_SNP	other	1201
+708743	3.2	0	1.1	0	0.5	0	common_iSNP	other	1201
+708811	0	0	0	0	0	0	other_SNP	other	1201
+709041	6	0	0	0	1.1	0	rare_iSNP	other	1201
+709085	0	0	0	0	1.7	0	rare_iSNP	other	1201
+709423	3.3	0	1.1	0	1.3	0	common_iSNP	other	1201
+709464	3.2	0	0.8	0	2.1	0	rare_iSNP	other	1201
+709514	0	0	0	0	1	0	rare_iSNP	other	1201
+710718	0	0	0	0	0	0	rare_iSNP	other	1201
+711703	1.3	0	0.4	0	2.3	0	rare_iSNP	other	1201
+711780	2.9	0	0	0	1.3	0	rare_iSNP	other	1201
+715885	0	0	0.6	0	0.4	0	common_iSNP	other	1201
+717493	0	0	0	0	0	0	other_SNP	other	1201
+717581	0	0	0	0	0	0	other_SNP	other	1201
+718761	1.9	0	0	0	1	0	common_iSNP	other	1201
+719369	3.3	0	1.1	0	2.3	0	common_iSNP	other	1201
+720059	0	0	0.7	0	0	0	other_SNP	other	1201
+720275	0	0	0	0	0	0	other_SNP	other	1201
+722802	100	0	89	-18	100	0	other_SNP	other	1201
+724634	1	0	0.5	0	1.4	0	rare_iSNP	other	1201
+725403	1.2	0	0.8	0	2.4	0	common_iSNP	other	1201
+727542	51.1	-112	50.8	-266	50.3	-400	other_SNP	other	1201
+733651	2.5	0	0.9	0	0.2	0	common_iSNP	other	1201
+733706	0	0	0	0	0	0	other_SNP	other	1201
+735879	3	0	0	0	0.2	0	common_iSNP	other	1201
+736582	1.6	0	1.1	0	0.4	0	common_iSNP	other	1201
+737841	3.9	0	1.4	0	0.4	0	common_iSNP	other	1201
+745705	0	0	0	0	0.1	0	other_SNP	other	1201
+745762	4.8	0	0.6	0	0.2	0	rare_iSNP	other	1201
+747682	0	0	0	0	0.1	-1	other_SNP	other	1201
+747722	0	0	0	0	0	0	other_SNP	other	1201
+747814	0	0	0	0	0.1	0	other_SNP	other	1201
+747986	0	0	0.4	0	0.2	0	common_iSNP	other	1201
+748124	2.3	0	0.9	0	0.2	0	rare_iSNP	other	1201
+748320	0	0	0	0	0	0	other_SNP	other	1201
+748935	3.2	0	0.3	0	0.7	0	rare_iSNP	other	1201
+749708	0	0	0	0	0	0	other_SNP	other	1201
+752396	1.7	0	1	0	0.1	0	common_iSNP	other	1201
+752483	0	0	0.4	0	0.2	0	other_SNP	other	1201
+752502	51.5	-82	51.6	-209	52.1	-605	other_SNP	other	1201
+752749	3.2	0	0.6	0	0.7	0	common_iSNP	other	1201
+752804	0	0	0.5	0	0.2	1	common_iSNP	other	1201
+752824	0	0	0.5	0	0.2	0	common_iSNP	other	1201
+752875	0	0	0.4	0	0.2	0	common_iSNP	other	1201
+752932	1.1	0	0.4	0	0.2	0	common_iSNP	other	1201
+753110	2.5	0	0	0	0.2	0	common_iSNP	other	1201
+753148	2.5	0	0.4	0	0.2	0	common_iSNP	other	1201
+753172	4.5	0	0.4	0	0.2	0	common_iSNP	other	1201
+753232	3.8	0	0.3	0	0	0	common_iSNP	other	1201
+753373	2.6	0	0.9	0	0	0	common_iSNP	other	1201
+753388	2.6	0	1	0	0	0	common_iSNP	other	1201
+753394	2.7	0	1	0	0	0	common_iSNP	other	1201
+753400	2.7	0	0.7	0	0	0	common_iSNP	other	1201
+753466	0	0	0.3	0	0	0	other_SNP	other	1201
+753478	50.7	-110	50.8	-308	51	-617	other_SNP	other	1201
+753480	100	0	85.7	-1	95.8	-1	other_SNP	other	1201
+753502	0	0	0.3	0	0	0	rare_iSNP	other	1201
+753524	0.9	0	1	0	0.2	0	common_iSNP	other	1201
+753546	1.1	0	1.1	0	0	0	common_iSNP	other	1201
+753630	0	0	0.4	0	0	1	common_iSNP	other	1201
+753732	0	0	0	0	0	0	common_iSNP	other	1201
+753750	0	0	0.4	0	0.2	0	common_iSNP	other	1201
+753804	1	0	1.1	0	0.1	0	common_iSNP	other	1201
+753834	1.6	0	0.9	0	0.3	0	common_iSNP	other	1201
+753879	0.7	0	0.5	0	0	0	other_SNP	other	1201
+753924	0	0	0.2	0	0	0	other_SNP	other	1201
+754121	0	1	0.4	0	0.2	0	common_iSNP	other	1201
+754156	0.6	0	0.4	0	0.2	0	common_iSNP	other	1201
+754161	0.6	0	0.4	0	0.1	0	common_iSNP	other	1201
+754170	0.6	0	0.6	0	0.1	0	common_iSNP	other	1201
+754188	1.3	0	0.2	0	0.1	0	common_iSNP	other	1201
+754206	1.2	0	0	0	0	0	common_iSNP	other	1201
+754218	1.2	0	0	0	0	0	common_iSNP	other	1201
+754221	1.2	0	0.2	0	0	0	common_iSNP	other	1201
+754335	0	0	0.7	0	0	0	rare_iSNP	other	1201
+754576	51.8	-41	51.3	-91	53.3	-120	other_SNP	other	1201
+755081	0	0	2.2	0	0.4	0	common_iSNP	other	1201
+755218	2	0	0.8	0	0.6	0	rare_iSNP	other	1201
+755381	0	0	0	0	0.2	0	rare_iSNP	other	1201
+755872	2.1	0	0.7	0	0.5	0	rare_iSNP	other	1201
+756487	88.6	-11	100	0	100	0	other_SNP	other	1201
+756566	0	0	0	0	0	0	other_SNP	other	1201
+758138	0	0	0	0	0.6	0	other_SNP	other	1201
+759490	3.8	0	0.4	0	0.4	0	common_iSNP	other	1201
+759561	0.8	0	0	0	0.2	0	other_SNP	other	1201
+759771	1.3	0	1	0	0.2	0	common_iSNP	other	1201
+759799	0	0	0	0	0	0	other_SNP	other	1201
+759859	0	0	0	0	0	0	other_SNP	other	1201
+759910	0	0	0	0	0	0	other_SNP	other	1201
+760019	14.1	-686	13.9	-1491	13.7	-3465	other_SNP	other	1201
+760020	100	0	87.5	-7	93.7	-7	other_SNP	other	1201
+760047	0	0	0	0	0	0	other_SNP	other	1201
+760085	0	0	0	0	0.4	0	other_SNP	other	1201
+760287	2.6	0	0.4	0	0.2	0	common_iSNP	other	1201
+760509	0	0	0	0	0	0	other_SNP	other	1201
+760730	2.2	0	1.1	0	0.2	0	common_iSNP	other	1201
+761023	0	0	0	0	0.4	0	other_SNP	other	1201
+763260	0	0	0	0	0	0	other_SNP	other	1201
+763823	2.9	0	0.8	0	1.1	0	rare_iSNP	other	1201
+764150	0	0	0	0	0	0	other_SNP	other	1201
+764342	0	0	0	0	0	0	other_SNP	other	1201
+764700	0	0	1.5	0	0.7	0	common_iSNP	other	1201
+766060	0	0	0	0	0	0	other_SNP	other	1201
+768562	2.9	0	0	0	0.7	0	common_iSNP	other	1201
+768596	0	0	0	0	0.1	0	other_SNP	other	1201
+768602	0	0	0	0	0.2	0	rare_iSNP	other	1201
+768819	0.7	0	0	0	0.4	0	rare_iSNP	other	1201
+768904	0.8	0	0.3	0	0.8	0	common_iSNP	other	1201
+769252	1.7	0	0	0	0.4	0	common_iSNP	other	1201
+769601	0	0	0	0	0.2	0	rare_iSNP	other	1201
+770218	100	0	98.2	-1	82.5	-151	other_SNP	other	1201
+770626	0	0	0	1	0.3	0	rare_iSNP	other	1201
+770646	0	0	0	0	0.4	0	rare_iSNP	other	1201
+770674	0	0	0	0	0.5	0	rare_iSNP	other	1201
+770697	0	0	0	0	0.5	2	rare_iSNP	other	1201
+770739	0.9	0	0	0	0.9	0	common_iSNP	other	1201
+770743	0	0	0	0	0.5	0	rare_iSNP	other	1201
+770766	0	0	0	0	0.5	0	rare_iSNP	other	1201
+770768	0	0	0	0	0.6	0	rare_iSNP	other	1201
+770773	0	0	0	0	0.4	0	rare_iSNP	other	1201
+770777	0	0	0	0	0.2	0	rare_iSNP	other	1201
+770781	0	0	0.3	0	0.4	0	rare_iSNP	other	1201
+770790	0	0	0.3	0	0.4	0	rare_iSNP	other	1201
+770951	0	0	0	0	0	0	rare_iSNP	other	1201
+771151	0	0	0.3	0	0	0	rare_iSNP	other	1201
+771267	2	0	0.5	0	0.3	0	common_iSNP	other	1201
+771290	0	0	0.3	0	0.2	0	rare_iSNP	other	1201
+771501	0	0	0.2	0	0.4	0	rare_iSNP	other	1201
+771522	0	0	0	0	0.3	0	rare_iSNP	other	1201
+771540	0	0	0	0	0.3	0	rare_iSNP	other	1201
+771546	0	0	0	0	0.4	0	rare_iSNP	other	1201
+771549	0	0	0	0	0.2	0	rare_iSNP	other	1201
+771579	0	0	0.2	0	0.2	0	rare_iSNP	other	1201
+771606	0	0	0	0	0.3	0	rare_iSNP	other	1201
+771819	0	0	0	0	0.5	1	rare_iSNP	other	1201
+771834	3.2	0	0.4	0	0.9	0	common_iSNP	other	1201
+771870	1.1	0	0.4	0	0.5	0	common_iSNP	other	1201
+771945	1.1	0	0	0	0.8	0	common_iSNP	other	1201
+771966	2.2	0	0	0	0.9	0	rare_iSNP	other	1201
+771991	2.2	0	0	0	1	0	common_iSNP	other	1201
+772017	1.1	0	0	0	0.9	0	common_iSNP	other	1201
+772041	1.1	0	0	0	1.1	0	rare_iSNP	other	1201
+772054	1.2	0	0	0	0.8	0	common_iSNP	other	1201
+772098	1.1	0	0	0	0.7	0	common_iSNP	other	1201
+772134	0	0	0	0	0.4	0	rare_iSNP	other	1201
+772194	1.1	0	0.4	0	0.3	0	rare_iSNP	other	1201
+772245	1	0	0.4	0	0.2	0	rare_iSNP	other	1201
+772251	1	0	0.4	0	0.2	0	rare_iSNP	other	1201
+772263	1	0	0.4	0	0.2	0	rare_iSNP	other	1201
+772266	1	0	0.4	0	0.3	0	rare_iSNP	other	1201
+772269	1	0	0.4	0	0.3	0	rare_iSNP	other	1201
+772272	0.9	0	0.4	0	0.3	0	rare_iSNP	other	1201
+772278	0.9	0	0.4	0	0.3	0	rare_iSNP	other	1201
+772290	1	0	0.4	0	0.3	0	rare_iSNP	other	1201
+772293	1	0	0.4	0	0.3	0	rare_iSNP	other	1201
+772309	1	0	0.3	0	0.2	0	rare_iSNP	other	1201
+772317	3	0	0.3	0	0.2	0	rare_iSNP	other	1201
+772320	3.1	0	0.3	0	0.2	0	rare_iSNP	other	1201
+772422	2.8	0	0	0	0.3	0	rare_iSNP	other	1201
+772431	0	0	0	0	0.1	0	rare_iSNP	other	1201
+772446	0	0	0	0	0.1	0	rare_iSNP	other	1201
+772458	0	0	0	0	0.2	0	rare_iSNP	other	1201
+772467	0	0	0	0	0.1	0	rare_iSNP	other	1201
+772488	0	0	0	0	0	0	rare_iSNP	other	1201
+772536	0	0	0	0	0	0	rare_iSNP	other	1201
+772575	0	0	0	0	0	0	rare_iSNP	other	1201
+772612	0	0	0	0	0	0	rare_iSNP	other	1201
+772626	0	0	0	0	0	0	rare_iSNP	other	1201
+772725	0	0	0	0	0	0	rare_iSNP	other	1201
+772764	1.3	0	0	0	0.3	0	rare_iSNP	other	1201
+772899	0	0	0	0	0.3	0	rare_iSNP	other	1201
+773390	4.1	0	0	0	0.1	0	common_iSNP	other	1201
+774980	4.3	0	1.8	0	0.6	0	rare_iSNP	other	1201
+774982	2.9	0	1.1	0	0.4	0	rare_iSNP	other	1201
+774983	3	0	1.1	0	0.3	0	rare_iSNP	other	1201
+774989	2.6	0	1	0	0.2	0	rare_iSNP	other	1201
+774998	2.7	0	1	0	0.3	0	rare_iSNP	other	1201
+775022	1.8	0	1.1	0	0.2	0	rare_iSNP	other	1201
+775049	1.2	0	0.9	0	0.2	0	rare_iSNP	other	1201
+775055	1.2	0	0.7	0	0.2	0	rare_iSNP	other	1201
+775064	1.2	0	0.2	0	0.2	0	rare_iSNP	other	1201
+775070	0.6	0	0.2	0	0.2	0	rare_iSNP	other	1201
+775072	0.6	0	0.2	0	0.2	0	rare_iSNP	other	1201
+775103	1.2	0	0.4	0	0.2	0	rare_iSNP	other	1201
+775173	0.7	0	0.5	0	0.1	0	rare_iSNP	other	1201
+775179	51.9	-139	51.1	-393	51.4	-1028	other_SNP	other	1201
+775180	90	-1	100	0	97.9	-1	other_SNP	other	1201
+775204	53.4	-118	52.7	-348	52.9	-900	other_SNP	other	1201
+775207	75	-4	92.3	-2	90.1	-8	other_SNP	other	1201
+775208	76.9	-3	100	0	91.3	-6	other_SNP	other	1201
+776534	1	0	1.4	0	0.3	0	rare_iSNP	other	1201
+776964	0	0	0	0	0	0	rare_iSNP	other	1201
+777159	0	0	0	0	0	0	rare_iSNP	other	1201
+778690	2	1	0	1	0.5	4	other_SNP	other	1201
+778691	2	0	0.6	0	0.5	0	rare_iSNP	other	1201
+778692	2	0	0	0	0.5	0	rare_iSNP	other	1201
+778696	2.1	0	0	0	0.5	0	rare_iSNP	other	1201
+778727	86.5	-5	93.7	-6	94.8	-6	other_SNP	other	1201
+778733	88.9	0	100	0	100	0	rare_iSNP	other	1201
+778734	87.5	-1	84.4	-5	100	0	other_SNP	other	1201
+778754	100	0	75	-10	89.8	-5	other_SNP	other	1201
+778800	0	0	0	0	0	0	rare_iSNP	other	1201
+778801	0	0	0	0	0	0	rare_iSNP	other	1201
+778821	0	0	0	0	0	0	rare_iSNP	other	1201
+778841	0	0	0	0	0.7	0	rare_iSNP	other	1201
+778845	0	0	0	0	0.7	0	rare_iSNP	other	1201
+778847	20.3	-98	20	-344	20.1	-560	other_SNP	other	1201
+778856	0	0	0	0	0.7	0	rare_iSNP	other	1201
+778857	33.3	-54	33.6	-172	33.5	-270	other_SNP	other	1201
+778858	NA	27	0	91	0	143	other_SNP	other	1201
+778862	87.9	-4	86.4	-16	80.4	-40	other_SNP	other	1201
+778863	0	0	0	0	0.7	0	rare_iSNP	other	1201
+778865	0	0	0	0	0.6	0	rare_iSNP	other	1201
+778877	50	-39	50	-112	50.4	-184	other_SNP	other	1201
+778909	2	0	0	0	0.9	0	rare_iSNP	other	1201
+778963	89.1	0	99.2	0	98.6	0	common_iSNP	other	1201
+778972	89.4	0	99.2	0	98.6	0	common_iSNP	other	1201
+779017	21.4	0	1.2	0	2	0	rare_iSNP	other	1201
+779029	80.8	0	98.6	0	98.5	0	common_iSNP	other	1201
+779041	75	0	98.3	0	98	0	rare_iSNP	other	1201
+779042	38.3	-29	24.9	-172	17.8	-443	other_SNP	other	1201
+779043	73.7	-5	72	-14	73	-20	other_SNP	other	1201
+779044	33.3	0	59.3	0	72.2	0	common_iSNP	other	1201
+779046	47.6	-11	44.6	-36	39.6	-84	other_SNP	other	1201
+779047	90	0	80	0	86.3	0	common_iSNP	other	1201
+779048	88.9	0	80	0	86	0	common_iSNP	other	1201
+779049	88.9	0	80	0	81.1	0	common_iSNP	other	1201
+779050	61.5	-4	27.9	-44	33.1	-84	other_SNP	other	1201
+779052	85.7	0	54.5	0	68.2	0	common_iSNP	other	1201
+779053	87.5	0	81	0	88.2	0	rare_iSNP	other	1201
+779158	18.2	0	0	0	6.5	0	rare_iSNP	other	1201
+779163	20	0	0	0	6.1	0	rare_iSNP	other	1201
+779164	16.7	0	0	0	5.9	0	rare_iSNP	other	1201
+779166	10	0	0	0	6.1	0	rare_iSNP	other	1201
+779179	16.7	0	0	0	4.9	0	rare_iSNP	other	1201
+779218	16.7	0	0	0	2.5	0	rare_iSNP	other	1201
+779220	83.3	0	100	0	97.6	0	rare_iSNP	other	1201
+779230	15.4	0	0	0	2.5	0	rare_iSNP	other	1201
+779235	15.4	0	0	0	2.5	0	rare_iSNP	other	1201
+779251	0	0	0	0	0	0	rare_iSNP	other	1201
+779275	0	0	0	0	0	0	rare_iSNP	other	1201
+779281	0	0	0	0	0	0	rare_iSNP	other	1201
+779284	0	0	0	0	0	0	rare_iSNP	other	1201
+779290	0	0	0	0	0	0	rare_iSNP	other	1201
+779296	0	0	0	0	0	0	rare_iSNP	other	1201
+779306	77.8	0	100	0	100	0	rare_iSNP	other	1201
+779599	16.7	0	8.3	0	7.1	0	other_SNP	other	1201
+779608	16.7	0	7.1	0	6.7	0	other_SNP	other	1201
+779611	16.7	0	7.1	0	6.7	0	other_SNP	other	1201
+779614	16.7	0	7.1	0	7.7	0	other_SNP	other	1201
+779621	16.7	0	13.3	0	7.1	0	rare_iSNP	other	1201
+779626	83.3	0	86.7	0	100	0	rare_iSNP	other	1201
+779632	83.3	0	86.7	0	100	0	rare_iSNP	other	1201
+779635	83.3	0	86.7	0	100	0	rare_iSNP	other	1201
+779637	83.3	0	86.7	0	100	0	rare_iSNP	other	1201
+779646	83.3	0	85.7	0	100	0	rare_iSNP	other	1201
+779665	83.3	0	86.7	0	100	0	rare_iSNP	other	1201
+779701	28.6	0	13.3	0	7.1	0	common_iSNP	other	1201
+779713	37.5	0	18.8	0	7.1	0	common_iSNP	other	1201
+779716	37.5	0	18.8	0	7.1	0	common_iSNP	other	1201
+779719	42.9	0	13.3	0	6.7	0	common_iSNP	other	1201
+779812	0	0	0	0	2	0	rare_iSNP	other	1201
+779814	19	0	2.2	0	2	0	common_iSNP	other	1201
+779815	81.8	0	98.2	0	100	0	common_iSNP	other	1201
+779818	17.4	0	1.6	0	1.3	0	common_iSNP	other	1201
+779833	82.8	0	98.9	0	100	0	common_iSNP	other	1201
+779875	0	0	0	0	0.9	0	common_iSNP	other	1201
+779877	0	0	0	0	0.8	0	common_iSNP	other	1201
+779907	0	0	0	0	0.3	-2	common_iSNP	other	1201
+780530	2.3	0	0.4	0	1	0	rare_iSNP	other	1201
+780533	0.8	0	0.4	0	0.5	0	rare_iSNP	other	1201
+780534	0	0	0	0	0.5	0	rare_iSNP	other	1201
+780824	0	0	0	0	0	0	rare_iSNP	other	1201
+781217	0	0	0.3	0	0	0	rare_iSNP	other	1201
+781325	1	0	0	0	0.4	0	rare_iSNP	other	1201
+781359	1	0	0	0	0.4	0	rare_iSNP	other	1201
+788493	0	0	0	0	0	0	rare_iSNP	other	1201
+791841	0	0	0	0	0.1	0	rare_iSNP	other	1201
+792727	2.8	0	1.7	0	0	0	rare_iSNP	other	1201
+797165	2.9	0	0.3	0	0.6	0	rare_iSNP	other	1201
+802193	0	0	0.9	0	0.2	0	rare_iSNP	other	1201
+804189	2.6	0	1.3	0	0.9	0	rare_iSNP	other	1201
+804208	2.7	0	0.5	0	0.9	0	rare_iSNP	other	1201
+804264	1.3	0	0	0	0.4	0	rare_iSNP	other	1201
+805567	0	0	0	0	0	0	other_SNP	other	1201
+805746	0	0	0	0	0	0	rare_iSNP	other	1201
+806097	0	0	0	0	0	0	rare_iSNP	other	1201
+808251	0	0	1.4	0	0	0	rare_iSNP	other	1201
+810454	1.3	0	0	0	0.8	0	other_SNP	other	1201
+810670	3.3	0	0.4	0	0.3	0	rare_iSNP	other	1201
+811020	1.2	0	0.8	0	0.4	0	rare_iSNP	other	1201
+814674	51.5	-64	52	-120	53.1	-203	other_SNP	other	1201
+831658	0	0	0	0	0	0	other_SNP	other	1201
+831869	51.8	-41	50.7	-104	51.1	-230	other_SNP	other	1201
+832019	2.7	0	0	0	0.6	0	other_SNP	other	1201
+832171	1	0	0	0	0.3	0	other_SNP	other	1201
+832942	2.2	0	0.8	0	0	0	rare_iSNP	other	1201
+833058	4	0	0.5	0	0.2	0	common_iSNP	other	1201
+833179	0	0	0	0	0.2	-3	other_SNP	other	1201
+834627	50.3	-74	52	-213	52.3	-532	other_SNP	other	1201
+835620	0	0	0	1	0	2	other_SNP	other	1201
+836112	0	0	0	0	0	0	other_SNP	other	1201
+836719	2.7	0	0	0	0.6	0	rare_iSNP	other	1201
+836959	0	0	0	0	0.3	0	other_SNP	other	1201
+838530	1.1	0	0.4	0	0.8	0	rare_iSNP	other	1201
+843544	0	0	0.7	0	0.3	0	rare_iSNP	other	1201
+843667	6.5	0	0.6	0	0.5	0	rare_iSNP	other	1201
+844015	3.3	0	0.7	0	0.2	0	rare_iSNP	other	1201
+845129	52.5	-56	51.9	-207	53	-382	other_SNP	other	1201
+845461	0	0	0	1	0.1	0	rare_iSNP	other	1201
+846592	0	0	0.5	0	0	0	rare_iSNP	other	1201
+846689	0	0	0	0	0.5	0	rare_iSNP	other	1201
+847555	1.2	0	0.8	0	0.4	0	rare_iSNP	other	1201
+847974	2.4	0	1.4	0	0.6	0	rare_iSNP	other	1201
+849952	0	0	0	0	0	0	other_SNP	other	1201
+853616	1.4	0	0.5	0	1.4	0	rare_iSNP	other	1201
+853664	0	0	0.8	0	0.8	0	rare_iSNP	other	1201
+853834	0	0	0	0	0.2	0	rare_iSNP	other	1201
+853884	0.9	0	0.6	0	1.2	0	rare_iSNP	other	1201
+858971	0	0	0	0	0	0	rare_iSNP	other	1201
+859348	51.9	-111	51.5	-258	51.4	-810	other_SNP	other	1201
+859350	100	0	85.7	-2	100	0	other_SNP	other	1201
+859511	0	0	0.4	0	0	0	rare_iSNP	other	1201
+859556	80.4	-21	97.2	-7	100	0	other_SNP	other	1201
+859656	0	0	0.9	0	0.1	0	rare_iSNP	other	1201
+859750	0	0	0	0	0	0	other_SNP	other	1201
+859758	0	0	1	0	0	0	rare_iSNP	other	1201
+860085	2.8	0	2.7	0	0.2	0	common_iSNP	other	1201
+860286	0	0	0	0	0	0	rare_iSNP	other	1201
+860356	0	0	0	0	0	0	rare_iSNP	other	1201
+861408	1.2	0	0.8	0	0.3	0	rare_iSNP	other	1201
+861655	87.2	-10	100	0	100	0	other_SNP	other	1201
+862291	1.2	0	0.4	0	0.1	0	rare_iSNP	other	1201
+862360	1.4	0	0.5	0	0	0	rare_iSNP	other	1201
+862516	0	0	0	0	0	0	rare_iSNP	other	1201
+862681	4.8	0	1.5	0	0.2	0	rare_iSNP	other	1201
+862755	0	0	2.1	0	0.3	0	other_SNP	other	1201
+874803	25.4	-309	25.9	-645	26.1	-984	other_SNP	other	1201
+875880	0	0	0	0	0.5	0	rare_iSNP	other	1201
+875930	0.9	0	0.4	0	1.1	-1	common_iSNP	other	1201
+881016	0	0	0	0	0	0	rare_iSNP	other	1201
+884499	0	0	0.7	0	0.2	0	rare_iSNP	other	1201
+885589	0	0	0	0	0	0	other_SNP	other	1201
+890893	4.5	0	0.7	0	0.3	0	rare_iSNP	other	1201
+894717	3.1	0	2.7	0	0.5	0	rare_iSNP	other	1201
+897326	1.6	0	0.9	0	0.4	0	rare_iSNP	other	1201
+898073	4.3	0	0	0	0.2	0	rare_iSNP	other	1201
+899057	2.7	0	2.7	0	0.2	0	common_iSNP	other	1201
+899244	2.5	0	0.5	0	0.4	0	common_iSNP	other	1201
+899510	0	0	0	0	0	0	other_SNP	other	1201
+901665	0	0	0	0	0.3	0	other_SNP	other	1201
+901784	0	0	0	0	0.2	0	other_SNP	other	1201
+902170	86.3	0	100	0	100	0	common_iSNP	other	1201
+902173	86.3	0	100	0	100	0	common_iSNP	other	1201
+902249	6.1	0	0.8	0	0	0	common_iSNP	other	1201
+907585	3	0	1.2	0	0.6	0	rare_iSNP	other	1201
+907667	0	0	0	0	0	0	rare_iSNP	other	1201
+908027	0	0	0	0	0.1	0	other_SNP	other	1201
+908082	0	0	0	0	0.1	0	other_SNP	other	1201
+908183	0	0	0.4	0	0.5	0	other_SNP	other	1201
+908217	0	0	0.3	0	0.6	3	other_SNP	other	1201
+909211	0	0	0	0	0	0	other_SNP	other	1201
+909312	0	0	1	0	0.3	0	other_SNP	other	1201
+909608	0	0	0	0	0.4	0	other_SNP	other	1201
+909620	2.1	0	0.9	0	0.8	0	common_iSNP	other	1201
+909754	3.8	0	0.9	0	0.3	0	common_iSNP	other	1201
+910105	0	0	0	0	0.1	0	rare_iSNP	other	1201
+912395	1.3	0	0	0	0	0	common_iSNP	other	1201
+912643	2.8	0	0.5	0	0.2	0	rare_iSNP	other	1201
+913770	0	0	0	0	0	0	other_SNP	other	1201
+916400	2.6	0	1.8	0	0.1	0	common_iSNP	other	1201
+917129	0	0	0	0	0.6	0	common_iSNP	other	1201
+919714	0	0	0	0	0	0	other_SNP	other	1201
+921232	1.9	0	2.6	0	0.4	0	rare_iSNP	other	1201
+928668	81.6	-23	100	0	100	0	other_SNP	other	1201
+930872	2	0	100	0	100	0	other_SNP	other	1201
+932419	4.2	0	0	0	0.2	0	rare_iSNP	other	1201
+932471	2.7	0	0	0	0.4	0	common_iSNP	other	1201
+932500	5	0	0.5	0	0.4	0	common_iSNP	other	1201
+934306	0	0	0	0	0	0	other_SNP	other	1201
+934541	50.9	-82	52.3	-194	51.1	-365	other_SNP	other	1201
+937697	2	0	0.8	0	0.2	0	rare_iSNP	other	1201
+940972	50.8	-60	51.5	-200	50.8	-341	other_SNP	other	1201
+941009	5.6	0	0.6	0	0.9	0	rare_iSNP	other	1201
+941075	6.2	0	1.2	0	0.4	0	rare_iSNP	other	1201
+941583	6.8	0	0.7	0	0	0	rare_iSNP	other	1201
+941606	7.4	0	0.7	0	0	0	rare_iSNP	other	1201
+943050	51.3	-97	51.3	-245	51.4	-519	other_SNP	other	1201
+945524	5.1	0	0	0	0.5	0	common_iSNP	other	1201
+948543	0	0	1.8	0	0.4	0	rare_iSNP	other	1201
+949756	2.7	0	0	0	0.2	0	other_SNP	other	1201
+951256	25.7	-231	25.6	-558	25.7	-1338	other_SNP	other	1201
+955255	0	0	0.5	0	0	0	rare_iSNP	other	1201
+955574	2.4	0	1.8	0	0.2	0	common_iSNP	other	1201
+955611	1.4	0	1.9	0	0.2	0	common_iSNP	other	1201
+955804	3.6	0	1.1	0	0.3	0	common_iSNP	other	1201
+955841	2.4	0	1.2	0	0.2	0	rare_iSNP	other	1201
+955881	1.3	0	0.5	0	0.6	0	common_iSNP	other	1201
+956103	4.5	0	2.1	0	0.2	0	common_iSNP	other	1201
+957282	0	0	0	0	0	0	other_SNP	other	1201
+961214	0	0	0	0	0.3	0	rare_iSNP	other	1201
+961710	0	0	0	0	0.1	0	rare_iSNP	other	1201
+961740	0	0	0	0	0.1	0	rare_iSNP	other	1201
+961778	0	0	0	0	0	0	rare_iSNP	other	1201
+961801	4.1	0	0.5	0	0	0	rare_iSNP	other	1201
+961843	0	0	0	0	0	0	rare_iSNP	other	1201
+961891	0	0	0	0	0.1	0	rare_iSNP	other	1201
+966984	51.4	-68	53.1	-199	53.1	-493	other_SNP	other	1201
+977200	3.2	0	0.4	0	0	0	common_iSNP	other	1201
+980687	0	0	0	0	0	0	other_SNP	other	1201
+985682	0	0	0	0	0	0	other_SNP	other	1201
+987113	1.2	0	0	0	0.3	0	rare_iSNP	other	1201
+994347	2.5	0	0.5	0	0.2	0	rare_iSNP	other	1201
+995730	0	0	0	0	0.2	0	other_SNP	other	1201
+998760	0	0	0	0	0	0	rare_iSNP	other	1201
+1000308	0	0	1.7	0	0.4	0	rare_iSNP	other	1201
+1000870	0	0	0.4	0	0	0	other_SNP	other	1201
+1001508	0	0	0	0	0	0	other_SNP	other	1201
+1001963	6	0	0.9	0	0.3	0	common_iSNP	other	1201
+1003581	0	0	0	0	0	0	other_SNP	other	1201
+1003781	4.3	0	0.6	0	0	0	rare_iSNP	other	1201
+1005968	2.7	0	0.8	0	0.5	0	rare_iSNP	other	1201
+1010634	5.6	0	1	0	0.4	0	rare_iSNP	other	1201
+1012609	0	0	0	0	0	0	other_SNP	other	1201
+1013625	0	0	0	0	0	0	rare_iSNP	other	1201
+1013635	0	0	0	0	0	0	other_SNP	other	1201
+1015539	0	0	1.6	0	0.8	0	common_iSNP	other	1201
+1017575	2.5	0	0.8	0	0.8	0	rare_iSNP	other	1201
+1019608	1.2	0	0	0	0.2	0	rare_iSNP	other	1201
+1019812	0	0	0	0	0	0	rare_iSNP	other	1201
+1020001	0	0	0	0	0.2	0	rare_iSNP	other	1201
+1021885	1.9	0	1.7	0	0.2	0	rare_iSNP	other	1201
+1024247	0	0	1.2	0	0	0	rare_iSNP	other	1201
+1024274	0	0	0	0	0	0	common_iSNP	other	1201
+1024707	3.8	0	1.3	0	0.2	0	rare_iSNP	other	1201
+1024722	0	0	0	0	0	0	common_iSNP	other	1201
+1024963	0.9	0	0	0	0.1	0	common_iSNP	other	1201
+1024964	0	0	0	0	0	0	rare_iSNP	other	1201
+1025065	88.1	-18	97.8	-9	99.3	-9	other_SNP	other	1201
+1025202	1	0	0	0	0.1	0	rare_iSNP	other	1201
+1025440	0	0	0	0	0	0	rare_iSNP	other	1201
+1025496	1.2	0	1.1	0	0.2	0	common_iSNP	other	1201
+1025578	52.9	-64	50.9	-189	51.1	-563	other_SNP	other	1201
+1025807	0	0	0.3	0	0	0	rare_iSNP	other	1201
+1025819	0	0	0.3	0	0.1	0	rare_iSNP	other	1201
+1025839	0.7	0	0.3	0	0	0	rare_iSNP	other	1201
+1025840	0	1	0.3	0	0	0	rare_iSNP	other	1201
+1025850	0	0	0.3	0	0	0	rare_iSNP	other	1201
+1025909	0	0	0.4	0	0.1	0	rare_iSNP	other	1201
+1026107	0	1	0	0	0	3	rare_iSNP	other	1201
+1026131	0	0	0	0	0	0	rare_iSNP	other	1201
+1026167	0	0	0	0	0	0	rare_iSNP	other	1201
+1026191	0	0	0	0	0	0	rare_iSNP	other	1201
+1026209	0	0	0	0	0	0	rare_iSNP	other	1201
+1026223	0	0	0	0	0	0	rare_iSNP	other	1201
+1026299	1.1	0	0	0	0	0	rare_iSNP	other	1201
+1026353	1	0	0	0	0	0	rare_iSNP	other	1201
+1026359	1	0	0	0	0	0	rare_iSNP	other	1201
+1026483	0	0	0	0	0.1	0	rare_iSNP	other	1201
+1026551	1	0	0	0	0.2	0	common_iSNP	other	1201
+1026554	0.9	0	0	0	0.2	0	common_iSNP	other	1201
+1026578	0.9	0	0	0	0.1	0	common_iSNP	other	1201
+1026596	0.8	0	0	0	0.1	0	rare_iSNP	other	1201
+1026608	1	0	0	0	0.1	0	rare_iSNP	other	1201
+1026611	1	0	0	0	0.1	0	rare_iSNP	other	1201
+1026616	1	0	1.1	0	0.1	0	rare_iSNP	other	1201
+1026629	1	0	0	0	0.2	0	common_iSNP	other	1201
+1026653	0	0	0	0	0.2	0	rare_iSNP	other	1201
+1026656	0	0	1.4	0	0.2	0	common_iSNP	other	1201
+1026657	35.6	-141	39.4	-330	36.3	-1536	other_SNP	other	1201
+1026660	100	0	86.8	-9	95.2	-10	other_SNP	other	1201
+1026661	10	0	15.4	0	13.1	0	common_iSNP	other	1201
+1026664	83.1	0	76.1	0	77	0	common_iSNP	other	1201
+1026665	87.3	0	78.1	0	77.1	0	common_iSNP	other	1201
+1026668	0	0	1.5	0	0.4	0	common_iSNP	other	1201
+1026669	83.1	0	72.6	0	74.4	0	common_iSNP	other	1201
+1026670	23.9	-177	23.5	-486	23.2	-2022	other_SNP	other	1201
+1026725	1	0	0.4	0	0.4	0	common_iSNP	other	1201
+1026752	0	0	0	0	0.1	0	common_iSNP	other	1201
+1026758	0	0	0	0	0.1	0	common_iSNP	other	1201
+1026763	1.1	0	0	0	0.2	0	common_iSNP	other	1201
+1026764	0	0	0	0	0.2	0	common_iSNP	other	1201
+1026767	0	0	0	0	0.2	0	common_iSNP	other	1201
+1026771	0	0	0	0	0.1	0	common_iSNP	other	1201
+1026772	0	0	0	0	0.1	0	common_iSNP	other	1201
+1026785	0	0	0	0	0	0	rare_iSNP	other	1201
+1026833	0	0	0	0	0.1	0	rare_iSNP	other	1201
+1026857	0	0	0.6	0	0	0	rare_iSNP	other	1201
+1026863	0	0	0.6	0	0	0	rare_iSNP	other	1201
+1027103	8	0	1.7	0	0.2	1	common_iSNP	other	1201
+1027287	5.2	0	1	0	0	0	common_iSNP	other	1201
+1027289	5.2	0	1	0	0.1	-1	common_iSNP	other	1201
+1027298	5.3	0	1	0	0.1	0	common_iSNP	other	1201
+1027303	72.9	-42	66	-150	67.9	-410	other_SNP	other	1201
+1027304	7.3	1	1.2	1	0	5	common_iSNP	other	1201
+1027306	52.5	-85	51.1	-225	50.7	-695	other_SNP	other	1201
+1027307	100	87	100	228	84.6	708	other_SNP	other	1201
+1027308	35.3	-174	33.9	-456	33.5	-1419	other_SNP	other	1201
+1027310	77.8	85	50	220	30	685	other_SNP	other	1201
+1027415	2.9	0	1.2	0	0.1	0	common_iSNP	other	1201
+1027430	1.9	0	1.3	0	0	0	common_iSNP	other	1201
+1027508	2.4	0	0.9	0	0	0	common_iSNP	other	1201
+1027540	2.4	0	0.4	0	0.6	0	common_iSNP	other	1201
+1028103	61.1	-75	63.7	-204	64.7	-576	other_SNP	other	1201
+1028104	90	0	85.6	0	82	0	common_iSNP	other	1201
+1028108	12.5	0	19.2	0	19.9	0	common_iSNP	other	1201
+1028110	18.2	-1	20.8	-10	17.3	-54	other_SNP	other	1201
+1028112	79	0	80.3	0	84.8	0	common_iSNP	other	1201
+1028113	31.3	-200	31.9	-670	31.7	-1862	other_SNP	other	1201
+1028117	11.1	0	4.9	0	0.9	0	common_iSNP	other	1201
+1028133	1.7	0	1	0	0	0	common_iSNP	other	1201
+1028334	1	0	0.3	0	0	0	rare_iSNP	other	1201
+1028938	4	0	0.4	0	0.4	0	rare_iSNP	other	1201
+1028941	3.9	0	0.6	0	0.4	0	rare_iSNP	other	1201
+1028950	3.2	0	0.6	0	0.4	0	common_iSNP	other	1201
+1028968	3.3	0	0.6	0	0.5	0	common_iSNP	other	1201
+1028971	3.3	0	0.6	0	0.4	0	rare_iSNP	other	1201
+1028977	2.7	0	0.6	0	0.3	0	rare_iSNP	other	1201
+1029001	2	0	0.6	0	0.2	0	rare_iSNP	other	1201
+1029097	1.4	0	0.7	0	0.1	0	rare_iSNP	other	1201
+1029112	1.5	0	0.8	0	0.1	0	common_iSNP	other	1201
+1029118	1.5	0	0.8	0	0.1	0	common_iSNP	other	1201
+1029151	2.3	0	0.5	0	0.2	0	common_iSNP	other	1201
+1029171	1.6	0	0.3	0	0.1	0	common_iSNP	other	1201
+1029181	2.4	0	0.3	0	0.1	0	common_iSNP	other	1201
+1029418	5.4	0	0.7	0	0	0	rare_iSNP	other	1201
+1029421	5.5	0	0	0	0	0	rare_iSNP	other	1201
+1029424	6	0	0	0	0.2	0	rare_iSNP	other	1201
+1029430	6.5	0	0	0	0	0	rare_iSNP	other	1201
+1029469	13.6	0	1.5	0	0.4	0	common_iSNP	other	1201
+1029478	20	0	2	0	0.6	0	common_iSNP	other	1201
+1029489	57.1	-6	100	0	65.9	-44	other_SNP	other	1201
+1029569	16.7	0	5	0	1.8	0	rare_iSNP	other	1201
+1029571	16.7	0	5	0	1.8	0	rare_iSNP	other	1201
+1029572	16.7	0	5	0	1.8	0	rare_iSNP	other	1201
+1029577	11.1	0	3.1	0	0.9	0	common_iSNP	other	1201
+1029580	10.5	0	3.2	0	0.9	0	rare_iSNP	other	1201
+1029583	16.7	0	2.9	0	2.2	-8	rare_iSNP	other	1201
+1029586	10.5	0	2.3	0	0.7	0	rare_iSNP	other	1201
+1029596	6.7	0	1.4	0	0.4	0	rare_iSNP	other	1201
+1029607	5.7	0	0	0	0.3	0	common_iSNP	other	1201
+1029637	3.5	0	0	0	0.2	0	rare_iSNP	other	1201
+1029641	3.6	0	0	0	0.2	0	rare_iSNP	other	1201
+1029643	3.3	0	0	0	0.4	0	rare_iSNP	other	1201
+1029892	4.1	0	0.6	0	0.1	0	rare_iSNP	other	1201
+1030198	1	0	1	0	0.2	0	rare_iSNP	other	1201
+1030204	2	0	0.7	0	0.2	0	common_iSNP	other	1201
+1030478	2.3	0	0	0	0	0	rare_iSNP	other	1201
+1030497	2.4	0	0.8	0	0.2	0	rare_iSNP	other	1201
+1030571	3.8	0	1.3	0	0.1	0	rare_iSNP	other	1201
+1030591	3.5	0	1.3	0	0	0	rare_iSNP	other	1201
+1030662	2.2	0	0.8	0	0.3	0	rare_iSNP	other	1201
+1030694	1.6	0	0.8	0	0.3	0	rare_iSNP	other	1201
+1030773	0.8	0	0.8	0	0.3	0	rare_iSNP	other	1201
+1030783	0.8	0	0.8	0	0.3	0	rare_iSNP	other	1201
+1030983	1.7	0	1	0	0	0	common_iSNP	other	1201
+1030996	2.4	0	1.3	0	0	0	common_iSNP	other	1201
+1031106	3.7	0	0.3	0	0.2	0	common_iSNP	other	1201
+1031172	3.9	0	0.3	0	0.1	0	common_iSNP	other	1201
+1031174	4	0	0.3	0	0.3	0	common_iSNP	other	1201
+1031183	3	0	0.3	0	0.3	0	common_iSNP	other	1201
+1031200	4.1	0	0.9	0	0	0	common_iSNP	other	1201
+1031210	4	0	0.6	0	0	0	common_iSNP	other	1201
+1031256	3.4	0	0.4	0	0.4	0	common_iSNP	other	1201
+1031281	4.8	0	0.4	0	0.1	0	common_iSNP	other	1201
+1031365	8.3	0	0	0	0	0	rare_iSNP	other	1201
+1031368	8.2	0	0	0	0	0	rare_iSNP	other	1201
+1031371	8.2	0	0	0	0	0	rare_iSNP	other	1201
+1031376	9.3	0	0	0	0	0	rare_iSNP	other	1201
+1031378	9.3	0	0	0	0	0	rare_iSNP	other	1201
+1031380	7.1	0	0	0	0	0	rare_iSNP	other	1201
+1031382	9.3	0	0	0	0	0	rare_iSNP	other	1201
+1031386	9.3	0	0.9	0	0	0	rare_iSNP	other	1201
+1031394	12.5	0	1.1	0	0	0	common_iSNP	other	1201
+1031395	12.5	0	1.1	0	0	0	common_iSNP	other	1201
+1031404	9.5	0	1.3	0	0	0	rare_iSNP	other	1201
+1031413	6.2	0	1.7	0	0	0	rare_iSNP	other	1201
+1031425	0	0	2.4	0	0	0	rare_iSNP	other	1201
+1031501	5.9	0	8.3	0	1	0	rare_iSNP	other	1201
+1031502	5.9	0	8.8	0	0.9	0	rare_iSNP	other	1201
+1031520	3.6	0	5.1	0	0.5	0	rare_iSNP	other	1201
+1031524	3.3	0	4.4	0	0.5	0	rare_iSNP	other	1201
+1031548	2	0	2.8	0	0.3	0	common_iSNP	other	1201
+1031566	1.7	0	2.3	0	0.3	0	common_iSNP	other	1201
+1031575	3.1	0	2.2	0	0.3	0	common_iSNP	other	1201
+1031582	2.9	0	2	0	0.2	0	common_iSNP	other	1201
+1031584	2.9	0	2	0	0.2	0	common_iSNP	other	1201
+1031585	3.1	0	2	0	0.3	0	common_iSNP	other	1201
+1031587	3	0	2	0	0.2	0	common_iSNP	other	1201
+1031621	2.2	0	2.3	0	0.2	0	common_iSNP	other	1201
+1031650	3.1	0	1.9	0	0	0	common_iSNP	other	1201
+1031672	52.2	-96	52.4	-259	51.2	-639	other_SNP	other	1201
+1031721	51.3	-111	50.6	-339	50.5	-838	other_SNP	other	1201
+1031731	2.7	0	2	0	0	0	common_iSNP	other	1201
+1031779	0.9	0	1.6	0	0.2	0	rare_iSNP	other	1201
+1031780	1.7	0	1.6	0	0	0	rare_iSNP	other	1201
+1031878	6.3	0	1	0	0.1	0	rare_iSNP	other	1201
+1031907	6.4	0	1	0	0	0	rare_iSNP	other	1201
+1031927	7	0	1	0	0.5	0	rare_iSNP	other	1201
+1032263	3.4	0	1.6	0	0.1	0	common_iSNP	other	1201
+1032525	1.2	0	0	0	0	0	rare_iSNP	other	1201
+1032893	4.8	0	0.9	0	0.7	0	common_iSNP	other	1201
+1033617	0	0	0	0	0	0	other_SNP	other	1201
+1033758	87.9	-12	100	0	100	0	other_SNP	other	1201
+1033764	3.4	0	0	0	0	1	rare_iSNP	other	1201
+1034168	0	0	0	0	0.1	0	rare_iSNP	other	1201
+1034255	1.5	0	0	0	0.1	0	rare_iSNP	other	1201
+1034270	2.3	0	0	0	0.2	0	rare_iSNP	other	1201
+1034274	1.6	0	0	0	0.1	0	rare_iSNP	other	1201
+1034279	2.4	0	0	0	0.1	0	rare_iSNP	other	1201
+1034294	2.4	0	0	0	0.1	0	rare_iSNP	other	1201
+1034318	0.8	0	0	0	0	0	rare_iSNP	other	1201
+1034339	1.7	0	0	0	0	0	rare_iSNP	other	1201
+1035302	1.2	0	0	0	0	0	rare_iSNP	other	1201
+1035337	0.7	0	0	0	0	0	rare_iSNP	other	1201
+1035362	17.1	-786	17.1	-1986	17.4	-4826	other_SNP	other	1201
+1035374	68.6	0	60.7	0	55.3	0	common_iSNP	other	1201
+1035377	87.9	0	88.9	0	84.3	0	common_iSNP	other	1201
+1039139	2.4	0	0.5	0	0.1	0	common_iSNP	other	1201
+1042502	100	0	72.5	-30	65.2	-78	other_SNP	other	1201
+1042503	100	0	62.5	-42	65.2	-70	other_SNP	other	1201
+1042504	57.5	-17	26.9	-177	31.4	-262	other_SNP	other	1201
+1042505	52.4	-20	33.8	-104	23.2	-324	other_SNP	other	1201
+1042506	23	-67	29.7	-104	29.9	-171	other_SNP	other	1201
+1042507	23.3	-46	15.1	-186	14.5	-347	other_SNP	other	1201

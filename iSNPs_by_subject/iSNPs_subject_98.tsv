@@ -1,1302 +1,1675 @@
-Position	R_percent	V_percent	C_percent	SNP	fastGEAR_block	subject_id
-7124	0	0	0.2	rare_iSNP	other	98
-7259	0	0	0	common_iSNP	other	98
-7443	0	0	0	common_iSNP	other	98
-7576	0	2.7	0	common_iSNP	other	98
-8460	0	0	0.1	rare_iSNP	other	98
-8604	0	0	0.1	other_SNP	other	98
-15176	0	0	0.1	rare_iSNP	other	98
-19793	83.5	90.9	100	common_iSNP	other	98
-19808	91.5	88.6	100	common_iSNP	other	98
-23929	0	0	0.1	rare_iSNP	other	98
-25201	0	0	0	other_SNP	other	98
-25482	0	0	0.1	common_iSNP	other	98
-29801	0	0	0	rare_iSNP	other	98
-29853	0	0	0.4	rare_iSNP	other	98
-30572	0	0	0	other_SNP	other	98
-35608	0	0	0.1	rare_iSNP	other	98
-38797	0	4	0.1	common_iSNP	other	98
-43009	0	0	0.2	rare_iSNP	other	98
-44206	0	0	0	other_SNP	other	98
-44405	0	0	0.3	rare_iSNP	other	98
-44918	0	0	0.4	rare_iSNP	other	98
-48967	0	0	0.1	rare_iSNP	other	98
-49410	0	0	0.1	rare_iSNP	other	98
-51838	93.6	88.9	94.5	common_iSNP	other	98
-51841	93	86.1	94.4	common_iSNP	other	98
-54265	38.5	30.8	94.8	common_iSNP	other	98
-54277	0	0	0.7	common_iSNP	other	98
-54281	0	0	0.3	common_iSNP	other	98
-54289	0	0	0.5	common_iSNP	other	98
-54298	0	0	0.4	common_iSNP	other	98
-54367	0	0	0.5	common_iSNP	other	98
-54430	0	0	0.4	common_iSNP	other	98
-54431	0	0	0.1	other_SNP	other	98
-54432	0	0	0	other_SNP	other	98
-54445	0	0	0.4	common_iSNP	other	98
-54484	0	0	0.3	common_iSNP	other	98
-54496	0	0	0.3	rare_iSNP	other	98
-54514	0	0	0.3	common_iSNP	other	98
-54562	0	0	0.2	other_SNP	other	98
-54569	0	0	0.2	other_SNP	other	98
-54605	0	0	0.6	common_iSNP	other	98
-54606	0	0	0.6	common_iSNP	other	98
-54607	0	0	0.6	rare_iSNP	other	98
-54614	0	0	0.7	rare_iSNP	other	98
-54622	0	0	1.7	rare_iSNP	other	98
-54625	0	0	2.3	rare_iSNP	other	98
-54628	0	0	0.8	rare_iSNP	other	98
-54706	0	0	1.8	rare_iSNP	other	98
-54707	0	0	1.4	rare_iSNP	other	98
-54712	0	0	1.2	rare_iSNP	other	98
-54716	0	0	1	rare_iSNP	other	98
-54718	0	0	1	rare_iSNP	other	98
-54721	0	0	1	rare_iSNP	other	98
-54724	0	0	1.1	common_iSNP	other	98
-54742	0	0	0.2	common_iSNP	other	98
-54801	0	0	0.2	other_SNP	other	98
-54814	0	0	0	other_SNP	other	98
-55047	0	0	0	other_SNP	other	98
-55099	0	0	0	other_SNP	other	98
-55237	0	0	0.1	common_iSNP	other	98
-55240	0	0	0.3	common_iSNP	other	98
-55246	0	0	0.2	common_iSNP	other	98
-55250	0	0	0.5	common_iSNP	other	98
-55252	0	0	1.2	common_iSNP	other	98
-55253	0	0	1	common_iSNP	other	98
-55256	0	0	2.2	common_iSNP	other	98
-55259	0	0	0.2	common_iSNP	other	98
-55260	0	0	0.2	common_iSNP	other	98
-55269	0	0	0.3	common_iSNP	other	98
-55285	0	0	0.5	rare_iSNP	other	98
-55352	0	0	0	other_SNP	other	98
-55356	0	0	0	other_SNP	other	98
-55357	0	0	0	other_SNP	other	98
-55362	0	0	0	other_SNP	other	98
-55364	0	0	1.2	other_SNP	other	98
-55365	2.8	0	3.6	other_SNP	other	98
-55378	0	0	1.1	other_SNP	other	98
-55411	0	0	1.1	other_SNP	other	98
-55432	0	0	1.1	other_SNP	other	98
-55450	0	0	1.1	other_SNP	other	98
-55469	0	0	3	other_SNP	other	98
-55474	0	0	0	other_SNP	other	98
-55475	0	0	0	other_SNP	other	98
-55519	0	0	0	other_SNP	other	98
-55527	0	0	0	other_SNP	other	98
-55564	0	0	0	other_SNP	other	98
-55573	0	0	0	other_SNP	other	98
-55590	0	0	0	other_SNP	other	98
-55697	0	0	0	other_SNP	other	98
-55707	0	0	0	other_SNP	other	98
-55726	0	0	0	other_SNP	other	98
-55727	0	0	0	other_SNP	other	98
-55750	19.4	0	0.5	common_iSNP	other	98
-55755	1.9	0	0	other_SNP	other	98
-55797	0	0	4.2	other_SNP	other	98
-55826	0	0	2.1	other_SNP	other	98
-55838	0	0	0	other_SNP	other	98
-55851	0	0	1.1	other_SNP	other	98
-55878	0	0	1.1	other_SNP	other	98
-55883	0	0	1.1	rare_iSNP	other	98
-55887	0	0	1.1	other_SNP	other	98
-55890	0	0	1.1	other_SNP	other	98
-55892	1	0	1.1	other_SNP	other	98
-55894	0	0	1.1	other_SNP	other	98
-55907	0	0	55.7	common_iSNP	other	98
-55915	0	0	1.1	other_SNP	other	98
-55916	0	0	1.1	other_SNP	other	98
-55932	0	0	1	rare_iSNP	other	98
-56005	0	0	0	other_SNP	other	98
-56009	0	0	0	other_SNP	other	98
-56018	0	0	0	other_SNP	other	98
-56033	0	0	0	rare_iSNP	other	98
-56036	0	0	0	other_SNP	other	98
-56037	0	0	0	other_SNP	other	98
-56038	0	0	0	other_SNP	other	98
-56042	0	0	0	other_SNP	other	98
-56048	0	0	0	rare_iSNP	other	98
-56181	0	0	0	other_SNP	other	98
-56184	0	0	0	other_SNP	other	98
-56214	0	0	0	other_SNP	other	98
-56217	0	0	0	other_SNP	other	98
-56259	0	0	0	other_SNP	other	98
-56282	0	0	0	other_SNP	other	98
-56285	0	0	0	other_SNP	other	98
-56287	0	0	0	other_SNP	other	98
-56303	0	0	0	other_SNP	other	98
-56323	69.7	80	69	common_iSNP	other	98
-56348	0	0	0	other_SNP	other	98
-56673	0	0	0.1	common_iSNP	other	98
-56682	0.3	0	0.2	rare_iSNP	other	98
-56693	1.8	1.9	84.2	common_iSNP	other	98
-56700	0	0	0.1	common_iSNP	other	98
-56718	0	0	0.1	rare_iSNP	other	98
-56730	0	0	0.1	rare_iSNP	other	98
-56742	0	0.9	0.2	rare_iSNP	other	98
-56756	0.3	0.9	0.2	rare_iSNP	other	98
-56834	0	0	0.1	rare_iSNP	other	98
-56842	0	1	0.1	rare_iSNP	other	98
-56853	0.6	0	87.9	common_iSNP	other	98
-56923	2.1	1.8	3.4	common_iSNP	other	98
-56936	0	0	0.1	rare_iSNP	other	98
-56967	0	0	0.1	rare_iSNP	other	98
-57127	0	0	0	common_iSNP	other	98
-57135	0	0	0	common_iSNP	other	98
-57150	0	0	0	common_iSNP	other	98
-57156	0	0	0	rare_iSNP	other	98
-57180	0	0	0	rare_iSNP	other	98
-57736	0	0	0	rare_iSNP	other	98
-57740	0	0	0	rare_iSNP	other	98
-57748	0	0	0.1	rare_iSNP	other	98
-57749	0	0	0.1	rare_iSNP	other	98
-57762	0	0	0	rare_iSNP	other	98
-57765	0	0	0.1	rare_iSNP	other	98
-57771	0	0	0	rare_iSNP	other	98
-57774	0	0	0	rare_iSNP	other	98
-58319	0	0	0.5	common_iSNP	other	98
-58327	0	0	0.7	common_iSNP	other	98
-58329	0	0	0.7	common_iSNP	other	98
-58338	0	0	1.3	common_iSNP	other	98
-58339	0	0	1	common_iSNP	other	98
-58340	0	0	1	common_iSNP	other	98
-58348	0	0	1.3	rare_iSNP	other	98
-58350	0	0	1.3	rare_iSNP	other	98
-58607	0	0	3.7	rare_iSNP	other	98
-58608	0	0	2.8	rare_iSNP	other	98
-58636	0	0	0	common_iSNP	other	98
-58664	0	0	0	common_iSNP	other	98
-58666	0	0	0.1	common_iSNP	other	98
-58864	0	0	0.1	rare_iSNP	other	98
-59117	0	0	0	other_SNP	other	98
-59391	0	0	0.3	rare_iSNP	other	98
-59499	0	0	0.3	rare_iSNP	other	98
-61427	0	3.6	0	other_SNP	other	98
-62559	0	0	0.2	common_iSNP	other	98
-62939	0	0	0	common_iSNP	other	98
-63306	0	0	0	other_SNP	other	98
-65206	0	1.4	2.9	rare_iSNP	other	98
-65211	0	0	0.3	rare_iSNP	other	98
-65365	0	0	0	other_SNP	other	98
-66255	0	0	0.5	common_iSNP	other	98
-67051	0	0	0.3	other_SNP	other	98
-67549	0	0	0.1	common_iSNP	other	98
-67608	0.3	0	0	other_SNP	other	98
-68326	0	0	0.3	common_iSNP	other	98
-68528	0	0	0.1	common_iSNP	other	98
-71307	0	0	0	rare_iSNP	other	98
-72210	0	0	0.3	rare_iSNP	other	98
-72510	0	0	0.1	rare_iSNP	other	98
-73416	0	0	0.1	rare_iSNP	other	98
-79833	0	0	0.6	rare_iSNP	other	98
-84546	87.5	93.5	99.9	common_iSNP	other	98
-84551	87.7	88.3	99.9	common_iSNP	other	98
-87159	0	0	0.2	rare_iSNP	other	98
-87518	0	0	0.1	rare_iSNP	other	98
-92354	0	0	0.2	rare_iSNP	other	98
-93188	0	0	0.2	rare_iSNP	other	98
-93321	0	0	0.2	common_iSNP	other	98
-93746	0	0	0	rare_iSNP	other	98
-93965	0	0	0.4	rare_iSNP	other	98
-95689	98.4	89.8	99.8	rare_iSNP	other	98
-95712	95.5	87.5	99.8	rare_iSNP	other	98
-95720	90.2	89.1	100	rare_iSNP	other	98
-95734	99.4	86	100	rare_iSNP	other	98
-95750	93.3	90	100	rare_iSNP	other	98
-96443	0	0	0.4	rare_iSNP	other	98
-99416	0	0	0	other_SNP	other	98
-100061	0	0	0.3	rare_iSNP	other	98
-100213	0	0	1	rare_iSNP	other	98
-100360	0	0	0.3	rare_iSNP	other	98
-101561	0.5	0	0.1	rare_iSNP	other	98
-101708	0	0	0.1	rare_iSNP	other	98
-102020	0	0	0.3	rare_iSNP	other	98
-102491	0	0	0.2	common_iSNP	other	98
-103123	0	0	0	common_iSNP	other	98
-103622	0	0	0	common_iSNP	other	98
-106615	0	0	0	other_SNP	other	98
-109175	0	0	0.1	other_SNP	other	98
-110667	0	0	0	common_iSNP	other	98
-111096	0	0	0.5	other_SNP	other	98
-112086	0	0	0	common_iSNP	other	98
-112114	0	0	0	common_iSNP	other	98
-112440	0	0	0	common_iSNP	other	98
-112576	0	0	0.6	common_iSNP	other	98
-113431	0	0	0	other_SNP	other	98
-114153	0	0	0.2	other_SNP	other	98
-114454	0	0	0	other_SNP	other	98
-115570	0	0	0.7	common_iSNP	other	98
-115771	0	0	0.6	other_SNP	other	98
-116333	0	0	0.9	other_SNP	other	98
-116336	0	0	0.6	rare_iSNP	other	98
-116602	0	0	0	rare_iSNP	other	98
-121178	0	0	0.4	common_iSNP	other	98
-121191	0	0	0.3	other_SNP	other	98
-121746	0	0	0.1	other_SNP	other	98
-121755	0	0	0.1	other_SNP	other	98
-124412	0	0	0.2	other_SNP	other	98
-124638	0	0	0.2	common_iSNP	other	98
-124874	0	0	0.3	common_iSNP	other	98
-125482	0	0	0	common_iSNP	other	98
-128071	0	0	0.3	common_iSNP	other	98
-128109	0	0	0.3	common_iSNP	other	98
-128786	0	0	1	other_SNP	other	98
-128830	0	0	0.7	rare_iSNP	other	98
-129293	0	0	0.2	common_iSNP	other	98
-129435	0	0	0.2	common_iSNP	other	98
-129601	0	0	0.5	other_SNP	other	98
-129808	0	0	0.5	common_iSNP	other	98
-129917	0	0	0	common_iSNP	other	98
-130044	0	0	0.3	common_iSNP	other	98
-130344	0	0	0	common_iSNP	other	98
-130426	0	0	0	common_iSNP	other	98
-132308	0	0	0.2	rare_iSNP	other	98
-132859	0	0	0.1	common_iSNP	other	98
-133160	0	0	0.2	rare_iSNP	other	98
-133285	0	0	0.2	rare_iSNP	other	98
-133427	0	0	0.1	common_iSNP	other	98
-133629	0	0	0	rare_iSNP	other	98
-133826	0	0	0.1	common_iSNP	other	98
-134072	0	0	0.3	common_iSNP	other	98
-134692	0	0	0	rare_iSNP	other	98
-134916	0	0	0.1	rare_iSNP	other	98
-134941	0	0	0.1	common_iSNP	other	98
-135140	0	0	0.3	common_iSNP	other	98
-135289	0	0	0.4	other_SNP	other	98
-135480	0	0	0.4	common_iSNP	other	98
-135490	0	0	0.4	common_iSNP	other	98
-135523	0	0	0.4	other_SNP	other	98
-135780	0	0	0.1	common_iSNP	other	98
-135819	0	0	0.1	common_iSNP	other	98
-135905	0	0	0.1	rare_iSNP	other	98
-136418	0	0	0.1	rare_iSNP	other	98
-136497	0	0	0.1	other_SNP	other	98
-136845	0	0	0.2	other_SNP	other	98
-137712	0	0	0.2	common_iSNP	other	98
-138063	0	0	0.3	other_SNP	other	98
-138085	0	0	0.1	common_iSNP	other	98
-138975	0	0	0.2	common_iSNP	other	98
-140118	0	0	0.2	common_iSNP	other	98
-140296	0	0	0.3	other_SNP	other	98
-140428	0	0	0.1	common_iSNP	other	98
-140879	0	0	0.1	common_iSNP	other	98
-141352	0	0	0	common_iSNP	other	98
-142845	0	0	0.1	common_iSNP	other	98
-143324	0	0	0.2	common_iSNP	other	98
-144480	86.4	95.5	99.9	common_iSNP	other	98
-144482	88.5	97.8	100	common_iSNP	other	98
-144485	84.3	95.5	100	common_iSNP	other	98
-144487	88.3	100	100	rare_iSNP	other	98
-145224	0	0	0.2	common_iSNP	other	98
-148860	0	0	0.5	other_SNP	other	98
-151252	0	0	0	rare_iSNP	other	98
-151697	91.1	88.9	100	rare_iSNP	other	98
-151751	93.5	84.8	100	rare_iSNP	other	98
-151753	92.8	83.3	100	rare_iSNP	other	98
-151762	94.1	87.2	100	rare_iSNP	other	98
-151770	91.2	82.1	100	rare_iSNP	other	98
-151771	94.2	87.2	100	rare_iSNP	other	98
-151776	92.8	85	99.9	rare_iSNP	other	98
-151798	95.8	87.5	100	rare_iSNP	other	98
-151805	96.8	86	99.9	rare_iSNP	other	98
-153989	0	0	0.3	other_SNP	other	98
-155083	0	0	0.1	common_iSNP	other	98
-156942	0	0	0.4	rare_iSNP	other	98
-157125	0	0	0.2	common_iSNP	other	98
-157144	0	0	0.3	common_iSNP	other	98
-158027	0	0	0.2	rare_iSNP	other	98
-158034	0	0	0.2	rare_iSNP	other	98
-158253	0	0	0	rare_iSNP	other	98
-158642	0	0	0.2	rare_iSNP	other	98
-159363	0	0	0	rare_iSNP	other	98
-159373	0	0	0.4	rare_iSNP	other	98
-160702	0	0	0	common_iSNP	other	98
-160732	0	0	0	common_iSNP	other	98
-160744	0	0	0	common_iSNP	other	98
-160777	0.4	1	1.5	common_iSNP	other	98
-160779	0.4	1	1	common_iSNP	other	98
-161044	0	0	0.2	common_iSNP	other	98
-161104	0	0	0.3	common_iSNP	other	98
-161126	0	0	0.3	common_iSNP	other	98
-161171	0	0	0.3	rare_iSNP	other	98
-161172	0	0	0.3	rare_iSNP	other	98
-161174	0	0	0.3	rare_iSNP	other	98
-161180	0	0	0.3	rare_iSNP	other	98
-161189	0	0	0.9	rare_iSNP	other	98
-161191	0	0	0.5	rare_iSNP	other	98
-161194	0	0	0.6	rare_iSNP	other	98
-161197	0	0	0.7	rare_iSNP	other	98
-161201	0	0	2.3	rare_iSNP	other	98
-161203	0	0	2.4	rare_iSNP	other	98
-161205	0	0	2.3	rare_iSNP	other	98
-161210	0	0	0.9	rare_iSNP	other	98
-161212	0	0	0.9	rare_iSNP	other	98
-161218	0	0	0.7	rare_iSNP	other	98
-161227	0	0	0.5	other_SNP	other	98
-161229	0	0	1	rare_iSNP	other	98
-161235	0	0	0.3	rare_iSNP	other	98
-161236	0	0	0.3	rare_iSNP	other	98
-161239	0	0	0.3	rare_iSNP	other	98
-161247	0	0	0.2	common_iSNP	other	98
-161272	0	0	0.2	common_iSNP	other	98
-161365	0	0	0.1	common_iSNP	other	98
-161371	0	0	0.1	common_iSNP	other	98
-161380	0	0	0.1	common_iSNP	other	98
-161680	0	0	0.4	common_iSNP	other	98
-161715	0	0	0.2	common_iSNP	other	98
-162249	0	0	0.2	common_iSNP	other	98
-162417	0	0	0.1	common_iSNP	other	98
-162614	0	0	0	rare_iSNP	other	98
-163253	0	0	0.1	common_iSNP	other	98
-163254	0	0	0.1	common_iSNP	other	98
-164275	0	0	0.2	common_iSNP	other	98
-164293	0	0	0.3	common_iSNP	other	98
-164409	0	0	0.3	common_iSNP	other	98
-164476	0	0	0	common_iSNP	other	98
-164527	0	0	0	common_iSNP	other	98
-165086	0	0	0.3	rare_iSNP	other	98
-165674	2.7	0	1	rare_iSNP	other	98
-165676	2	0	0.7	rare_iSNP	other	98
-165832	0	0	0.4	common_iSNP	other	98
-166610	0	0	0.1	common_iSNP	other	98
-166656	0	0	0.1	common_iSNP	other	98
-166869	0	0	0	common_iSNP	other	98
-166885	0	0	0	common_iSNP	other	98
-166983	0	0	0	common_iSNP	other	98
-167033	0	0	0.1	common_iSNP	other	98
-167181	0	0	0.2	common_iSNP	other	98
-167432	0	0	0	common_iSNP	other	98
-167960	0	0	0.1	rare_iSNP	other	98
-168252	85.9	83.3	99.9	common_iSNP	other	98
-168258	83.3	87	99.9	common_iSNP	other	98
-168260	88.8	84.6	100	common_iSNP	other	98
-168268	77.6	86.6	99.9	common_iSNP	other	98
-168271	84.7	93.9	99.9	common_iSNP	other	98
-168279	87.5	98.7	99.8	rare_iSNP	other	98
-168770	0	0	0.3	common_iSNP	other	98
-168965	0	0	0.2	common_iSNP	other	98
-169072	0	0	0.2	rare_iSNP	other	98
-169291	0	0	0.2	common_iSNP	other	98
-169340	0	0	0	common_iSNP	other	98
-169828	0	0	0	other_SNP	other	98
-169941	0	0	0	common_iSNP	other	98
-170531	0	0	0	common_iSNP	other	98
-171058	0	0	0	common_iSNP	other	98
-171430	0	0	0.4	rare_iSNP	other	98
-171973	0	0	0.1	rare_iSNP	other	98
-172289	0	0	0	common_iSNP	other	98
-172834	0	0	0.2	common_iSNP	other	98
-173412	0	0	0	common_iSNP	other	98
-173932	0	0	0.3	common_iSNP	other	98
-174664	0	0	0.2	common_iSNP	other	98
-174759	0	0	0.1	common_iSNP	other	98
-176680	0	0	0.3	common_iSNP	other	98
-176836	0	0	0.3	common_iSNP	other	98
-177856	0	0	0.5	rare_iSNP	other	98
-178250	0	0	0.1	common_iSNP	other	98
-178339	0	0	0.1	common_iSNP	other	98
-178608	0	0	0.1	common_iSNP	other	98
-179498	0	0	0	other_SNP	other	98
-179586	0	0	0	other_SNP	other	98
-180165	0	0	0	other_SNP	other	98
-180452	0	0	0.1	common_iSNP	other	98
-180476	0	0	0.2	common_iSNP	other	98
-181070	0	0	0	other_SNP	other	98
-181406	0	0	0.5	rare_iSNP	other	98
-181625	0	0	0.1	common_iSNP	other	98
-181648	0	0	0.2	common_iSNP	other	98
-181872	82.4	90.9	91.6	common_iSNP	other	98
-181972	0	0	0	rare_iSNP	other	98
-182050	0	0	0	rare_iSNP	other	98
-182178	0	0	0.5	rare_iSNP	other	98
-182484	0	0	0.1	rare_iSNP	other	98
-182758	0	0	0.1	rare_iSNP	other	98
-182900	0	0	5	common_iSNP	other	98
-182901	0	0	3.8	common_iSNP	other	98
-183258	0	0	0.1	rare_iSNP	other	98
-183337	0	0	0.1	rare_iSNP	other	98
-183373	0	0	0	common_iSNP	other	98
-183446	0	0	0.1	common_iSNP	other	98
-183666	0	0	0	rare_iSNP	other	98
-183720	0	0	0	rare_iSNP	other	98
-183744	0	0	0	rare_iSNP	other	98
-183877	0	0	0.1	rare_iSNP	other	98
-183987	0	0	0.2	common_iSNP	other	98
-184024	0	0	0.2	rare_iSNP	other	98
-184340	0	0	0	common_iSNP	other	98
-184539	0	0	0	rare_iSNP	other	98
-184993	0	0	0.1	common_iSNP	other	98
-185546	86.7	82.6	100	common_iSNP	other	98
-185548	86.1	96	100	rare_iSNP	other	98
-185553	84	75	99.8	common_iSNP	other	98
-185559	83.7	85	100	common_iSNP	other	98
-185561	87.8	85	100	common_iSNP	other	98
-185564	85.6	84.2	99.8	rare_iSNP	other	98
-185565	86.6	77.8	100	common_iSNP	other	98
-185571	96.8	86.7	100	rare_iSNP	other	98
-185587	91.4	90	100	rare_iSNP	other	98
-185602	91.9	89.5	100	rare_iSNP	other	98
-186692	0	0	0	other_SNP	other	98
-186746	0	0	0	other_SNP	other	98
-187724	0	0	0.1	other_SNP	other	98
-187977	0	0	0.2	rare_iSNP	other	98
-188959	0	0	0.2	rare_iSNP	other	98
-189212	0	0	0.4	rare_iSNP	other	98
-190009	0	0	0.1	rare_iSNP	other	98
-190696	0	0	0.1	rare_iSNP	other	98
-190823	0	0	0.1	other_SNP	other	98
-191912	0	0	0.1	other_SNP	other	98
-195134	0	0	0	common_iSNP	other	98
-195220	0	0	0	common_iSNP	other	98
-195225	0	0	0	rare_iSNP	other	98
-196043	0	0	0	rare_iSNP	other	98
-196254	0	0	0	other_SNP	other	98
-196694	0	0	0	other_SNP	other	98
-196719	0	0	0	rare_iSNP	other	98
-197030	0	0	0.1	rare_iSNP	other	98
-197462	0	0	0.1	common_iSNP	other	98
-198403	0	0	0.1	common_iSNP	other	98
-199088	0	0	0.2	rare_iSNP	other	98
-199866	0	0	0.2	common_iSNP	other	98
-199943	0	0	0.5	common_iSNP	other	98
-202159	0	0	0	rare_iSNP	other	98
-202824	0	0	0.2	rare_iSNP	other	98
-202845	0	0	0.2	rare_iSNP	other	98
-204213	0	0	0	rare_iSNP	other	98
-204688	79.5	90.6	100	common_iSNP	other	98
-204690	87	97.7	100	rare_iSNP	other	98
-205946	0	0	0	rare_iSNP	other	98
-207427	0	0	0	rare_iSNP	other	98
-209543	100	88.5	99.8	rare_iSNP	other	98
-209926	0	0	0	other_SNP	other	98
-211651	0	0	0.2	rare_iSNP	other	98
-215874	0	0	0	rare_iSNP	other	98
-215897	0	0	0	rare_iSNP	other	98
-215933	0	0	0.1	rare_iSNP	other	98
-215940	0	0	0	rare_iSNP	other	98
-216387	0	0	0.5	rare_iSNP	other	98
-217358	0	0	0	rare_iSNP	other	98
-220090	0	0	0	rare_iSNP	other	98
-221763	88	94.6	99.9	rare_iSNP	other	98
-222381	0	0	0.1	common_iSNP	other	98
-223515	0	0	0.2	common_iSNP	other	98
-224331	0	0	0.3	rare_iSNP	other	98
-224656	0	0	0.1	rare_iSNP	other	98
-224980	0	0	0	rare_iSNP	other	98
-227663	0.3	0	0	common_iSNP	other	98
-230687	0	0	0.3	common_iSNP	other	98
-231327	0	0	0.6	rare_iSNP	other	98
-233680	0	0	0.3	common_iSNP	other	98
-234088	0	0	0.2	common_iSNP	other	98
-237248	0	0	0	other_SNP	other	98
-238487	0	0	0.2	rare_iSNP	other	98
-239342	0	0	0.1	rare_iSNP	other	98
-239822	0	0	0.2	rare_iSNP	other	98
-240074	0	0	0.3	rare_iSNP	other	98
-240191	0	0	0.1	rare_iSNP	other	98
-240572	0	1.8	0.2	rare_iSNP	other	98
-241461	0	0	0.2	rare_iSNP	other	98
-241884	0	0	0.1	common_iSNP	other	98
-242034	0	0	0.2	common_iSNP	other	98
-246417	0	0	0.1	rare_iSNP	other	98
-249502	0	0	0.1	rare_iSNP	other	98
-250193	0	0	0.3	rare_iSNP	other	98
-251590	0	0	0.1	rare_iSNP	other	98
-251740	0	0	0.5	rare_iSNP	other	98
-251752	0	0	0.1	rare_iSNP	other	98
-251754	0	0	0.1	rare_iSNP	other	98
-253013	0	0	0	common_iSNP	other	98
-253504	0	0	0.1	rare_iSNP	other	98
-254123	0	0	0	rare_iSNP	other	98
-254916	0	0	0.1	common_iSNP	other	98
-255049	0	0	0.2	rare_iSNP	other	98
-255079	0	0	0	common_iSNP	other	98
-257482	0	0	0	other_SNP	other	98
-264990	88.6	95.1	99.8	common_iSNP	other	98
-271237	0	0	0.6	rare_iSNP	other	98
-271372	0.6	0	0.2	rare_iSNP	other	98
-272623	0	0	0.2	other_SNP	other	98
-272938	0	0	0.5	other_SNP	other	98
-272971	0	0	0.5	rare_iSNP	other	98
-273041	0	0	0.4	rare_iSNP	other	98
-273106	0	0	0.5	common_iSNP	other	98
-273219	0	0	0	rare_iSNP	other	98
-274024	0	0	0.2	common_iSNP	other	98
-274532	0	0	0.2	common_iSNP	other	98
-274983	0	0	0	rare_iSNP	other	98
-275397	0	0	0	rare_iSNP	other	98
-275849	0	0	0.2	rare_iSNP	other	98
-276484	0	0	0	rare_iSNP	other	98
-276555	0	0	0.2	rare_iSNP	other	98
-276591	0	0	0	rare_iSNP	other	98
-276740	0	0	0	rare_iSNP	other	98
-280177	0	0	0.2	rare_iSNP	other	98
-280261	0	0	0.2	rare_iSNP	other	98
-282342	0	0	0	rare_iSNP	other	98
-283157	0	0	0.3	rare_iSNP	other	98
-286638	0	0	0	rare_iSNP	other	98
-286821	0	0	0	rare_iSNP	other	98
-286875	0	0	0	rare_iSNP	other	98
-294071	0	0	0.3	rare_iSNP	other	98
-294217	0	0	0	rare_iSNP	other	98
-295046	0	0	0	other_SNP	other	98
-295189	0	0	0	rare_iSNP	other	98
-297804	0	0	0	rare_iSNP	other	98
-309409	0	0	0.5	common_iSNP	other	98
-313555	0	0	0	other_SNP	other	98
-324728	0	0	0	other_SNP	other	98
-327468	0	0	0.2	rare_iSNP	other	98
-348756	0	0	0.1	rare_iSNP	other	98
-357790	0	0	0.1	rare_iSNP	other	98
-359077	0	0	0.1	rare_iSNP	other	98
-362841	0	0	0	rare_iSNP	other	98
-367400	0	0	0.1	rare_iSNP	other	98
-368005	0	0	0	rare_iSNP	other	98
-370081	0	0	0.1	rare_iSNP	other	98
-371011	0	0	0	common_iSNP	other	98
-379489	0	0	0	other_SNP	other	98
-380732	0	0	0	rare_iSNP	other	98
-382514	0	0	0.1	rare_iSNP	other	98
-382712	0	0	0.2	rare_iSNP	other	98
-391614	0	0	0.2	rare_iSNP	other	98
-399639	0.4	0	0	other_SNP	other	98
-403784	0	0	0.3	other_SNP	other	98
-416798	0	0	0	other_SNP	other	98
-416915	0	0	0	rare_iSNP	other	98
-420822	0	0	0	other_SNP	other	98
-425295	0	0	0.1	rare_iSNP	other	98
-430589	0	0	0.4	rare_iSNP	other	98
-433161	0	0	0.3	rare_iSNP	other	98
-433729	0	0	0.2	other_SNP	other	98
-436362	0	0	0.1	other_SNP	other	98
-444850	0.6	0	1	other_SNP	other	98
-448034	0	0	0	other_SNP	other	98
-448780	0	0	0	rare_iSNP	other	98
-449548	0	0	0	rare_iSNP	other	98
-450477	0	0	0	other_SNP	other	98
-457269	0	0	0	common_iSNP	other	98
-459939	0	0	0	other_SNP	other	98
-462309	0	0	0	other_SNP	other	98
-463648	0	0	0	rare_iSNP	other	98
-468145	0	0	0.9	common_iSNP	other	98
-474689	0	0	0	rare_iSNP	other	98
-474713	0	0	0.9	rare_iSNP	other	98
-474746	0	0	0.3	rare_iSNP	other	98
-474859	0	0	0	other_SNP	other	98
-475249	0	0	0.6	rare_iSNP	other	98
-475853	0	0	0	rare_iSNP	other	98
-476198	0	0	0	rare_iSNP	other	98
-476295	0	0	0	rare_iSNP	other	98
-476610	0	0	0	common_iSNP	other	98
-476812	0	0	0	rare_iSNP	other	98
-477603	0	0	0.9	rare_iSNP	other	98
-477868	0	0	0	rare_iSNP	other	98
-477884	0	0	0	rare_iSNP	other	98
-477920	0	0	0	rare_iSNP	other	98
-478086	0	0	0	rare_iSNP	other	98
-478135	0	0	0	rare_iSNP	other	98
-479204	0	0	0	other_SNP	other	98
-479882	0	0	0	other_SNP	other	98
-482564	0	0	0	other_SNP	other	98
-489006	0	0	0	other_SNP	other	98
-492867	0	0	0	rare_iSNP	other	98
-493335	0	0	0.2	rare_iSNP	other	98
-493396	0	0	0	rare_iSNP	other	98
-493505	0	0	0	rare_iSNP	other	98
-493588	0	0	0.2	rare_iSNP	other	98
-493705	0	0	0.2	other_SNP	other	98
-498355	0	0	0.4	other_SNP	other	98
-498640	0	0	0.3	common_iSNP	other	98
-512439	27.9	100	100	rare_iSNP	other	98
-512750	0	0	0.3	other_SNP	other	98
-512918	0	0	0.4	common_iSNP	other	98
-513270	0	0	0.5	other_SNP	other	98
-513312	0	0	0.2	rare_iSNP	other	98
-514107	0	0	0	other_SNP	other	98
-514506	0	0	0.2	other_SNP	other	98
-519638	100	100	72	rare_iSNP	other	98
-526864	0	0	0.2	rare_iSNP	other	98
-528709	0	0	0.1	other_SNP	other	98
-530824	0	0	0	other_SNP	other	98
-531131	0	0	0	rare_iSNP	other	98
-531462	0.4	1.1	0.1	rare_iSNP	other	98
-531767	77.8	75.3	82.3	common_iSNP	other	98
-531845	100	99	90	other_SNP	other	98
-532923	0	0	0	rare_iSNP	other	98
-535809	0	0	0.1	rare_iSNP	other	98
-536593	81	88.2	99.9	rare_iSNP	other	98
-536596	84.2	94	99.9	rare_iSNP	other	98
-536598	80.8	92.3	99.9	rare_iSNP	other	98
-536600	87.9	92.5	100	rare_iSNP	other	98
-536607	88.1	94.5	99.9	rare_iSNP	other	98
-536621	86.2	91.2	100	rare_iSNP	other	98
-536633	88.1	94.8	99.9	rare_iSNP	other	98
-539622	0	0	0	rare_iSNP	other	98
-544096	0.5	0	0.1	other_SNP	other	98
-544176	94	87.3	100	common_iSNP	other	98
-544180	92	85.9	100	rare_iSNP	other	98
-544192	91.4	86.6	100	rare_iSNP	other	98
-544201	88.2	83.9	99.9	common_iSNP	other	98
-545448	0.6	0	0.2	common_iSNP	other	98
-545660	0	0	0.2	other_SNP	other	98
-548052	0	0	0.4	other_SNP	other	98
-548245	0	0	0	common_iSNP	other	98
-548872	0	0	0.1	common_iSNP	other	98
-549516	0	0	0	common_iSNP	other	98
-550766	0	0	0.2	other_SNP	other	98
-555353	0	0	0	common_iSNP	other	98
-555862	93.9	83.8	99.9	rare_iSNP	other	98
-555867	92.9	88.4	100	rare_iSNP	other	98
-555873	92.8	89.9	100	rare_iSNP	other	98
-555886	90.3	86.7	100	rare_iSNP	other	98
-555912	0	0	0.2	other_SNP	other	98
-556478	0	0	0.2	rare_iSNP	other	98
-556681	0	0	0	other_SNP	other	98
-557380	26.6	100	100	rare_iSNP	other	98
-569980	0	0	0	rare_iSNP	other	98
-571357	0	0	0.1	common_iSNP	other	98
-575881	0	0	0	rare_iSNP	other	98
-579578	0	0	0.1	other_SNP	other	98
-584157	86	82.8	99.9	rare_iSNP	other	98
-584188	89.4	89.1	100	common_iSNP	other	98
-588168	0	0	0	other_SNP	other	98
-588263	0	0	0.1	other_SNP	other	98
-588597	0	0	0.2	other_SNP	other	98
-592567	0	0	0	rare_iSNP	other	98
-592850	0	0	0.1	rare_iSNP	other	98
-595274	0	0	0.1	rare_iSNP	other	98
-595747	0	0	0.2	rare_iSNP	other	98
-595927	0	0	0.1	rare_iSNP	other	98
-596697	0	0	0.1	common_iSNP	other	98
-597258	0	0	0.1	rare_iSNP	other	98
-597651	0	0	0	rare_iSNP	other	98
-597722	0	0	0	rare_iSNP	other	98
-601006	98.2	90	100	other_SNP	other	98
-601297	0	0	0	rare_iSNP	other	98
-602109	0	0	0	rare_iSNP	other	98
-602143	0	0	0	rare_iSNP	other	98
-602689	0	0	0	rare_iSNP	other	98
-603727	0	0	0	rare_iSNP	other	98
-603828	0	0	0	rare_iSNP	other	98
-604431	0	0	0	rare_iSNP	other	98
-604784	0	0	0.2	common_iSNP	other	98
-606483	0	0	0.1	rare_iSNP	other	98
-606982	0	0	0.3	rare_iSNP	other	98
-607829	0	0	0.1	rare_iSNP	other	98
-611268	0	0	0.2	rare_iSNP	other	98
-611748	0	2.6	0.1	rare_iSNP	other	98
-612213	0	0	0.1	rare_iSNP	other	98
-613094	0	0	0.2	rare_iSNP	other	98
-613106	0	0	0	rare_iSNP	other	98
-614140	0.6	0	0.2	common_iSNP	other	98
-614372	0	0	0.2	rare_iSNP	other	98
-615046	0.7	0	0.1	rare_iSNP	other	98
-615137	0	0	0	rare_iSNP	other	98
-615320	0	0	0.1	rare_iSNP	other	98
-615774	0	0	0.1	common_iSNP	other	98
-615964	0	0	0.3	rare_iSNP	other	98
-616000	0	0	0	rare_iSNP	other	98
-616285	0	0	0.4	rare_iSNP	other	98
-616323	0	0	0.3	rare_iSNP	other	98
-616403	0	0	0	rare_iSNP	other	98
-617801	0	0	0	rare_iSNP	other	98
-619786	0	0	0.2	rare_iSNP	other	98
-621462	0	0	0	rare_iSNP	other	98
-626252	0	0	0.1	rare_iSNP	other	98
-628641	0	0	0.1	rare_iSNP	other	98
-628883	0	0	0	other_SNP	other	98
-628956	0	0	0.1	rare_iSNP	other	98
-628962	0	0	0.1	other_SNP	other	98
-629025	0	0	0.1	common_iSNP	other	98
-629562	88	92.6	99.9	rare_iSNP	other	98
-630084	0	0	0	rare_iSNP	other	98
-633866	0	0	0	other_SNP	other	98
-636283	0	0	0.1	rare_iSNP	other	98
-639953	0	0	0.1	other_SNP	other	98
-640331	0	0	0	other_SNP	other	98
-643346	0	0	0.1	other_SNP	other	98
-644444	0	0	0	other_SNP	other	98
-649990	0	0	0	common_iSNP	other	98
-650144	0	0	0.1	rare_iSNP	other	98
-652015	0	0	0.1	common_iSNP	other	98
-652666	0	0	0	rare_iSNP	other	98
-653976	0	0	0	rare_iSNP	other	98
-654603	0	0	0	rare_iSNP	other	98
-657371	0	0	0.2	common_iSNP	other	98
-657864	0	0	0.2	other_SNP	other	98
-659854	0	0	0	rare_iSNP	other	98
-667084	0	0	0	other_SNP	other	98
-668755	0	0	0	other_SNP	other	98
-670230	0	0	0	other_SNP	other	98
-674235	0	0	0.1	common_iSNP	other	98
-676136	0	0	0	other_SNP	other	98
-684100	0	0	0.3	rare_iSNP	other	98
-684265	0	0	0.2	rare_iSNP	other	98
-686121	0	0	0.3	rare_iSNP	other	98
-689385	0	0	0	rare_iSNP	other	98
-694976	0	0	0.6	common_iSNP	other	98
-696167	0	0	0	rare_iSNP	other	98
-699581	0	0	0.8	common_iSNP	other	98
-703175	0	0	0	rare_iSNP	other	98
-703930	0	0	0.2	rare_iSNP	other	98
-704155	0	0	0.3	rare_iSNP	other	98
-704567	0	0	0.2	common_iSNP	other	98
-706330	0	0	0	other_SNP	other	98
-706375	0	0	0.2	common_iSNP	other	98
-706395	0	0	0.2	rare_iSNP	other	98
-707584	0	0	0.6	rare_iSNP	other	98
-708153	0	0	0.4	common_iSNP	other	98
-708156	0	0	0.4	common_iSNP	other	98
-708157	0	0	0.4	common_iSNP	other	98
-708158	0	0	0.4	common_iSNP	other	98
-708161	0	0	0.4	common_iSNP	other	98
-708162	0	0	0.4	common_iSNP	other	98
-708166	0	0	0.4	common_iSNP	other	98
-708172	0	0	0.5	common_iSNP	other	98
-708181	0	0	2.7	common_iSNP	other	98
-708186	0	0	1.7	common_iSNP	other	98
-708190	0	0	2.4	rare_iSNP	other	98
-708192	0	0	0.7	common_iSNP	other	98
-708195	0	0	0	rare_iSNP	other	98
-708196	0	0	1.5	common_iSNP	other	98
-708213	0	0	0	other_SNP	other	98
-708217	0	0	0.5	common_iSNP	other	98
-708220	0	0	0.9	common_iSNP	other	98
-708226	0	0	0.4	rare_iSNP	other	98
-708265	0	0	0.3	common_iSNP	other	98
-708274	0	0	0	other_SNP	other	98
-708280	0	0	0	other_SNP	other	98
-708643	0	0	0	other_SNP	other	98
-708661	0	0	0	other_SNP	other	98
-708680	0	0	0	other_SNP	other	98
-708743	0	0	0.4	common_iSNP	other	98
-708811	0	0	0.2	other_SNP	other	98
-709423	0	0	0.2	common_iSNP	other	98
-709464	0	0	0	rare_iSNP	other	98
-709514	0	0	0	rare_iSNP	other	98
-710718	0	0	0	rare_iSNP	other	98
-711703	0	0	0	rare_iSNP	other	98
-711780	0.7	0	0	rare_iSNP	other	98
-713016	92.4	89.7	100	rare_iSNP	other	98
-715885	0	0	0.2	common_iSNP	other	98
-717493	0	0	0	other_SNP	other	98
-717581	0	0	0	other_SNP	other	98
-718761	0	0	0.2	common_iSNP	other	98
-719369	0	0	0	common_iSNP	other	98
-720059	0	0	0	other_SNP	other	98
-720275	0	0	0	other_SNP	other	98
-723245	0	0	0	other_SNP	other	98
-725403	0	0	0.3	common_iSNP	other	98
-727308	91.1	83.8	100	common_iSNP	other	98
-727313	84.3	89.1	99.9	common_iSNP	other	98
-727315	83.3	84.6	99.9	common_iSNP	other	98
-727318	91	87.5	100	common_iSNP	other	98
-727320	85.9	81.5	100	common_iSNP	other	98
-727324	87.4	93.9	99.9	common_iSNP	other	98
-727327	88	86.6	99.9	common_iSNP	other	98
-728125	99.6	100	88.6	rare_iSNP	other	98
-733651	0	0	0.1	common_iSNP	other	98
-733706	0	0	0	other_SNP	other	98
-735879	0	0	0.2	common_iSNP	other	98
-736582	0	0.8	0.2	common_iSNP	other	98
-737841	0	0	0.1	common_iSNP	other	98
-745705	0	0	0.1	other_SNP	other	98
-745762	0	0	0.3	rare_iSNP	other	98
-747682	0	0	0.1	other_SNP	other	98
-747722	0	0	0.1	other_SNP	other	98
-747814	0	0	0	other_SNP	other	98
-747986	0	0	0.1	common_iSNP	other	98
-748124	0	0	0.1	rare_iSNP	other	98
-748320	0	0	0	other_SNP	other	98
-748935	0	0	0.2	rare_iSNP	other	98
-749708	0	0	0.2	other_SNP	other	98
-752396	0	1.7	0.2	common_iSNP	other	98
-752483	0	0	0	other_SNP	other	98
-752749	0	0	0.2	common_iSNP	other	98
-752804	0	0	0.2	common_iSNP	other	98
-752824	0	0	0.3	common_iSNP	other	98
-752875	0	0	0.1	common_iSNP	other	98
-752932	0	0	0.3	common_iSNP	other	98
-753110	0	0	0.1	common_iSNP	other	98
-753148	0	0	0.2	common_iSNP	other	98
-753172	0	0	0.2	common_iSNP	other	98
-753232	0	0	0.1	common_iSNP	other	98
-753373	0	0	0.1	common_iSNP	other	98
-753388	0.3	0	0	common_iSNP	other	98
-753394	0	0	0.1	common_iSNP	other	98
-753400	0	0	0.1	common_iSNP	other	98
-753466	0	0	0	other_SNP	other	98
-753502	0	0	0.1	rare_iSNP	other	98
-753524	0	0	0	common_iSNP	other	98
-753546	0	0	0.1	common_iSNP	other	98
-753630	0	0	0.2	common_iSNP	other	98
-753732	0	0	0.2	common_iSNP	other	98
-753750	0.6	0	0.1	common_iSNP	other	98
-753804	0	0	0.1	common_iSNP	other	98
-753879	0	0	0.2	other_SNP	other	98
-753924	0	0	0	other_SNP	other	98
-754156	0	0	0.1	common_iSNP	other	98
-754161	0	0	0.1	common_iSNP	other	98
-754170	0	0	0.1	common_iSNP	other	98
-754188	0	0	0.1	common_iSNP	other	98
-754206	0	0	0.1	common_iSNP	other	98
-754218	0	0	0.1	common_iSNP	other	98
-754221	0	0	0	common_iSNP	other	98
-755081	0	0	0	common_iSNP	other	98
-755218	0	0	0	rare_iSNP	other	98
-758138	0.7	0	0	other_SNP	other	98
-758644	0	0	0.2	rare_iSNP	other	98
-759490	0	0	0.1	common_iSNP	other	98
-759771	0	0	0.3	common_iSNP	other	98
-759799	0	0	0	other_SNP	other	98
-759859	0	0	0.1	other_SNP	other	98
-759910	0	0	0	other_SNP	other	98
-760047	0	1.2	0	other_SNP	other	98
-760085	0	0	0.1	other_SNP	other	98
-760509	0	0	0	other_SNP	other	98
-760730	0	0	0.4	common_iSNP	other	98
-761023	0	0	0	other_SNP	other	98
-763260	0	0	0	other_SNP	other	98
-763823	0	0	0.5	rare_iSNP	other	98
-764150	0	0	0.1	other_SNP	other	98
-764342	0	0	0.2	other_SNP	other	98
-764700	0	0	0.1	common_iSNP	other	98
-766060	0	0	0.1	other_SNP	other	98
-768562	0	0	0.1	common_iSNP	other	98
-768596	0	0	0	other_SNP	other	98
-768602	0	0	0.1	rare_iSNP	other	98
-768819	0.3	0	0.1	rare_iSNP	other	98
-768904	0	0	0.1	common_iSNP	other	98
-769252	0	0	0.2	common_iSNP	other	98
-769601	0	0	0.1	rare_iSNP	other	98
-770626	0	0	0.8	rare_iSNP	other	98
-770646	0.5	0	0.2	rare_iSNP	other	98
-770674	0	0	0	rare_iSNP	other	98
-770697	0	0	0	rare_iSNP	other	98
-770739	1.1	0	0.3	common_iSNP	other	98
-770743	0	0	0.1	rare_iSNP	other	98
-770766	0	0	0.1	rare_iSNP	other	98
-770768	0	1.4	0.1	rare_iSNP	other	98
-770773	0	0	0.1	rare_iSNP	other	98
-770777	0	0	0.1	rare_iSNP	other	98
-770781	0	0	0.2	rare_iSNP	other	98
-770790	0	0	0	rare_iSNP	other	98
-770951	0	0	0	rare_iSNP	other	98
-771151	0	0	0.1	rare_iSNP	other	98
-771267	0	0	0.3	common_iSNP	other	98
-771290	0	0	0	rare_iSNP	other	98
-771501	0	0	0	rare_iSNP	other	98
-771522	0	0	0	rare_iSNP	other	98
-771540	0	0.5	0	rare_iSNP	other	98
-771546	0	0	0	rare_iSNP	other	98
-771549	0	0	0	rare_iSNP	other	98
-771579	0	0	0	rare_iSNP	other	98
-771606	0	0	0	rare_iSNP	other	98
-771819	0	0	0.2	rare_iSNP	other	98
-771834	0	0	0.4	common_iSNP	other	98
-771870	0.6	0	0.2	common_iSNP	other	98
-771945	0	0	0.3	common_iSNP	other	98
-771966	0	0	0.4	rare_iSNP	other	98
-771991	0	0	0.3	common_iSNP	other	98
-772017	0	0	0.3	common_iSNP	other	98
-772041	0	0	0.2	rare_iSNP	other	98
-772098	0	0	0.3	common_iSNP	other	98
-772134	0	0	0.1	rare_iSNP	other	98
-772245	0	0	0.1	common_iSNP	other	98
-772251	0	0	0.1	common_iSNP	other	98
-772263	0.5	0	0.1	common_iSNP	other	98
-772266	0	0	0.1	common_iSNP	other	98
-772269	0	0	0.1	common_iSNP	other	98
-772272	0	0	0.2	rare_iSNP	other	98
-772290	0	0	0.2	rare_iSNP	other	98
-772293	0	0	0.2	rare_iSNP	other	98
-772309	0	0	0.2	rare_iSNP	other	98
-772317	0	0	0.1	rare_iSNP	other	98
-772320	0	0	0.1	rare_iSNP	other	98
-772422	0	0	0.1	rare_iSNP	other	98
-772431	0	0	0	rare_iSNP	other	98
-772446	0	0	0	rare_iSNP	other	98
-772458	0	0	0.1	rare_iSNP	other	98
-772467	0	0	0.1	rare_iSNP	other	98
-772488	0	1.6	0	rare_iSNP	other	98
-772536	0	0	0	rare_iSNP	other	98
-772575	0	0	0	rare_iSNP	other	98
-772612	0	0	0	rare_iSNP	other	98
-772626	0	0	0	rare_iSNP	other	98
-772725	0	0	0	rare_iSNP	other	98
-772764	0	0	0	rare_iSNP	other	98
-772899	0	0	0	rare_iSNP	other	98
-773390	0	0	0.1	common_iSNP	other	98
-774980	0	0	0.8	rare_iSNP	other	98
-774982	0	0	0.3	rare_iSNP	other	98
-774983	0	0	0.3	rare_iSNP	other	98
-774989	0	0	0.2	rare_iSNP	other	98
-774998	0	0	0.2	rare_iSNP	other	98
-775022	0	0	0.3	rare_iSNP	other	98
-775055	0	0	0.2	rare_iSNP	other	98
-775064	0	0	0.2	rare_iSNP	other	98
-775070	0	1	0.2	rare_iSNP	other	98
-775072	0	0	0.2	rare_iSNP	other	98
-775103	0	0	0.2	rare_iSNP	other	98
-775173	0	0	0.2	rare_iSNP	other	98
-776534	0	0	0.1	rare_iSNP	other	98
-776964	0	0	0.1	rare_iSNP	other	98
-777159	0	0	0	rare_iSNP	other	98
-778691	0	0	0	rare_iSNP	other	98
-778692	0	0	0	rare_iSNP	other	98
-778696	0	0	0	rare_iSNP	other	98
-778821	0	0	0	rare_iSNP	other	98
-778841	0	0	0	rare_iSNP	other	98
-778845	0	0	0	rare_iSNP	other	98
-778856	0	0	0	rare_iSNP	other	98
-778863	0	0	0.7	rare_iSNP	other	98
-778909	0	0	0	rare_iSNP	other	98
-779017	0	0	0.7	rare_iSNP	other	98
-779158	0	0	16	rare_iSNP	other	98
-779163	0	0	15.4	rare_iSNP	other	98
-779164	0	0	16	rare_iSNP	other	98
-779166	0	0	15.4	rare_iSNP	other	98
-779179	0	0	12.9	rare_iSNP	other	98
-779218	0	0	13.3	rare_iSNP	other	98
-779230	0	0	12.9	rare_iSNP	other	98
-779235	0	0	12.9	rare_iSNP	other	98
-779251	0	0	9.7	rare_iSNP	other	98
-779275	0	0	9.7	rare_iSNP	other	98
-779281	0	0	10.3	rare_iSNP	other	98
-779284	0	0	10.3	rare_iSNP	other	98
-779290	0	0	11.5	rare_iSNP	other	98
-779296	0	0	14.3	rare_iSNP	other	98
-779308	0	0	23.1	rare_iSNP	other	98
-779599	0	0	0	other_SNP	other	98
-779608	0	0	0	other_SNP	other	98
-779611	0	0	0	other_SNP	other	98
-779614	0	0	0	other_SNP	other	98
-779621	0	0	0	rare_iSNP	other	98
-779701	0	0	13.3	common_iSNP	other	98
-779713	0	0	13.3	common_iSNP	other	98
-779716	0	0	14.3	common_iSNP	other	98
-779719	0	0	14.3	common_iSNP	other	98
-779812	0	0	2.3	rare_iSNP	other	98
-779814	0	0	7	common_iSNP	other	98
-779818	0	0	4.5	common_iSNP	other	98
-779875	0	0	0.4	common_iSNP	other	98
-779877	0	0	0.9	common_iSNP	other	98
-779907	0	0	0.3	common_iSNP	other	98
-780530	2	0	0.7	rare_iSNP	other	98
-780533	2	2	1.4	rare_iSNP	other	98
-780534	0	0	0	rare_iSNP	other	98
-780824	0	0	0	rare_iSNP	other	98
-781217	0	0	0.4	rare_iSNP	other	98
-781325	0	0	0.6	rare_iSNP	other	98
-781359	0	0	0.6	rare_iSNP	other	98
-782210	0	0	0.3	rare_iSNP	other	98
-788493	0	0	0	rare_iSNP	other	98
-791841	0	0	0	rare_iSNP	other	98
-792727	0	0	0.3	rare_iSNP	other	98
-797165	0	0	0.5	rare_iSNP	other	98
-799797	87.8	88.4	100	common_iSNP	other	98
-799805	86.3	83.3	100	common_iSNP	other	98
-804189	0	0	0.6	rare_iSNP	other	98
-804208	0	0	0.5	rare_iSNP	other	98
-804264	0	0	0.3	rare_iSNP	other	98
-805567	0	0	0.1	other_SNP	other	98
-805746	0	0	0	rare_iSNP	other	98
-806097	0	0	0.1	rare_iSNP	other	98
-807967	0.6	0	0	other_SNP	other	98
-808251	0	0	0.7	rare_iSNP	other	98
-809844	100	89.5	100	rare_iSNP	other	98
-809861	100	87.5	100	rare_iSNP	other	98
-809865	100	87.5	100	rare_iSNP	other	98
-809875	100	88.2	99.7	rare_iSNP	other	98
-809887	100	85.7	100	rare_iSNP	other	98
-809905	100	86.7	100	rare_iSNP	other	98
-810454	0	0	0.2	other_SNP	other	98
-810670	0	0	0.3	rare_iSNP	other	98
-811020	0	0	0	rare_iSNP	other	98
-816264	0.7	0	0.3	other_SNP	other	98
-820468	0	0	0.1	other_SNP	other	98
-831658	0	0	0	other_SNP	other	98
-832019	0	0	0	other_SNP	other	98
-832171	0	0	0	other_SNP	other	98
-832942	0	0	0.2	rare_iSNP	other	98
-833058	0	0	0.2	common_iSNP	other	98
-833179	0	0	0	other_SNP	other	98
-836112	0	0	0	other_SNP	other	98
-836719	0	0	0	rare_iSNP	other	98
-836959	0	0	0.4	other_SNP	other	98
-838530	0	0	0.1	rare_iSNP	other	98
-843544	0	0	0	rare_iSNP	other	98
-843667	0	0	0.1	rare_iSNP	other	98
-845461	0	0	0	rare_iSNP	other	98
-846592	0	0	0	rare_iSNP	other	98
-846689	0	0	0	rare_iSNP	other	98
-847555	0	0	0.3	rare_iSNP	other	98
-847974	0	0	0.1	rare_iSNP	other	98
-849952	0	0	0	other_SNP	other	98
-853616	0	0	0	rare_iSNP	other	98
-853664	0	0	0	rare_iSNP	other	98
-853834	0	0	0	rare_iSNP	other	98
-854229	87.2	89.9	99.8	common_iSNP	other	98
-858971	0	0	0	rare_iSNP	other	98
-859511	0	0	0	rare_iSNP	other	98
-859656	0	0	0.1	rare_iSNP	other	98
-859750	0	0	0	other_SNP	other	98
-859758	0	0	0.1	rare_iSNP	other	98
-860085	0	0	0.1	common_iSNP	other	98
-860286	0	0	0	rare_iSNP	other	98
-860356	0	0	0	rare_iSNP	other	98
-861408	0	0	0.1	rare_iSNP	other	98
-862291	0	0	0	rare_iSNP	other	98
-862360	0	0	0.1	rare_iSNP	other	98
-862516	0	0	0	rare_iSNP	other	98
-862681	0	0	0.1	rare_iSNP	other	98
-862755	0	0	0.1	other_SNP	other	98
-872978	96	88.6	99.8	rare_iSNP	other	98
-872984	95	88.9	100	rare_iSNP	other	98
-873012	93.9	87.9	99.9	rare_iSNP	other	98
-873023	97.8	89.2	100	rare_iSNP	other	98
-873038	92.8	87.8	99.8	rare_iSNP	other	98
-873043	90	86	100	common_iSNP	other	98
-873053	88.1	89.6	100	common_iSNP	other	98
-876275	88.5	93.3	99.9	common_iSNP	other	98
-881016	0	0	0.1	rare_iSNP	other	98
-884499	0	0	0.1	rare_iSNP	other	98
-885589	0	0	0	other_SNP	other	98
-890893	0	0	0	rare_iSNP	other	98
-894717	0	0	0.1	rare_iSNP	other	98
-897326	0	0	0.1	rare_iSNP	other	98
-898073	0	0	0.1	rare_iSNP	other	98
-899057	0	0	0	common_iSNP	other	98
-899244	0	0	0	common_iSNP	other	98
-899510	0	0	0.1	other_SNP	other	98
-901665	0	0	0.1	other_SNP	other	98
-901784	0	0	0.1	other_SNP	other	98
-902249	0	0	0.2	common_iSNP	other	98
-907585	0	0	0.1	rare_iSNP	other	98
-907667	0	0	0	rare_iSNP	other	98
-908027	0	0	0	other_SNP	other	98
-908082	0	0	0.1	other_SNP	other	98
-908217	0	0	0	other_SNP	other	98
-909211	0	0	0	other_SNP	other	98
-909312	0	0	0	other_SNP	other	98
-909547	89.9	96	100	common_iSNP	other	98
-909608	0	0	0	other_SNP	other	98
-909620	0	0	0	common_iSNP	other	98
-909754	0	0	0	common_iSNP	other	98
-910105	0	0	0.1	rare_iSNP	other	98
-912395	0	0	0.1	common_iSNP	other	98
-912643	0	0	0.3	rare_iSNP	other	98
-913221	83.9	88.6	99.9	common_iSNP	other	98
-913232	77.7	85.1	99.9	common_iSNP	other	98
-913770	0	0	0	other_SNP	other	98
-915277	89.5	86.3	99.9	common_iSNP	other	98
-915574	87.2	84.7	99.9	common_iSNP	other	98
-916400	0	0	0.3	common_iSNP	other	98
-917129	0	0	0.2	common_iSNP	other	98
-919714	0	0	0	other_SNP	other	98
-921232	0	0	0.1	rare_iSNP	other	98
-932419	0	0	0.1	rare_iSNP	other	98
-932471	0	0	0.1	common_iSNP	other	98
-932500	0	0	0.1	common_iSNP	other	98
-934306	0	0	0	other_SNP	other	98
-935270	28.7	100	99.9	rare_iSNP	other	98
-937697	0	0	0.2	rare_iSNP	other	98
-939166	0	0	0.3	other_SNP	other	98
-941009	0	0	0.2	rare_iSNP	other	98
-941075	0	0	0.2	rare_iSNP	other	98
-941583	0	0	0.4	rare_iSNP	other	98
-941606	0	0	0.7	rare_iSNP	other	98
-945524	0	0	0.1	common_iSNP	other	98
-948543	0	0	0.1	rare_iSNP	other	98
-955255	0	0	0	rare_iSNP	other	98
-955574	0	0	0.1	common_iSNP	other	98
-955611	0	0	0.1	common_iSNP	other	98
-955804	0	0	0.1	common_iSNP	other	98
-955841	0	0	0.1	rare_iSNP	other	98
-956103	0	0	0	common_iSNP	other	98
-957059	0	0	0.4	other_SNP	other	98
-957282	0	0	0.2	other_SNP	other	98
-959750	93.7	89.9	99.9	common_iSNP	other	98
-961214	0	1.5	0.1	rare_iSNP	other	98
-961710	0	0	0	rare_iSNP	other	98
-961740	0	0	0	rare_iSNP	other	98
-961778	0	0	0	rare_iSNP	other	98
-961801	0	0	0	rare_iSNP	other	98
-961843	0	0	0	rare_iSNP	other	98
-961891	0	0	0	rare_iSNP	other	98
-962529	0	0	0.4	rare_iSNP	other	98
-966879	87.4	88	100	common_iSNP	other	98
-966883	86	77.6	100	common_iSNP	other	98
-966887	93.1	89.6	99.9	rare_iSNP	other	98
-966899	92.9	88.6	100	rare_iSNP	other	98
-966903	93.5	84.1	100	rare_iSNP	other	98
-966926	94.3	83.7	100	rare_iSNP	other	98
-966933	96.1	84.1	100	rare_iSNP	other	98
-973027	100	90	100	other_SNP	other	98
-977200	0	0	0.1	common_iSNP	other	98
-980687	0	0	0	other_SNP	other	98
-984086	0	0	0.2	other_SNP	other	98
-985682	0	0	0	other_SNP	other	98
-987113	0	0	0.3	rare_iSNP	other	98
-991877	85.2	88.3	100	common_iSNP	other	98
-994574	0	0	0.2	other_SNP	other	98
-995730	0	0	0.1	other_SNP	other	98
-1000870	0	0	0.1	other_SNP	other	98
-1001508	0	0	0	other_SNP	other	98
-1001963	0	0	0.1	common_iSNP	other	98
-1003581	0	0	0	other_SNP	other	98
-1003781	0	0	0.2	rare_iSNP	other	98
-1005968	0	0	0.2	rare_iSNP	other	98
-1010535	0	0	0.1	other_SNP	other	98
-1010634	0	0	0	rare_iSNP	other	98
-1012609	0	0	0	other_SNP	other	98
-1013625	0	0	0	rare_iSNP	other	98
-1013635	0	0	0	other_SNP	other	98
-1015539	0	0	0.2	common_iSNP	other	98
-1017575	0.6	0	0.2	rare_iSNP	other	98
-1019608	0	0	0	rare_iSNP	other	98
-1019812	0	0	0	rare_iSNP	other	98
-1020001	0	0	0	rare_iSNP	other	98
-1024274	0	0	0	common_iSNP	other	98
-1024707	0	0	0.1	rare_iSNP	other	98
-1024722	0	0	0	common_iSNP	other	98
-1024963	0	0	0.1	common_iSNP	other	98
-1024964	0	0	0	rare_iSNP	other	98
-1025202	0	0	0	rare_iSNP	other	98
-1025440	0	0	0	rare_iSNP	other	98
-1025496	0	0	0.2	common_iSNP	other	98
-1025807	0	0	0	rare_iSNP	other	98
-1025819	0	0	0.5	rare_iSNP	other	98
-1025839	0	0	0	rare_iSNP	other	98
-1025850	0	0	0	rare_iSNP	other	98
-1025909	0.5	1.4	0	rare_iSNP	other	98
-1026131	0	0	0.1	rare_iSNP	other	98
-1026167	0	0	0	rare_iSNP	other	98
-1026191	0	0	0	rare_iSNP	other	98
-1026209	0.8	0	0	rare_iSNP	other	98
-1026223	0	0	0	rare_iSNP	other	98
-1026353	0	0	0	rare_iSNP	other	98
-1026483	0	0	0.1	rare_iSNP	other	98
-1026551	0	0	0	common_iSNP	other	98
-1026554	0	0	0	common_iSNP	other	98
-1026578	0	0	0	common_iSNP	other	98
-1026596	0	0	0	rare_iSNP	other	98
-1026608	0	0	0	rare_iSNP	other	98
-1026611	0	0	0	rare_iSNP	other	98
-1026616	0	0	0	common_iSNP	other	98
-1026629	0	0	0	common_iSNP	other	98
-1026653	0	0	0	rare_iSNP	other	98
-1026656	0	0	0.1	common_iSNP	other	98
-1026661	0.6	1.5	14.9	common_iSNP	other	98
-1026664	8.7	7.3	80.8	common_iSNP	other	98
-1026665	9.5	8	80.2	common_iSNP	other	98
-1026668	0	0	0.1	common_iSNP	other	98
-1026669	7.9	6.6	77.7	common_iSNP	other	98
-1026725	0	0	0.1	common_iSNP	other	98
-1026752	0	0	0	common_iSNP	other	98
-1026758	0	0	0	common_iSNP	other	98
-1026763	0	0	0	common_iSNP	other	98
-1026764	0	0	0	common_iSNP	other	98
-1026767	0	0	0.1	common_iSNP	other	98
-1026771	0	0	0	common_iSNP	other	98
-1026772	0	0	0	common_iSNP	other	98
-1026785	0	0	0	rare_iSNP	other	98
-1026833	0	0	0.1	rare_iSNP	other	98
-1026857	0	0	0	rare_iSNP	other	98
-1026863	0	0	0.1	rare_iSNP	other	98
-1027287	0	0	0.1	common_iSNP	other	98
-1027289	0	0	0.1	common_iSNP	other	98
-1027415	0	0	0.1	common_iSNP	other	98
-1027430	0	0	0.2	common_iSNP	other	98
-1027508	0	0	0	common_iSNP	other	98
-1027540	0	0	0	common_iSNP	other	98
-1028108	0.8	0	12.5	common_iSNP	other	98
-1028112	6.2	5.9	83.6	common_iSNP	other	98
-1028133	0	0	0	common_iSNP	other	98
-1028334	0	0	0.1	rare_iSNP	other	98
-1028938	0	0.7	0.2	rare_iSNP	other	98
-1028941	0	0	0.3	rare_iSNP	other	98
-1028950	0	0	0.3	common_iSNP	other	98
-1028968	0	0	0.3	common_iSNP	other	98
-1028971	0	0	0.3	rare_iSNP	other	98
-1028977	0	0	0.3	rare_iSNP	other	98
-1029001	0	0	0.2	rare_iSNP	other	98
-1029097	0	0	0	common_iSNP	other	98
-1029112	0	0	0.1	common_iSNP	other	98
-1029118	0	0	0.1	common_iSNP	other	98
-1029151	0	0	0	common_iSNP	other	98
-1029171	0	0	0	common_iSNP	other	98
-1029181	0	0	0	common_iSNP	other	98
-1029418	0	1.4	0.4	rare_iSNP	other	98
-1029421	0	0	0.4	rare_iSNP	other	98
-1029424	0	0	0.5	rare_iSNP	other	98
-1029430	0	0	0.5	rare_iSNP	other	98
-1029469	0	0	0	common_iSNP	other	98
-1029478	0	0	0.3	common_iSNP	other	98
-1029577	0	0	0	common_iSNP	other	98
-1029580	2.3	0	1.6	rare_iSNP	other	98
-1029586	0	0	0.4	rare_iSNP	other	98
-1029596	0	0	0.2	rare_iSNP	other	98
-1029607	6	3.2	0.2	common_iSNP	other	98
-1029637	0	0	0.1	rare_iSNP	other	98
-1029641	0.8	0	0.1	rare_iSNP	other	98
-1029643	0	0	0.1	rare_iSNP	other	98
-1029892	0	0	0.1	rare_iSNP	other	98
-1030198	0	0	0.3	rare_iSNP	other	98
-1030204	0	1.4	0.2	common_iSNP	other	98
-1030478	0	0	0.1	rare_iSNP	other	98
-1030497	0	0	0.2	rare_iSNP	other	98
-1030571	0	0	0	rare_iSNP	other	98
-1030591	0	0	0.1	rare_iSNP	other	98
-1030662	0	0	0.1	rare_iSNP	other	98
-1030694	0	0	0.2	rare_iSNP	other	98
-1030773	0	0	0.1	rare_iSNP	other	98
-1030996	0	0	0.1	common_iSNP	other	98
-1031106	0	0	0.1	common_iSNP	other	98
-1031174	0	0	0	common_iSNP	other	98
-1031183	0	0	0.1	common_iSNP	other	98
-1031200	0	0	0.1	common_iSNP	other	98
-1031210	0	0	0.1	common_iSNP	other	98
-1031256	0	0	0.2	common_iSNP	other	98
-1031281	0	0	0.2	common_iSNP	other	98
-1031365	0	0	0.2	rare_iSNP	other	98
-1031368	0	0	0.5	rare_iSNP	other	98
-1031371	0	0	0.5	rare_iSNP	other	98
-1031376	0	0	0.7	rare_iSNP	other	98
-1031378	0	0	0.5	rare_iSNP	other	98
-1031380	0	0	0.2	rare_iSNP	other	98
-1031382	0	0	0.2	rare_iSNP	other	98
-1031386	0	0	0	rare_iSNP	other	98
-1031394	0	0	0	common_iSNP	other	98
-1031395	0	0	0	common_iSNP	other	98
-1031404	0	0	0.4	rare_iSNP	other	98
-1031413	0	0	0.5	rare_iSNP	other	98
-1031520	0	0	1.1	rare_iSNP	other	98
-1031524	0	0	1	rare_iSNP	other	98
-1031548	0	0	0.7	common_iSNP	other	98
-1031566	0	0	0.4	common_iSNP	other	98
-1031575	0	0	0.5	common_iSNP	other	98
-1031582	0	0	0.5	common_iSNP	other	98
-1031584	0	0	0.3	common_iSNP	other	98
-1031585	0	0	0.5	common_iSNP	other	98
-1031587	0	0	0.3	common_iSNP	other	98
-1031621	0	0	0.2	common_iSNP	other	98
-1031650	0	0	0.3	common_iSNP	other	98
-1031731	0	0	0.2	common_iSNP	other	98
-1031779	0	0	0.1	common_iSNP	other	98
-1031780	0	0	0.2	common_iSNP	other	98
-1031878	0	0	0.1	common_iSNP	other	98
-1031907	0	0	0	common_iSNP	other	98
-1031927	0	0	0.2	rare_iSNP	other	98
-1032263	0	0	0.1	common_iSNP	other	98
-1033617	0	0	0	other_SNP	other	98
-1034168	0	0	0	rare_iSNP	other	98
-1034255	0.2	0	0	rare_iSNP	other	98
-1034270	0	0	0	rare_iSNP	other	98
-1034274	0	0	0	rare_iSNP	other	98
-1034279	0	0	0	rare_iSNP	other	98
-1034294	0.2	0	0.1	rare_iSNP	other	98
-1034318	0	0	0	rare_iSNP	other	98
-1034339	0	0	0	rare_iSNP	other	98
-1035337	0	0	0	rare_iSNP	other	98
-1035374	67.2	36	50.5	common_iSNP	other	98
+Position	R_percent	R_regular	V_percent	V_regular	C_percent	C_regular	SNP	fastGEAR_block	subject_id
+7124	0	0	0	0	0.2	0	rare_iSNP	other	98
+7259	0	0	0	0	0	0	common_iSNP	other	98
+7443	0	0	0	0	0	0	common_iSNP	other	98
+7576	0	0	2.7	0	0	0	common_iSNP	other	98
+8460	0	0	0	0	0.1	0	rare_iSNP	other	98
+8604	0	0	0	0	0.1	0	other_SNP	other	98
+15176	0	0	0	0	0.1	0	rare_iSNP	other	98
+19793	83.5	0	90.9	0	100	0	common_iSNP	other	98
+19808	91.5	0	88.6	0	100	0	common_iSNP	other	98
+21668	87.6	-24	100	0	100	0	other_SNP	other	98
+23504	100	0	100	0	81	-299	other_SNP	other	98
+23929	0	0	0	0	0.1	0	rare_iSNP	other	98
+25201	0	0	0	0	0	0	other_SNP	other	98
+25482	0	0	0	0	0.1	0	common_iSNP	other	98
+29801	0	0	0	0	0	0	rare_iSNP	other	98
+29853	0	0	0	0	0.4	0	rare_iSNP	other	98
+30572	0	0	0	0	0	0	other_SNP	other	98
+35608	0	0	0	0	0.1	0	rare_iSNP	other	98
+38797	0	0	4	0	0.1	0	common_iSNP	other	98
+41528	0	0	0	0	0.1	-1	other_SNP	other	98
+43009	0	0	0	0	0.2	0	rare_iSNP	other	98
+44206	0	0	0	0	0	0	other_SNP	other	98
+44405	0	0	0	0	0.3	0	rare_iSNP	other	98
+44918	0	0	0	0	0.4	0	rare_iSNP	other	98
+48967	0	0	0	0	0.1	0	rare_iSNP	other	98
+49410	0	0	0	0	0.1	0	rare_iSNP	other	98
+49637	89.7	-19	100	0	100	0	other_SNP	other	98
+51644	92	-1	83.9	0	94.6	0	common_iSNP	other	98
+51730	92.9	0	88.1	0	94.3	1	rare_iSNP	other	98
+51784	95.9	-7	85.7	-7	95.9	-44	other_SNP	other	98
+51821	92.4	0	85.7	0	94.3	1	common_iSNP	other	98
+51838	93.6	0	88.9	0	94.5	0	common_iSNP	other	98
+51841	93	0	86.1	0	94.4	0	common_iSNP	other	98
+54049	97.6	0	90	0	100	0	other_SNP	other	98
+54262	100	0	100	0	29.3	-198	other_SNP	other	98
+54264	20	0	25	0	94	0	rare_iSNP	other	98
+54265	38.5	0	30.8	0	94.8	0	common_iSNP	other	98
+54266	35.3	-3	21.7	-9	93	-3	rare_iSNP	other	98
+54267	33.3	0	18.2	0	40.4	-154	rare_iSNP	other	98
+54269	12.5	-20	9.5	-10	17.2	-73	other_SNP	other	98
+54270	100	0	100	0	53.6	-77	other_SNP	other	98
+54271	0	0	0	0	8.3	76	other_SNP	other	98
+54277	0	0	0	0	0.7	0	common_iSNP	other	98
+54281	0	0	0	0	0.3	0	common_iSNP	other	98
+54289	0	0	0	0	0.5	0	common_iSNP	other	98
+54298	0	0	0	0	0.4	0	common_iSNP	other	98
+54367	0	0	0	0	0.5	0	common_iSNP	other	98
+54430	0	0	0	0	0.4	0	common_iSNP	other	98
+54431	0	0	0	0	0.1	0	other_SNP	other	98
+54432	0	0	0	0	0	0	other_SNP	other	98
+54445	0	0	0	0	0.4	0	common_iSNP	other	98
+54453	97.6	-5	97.7	-2	62.1	-604	other_SNP	other	98
+54455	69.6	-14	56.2	-14	71	-84	other_SNP	other	98
+54456	60.5	-15	58.8	-7	49.5	-150	other_SNP	other	98
+54457	100	0	100	0	33	-210	other_SNP	other	98
+54459	85.7	0	100	0	78.5	0	common_iSNP	other	98
+54467	100	0	100	0	88.6	23	other_SNP	other	98
+54484	0	0	0	0	0.3	0	common_iSNP	other	98
+54496	0	0	0	0	0.3	0	rare_iSNP	other	98
+54514	0	0	0	0	0.3	0	common_iSNP	other	98
+54562	0	0	0	0	0.2	0	other_SNP	other	98
+54569	0	0	0	0	0.2	0	other_SNP	other	98
+54605	0	0	0	0	0.6	0	common_iSNP	other	98
+54606	0	0	0	0	0.6	0	common_iSNP	other	98
+54607	0	0	0	0	0.6	0	rare_iSNP	other	98
+54614	0	0	0	0	0.7	0	rare_iSNP	other	98
+54622	0	0	0	0	1.7	0	rare_iSNP	other	98
+54625	0	0	0	0	2.3	0	rare_iSNP	other	98
+54628	0	0	0	0	0.8	0	rare_iSNP	other	98
+54706	0	0	0	0	1.8	0	rare_iSNP	other	98
+54707	0	0	0	0	1.4	0	rare_iSNP	other	98
+54712	0	0	0	0	1.2	0	rare_iSNP	other	98
+54716	0	0	0	0	1	0	rare_iSNP	other	98
+54718	0	0	0	0	1	0	rare_iSNP	other	98
+54721	0	0	0	0	1	0	rare_iSNP	other	98
+54724	0	0	0	0	1.1	0	rare_iSNP	other	98
+54742	0	0	0	0	0.2	0	common_iSNP	other	98
+54801	0	0	0	0	0.2	0	other_SNP	other	98
+54814	0	0	0	0	0	0	other_SNP	other	98
+54835	0	0	0	0	0.2	10	other_SNP	other	98
+54836	0	0	0	0	0	10	other_SNP	other	98
+54838	0	0	0	0	0	1	other_SNP	other	98
+54952	9.5	-2904	8.7	-1296	9.2	-19128	other_SNP	other	98
+54960	61.8	-26	41.9	-12	86.1	2	other_SNP	other	98
+54962	100	19	100	10	81.3	41	other_SNP	other	98
+54963	83.3	20	60	10	76.1	78	other_SNP	other	98
+54964	0	20	0	10	15.4	79	other_SNP	other	98
+55047	0	0	0	0	0	0	other_SNP	other	98
+55099	0	0	0	0	0	0	other_SNP	other	98
+55237	0	0	0	0	0.1	0	common_iSNP	other	98
+55240	0	0	0	0	0.3	0	common_iSNP	other	98
+55246	0	0	0	0	0.2	0	common_iSNP	other	98
+55249	100	0	81.6	-9	91.1	-47	other_SNP	other	98
+55250	0	0	0	0	0.5	0	common_iSNP	other	98
+55252	0	0	0	0	1.2	0	common_iSNP	other	98
+55253	0	0	0	0	1	0	common_iSNP	other	98
+55256	0	0	0	0	2.2	0	common_iSNP	other	98
+55259	0	0	0	0	0.2	0	common_iSNP	other	98
+55260	0	0	0	0	0.2	0	common_iSNP	other	98
+55269	0	0	0	0	0.3	0	common_iSNP	other	98
+55285	0	0	0	0	0.5	0	rare_iSNP	other	98
+55293	0	0	0	0	2	0	other_SNP	other	98
+55324	0	0	0	0	0	0	other_SNP	other	98
+55326	0	0	0	0	0	0	other_SNP	other	98
+55327	100	0	85.7	0	100	0	other_SNP	other	98
+55352	0	0	0	0	0	0	other_SNP	other	98
+55356	0	0	0	0	0	0	other_SNP	other	98
+55357	0	0	0	0	0	0	other_SNP	other	98
+55362	0	0	0	0	0	0	other_SNP	other	98
+55364	0	0	0	0	1.2	0	other_SNP	other	98
+55365	2.8	0	0	0	3.6	0	other_SNP	other	98
+55367	9.1	-15	0	0	2.3	-3	other_SNP	other	98
+55378	0	0	0	0	1.1	0	other_SNP	other	98
+55411	0	0	0	0	1.1	0	other_SNP	other	98
+55432	0	0	0	0	1.1	0	other_SNP	other	98
+55450	0	0	0	0	1.1	0	other_SNP	other	98
+55469	0	0	0	0	3	0	other_SNP	other	98
+55474	0	0	0	0	0	0	other_SNP	other	98
+55475	0	0	0	0	0	0	other_SNP	other	98
+55486	0	0	0	0	0	0	other_SNP	other	98
+55489	0	0	0	0	0	0	other_SNP	other	98
+55493	0	0	0	0	0	0	other_SNP	other	98
+55496	0	0	0	0	0	0	other_SNP	other	98
+55497	0	0	0	0	0	0	other_SNP	other	98
+55509	0	0	0	0	1.1	0	other_SNP	other	98
+55510	0	0	0	0	0	0	other_SNP	other	98
+55513	0	0	0	0	0	0	other_SNP	other	98
+55515	0	0	0	0	0	0	other_SNP	other	98
+55519	0	0	0	0	0	0	other_SNP	other	98
+55527	0	0	0	0	0	0	other_SNP	other	98
+55531	15.8	-330	16	-84	15.1	-1248	other_SNP	other	98
+55564	0	0	0	0	0	0	other_SNP	other	98
+55573	0	0	0	0	0	0	other_SNP	other	98
+55590	0	0	0	0	0	0	other_SNP	other	98
+55697	0	0	0	0	0	0	other_SNP	other	98
+55707	0	0	0	0	0	0	other_SNP	other	98
+55726	0	0	0	0	0	0	other_SNP	other	98
+55727	0	0	0	0	0	0	other_SNP	other	98
+55750	19.4	0	0	0	0.5	0	common_iSNP	other	98
+55751	87.3	-9	100	0	99.5	-1	rare_iSNP	other	98
+55755	1.9	0	0	0	0	0	other_SNP	other	98
+55758	100	0	100	0	75.5	-48	other_SNP	other	98
+55765	33.3	0	83.3	0	89	0	common_iSNP	other	98
+55766	34.9	0	83.3	0	89	0	common_iSNP	other	98
+55797	0	0	0	0	4.2	0	other_SNP	other	98
+55826	0	0	0	0	2.1	0	other_SNP	other	98
+55838	0	0	0	0	0	0	other_SNP	other	98
+55851	0	0	0	0	1.1	0	other_SNP	other	98
+55878	0	0	0	0	1.1	0	other_SNP	other	98
+55883	0	0	0	0	1.1	0	rare_iSNP	other	98
+55887	0	0	0	0	1.1	0	other_SNP	other	98
+55890	0	0	0	0	1.1	0	other_SNP	other	98
+55892	1	0	0	0	1.1	0	other_SNP	other	98
+55894	0	0	0	0	1.1	0	other_SNP	other	98
+55906	100	0	100	0	46.9	-102	other_SNP	other	98
+55907	0	0	0	0	55.7	0	common_iSNP	other	98
+55908	0	0	0	0	27.9	-122	other_SNP	other	98
+55909	0	0	0	0	2.6	53	rare_iSNP	other	98
+55910	0	0	0	0	2.9	53	rare_iSNP	other	98
+55915	0	0	0	0	1.1	0	other_SNP	other	98
+55916	0	0	0	0	1.1	0	other_SNP	other	98
+55932	0	0	0	0	1	0	rare_iSNP	other	98
+55992	95.5	-3	86.4	-3	100	0	other_SNP	other	98
+55995	27.1	-153	31.2	-33	37.6	-63	other_SNP	other	98
+56005	0	0	0	0	0	0	other_SNP	other	98
+56009	0	0	0	0	0	0	other_SNP	other	98
+56018	0	0	0	0	0	0	other_SNP	other	98
+56033	0	0	0	0	0	0	rare_iSNP	other	98
+56036	0	0	0	0	0	0	other_SNP	other	98
+56037	0	0	0	0	0	0	other_SNP	other	98
+56038	0	0	0	0	0	0	other_SNP	other	98
+56042	0	0	0	0	0	0	other_SNP	other	98
+56048	0	0	0	0	0	0	rare_iSNP	other	98
+56069	0	0	0	0	0	0	other_SNP	other	98
+56145	60	-18	100	0	72.6	-45	other_SNP	other	98
+56147	0	0	0	0	0	0	other_SNP	other	98
+56148	0	0	0	0	0	0	other_SNP	other	98
+56150	0	0	0	0	0	0	other_SNP	other	98
+56181	0	0	0	0	0	0	other_SNP	other	98
+56184	0	0	0	0	0	0	other_SNP	other	98
+56214	0	0	0	0	0	0	other_SNP	other	98
+56217	0	0	0	0	0	0	other_SNP	other	98
+56259	0	0	0	0	0	0	other_SNP	other	98
+56282	0	0	0	0	0	0	other_SNP	other	98
+56285	0	0	0	0	0	0	other_SNP	other	98
+56287	0	0	0	0	0	0	other_SNP	other	98
+56303	0	0	0	0	0	0	other_SNP	other	98
+56319	65.5	-41	58.8	-14	65.4	-148	other_SNP	other	98
+56323	69.7	0	80	0	69	0	common_iSNP	other	98
+56348	0	0	0	0	0	0	other_SNP	other	98
+56476	0	0	0	0	0	0	other_SNP	other	98
+56479	9	-264	11.1	-72	9.7	-1728	other_SNP	other	98
+56482	45.5	-9	45.5	-5	44.7	-62	other_SNP	other	98
+56487	0	3	0	1	21.8	43	other_SNP	other	98
+56488	0	3	0	1	2.9	43	other_SNP	other	98
+56491	0	3	0	1	0	66	other_SNP	other	98
+56508	15.5	-660	15.2	-246	15.3	-4968	other_SNP	other	98
+56511	0	7	0	7	1.9	55	rare_iSNP	other	98
+56514	0	8	0	8	0.7	76	other_SNP	other	98
+56673	0	0	0	0	0.1	0	rare_iSNP	other	98
+56682	0.3	0	0	0	0.2	0	rare_iSNP	other	98
+56691	98.8	-4	100	0	56.2	-1278	other_SNP	other	98
+56693	1.8	0	1.9	0	84.2	0	common_iSNP	other	98
+56694	2.1	-2	1.9	0	45.3	-1348	other_SNP	other	98
+56695	0.6	2	0	0	1.4	1288	other_SNP	other	98
+56700	0	0	0	0	0.1	0	rare_iSNP	other	98
+56702	97.9	-7	98.1	-2	57.8	-1013	other_SNP	other	98
+56703	0	0	0.9	0	0.8	-73	other_SNP	other	98
+56706	0	1	0	0	2.3	-2	rare_iSNP	other	98
+56707	0	1	0	0	23.1	3	common_iSNP	other	98
+56708	0.7	0	0.9	-1	24.3	-38	other_SNP	other	98
+56709	0	0	0	1	2.6	35	other_SNP	other	98
+56711	1	1	0	0	15.3	2	rare_iSNP	other	98
+56718	0	0	0	0	0.1	0	rare_iSNP	other	98
+56730	0	0	0	0	0.1	0	rare_iSNP	other	98
+56742	0	0	0.9	0	0.2	0	rare_iSNP	other	98
+56756	0.3	0	0.9	0	0.2	0	rare_iSNP	other	98
+56834	0	0	0	0	0.1	0	rare_iSNP	other	98
+56842	0	0	1	0	0.1	0	rare_iSNP	other	98
+56851	99.1	-3	100	0	55.6	-1391	other_SNP	other	98
+56853	0.6	0	0	0	87.9	0	common_iSNP	other	98
+56854	0.6	-1	0	0	46.9	-1460	other_SNP	other	98
+56855	0	1	0	0	0.8	1394	other_SNP	other	98
+56864	0.9	0	0	0	1.5	-3	common_iSNP	other	98
+56865	0	0	0	0	0.1	3	rare_iSNP	other	98
+56922	88.5	-45	97.4	-3	88.5	-249	other_SNP	other	98
+56923	2.1	0	1.8	0	3.4	0	common_iSNP	other	98
+56928	0	1	0	4	0.1	19	rare_iSNP	other	98
+56929	0	1	0	4	0.1	19	rare_iSNP	other	98
+56930	0	1	0	4	0.1	19	rare_iSNP	other	98
+56936	0	0	0	0	0.1	0	rare_iSNP	other	98
+56945	90.5	-36	92.3	-10	38.9	-3087	other_SNP	other	98
+56946	0	0	0	0	2.6	-29	other_SNP	other	98
+56967	0	0	0	0	0.1	0	rare_iSNP	other	98
+57127	0	0	0	0	0	0	common_iSNP	other	98
+57135	0	0	0	0	0	0	common_iSNP	other	98
+57150	0	0	0	0	0	0	common_iSNP	other	98
+57156	0	0	0	0	0	0	rare_iSNP	other	98
+57180	0	0	0	0	0	0	rare_iSNP	other	98
+57736	0	0	0	0	0	0	rare_iSNP	other	98
+57740	0	0	0	0	0	0	rare_iSNP	other	98
+57748	0	0	0	0	0.1	0	rare_iSNP	other	98
+57749	0	0	0	0	0.1	0	rare_iSNP	other	98
+57754	0	0	0	0	0.2	-12	rare_iSNP	other	98
+57762	0	0	0	0	0	0	rare_iSNP	other	98
+57765	0	0	0	0	0.1	0	rare_iSNP	other	98
+57771	0	0	0	0	0	0	rare_iSNP	other	98
+57774	0	0	0	0	0	0	rare_iSNP	other	98
+58319	0	0	0	0	0.5	0	common_iSNP	other	98
+58327	0	0	0	0	0.7	0	common_iSNP	other	98
+58329	0	0	0	0	0.7	0	common_iSNP	other	98
+58338	0	0	0	0	1.3	0	common_iSNP	other	98
+58339	0	0	0	0	1	0	common_iSNP	other	98
+58340	0	0	0	0	1	0	common_iSNP	other	98
+58348	0	0	0	0	1.3	0	rare_iSNP	other	98
+58350	0	0	0	0	1.3	0	rare_iSNP	other	98
+58354	0	0	0	0	2	0	common_iSNP	other	98
+58606	0	0	0	0	3.9	-18	rare_iSNP	other	98
+58607	0	0	0	0	3.7	0	rare_iSNP	other	98
+58608	0	0	0	0	2.8	0	rare_iSNP	other	98
+58609	5.3	0	5.6	-1	28.1	-18	rare_iSNP	other	98
+58612	0	0	0	0	1.9	-12	rare_iSNP	other	98
+58636	0	0	0	0	0	0	common_iSNP	other	98
+58664	0	0	0	0	0	0	common_iSNP	other	98
+58666	0	0	0	0	0.1	0	common_iSNP	other	98
+58864	0	0	0	0	0.1	0	rare_iSNP	other	98
+59117	0	0	0	0	0	0	other_SNP	other	98
+59391	0	0	0	0	0.3	0	rare_iSNP	other	98
+59499	0	0	0	0	0.3	0	rare_iSNP	other	98
+61427	0	0	3.6	0	0	0	other_SNP	other	98
+61949	100	0	89.4	-7	100	0	other_SNP	other	98
+62559	0	0	0	0	0.2	0	common_iSNP	other	98
+62939	0	0	0	0	0	0	common_iSNP	other	98
+63306	0	0	0	0	0	0	other_SNP	other	98
+65206	0	0	1.4	0	2.9	0	rare_iSNP	other	98
+65211	0	0	0	0	0.3	0	rare_iSNP	other	98
+65365	0	0	0	0	0	0	other_SNP	other	98
+65946	90	-13	100	0	99.9	0	other_SNP	other	98
+66255	0	0	0	0	0.5	0	common_iSNP	other	98
+67051	0	0	0	0	0.3	0	other_SNP	other	98
+67549	0	0	0	0	0.1	0	common_iSNP	other	98
+67608	0.3	0	0	0	0	0	other_SNP	other	98
+68326	0	0	0	0	0.3	0	common_iSNP	other	98
+68520	0	0	0	0	0	1	other_SNP	other	98
+68528	0	0	0	0	0.1	0	common_iSNP	other	98
+71100	0	0	3.2	-14	0.1	0	rare_iSNP	other	98
+71104	100	0	75.4	-16	100	0	other_SNP	other	98
+71307	0	0	0	0	0	0	rare_iSNP	other	98
+72210	0	0	0	0	0.3	0	rare_iSNP	other	98
+72311	0	0	0	0	0.1	-1	rare_iSNP	other	98
+72510	0	0	0	0	0.1	0	rare_iSNP	other	98
+73416	0	0	0	0	0.1	0	rare_iSNP	other	98
+79833	0	0	0	0	0.6	0	rare_iSNP	other	98
+84546	87.5	0	93.5	0	99.9	0	common_iSNP	other	98
+84551	87.7	0	88.3	0	99.9	0	common_iSNP	other	98
+87159	0	0	0	0	0.2	0	rare_iSNP	other	98
+87518	0	0	0	0	0.1	0	rare_iSNP	other	98
+92354	0	0	0	0	0.2	0	rare_iSNP	other	98
+93188	0	0	0	0	0.2	0	rare_iSNP	other	98
+93321	0	0	0	0	0.2	0	rare_iSNP	other	98
+93746	0	0	0	0	0	0	rare_iSNP	other	98
+93965	0	0	0	0	0.4	0	rare_iSNP	other	98
+95689	98.4	0	89.8	0	99.8	0	rare_iSNP	other	98
+95706	94.3	-1	88.9	0	100	0	rare_iSNP	other	98
+95712	95.5	0	87.5	0	99.8	0	rare_iSNP	other	98
+95720	90.2	0	89.1	0	100	0	rare_iSNP	other	98
+95734	99.4	0	86	0	100	0	rare_iSNP	other	98
+95750	93.3	0	90	0	100	0	rare_iSNP	other	98
+96443	0	0	0	0	0.4	0	rare_iSNP	other	98
+99416	0	0	0	0	0	0	other_SNP	other	98
+100061	0	0	0	0	0.3	0	rare_iSNP	other	98
+100213	0	0	0	0	1	0	rare_iSNP	other	98
+100360	0	0	0	0	0.3	0	rare_iSNP	other	98
+100377	100	0	89.8	-5	99.9	0	other_SNP	other	98
+101219	51.3	-150	50.4	-56	51	-641	other_SNP	other	98
+101561	0.5	0	0	0	0.1	0	rare_iSNP	other	98
+101708	0	0	0	0	0.1	0	rare_iSNP	other	98
+102020	0	0	0	0	0.3	0	rare_iSNP	other	98
+102491	0	0	0	0	0.2	0	common_iSNP	other	98
+103123	0	0	0	0	0	0	common_iSNP	other	98
+103622	0	0	0	0	0	0	common_iSNP	other	98
+104416	100	0	86.5	-5	100	0	other_SNP	other	98
+106615	0	0	0	0	0	0	other_SNP	other	98
+109175	0	0	0	0	0.1	0	other_SNP	other	98
+110667	0	0	0	0	0	0	common_iSNP	other	98
+111096	0	0	0	0	0.5	0	other_SNP	other	98
+112086	0	0	0	0	0	0	common_iSNP	other	98
+112114	0	0	0	0	0	0	common_iSNP	other	98
+112440	0	0	0	0	0	0	common_iSNP	other	98
+112576	0	0	0	0	0.6	0	common_iSNP	other	98
+113431	0	0	0	0	0	0	other_SNP	other	98
+114153	0	0	0	0	0.2	0	other_SNP	other	98
+114454	0	0	0	0	0	0	other_SNP	other	98
+115570	0	0	0	0	0.7	0	common_iSNP	other	98
+115771	0	0	0	0	0.6	0	other_SNP	other	98
+116333	0	0	0	0	0.9	0	other_SNP	other	98
+116336	0	0	0	0	0.6	0	rare_iSNP	other	98
+116602	0	0	0	0	0	0	rare_iSNP	other	98
+117560	51.3	-136	51.9	-39	51.4	-269	other_SNP	other	98
+121178	0	0	0	0	0.4	0	common_iSNP	other	98
+121191	0	0	0	0	0.3	0	other_SNP	other	98
+121746	0	0	0	0	0.1	0	other_SNP	other	98
+121755	0	0	0	0	0.1	0	other_SNP	other	98
+122069	50.5	-304	51	-129	51.1	-814	other_SNP	other	98
+124412	0	0	0	0	0.2	0	other_SNP	other	98
+124570	51	-148	50.6	-38	51.8	-420	other_SNP	other	98
+124638	0	0	0	0	0.2	0	common_iSNP	other	98
+124874	0	0	0	0	0.3	0	common_iSNP	other	98
+125482	0	0	0	0	0	0	common_iSNP	other	98
+128071	0	0	0	0	0.3	0	common_iSNP	other	98
+128109	0	0	0	0	0.3	0	common_iSNP	other	98
+128200	0	1	0	0	0.6	1	common_iSNP	other	98
+128786	0	0	0	0	1	0	other_SNP	other	98
+128830	0	0	0	0	0.7	0	rare_iSNP	other	98
+129293	0	0	0	0	0.2	0	common_iSNP	other	98
+129435	0	0	0	0	0.2	0	common_iSNP	other	98
+129601	0	0	0	0	0.5	0	other_SNP	other	98
+129808	0	0	0	0	0.5	0	common_iSNP	other	98
+129917	0	0	0	0	0	0	common_iSNP	other	98
+130044	0	0	0	0	0.3	0	common_iSNP	other	98
+130344	0	0	0	0	0	0	common_iSNP	other	98
+130426	0	0	0	0	0	0	common_iSNP	other	98
+132308	0	0	0	0	0.2	0	rare_iSNP	other	98
+132859	0	0	0	0	0.1	0	common_iSNP	other	98
+133160	0	0	0	0	0.2	0	rare_iSNP	other	98
+133285	0	0	0	0	0.2	0	rare_iSNP	other	98
+133427	0	0	0	0	0.1	0	common_iSNP	other	98
+133629	0	0	0	0	0	0	rare_iSNP	other	98
+133826	0	0	0	0	0.1	0	common_iSNP	other	98
+134072	0	0	0	0	0.3	0	common_iSNP	other	98
+134692	0	0	0	0	0	0	rare_iSNP	other	98
+134916	0	0	0	0	0.1	0	rare_iSNP	other	98
+134941	0	0	0	0	0.1	0	common_iSNP	other	98
+135140	0	0	0	0	0.3	0	common_iSNP	other	98
+135289	0	0	0	0	0.4	0	other_SNP	other	98
+135480	0	0	0	0	0.4	0	common_iSNP	other	98
+135490	0	0	0	0	0.4	0	common_iSNP	other	98
+135523	0	0	0	0	0.4	0	other_SNP	other	98
+135780	0	0	0	0	0.1	0	common_iSNP	other	98
+135819	0	0	0	0	0.1	0	common_iSNP	other	98
+135905	0	0	0	0	0.1	0	rare_iSNP	other	98
+136418	0	0	0	0	0.1	0	rare_iSNP	other	98
+136497	0	0	0	0	0.1	0	other_SNP	other	98
+136845	0	0	0	0	0.2	0	other_SNP	other	98
+136870	50.8	-116	51.5	-32	51.5	-598	other_SNP	other	98
+137712	0	0	0	0	0.2	0	common_iSNP	other	98
+138063	0	0	0	0	0.3	0	other_SNP	other	98
+138085	0	0	0	0	0.1	0	common_iSNP	other	98
+138975	0	0	0	0	0.2	0	common_iSNP	other	98
+140118	0	0	0	0	0.2	0	common_iSNP	other	98
+140296	0	0	0	0	0.3	0	other_SNP	other	98
+140428	0	0	0	0	0.1	0	common_iSNP	other	98
+140879	0	0	0	0	0.1	0	common_iSNP	other	98
+141352	0	0	0	0	0	0	common_iSNP	other	98
+142845	0	0	0	0	0.1	0	common_iSNP	other	98
+143324	0	0	0	0	0.2	0	common_iSNP	other	98
+144164	52.5	-57	52	-12	52.9	-221	other_SNP	other	98
+144480	86.4	0	95.5	0	99.9	0	common_iSNP	other	98
+144482	88.5	0	97.8	0	100	0	common_iSNP	other	98
+144485	84.3	0	95.5	0	100	0	common_iSNP	other	98
+144487	88.3	0	100	0	100	0	rare_iSNP	other	98
+144491	88.2	-1	90.5	0	100	0	rare_iSNP	other	98
+145224	0	0	0	0	0.2	0	common_iSNP	other	98
+148860	0	0	0	0	0.5	0	other_SNP	other	98
+150333	100	0	83.3	0	99.2	0	other_SNP	other	98
+151252	0	0	0	0	0	0	rare_iSNP	other	98
+151697	91.1	0	88.9	0	100	0	rare_iSNP	other	98
+151750	99.1	0	89.2	-4	100	0	other_SNP	other	98
+151751	93.5	0	84.8	0	100	0	rare_iSNP	other	98
+151753	92.8	0	83.3	0	100	0	rare_iSNP	other	98
+151757	94.7	0	86.8	-2	99.8	0	rare_iSNP	other	98
+151762	94.1	0	87.2	0	100	0	rare_iSNP	other	98
+151764	94	0	85	-2	100	0	rare_iSNP	other	98
+151770	91.2	0	82.1	0	100	0	rare_iSNP	other	98
+151771	94.2	0	87.2	0	100	0	rare_iSNP	other	98
+151776	92.8	0	85	0	99.9	0	rare_iSNP	other	98
+151798	95.8	0	87.5	0	100	0	rare_iSNP	other	98
+151805	96.8	0	86	0	99.9	0	rare_iSNP	other	98
+153989	0	0	0	0	0.3	0	other_SNP	other	98
+155083	0	0	0	0	0.1	0	common_iSNP	other	98
+155664	0	0	0	0	0.1	1	rare_iSNP	other	98
+156711	25	-336	26.5	-75	26	-1785	other_SNP	other	98
+156942	0	0	0	0	0.4	0	rare_iSNP	other	98
+157125	0	0	0	0	0.2	0	common_iSNP	other	98
+157144	0	0	0	0	0.3	0	common_iSNP	other	98
+157521	0	0	0	0	0.1	3	rare_iSNP	other	98
+157831	0	0	0	0	0	1	common_iSNP	other	98
+158027	0	0	0	0	0.2	0	rare_iSNP	other	98
+158034	0	0	0	0	0.2	0	rare_iSNP	other	98
+158253	0	0	0	0	0	0	rare_iSNP	other	98
+158642	0	0	0	0	0.2	0	rare_iSNP	other	98
+159363	0	0	0	0	0	0	rare_iSNP	other	98
+159373	0	0	0	0	0.4	0	rare_iSNP	other	98
+159968	0	0	0	0	0	1	common_iSNP	other	98
+160702	0	0	0	0	0	0	common_iSNP	other	98
+160732	0	0	0	0	0	0	common_iSNP	other	98
+160744	0	0	0	0	0	0	common_iSNP	other	98
+160777	0.4	0	1	0	1.5	0	common_iSNP	other	98
+160779	0.4	0	1	0	1	0	common_iSNP	other	98
+161044	0	0	0	0	0.2	0	common_iSNP	other	98
+161104	0	0	0	0	0.3	0	common_iSNP	other	98
+161126	0	0	0	0	0.3	0	common_iSNP	other	98
+161171	0	0	0	0	0.3	0	other_SNP	other	98
+161172	0	0	0	0	0.3	0	other_SNP	other	98
+161174	0	0	0	0	0.3	0	other_SNP	other	98
+161180	0	0	0	0	0.3	0	other_SNP	other	98
+161189	0	0	0	0	0.9	0	rare_iSNP	other	98
+161191	0	0	0	0	0.5	0	other_SNP	other	98
+161194	0	0	0	0	0.6	0	other_SNP	other	98
+161197	0	0	0	0	0.7	0	other_SNP	other	98
+161201	0	0	0	0	2.3	0	rare_iSNP	other	98
+161203	0	0	0	0	2.4	0	rare_iSNP	other	98
+161205	0	0	0	0	2.3	0	rare_iSNP	other	98
+161210	0	0	0	0	0.9	0	rare_iSNP	other	98
+161212	0	0	0	0	0.9	0	rare_iSNP	other	98
+161218	0	0	0	0	0.7	0	rare_iSNP	other	98
+161227	0	0	0	0	0.5	0	other_SNP	other	98
+161229	0	0	0	0	1	0	rare_iSNP	other	98
+161235	0	0	0	0	0.3	0	rare_iSNP	other	98
+161236	0	0	0	0	0.3	0	rare_iSNP	other	98
+161239	0	0	0	0	0.3	0	rare_iSNP	other	98
+161247	0	0	0	0	0.2	0	common_iSNP	other	98
+161272	0	0	0	0	0.2	0	common_iSNP	other	98
+161365	0	0	0	0	0.1	0	common_iSNP	other	98
+161371	0	0	0	0	0.1	0	common_iSNP	other	98
+161380	0	0	0	0	0.1	0	common_iSNP	other	98
+161680	0	0	0	0	0.4	0	common_iSNP	other	98
+161715	0	0	0	0	0.2	0	common_iSNP	other	98
+162249	0	0	0	0	0.2	0	common_iSNP	other	98
+162417	0	0	0	0	0.1	0	common_iSNP	other	98
+162614	0	0	0	0	0	0	rare_iSNP	other	98
+163253	0	0	0	0	0.1	0	common_iSNP	other	98
+163254	0	0	0	0	0.1	0	common_iSNP	other	98
+164275	0	0	0	0	0.2	0	common_iSNP	other	98
+164293	0	0	0	0	0.3	0	common_iSNP	other	98
+164409	0	0	0	0	0.3	0	common_iSNP	other	98
+164476	0	0	0	0	0	0	common_iSNP	other	98
+164527	0	0	0	0	0	0	common_iSNP	other	98
+165086	0	0	0	0	0.3	0	rare_iSNP	other	98
+165674	2.7	0	0	0	1	0	rare_iSNP	other	98
+165676	2	0	0	0	0.7	0	rare_iSNP	other	98
+165832	0	0	0	0	0.4	0	common_iSNP	other	98
+166610	0	0	0	0	0.1	0	common_iSNP	other	98
+166656	0	0	0	0	0.1	0	common_iSNP	other	98
+166869	0	0	0	0	0	0	common_iSNP	other	98
+166885	0	0	0	0	0	0	common_iSNP	other	98
+166983	0	0	0	0	0	0	common_iSNP	other	98
+167033	0	0	0	0	0.1	0	common_iSNP	other	98
+167181	0	0	0	0	0.2	0	common_iSNP	other	98
+167432	0	0	0	0	0	0	common_iSNP	other	98
+167960	0	0	0	0	0.1	0	rare_iSNP	other	98
+168252	85.9	0	83.3	0	99.9	0	common_iSNP	other	98
+168258	83.3	0	87	0	99.9	0	common_iSNP	other	98
+168260	88.8	0	84.6	0	100	0	common_iSNP	other	98
+168268	77.6	0	86.6	0	99.9	0	common_iSNP	other	98
+168271	84.7	0	93.9	0	99.9	0	common_iSNP	other	98
+168279	87.5	0	98.7	0	99.8	0	rare_iSNP	other	98
+168294	88	0	96.2	0	99.7	-4	rare_iSNP	other	98
+168770	0	0	0	0	0.3	0	common_iSNP	other	98
+168965	0	0	0	0	0.2	0	common_iSNP	other	98
+169072	0	0	0	0	0.2	0	rare_iSNP	other	98
+169291	0	0	0	0	0.2	0	common_iSNP	other	98
+169340	0	0	0	0	0	0	common_iSNP	other	98
+169828	0	0	0	0	0	0	other_SNP	other	98
+169941	0	0	0	0	0	0	common_iSNP	other	98
+170531	0	0	0	0	0	0	common_iSNP	other	98
+171058	0	0	0	0	0	0	common_iSNP	other	98
+171430	0	0	0	0	0.4	0	rare_iSNP	other	98
+171973	0	0	0	0	0.1	0	rare_iSNP	other	98
+172289	0	0	0	0	0	0	common_iSNP	other	98
+172834	0	0	0	0	0.2	0	common_iSNP	other	98
+173412	0	0	0	0	0	0	common_iSNP	other	98
+173932	0	0	0	0	0.3	0	common_iSNP	other	98
+174664	0	0	0	0	0.2	0	common_iSNP	other	98
+174759	0	0	0	0	0.1	0	common_iSNP	other	98
+175248	0	0	0	0	0.3	-10	common_iSNP	other	98
+176680	0	0	0	0	0.3	0	common_iSNP	other	98
+176836	0	0	0	0	0.3	0	common_iSNP	other	98
+177199	0	0	0	0	0.4	-1	common_iSNP	other	98
+177856	0	0	0	0	0.5	0	rare_iSNP	other	98
+178250	0	0	0	0	0.1	0	common_iSNP	other	98
+178339	0	0	0	0	0.1	0	common_iSNP	other	98
+178608	0	0	0	0	0.1	0	common_iSNP	other	98
+179269	17.6	-1211	17.5	-661	17.6	-8437	other_SNP	other	98
+179498	0	0	0	0	0	0	other_SNP	other	98
+179586	0	0	0	0	0	0	other_SNP	other	98
+180165	0	0	0	0	0	0	other_SNP	other	98
+180452	0	0	0	0	0.1	0	common_iSNP	other	98
+180476	0	0	0	0	0.2	0	common_iSNP	other	98
+181070	0	0	0	0	0	0	other_SNP	other	98
+181406	0	0	0	0	0.5	0	rare_iSNP	other	98
+181625	0	0	0	0	0.1	0	common_iSNP	other	98
+181648	0	0	0	0	0.2	0	common_iSNP	other	98
+181798	29.7	-327	27.2	-131	29.3	-1793	other_SNP	other	98
+181799	NA	116	NA	44	45.2	548	other_SNP	other	98
+181800	NA	116	100	44	65	670	other_SNP	other	98
+181801	NA	117	NA	44	16.7	686	other_SNP	other	98
+181853	10.8	-2628	12.9	-636	10.6	-13548	other_SNP	other	98
+181859	90	-4	91.2	-2	94.4	15	other_SNP	other	98
+181866	46.2	0	62.5	0	61.2	0	common_iSNP	other	98
+181870	53.6	0	80	0	69.8	0	common_iSNP	other	98
+181872	82.4	0	90.9	0	91.6	0	common_iSNP	other	98
+181972	0	0	0	0	0	0	rare_iSNP	other	98
+182050	0	0	0	0	0	0	rare_iSNP	other	98
+182178	0	0	0	0	0.5	0	rare_iSNP	other	98
+182319	51.3	-129	51.6	-46	50.7	-1366	other_SNP	other	98
+182484	0	0	0	0	0.1	0	rare_iSNP	other	98
+182758	0	0	0	0	0.1	0	rare_iSNP	other	98
+182897	100	0	100	0	62.6	-351	other_SNP	other	98
+182900	0	0	0	0	5	0	common_iSNP	other	98
+182901	0	0	0	0	3.8	0	common_iSNP	other	98
+182904	71.6	-19	52.4	-10	96.7	-6	other_SNP	other	98
+182905	0	-4	0	0	1.7	-2	rare_iSNP	other	98
+182906	51.3	-37	54.5	-5	51.1	-162	other_SNP	other	98
+182908	14.6	-234	16.3	-36	16.3	-862	other_SNP	other	98
+183258	0	0	0	0	0.1	0	rare_iSNP	other	98
+183260	0.6	0	0	0	0.3	-6	rare_iSNP	other	98
+183337	0	0	0	0	0.1	0	rare_iSNP	other	98
+183373	0	0	0	0	0	0	common_iSNP	other	98
+183446	0	0	0	0	0.1	0	common_iSNP	other	98
+183666	0	0	0	0	0	0	rare_iSNP	other	98
+183720	0	0	0	0	0	0	rare_iSNP	other	98
+183744	0	0	0	0	0	0	rare_iSNP	other	98
+183877	0	0	0	0	0.1	0	rare_iSNP	other	98
+183987	0	0	0	0	0.2	0	rare_iSNP	other	98
+184024	0	0	0	0	0.2	0	rare_iSNP	other	98
+184340	0	0	0	0	0	0	common_iSNP	other	98
+184539	0	0	0	0	0	0	rare_iSNP	other	98
+184993	0	0	0	0	0.1	0	common_iSNP	other	98
+185546	86.7	0	82.6	0	100	0	common_iSNP	other	98
+185548	86.1	0	96	0	100	0	rare_iSNP	other	98
+185553	84	0	75	0	99.8	0	common_iSNP	other	98
+185559	83.7	0	85	0	100	0	common_iSNP	other	98
+185561	87.8	0	85	0	100	0	common_iSNP	other	98
+185564	85.6	0	84.2	0	99.8	0	rare_iSNP	other	98
+185565	86.6	0	77.8	0	100	0	common_iSNP	other	98
+185569	86.7	1	82.4	0	99.8	0	rare_iSNP	other	98
+185571	96.8	0	86.7	0	100	0	rare_iSNP	other	98
+185587	91.4	0	90	0	100	0	rare_iSNP	other	98
+185602	91.9	0	89.5	0	100	0	rare_iSNP	other	98
+186692	0	0	0	0	0	0	other_SNP	other	98
+186746	0	0	0	0	0	0	other_SNP	other	98
+187724	0	0	0	0	0.1	0	other_SNP	other	98
+187977	0	0	0	0	0.2	0	rare_iSNP	other	98
+188576	56.5	-83	53.8	-24	52.2	-986	other_SNP	other	98
+188959	0	0	0	0	0.2	0	rare_iSNP	other	98
+189212	0	0	0	0	0.4	0	rare_iSNP	other	98
+190009	0	0	0	0	0.1	0	rare_iSNP	other	98
+190696	0	0	0	0	0.1	0	rare_iSNP	other	98
+190823	0	0	0	0	0.1	0	other_SNP	other	98
+191912	0	0	0	0	0.1	0	other_SNP	other	98
+195134	0	0	0	0	0	0	common_iSNP	other	98
+195220	0	0	0	0	0	0	rare_iSNP	other	98
+195225	0	0	0	0	0	0	rare_iSNP	other	98
+195626	36.2	-284	35.5	-89	37.6	-1749	other_SNP	other	98
+195627	NA	38	NA	13	0	419	other_SNP	other	98
+196043	0	0	0	0	0	0	rare_iSNP	other	98
+196254	0	0	0	0	0	0	other_SNP	other	98
+196694	0	0	0	0	0	0	other_SNP	other	98
+196719	0	0	0	0	0	0	rare_iSNP	other	98
+196731	53.4	-123	51.5	-33	53.3	-673	other_SNP	other	98
+197030	0	0	0	0	0.1	0	rare_iSNP	other	98
+197462	0	0	0	0	0.1	0	common_iSNP	other	98
+198403	0	0	0	0	0.1	0	common_iSNP	other	98
+199088	0	0	0	0	0.2	0	rare_iSNP	other	98
+199866	0	0	0	0	0.2	0	common_iSNP	other	98
+199943	0	0	0	0	0.5	0	common_iSNP	other	98
+201697	0	0	0	0	0.1	-3	rare_iSNP	other	98
+202159	0	0	0	0	0	0	rare_iSNP	other	98
+202824	0	0	0	0	0.2	0	rare_iSNP	other	98
+202845	0	0	0	0	0.2	0	rare_iSNP	other	98
+204213	0	0	0	0	0	0	rare_iSNP	other	98
+204688	79.5	0	90.6	0	100	0	common_iSNP	other	98
+204690	87	0	97.7	0	100	0	rare_iSNP	other	98
+205946	0	0	0	0	0	0	rare_iSNP	other	98
+207427	0	0	0	0	0	0	rare_iSNP	other	98
+209543	100	0	88.5	0	99.8	0	rare_iSNP	other	98
+209926	0	0	0	0	0	0	other_SNP	other	98
+211651	0	0	0	0	0.2	0	rare_iSNP	other	98
+215807	51.7	-225	52.9	-64	51.2	-1524	other_SNP	other	98
+215808	NA	232	50	67	50	1537	other_SNP	other	98
+215874	0	0	0	0	0	0	rare_iSNP	other	98
+215897	0	0	0	0	0	0	rare_iSNP	other	98
+215933	0	0	0	0	0.1	0	rare_iSNP	other	98
+215940	0	0	0	0	0	0	rare_iSNP	other	98
+216387	0	0	0	0	0.5	0	rare_iSNP	other	98
+217358	0	0	0	0	0	0	rare_iSNP	other	98
+220090	0	0	0	0	0	0	rare_iSNP	other	98
+221763	88	0	94.6	0	99.9	0	rare_iSNP	other	98
+222381	0	0	0	0	0.1	0	common_iSNP	other	98
+223515	0	0	0	0	0.2	0	common_iSNP	other	98
+224331	0	0	0	0	0.3	0	rare_iSNP	other	98
+224656	0	0	0	0	0.1	0	rare_iSNP	other	98
+224980	0	0	0	0	0	0	rare_iSNP	other	98
+227663	0.3	0	0	0	0	0	common_iSNP	other	98
+230687	0	0	0	0	0.3	0	common_iSNP	other	98
+231327	0	0	0	0	0.6	0	rare_iSNP	other	98
+233680	0	0	0	0	0.3	0	common_iSNP	other	98
+234088	0	0	0	0	0.2	0	common_iSNP	other	98
+237248	0	0	0	0	0	0	other_SNP	other	98
+238487	0	0	0	0	0.2	0	rare_iSNP	other	98
+239342	0	0	0	0	0.1	0	rare_iSNP	other	98
+239822	0	0	0	0	0.2	0	rare_iSNP	other	98
+240074	0	0	0	0	0.3	0	rare_iSNP	other	98
+240191	0	0	0	0	0.1	0	rare_iSNP	other	98
+240572	0	0	1.8	0	0.2	0	rare_iSNP	other	98
+241191	0	0	0	0	0.3	-1	rare_iSNP	other	98
+241461	0	0	0	0	0.2	0	rare_iSNP	other	98
+241884	0	0	0	0	0.1	0	common_iSNP	other	98
+242034	0	0	0	0	0.2	0	common_iSNP	other	98
+246417	0	0	0	0	0.1	0	rare_iSNP	other	98
+248739	0	0	0	0	0.1	1	rare_iSNP	other	98
+249502	0	0	0	0	0.1	0	rare_iSNP	other	98
+250193	0	0	0	0	0.3	0	rare_iSNP	other	98
+251230	51	-251	50	-70	50.6	-2016	other_SNP	other	98
+251590	0	0	0	0	0.1	0	rare_iSNP	other	98
+251611	0	0	0	0	0.2	-2	rare_iSNP	other	98
+251740	0	0	0	0	0.5	0	rare_iSNP	other	98
+251752	0	0	0	0	0.1	0	rare_iSNP	other	98
+251754	0	0	0	0	0.1	0	rare_iSNP	other	98
+251769	0	0	0	0	0.1	7	rare_iSNP	other	98
+252675	88.2	-16	100	0	100	0	other_SNP	other	98
+253013	0	0	0	0	0	0	rare_iSNP	other	98
+253504	0	0	0	0	0.1	0	rare_iSNP	other	98
+254123	0	0	0	0	0	0	rare_iSNP	other	98
+254640	10.8	-986	11	-234	10.9	-10436	other_SNP	other	98
+254916	0	0	0	0	0.1	0	common_iSNP	other	98
+255049	0	0	0	0	0.2	0	rare_iSNP	other	98
+255079	0	0	0	0	0	0	common_iSNP	other	98
+257482	0	0	0	0	0	0	other_SNP	other	98
+261279	100	0	86.3	-10	100	0	other_SNP	other	98
+264990	88.6	0	95.1	0	99.8	0	common_iSNP	other	98
+271237	0	0	0	0	0.6	0	rare_iSNP	other	98
+271372	0.6	0	0	0	0.2	0	rare_iSNP	other	98
+272623	0	0	0	0	0.2	0	other_SNP	other	98
+272938	0	0	0	0	0.5	0	other_SNP	other	98
+272971	0	0	0	0	0.5	0	rare_iSNP	other	98
+273041	0	0	0	0	0.4	0	rare_iSNP	other	98
+273106	0	0	0	0	0.5	0	common_iSNP	other	98
+273219	0	0	0	0	0	0	rare_iSNP	other	98
+274024	0	0	0	0	0.2	0	common_iSNP	other	98
+274532	0	0	0	0	0.2	0	common_iSNP	other	98
+274983	0	0	0	0	0	0	rare_iSNP	other	98
+275397	0	0	0	0	0	0	rare_iSNP	other	98
+275849	0	0	0	0	0.2	0	rare_iSNP	other	98
+276484	0	0	0	0	0	0	rare_iSNP	other	98
+276555	0	0	0	0	0.2	0	rare_iSNP	other	98
+276591	0	0	0	0	0	0	rare_iSNP	other	98
+276740	0	0	0	0	0	0	rare_iSNP	other	98
+280177	0	0	0	0	0.2	0	rare_iSNP	other	98
+280261	0	0	0	0	0.2	0	rare_iSNP	other	98
+282342	0	0	0	0	0	0	rare_iSNP	other	98
+283157	0	0	0	0	0.3	0	rare_iSNP	other	98
+284773	100	0	90	0	100	0	other_SNP	other	98
+284887	100	0	89.5	-1	100	0	other_SNP	other	98
+286638	0	0	0	0	0	0	rare_iSNP	other	98
+286821	0	0	0	0	0	0	rare_iSNP	other	98
+286875	0	0	0	0	0	0	rare_iSNP	other	98
+291809	32.3	-404	28	-118	32.3	-614	other_SNP	other	98
+294071	0	0	0	0	0.3	0	rare_iSNP	other	98
+294217	0	0	0	0	0	0	rare_iSNP	other	98
+295046	0	0	0	0	0	0	other_SNP	other	98
+295189	0	0	0	0	0	0	rare_iSNP	other	98
+297804	0	0	0	0	0	0	rare_iSNP	other	98
+302511	89.1	-26	100	0	100	0	other_SNP	other	98
+309409	0	0	0	0	0.5	0	common_iSNP	other	98
+313555	0	0	0	0	0	0	other_SNP	other	98
+317846	51.2	-79	50	-18	51.4	-251	common_iSNP	other	98
+319016	0	0	0	0	0.4	-1	rare_iSNP	other	98
+321739	52.3	-53	54.8	-14	54.4	-186	other_SNP	other	98
+324728	0	0	0	0	0	0	other_SNP	other	98
+327468	0	0	0	0	0.2	0	rare_iSNP	other	98
+348756	0	0	0	0	0.1	0	rare_iSNP	other	98
+357790	0	0	0	0	0.1	0	rare_iSNP	other	98
+359077	0	0	0	0	0.1	0	rare_iSNP	other	98
+362841	0	0	0	0	0	0	rare_iSNP	other	98
+367232	54.5	-207	54.9	-83	48.8	-2595	other_SNP	other	98
+367400	0	0	0	0	0.1	0	rare_iSNP	other	98
+368005	0	0	0	0	0	0	rare_iSNP	other	98
+370081	0	0	0	0	0.1	0	rare_iSNP	other	98
+371011	0	0	0	0	0	0	common_iSNP	other	98
+371267	100	0	90	0	100	0	other_SNP	other	98
+377053	0	0	0	0	0	1	rare_iSNP	other	98
+379489	0	0	0	0	0	0	other_SNP	other	98
+380732	0	0	0	0	0	0	rare_iSNP	other	98
+382514	0	0	0	0	0.1	0	rare_iSNP	other	98
+382712	0	0	0	0	0.2	0	rare_iSNP	other	98
+384630	0	0	0	0	0.1	1	rare_iSNP	other	98
+391614	0	0	0	0	0.2	0	rare_iSNP	other	98
+393469	100	0	89.9	-7	100	0	other_SNP	other	98
+399639	0.4	0	0	0	0	0	other_SNP	other	98
+403784	0	0	0	0	0.3	0	other_SNP	other	98
+404334	100	0	88.2	-6	100	0	other_SNP	other	98
+408295	0	0	0	1	0.6	9	rare_iSNP	other	98
+412972	100	0	100	0	88	-20	other_SNP	other	98
+416798	0	0	0	0	0	0	other_SNP	other	98
+416915	0	0	0	0	0	0	rare_iSNP	other	98
+420822	0	0	0	0	0	0	other_SNP	other	98
+425295	0	0	0	0	0.1	0	rare_iSNP	other	98
+426379	100	0	88.1	-5	100	0	rare_iSNP	other	98
+430566	100	0	88.9	0	100	0	other_SNP	other	98
+430589	0	0	0	0	0.4	0	rare_iSNP	other	98
+433161	0	0	0	0	0.3	0	rare_iSNP	other	98
+433729	0	0	0	0	0.2	0	other_SNP	other	98
+436362	0	0	0	0	0.1	0	other_SNP	other	98
+436497	100	0	90	0	100	0	other_SNP	other	98
+436501	100	0	90	0	100	0	other_SNP	other	98
+436503	100	0	90	0	100	0	other_SNP	other	98
+436507	100	0	87.5	0	100	0	other_SNP	other	98
+436522	100	0	83.3	0	100	0	other_SNP	other	98
+436562	100	0	83.3	0	99.2	-1	other_SNP	other	98
+436576	100	0	88.9	0	100	0	other_SNP	other	98
+436624	100	0	100	0	88.6	-65	other_SNP	other	98
+444850	0.6	0	0	0	1	0	other_SNP	other	98
+448034	0	0	0	0	0	0	other_SNP	other	98
+448780	0	0	0	0	0	0	rare_iSNP	other	98
+449548	0	0	0	0	0	0	rare_iSNP	other	98
+450477	0	0	0	0	0	0	other_SNP	other	98
+457269	0	0	0	0	0	0	common_iSNP	other	98
+459939	0	0	0	0	0	0	other_SNP	other	98
+462299	52.4	-90	50	-20	51.6	-256	other_SNP	other	98
+462309	0	0	0	0	0	0	other_SNP	other	98
+463648	0	0	0	0	0	0	rare_iSNP	other	98
+468145	0	0	0	0	0.9	0	common_iSNP	other	98
+474689	0	0	0	0	0	0	rare_iSNP	other	98
+474713	0	0	0	0	0.9	0	rare_iSNP	other	98
+474746	0	0	0	0	0.3	0	rare_iSNP	other	98
+474859	0	0	0	0	0	0	other_SNP	other	98
+475249	0	0	0	0	0.6	0	rare_iSNP	other	98
+475853	0	0	0	0	0	0	rare_iSNP	other	98
+476198	0	0	0	0	0	0	rare_iSNP	other	98
+476295	0	0	0	0	0	0	rare_iSNP	other	98
+476610	0	0	0	0	0	0	common_iSNP	other	98
+476812	0	0	0	0	0	0	rare_iSNP	other	98
+477603	0	0	0	0	0.9	0	rare_iSNP	other	98
+477868	0	0	0	0	0	0	rare_iSNP	other	98
+477884	0	0	0	0	0	0	rare_iSNP	other	98
+477920	0	0	0	0	0	0	rare_iSNP	other	98
+478086	0	0	0	0	0	0	rare_iSNP	other	98
+478135	0	0	0	0	0	0	rare_iSNP	other	98
+479204	0	0	0	0	0	0	other_SNP	other	98
+479882	0	0	0	0	0	0	other_SNP	other	98
+482564	0	0	0	0	0	0	other_SNP	other	98
+489006	0	0	0	0	0	0	other_SNP	other	98
+491074	51	-118	50	-30	50.8	-401	other_SNP	other	98
+492867	0	0	0	0	0	0	rare_iSNP	other	98
+493335	0	0	0	0	0.2	0	rare_iSNP	other	98
+493396	0	0	0	0	0	0	rare_iSNP	other	98
+493505	0	0	0	0	0	0	rare_iSNP	other	98
+493588	0	0	0	0	0.2	0	rare_iSNP	other	98
+493705	0	0	0	0	0.2	0	other_SNP	other	98
+498355	0	0	0	0	0.4	0	other_SNP	other	98
+498640	0	0	0	0	0.3	0	common_iSNP	other	98
+512439	27.9	0	100	0	100	0	rare_iSNP	other	98
+512750	0	0	0	0	0.3	0	other_SNP	other	98
+512918	0	0	0	0	0.4	0	common_iSNP	other	98
+513270	0	0	0	0	0.5	0	other_SNP	other	98
+513312	0	0	0	0	0.2	0	rare_iSNP	other	98
+514107	0	0	0	0	0	0	other_SNP	other	98
+514383	100	0	100	0	89.6	-22	other_SNP	other	98
+514389	100	0	100	0	71.7	-81	other_SNP	other	98
+514506	0	0	0	0	0.2	0	other_SNP	other	98
+516139	100	0	100	0	88.4	-83	other_SNP	other	98
+517109	0	0	0	0	0.1	1	other_SNP	other	98
+519638	100	0	100	0	72	0	rare_iSNP	other	98
+524460	100	0	90	0	100	0	other_SNP	other	98
+526864	0	0	0	0	0.2	0	rare_iSNP	other	98
+528709	0	0	0	0	0.1	0	other_SNP	other	98
+530824	0	0	0	0	0	0	other_SNP	other	98
+531131	0	0	0	0	0	0	rare_iSNP	other	98
+531462	0.4	0	1.1	0	0.1	0	rare_iSNP	other	98
+531471	62.2	-162	67.2	-42	72.1	-627	other_SNP	other	98
+531521	99.4	-2	87.7	-12	99.3	-12	other_SNP	other	98
+531621	42.8	-903	42.5	-300	41.5	-5791	other_SNP	other	98
+531767	77.8	0	75.3	0	82.3	0	common_iSNP	other	98
+531845	100	0	99	0	90	0	other_SNP	other	98
+532923	0	0	0	0	0	0	rare_iSNP	other	98
+535809	0	0	0	0	0.1	0	rare_iSNP	other	98
+536593	81	0	88.2	0	99.9	0	rare_iSNP	other	98
+536596	84.2	0	94	0	99.9	0	rare_iSNP	other	98
+536598	80.8	0	92.3	0	99.9	0	rare_iSNP	other	98
+536600	87.9	0	92.5	0	100	0	rare_iSNP	other	98
+536607	88.1	0	94.5	0	99.9	0	rare_iSNP	other	98
+536621	86.2	0	91.2	0	100	0	rare_iSNP	other	98
+536633	88.1	0	94.8	0	99.9	0	rare_iSNP	other	98
+539622	0	0	0	0	0	0	rare_iSNP	other	98
+541847	100	0	78.6	-12	100	0	other_SNP	other	98
+544096	0.5	0	0	0	0.1	0	other_SNP	other	98
+544176	94	0	87.3	0	100	0	common_iSNP	other	98
+544180	92	0	85.9	0	100	0	rare_iSNP	other	98
+544192	91.4	0	86.6	0	100	0	rare_iSNP	other	98
+544201	88.2	0	83.9	0	99.9	0	common_iSNP	other	98
+545448	0.6	0	0	0	0.2	0	common_iSNP	other	98
+545660	0	0	0	0	0.2	0	other_SNP	other	98
+546214	50.8	-160	50	-47	50.4	-1092	other_SNP	other	98
+546394	0	0	0	0	0.1	-1	other_SNP	other	98
+548052	0	0	0	0	0.4	0	other_SNP	other	98
+548245	0	0	0	0	0	0	common_iSNP	other	98
+548872	0	0	0	0	0.1	0	common_iSNP	other	98
+549516	0	0	0	0	0	0	common_iSNP	other	98
+550766	0	0	0	0	0.2	0	other_SNP	other	98
+555353	0	0	0	0	0	0	common_iSNP	other	98
+555862	93.9	0	83.8	0	99.9	0	rare_iSNP	other	98
+555867	92.9	0	88.4	0	100	0	rare_iSNP	other	98
+555873	92.8	0	89.9	0	100	0	rare_iSNP	other	98
+555886	90.3	0	86.7	0	100	0	rare_iSNP	other	98
+555912	0	0	0	0	0.2	0	other_SNP	other	98
+556478	0	0	0	0	0.2	0	rare_iSNP	other	98
+556681	0	0	0	0	0	0	other_SNP	other	98
+557380	26.6	0	100	0	100	0	rare_iSNP	other	98
+557698	100	0	90	0	100	0	other_SNP	other	98
+557699	100	0	90	0	100	0	other_SNP	other	98
+557701	100	0	88.9	0	100	0	other_SNP	other	98
+557703	100	0	88.9	0	100	0	other_SNP	other	98
+557704	100	0	88.9	0	100	0	other_SNP	other	98
+557708	100	0	90	0	99.7	0	other_SNP	other	98
+557710	100	0	90	0	100	0	other_SNP	other	98
+557711	100	0	90	0	100	0	other_SNP	other	98
+557713	100	0	90	0	100	0	other_SNP	other	98
+557726	100	0	88.9	0	100	0	other_SNP	other	98
+565235	87.2	-23	100	0	100	0	other_SNP	other	98
+569980	0	0	0	0	0	0	rare_iSNP	other	98
+571357	0	0	0	0	0.1	0	common_iSNP	other	98
+575881	0	0	0	0	0	0	rare_iSNP	other	98
+579578	0	0	0	0	0.1	0	other_SNP	other	98
+584157	86	0	82.8	0	99.9	0	rare_iSNP	other	98
+584188	89.4	0	89.1	0	100	0	common_iSNP	other	98
+588168	0	0	0	0	0	0	other_SNP	other	98
+588263	0	0	0	0	0.1	0	other_SNP	other	98
+588565	89.3	-16	100	0	100	0	other_SNP	other	98
+588597	0	0	0	0	0.2	0	other_SNP	other	98
+592567	0	0	0	0	0	0	rare_iSNP	other	98
+592850	0	0	0	0	0.1	0	rare_iSNP	other	98
+595274	0	0	0	0	0.1	0	rare_iSNP	other	98
+595747	0	0	0	0	0.2	0	rare_iSNP	other	98
+595927	0	0	0	0	0.1	0	rare_iSNP	other	98
+596697	0	0	0	0	0.1	0	common_iSNP	other	98
+596726	50.4	-133	50.9	-26	50.5	-955	other_SNP	other	98
+597258	0	0	0	0	0.1	0	rare_iSNP	other	98
+597651	0	0	0	0	0	0	rare_iSNP	other	98
+597722	0	0	0	0	0	0	rare_iSNP	other	98
+600987	89.1	-13	80	-5	88.9	-96	other_SNP	other	98
+601006	98.2	0	90	0	100	0	other_SNP	other	98
+601297	0	0	0	0	0	0	rare_iSNP	other	98
+602109	0	0	0	0	0	0	rare_iSNP	other	98
+602143	0	0	0	0	0	0	rare_iSNP	other	98
+602689	0	0	0	0	0	0	rare_iSNP	other	98
+603727	0	0	0	0	0	0	rare_iSNP	other	98
+603828	0	0	0	0	0	0	rare_iSNP	other	98
+604431	0	0	0	0	0	0	rare_iSNP	other	98
+604784	0	0	0	0	0.2	0	common_iSNP	other	98
+606483	0	0	0	0	0.1	0	rare_iSNP	other	98
+606982	0	0	0	0	0.3	0	rare_iSNP	other	98
+607829	0	0	0	0	0.1	0	rare_iSNP	other	98
+611268	0	0	0	0	0.2	0	rare_iSNP	other	98
+611748	0	0	2.6	0	0.1	0	rare_iSNP	other	98
+612213	0	0	0	0	0.1	0	rare_iSNP	other	98
+613094	0	0	0	0	0.2	0	rare_iSNP	other	98
+613106	0	0	0	0	0	0	rare_iSNP	other	98
+614140	0.6	0	0	0	0.2	0	common_iSNP	other	98
+614372	0	0	0	0	0.2	0	rare_iSNP	other	98
+615046	0.7	0	0	0	0.1	0	rare_iSNP	other	98
+615137	0	0	0	0	0	0	rare_iSNP	other	98
+615320	0	0	0	0	0.1	0	rare_iSNP	other	98
+615352	0	0	0	0	0.2	-1	rare_iSNP	other	98
+615774	0	0	0	0	0.1	0	common_iSNP	other	98
+615964	0	0	0	0	0.3	0	rare_iSNP	other	98
+616000	0	0	0	0	0	0	rare_iSNP	other	98
+616285	0	0	0	0	0.4	0	rare_iSNP	other	98
+616323	0	0	0	0	0.3	0	rare_iSNP	other	98
+616403	0	0	0	0	0	0	rare_iSNP	other	98
+617360	100	0	87.5	0	100	0	other_SNP	other	98
+617390	100	0	88.9	0	100	0	other_SNP	other	98
+617801	0	0	0	0	0	0	rare_iSNP	other	98
+619786	0	0	0	0	0.2	0	rare_iSNP	other	98
+621053	51	-179	51	-74	51.2	-1703	other_SNP	other	98
+621462	0	0	0	0	0	0	rare_iSNP	other	98
+626252	0	0	0	0	0.1	0	rare_iSNP	other	98
+628641	0	0	0	0	0.1	0	rare_iSNP	other	98
+628823	0	0	0	0	0.2	-3	rare_iSNP	other	98
+628883	0	0	0	0	0	0	other_SNP	other	98
+628956	0	0	0	0	0.1	0	rare_iSNP	other	98
+628962	0	0	0	0	0.1	0	other_SNP	other	98
+629025	0	0	0	0	0.1	0	rare_iSNP	other	98
+629562	88	0	92.6	0	99.9	0	rare_iSNP	other	98
+630084	0	0	0	0	0	0	rare_iSNP	other	98
+630433	0	0	0	0	0.1	-1	other_SNP	other	98
+631323	0	0	0	0	0	1	rare_iSNP	other	98
+631485	0	0	0	0	0	1	other_SNP	other	98
+633309	52	-133	52.9	-32	53	-1490	other_SNP	other	98
+633866	0	0	0	0	0	0	other_SNP	other	98
+636283	0	0	0	0	0.1	0	rare_iSNP	other	98
+639953	0	0	0	0	0.1	0	other_SNP	other	98
+640331	0	0	0	0	0	0	other_SNP	other	98
+643346	0	0	0	0	0.1	0	other_SNP	other	98
+643889	99.1	-2	96.1	-3	86	-370	other_SNP	other	98
+644444	0	0	0	0	0	0	other_SNP	other	98
+645966	89.1	-15	100	0	99.9	0	other_SNP	other	98
+649990	0	0	0	0	0	0	common_iSNP	other	98
+650144	0	0	0	0	0.1	0	rare_iSNP	other	98
+652015	0	0	0	0	0.1	0	common_iSNP	other	98
+652666	0	0	0	0	0	0	rare_iSNP	other	98
+653976	0	0	0	0	0	0	rare_iSNP	other	98
+654603	0	0	0	0	0	0	rare_iSNP	other	98
+657371	0	0	0	0	0.2	0	common_iSNP	other	98
+657864	0	0	0	0	0.2	0	other_SNP	other	98
+659854	0	0	0	0	0	0	rare_iSNP	other	98
+661596	100	0	90	0	100	0	other_SNP	other	98
+667084	0	0	0	0	0	0	other_SNP	other	98
+668755	0	0	0	0	0	0	other_SNP	other	98
+670230	0	0	0	0	0	0	other_SNP	other	98
+671052	51.2	-167	50	-50	50.9	-1223	other_SNP	other	98
+672577	51	-164	52.1	-79	51.6	-1578	other_SNP	other	98
+672795	15.5	-1248	16.5	-456	15.7	-9066	other_SNP	other	98
+672799	0	6	42.9	3	46.2	14	other_SNP	other	98
+672800	100	6	57.1	4	55.4	29	other_SNP	other	98
+672801	100	7	53.8	-2	51.8	-34	other_SNP	other	98
+674235	0	0	0	0	0.1	0	common_iSNP	other	98
+676136	0	0	0	0	0	0	other_SNP	other	98
+684100	0	0	0	0	0.3	0	rare_iSNP	other	98
+684265	0	0	0	0	0.2	0	rare_iSNP	other	98
+685259	100	0	88.9	-7	99.8	0	other_SNP	other	98
+686121	0	0	0	0	0.3	0	rare_iSNP	other	98
+689385	0	0	0	0	0	0	rare_iSNP	other	98
+694976	0	0	0	0	0.6	0	common_iSNP	other	98
+695158	100	0	82.9	-6	99.6	0	other_SNP	other	98
+696167	0	0	0	0	0	0	rare_iSNP	other	98
+696832	99.5	0	90	-7	100	0	other_SNP	other	98
+699581	0	0	0	0	0.8	0	common_iSNP	other	98
+701676	100	0	87.5	0	100	0	other_SNP	other	98
+703175	0	0	0	0	0	0	rare_iSNP	other	98
+703930	0	0	0	0	0.2	0	rare_iSNP	other	98
+704155	0	0	0	0	0.3	0	rare_iSNP	other	98
+704567	0	0	0	0	0.2	0	common_iSNP	other	98
+706330	0	0	0	0	0	0	other_SNP	other	98
+706375	0	0	0	0	0.2	0	common_iSNP	other	98
+706395	0	0	0	0	0.2	0	rare_iSNP	other	98
+707584	0	0	0	0	0.6	0	rare_iSNP	other	98
+708153	0	0	0	0	0.4	0	common_iSNP	other	98
+708156	0	0	0	0	0.4	0	common_iSNP	other	98
+708157	0	0	0	0	0.4	0	common_iSNP	other	98
+708158	0	0	0	0	0.4	0	common_iSNP	other	98
+708161	0	0	0	0	0.4	0	common_iSNP	other	98
+708162	0	0	0	0	0.4	0	common_iSNP	other	98
+708166	0	0	0	0	0.4	0	common_iSNP	other	98
+708172	0	0	0	0	0.5	0	common_iSNP	other	98
+708181	0	0	0	0	2.7	0	common_iSNP	other	98
+708182	0	0	0	0	3.7	-4	common_iSNP	other	98
+708186	0	0	0	0	1.7	0	common_iSNP	other	98
+708190	0	0	0	0	2.4	0	rare_iSNP	other	98
+708192	0	0	0	0	0.7	0	common_iSNP	other	98
+708195	0	0	0	0	0	0	rare_iSNP	other	98
+708196	0	0	0	0	1.5	0	common_iSNP	other	98
+708213	0	0	0	0	0	0	other_SNP	other	98
+708217	0	0	0	0	0.5	0	common_iSNP	other	98
+708220	0	0	0	0	0.9	0	common_iSNP	other	98
+708226	0	0	0	0	0.4	0	rare_iSNP	other	98
+708265	0	0	0	0	0.3	0	common_iSNP	other	98
+708274	0	0	0	0	0	0	other_SNP	other	98
+708280	0	0	0	0	0	0	other_SNP	other	98
+708607	84.3	-72	67.8	-45	79.5	-169	other_SNP	other	98
+708608	8.1	-3924	8.2	-900	8.4	-6372	other_SNP	other	98
+708643	0	0	0	0	0	0	other_SNP	other	98
+708661	0	0	0	0	0	0	other_SNP	other	98
+708680	0	0	0	0	0	0	other_SNP	other	98
+708743	0	0	0	0	0.4	0	common_iSNP	other	98
+708811	0	0	0	0	0.2	0	other_SNP	other	98
+709041	0	0	0	0	2	-1	rare_iSNP	other	98
+709085	0	0	0	0	0	0	rare_iSNP	other	98
+709423	0	0	0	0	0.2	0	common_iSNP	other	98
+709464	0	0	0	0	0	0	rare_iSNP	other	98
+709514	0	0	0	0	0	0	rare_iSNP	other	98
+710718	0	0	0	0	0	0	rare_iSNP	other	98
+711703	0	0	0	0	0	0	rare_iSNP	other	98
+711780	0.7	0	0	0	0	0	rare_iSNP	other	98
+711991	100	0	88.9	0	100	0	other_SNP	other	98
+713016	92.4	0	89.7	0	100	0	rare_iSNP	other	98
+715885	0	0	0	0	0.2	0	common_iSNP	other	98
+717493	0	0	0	0	0	0	other_SNP	other	98
+717581	0	0	0	0	0	0	other_SNP	other	98
+718432	100	0	100	0	89.2	-63	other_SNP	other	98
+718761	0	0	0	0	0.2	0	common_iSNP	other	98
+719369	0	0	0	0	0	0	common_iSNP	other	98
+720059	0	0	0	0	0	0	other_SNP	other	98
+720275	0	0	0	0	0	0	other_SNP	other	98
+723245	0	0	0	0	0	0	other_SNP	other	98
+723978	89.2	-18	100	0	100	0	other_SNP	other	98
+725403	0	0	0	0	0.3	0	common_iSNP	other	98
+727308	91.1	0	83.8	0	100	0	common_iSNP	other	98
+727313	84.3	0	89.1	0	99.9	0	common_iSNP	other	98
+727315	83.3	0	84.6	0	99.9	0	common_iSNP	other	98
+727318	91	0	87.5	0	100	0	common_iSNP	other	98
+727320	85.9	0	81.5	0	100	0	common_iSNP	other	98
+727324	87.4	0	93.9	0	99.9	0	common_iSNP	other	98
+727327	88	0	86.6	0	99.9	0	common_iSNP	other	98
+727542	50.5	-207	51.3	-55	50.7	-1081	other_SNP	other	98
+728125	99.6	0	100	0	88.6	0	rare_iSNP	other	98
+733651	0	0	0	0	0.1	0	common_iSNP	other	98
+733706	0	0	0	0	0	0	other_SNP	other	98
+735837	53.5	-113	55.4	-25	53.9	-717	other_SNP	other	98
+735879	0	0	0	0	0.2	0	common_iSNP	other	98
+736582	0	0	0.8	0	0.2	0	common_iSNP	other	98
+737841	0	0	0	0	0.1	0	common_iSNP	other	98
+741188	100	0	88.9	0	100	0	other_SNP	other	98
+741192	100	0	87.5	0	100	0	other_SNP	other	98
+745705	0	0	0	0	0.1	0	other_SNP	other	98
+745762	0	0	0	0	0.3	0	rare_iSNP	other	98
+747682	0	0	0	0	0.1	0	other_SNP	other	98
+747722	0	0	0	0	0.1	0	other_SNP	other	98
+747814	0	0	0	0	0	0	other_SNP	other	98
+747986	0	0	0	0	0.1	0	common_iSNP	other	98
+748124	0	0	0	0	0.1	0	rare_iSNP	other	98
+748320	0	0	0	0	0	0	other_SNP	other	98
+748935	0	0	0	0	0.2	0	rare_iSNP	other	98
+749708	0	0	0	0	0.2	0	other_SNP	other	98
+752396	0	0	1.7	0	0.2	0	common_iSNP	other	98
+752483	0	0	0	0	0	0	other_SNP	other	98
+752502	51.8	-137	53.4	-41	52	-941	other_SNP	other	98
+752749	0	0	0	0	0.2	0	common_iSNP	other	98
+752804	0	0	0	0	0.2	0	common_iSNP	other	98
+752824	0	0	0	0	0.3	0	common_iSNP	other	98
+752875	0	0	0	0	0.1	0	common_iSNP	other	98
+752932	0	0	0	0	0.3	0	common_iSNP	other	98
+753110	0	0	0	0	0.1	0	common_iSNP	other	98
+753148	0	0	0	0	0.2	0	common_iSNP	other	98
+753172	0	0	0	0	0.2	0	common_iSNP	other	98
+753232	0	0	0	0	0.1	0	common_iSNP	other	98
+753373	0	0	0	0	0.1	0	common_iSNP	other	98
+753388	0.3	0	0	0	0	0	common_iSNP	other	98
+753394	0	0	0	0	0.1	0	common_iSNP	other	98
+753400	0	0	0	0	0.1	0	common_iSNP	other	98
+753466	0	0	0	0	0	0	other_SNP	other	98
+753478	52.4	-191	53.3	-57	51.3	-946	other_SNP	other	98
+753502	0	0	0	0	0.1	0	rare_iSNP	other	98
+753524	0	0	0	0	0	0	common_iSNP	other	98
+753546	0	0	0	0	0.1	0	common_iSNP	other	98
+753630	0	0	0	0	0.2	0	common_iSNP	other	98
+753732	0	0	0	0	0.2	0	common_iSNP	other	98
+753750	0.6	0	0	0	0.1	0	common_iSNP	other	98
+753804	0	0	0	0	0.1	0	common_iSNP	other	98
+753834	0	0	0	0	0.1	2	common_iSNP	other	98
+753879	0	0	0	0	0.2	0	other_SNP	other	98
+753924	0	0	0	0	0	0	other_SNP	other	98
+754121	0	1	0	0	0.1	0	common_iSNP	other	98
+754156	0	0	0	0	0.1	0	common_iSNP	other	98
+754161	0	0	0	0	0.1	0	common_iSNP	other	98
+754170	0	0	0	0	0.1	0	common_iSNP	other	98
+754188	0	0	0	0	0.1	0	common_iSNP	other	98
+754206	0	0	0	0	0.1	0	common_iSNP	other	98
+754218	0	0	0	0	0.1	0	common_iSNP	other	98
+754221	0	0	0	0	0	0	common_iSNP	other	98
+754335	0	0	0	0	0	1	rare_iSNP	other	98
+754576	51.3	-55	52.2	-11	52.7	-172	other_SNP	other	98
+755081	0	0	0	0	0	0	common_iSNP	other	98
+755218	0	0	0	0	0	0	rare_iSNP	other	98
+755381	0	0	0	0	0.2	-4	rare_iSNP	other	98
+756566	0	0	0	0	0.2	-1	other_SNP	other	98
+758138	0.7	0	0	0	0	0	other_SNP	other	98
+758644	0	0	0	0	0.2	0	rare_iSNP	other	98
+759490	0	0	0	0	0.1	0	common_iSNP	other	98
+759561	0	1	0	0	0	0	other_SNP	other	98
+759771	0	0	0	0	0.3	0	common_iSNP	other	98
+759799	0	0	0	0	0	0	other_SNP	other	98
+759859	0	0	0	0	0.1	0	other_SNP	other	98
+759910	0	0	0	0	0	0	other_SNP	other	98
+759916	50.9	-106	50	-35	51.1	-799	other_SNP	other	98
+760019	13.5	-1162	13.5	-441	14	-7776	other_SNP	other	98
+760047	0	0	1.2	0	0	0	other_SNP	other	98
+760085	0	0	0	0	0.1	0	other_SNP	other	98
+760287	0	0	0	0	0.2	1	common_iSNP	other	98
+760509	0	0	0	0	0	0	other_SNP	other	98
+760730	0	0	0	0	0.4	0	common_iSNP	other	98
+761023	0	0	0	0	0	0	other_SNP	other	98
+763260	0	0	0	0	0	0	other_SNP	other	98
+763823	0	0	0	0	0.5	0	rare_iSNP	other	98
+764150	0	0	0	0	0.1	0	other_SNP	other	98
+764342	0	0	0	0	0.2	0	other_SNP	other	98
+764700	0	0	0	0	0.1	0	common_iSNP	other	98
+766060	0	0	0	0	0.1	0	other_SNP	other	98
+768562	0	0	0	0	0.1	0	common_iSNP	other	98
+768596	0	0	0	0	0	0	other_SNP	other	98
+768602	0	0	0	0	0.1	0	rare_iSNP	other	98
+768819	0.3	0	0	0	0.1	0	rare_iSNP	other	98
+768904	0	0	0	0	0.1	0	common_iSNP	other	98
+769252	0	0	0	0	0.2	0	common_iSNP	other	98
+769601	0	0	0	0	0.1	0	rare_iSNP	other	98
+770218	99.1	-1	100	0	60.2	-638	other_SNP	other	98
+770626	0	0	0	0	0.8	0	rare_iSNP	other	98
+770646	0.5	0	0	0	0.2	0	rare_iSNP	other	98
+770674	0	0	0	0	0	0	rare_iSNP	other	98
+770697	0	0	0	0	0	0	rare_iSNP	other	98
+770739	1.1	0	0	0	0.3	0	common_iSNP	other	98
+770743	0	0	0	0	0.1	0	rare_iSNP	other	98
+770766	0	0	0	0	0.1	0	rare_iSNP	other	98
+770768	0	0	1.4	0	0.1	0	rare_iSNP	other	98
+770773	0	0	0	0	0.1	0	rare_iSNP	other	98
+770777	0	0	0	0	0.1	0	rare_iSNP	other	98
+770781	0	0	0	0	0.2	0	rare_iSNP	other	98
+770790	0	0	0	0	0	0	rare_iSNP	other	98
+770951	0	0	0	0	0	0	rare_iSNP	other	98
+771151	0	0	0	0	0.1	0	rare_iSNP	other	98
+771267	0	0	0	0	0.3	0	common_iSNP	other	98
+771290	0	0	0	0	0	0	rare_iSNP	other	98
+771501	0	0	0	0	0	0	rare_iSNP	other	98
+771522	0	0	0	0	0	0	rare_iSNP	other	98
+771540	0	0	0.5	0	0	0	rare_iSNP	other	98
+771546	0	0	0	0	0	0	rare_iSNP	other	98
+771549	0	0	0	0	0	0	rare_iSNP	other	98
+771579	0	0	0	0	0	0	rare_iSNP	other	98
+771606	0	0	0	0	0	0	rare_iSNP	other	98
+771819	0	0	0	0	0.2	0	rare_iSNP	other	98
+771834	0	0	0	0	0.4	0	common_iSNP	other	98
+771870	0.6	0	0	0	0.2	0	common_iSNP	other	98
+771945	0	0	0	0	0.3	0	common_iSNP	other	98
+771966	0	0	0	0	0.4	0	rare_iSNP	other	98
+771991	0	0	0	0	0.3	0	common_iSNP	other	98
+772017	0	0	0	0	0.3	0	common_iSNP	other	98
+772041	0	0	0	0	0.2	0	rare_iSNP	other	98
+772054	0	0	0	0	0.3	-4	common_iSNP	other	98
+772098	0	0	0	0	0.3	0	common_iSNP	other	98
+772134	0	0	0	0	0.1	0	rare_iSNP	other	98
+772194	0.6	0	1.4	-1	0.2	0	rare_iSNP	other	98
+772245	0	0	0	0	0.1	0	rare_iSNP	other	98
+772251	0	0	0	0	0.1	0	rare_iSNP	other	98
+772263	0.5	0	0	0	0.1	0	rare_iSNP	other	98
+772266	0	0	0	0	0.1	0	rare_iSNP	other	98
+772269	0	0	0	0	0.1	0	rare_iSNP	other	98
+772272	0	0	0	0	0.2	0	rare_iSNP	other	98
+772278	0	1	0	0	0.1	0	rare_iSNP	other	98
+772290	0	0	0	0	0.2	0	rare_iSNP	other	98
+772293	0	0	0	0	0.2	0	rare_iSNP	other	98
+772309	0	0	0	0	0.2	0	rare_iSNP	other	98
+772317	0	0	0	0	0.1	0	rare_iSNP	other	98
+772320	0	0	0	0	0.1	0	rare_iSNP	other	98
+772422	0	0	0	0	0.1	0	rare_iSNP	other	98
+772431	0	0	0	0	0	0	rare_iSNP	other	98
+772446	0	0	0	0	0	0	rare_iSNP	other	98
+772458	0	0	0	0	0.1	0	rare_iSNP	other	98
+772467	0	0	0	0	0.1	0	rare_iSNP	other	98
+772488	0	0	1.6	0	0	0	rare_iSNP	other	98
+772536	0	0	0	0	0	0	rare_iSNP	other	98
+772575	0	0	0	0	0	0	rare_iSNP	other	98
+772612	0	0	0	0	0	0	rare_iSNP	other	98
+772626	0	0	0	0	0	0	rare_iSNP	other	98
+772725	0	0	0	0	0	0	rare_iSNP	other	98
+772764	0	0	0	0	0	0	rare_iSNP	other	98
+772899	0	0	0	0	0	0	rare_iSNP	other	98
+773390	0	0	0	0	0.1	0	common_iSNP	other	98
+774980	0	0	0	0	0.8	0	rare_iSNP	other	98
+774982	0	0	0	0	0.3	0	rare_iSNP	other	98
+774983	0	0	0	0	0.3	0	rare_iSNP	other	98
+774989	0	0	0	0	0.2	0	rare_iSNP	other	98
+774998	0	0	0	0	0.2	0	rare_iSNP	other	98
+775022	0	0	0	0	0.3	0	rare_iSNP	other	98
+775049	0.3	-2	0.9	0	0.3	0	rare_iSNP	other	98
+775055	0	0	0	0	0.2	0	rare_iSNP	other	98
+775064	0	0	0	0	0.2	0	rare_iSNP	other	98
+775070	0	0	1	0	0.2	0	rare_iSNP	other	98
+775072	0	0	0	0	0.2	0	rare_iSNP	other	98
+775103	0	0	0	0	0.2	0	rare_iSNP	other	98
+775173	0	0	0	0	0.2	0	rare_iSNP	other	98
+775179	51.1	-302	51.6	-74	51.3	-1640	other_SNP	other	98
+775204	53.7	-247	54.5	-60	53.5	-1396	other_SNP	other	98
+775208	100	0	100	0	89.1	-15	other_SNP	other	98
+775212	0	0	0	0	7.5	-1	rare_iSNP	other	98
+776534	0	0	0	0	0.1	0	rare_iSNP	other	98
+776964	0	0	0	0	0.1	0	rare_iSNP	other	98
+777159	0	0	0	0	0	0	rare_iSNP	other	98
+777658	100	0	100	0	75.8	-284	other_SNP	other	98
+778690	0	0	0	0	0	2	other_SNP	other	98
+778691	0	0	0	0	0	0	rare_iSNP	other	98
+778692	0	0	0	0	0	0	rare_iSNP	other	98
+778696	0	0	0	0	0	0	rare_iSNP	other	98
+778733	85.3	0	83.3	0	94.1	0	rare_iSNP	other	98
+778734	100	0	100	0	88.9	-2	other_SNP	other	98
+778735	0	0	0	0	0	2	other_SNP	other	98
+778737	26.3	0	16.7	0	30	0	common_iSNP	other	98
+778739	0	0	0	0	0	0	other_SNP	other	98
+778754	100	0	100	0	64.3	-10	other_SNP	other	98
+778821	0	0	0	0	0	0	rare_iSNP	other	98
+778841	0	0	0	0	0	0	rare_iSNP	other	98
+778845	0	0	0	0	0	0	rare_iSNP	other	98
+778847	20	-452	20	-120	20	-496	other_SNP	other	98
+778856	0	0	0	0	0	0	rare_iSNP	other	98
+778857	33.5	-238	34.5	-72	33.7	-252	other_SNP	other	98
+778858	0	121	0	36	0	130	other_SNP	other	98
+778859	12.5	107	12.5	15	58.8	123	other_SNP	other	98
+778862	100	0	100	0	85.1	-26	other_SNP	other	98
+778863	0	0	0	0	0.7	0	rare_iSNP	other	98
+778865	0	0	0	0	0.7	-5	rare_iSNP	other	98
+778877	50	-155	50	-50	50	-184	other_SNP	other	98
+778909	0	0	0	0	0	0	rare_iSNP	other	98
+779017	0	0	0	0	0.7	0	rare_iSNP	other	98
+779042	39.8	-121	35.3	-33	20.2	-378	other_SNP	other	98
+779043	100	0	100	0	56.2	-46	other_SNP	other	98
+779140	0	0	0	0	50	0	other_SNP	other	98
+779158	0	0	0	0	16	0	rare_iSNP	other	98
+779163	0	0	0	0	15.4	0	rare_iSNP	other	98
+779164	0	0	0	0	16	0	rare_iSNP	other	98
+779166	0	0	0	0	15.4	0	rare_iSNP	other	98
+779179	0	0	0	0	12.9	0	rare_iSNP	other	98
+779218	0	0	0	0	13.3	0	rare_iSNP	other	98
+779230	0	0	0	0	12.9	0	rare_iSNP	other	98
+779235	0	0	0	0	12.9	0	rare_iSNP	other	98
+779251	0	0	0	0	9.7	0	rare_iSNP	other	98
+779275	0	0	0	0	9.7	0	rare_iSNP	other	98
+779281	0	0	0	0	10.3	0	rare_iSNP	other	98
+779284	0	0	0	0	10.3	0	rare_iSNP	other	98
+779290	0	0	0	0	11.5	0	rare_iSNP	other	98
+779296	0	0	0	0	14.3	0	rare_iSNP	other	98
+779308	0	0	0	0	23.1	0	rare_iSNP	other	98
+779311	0	0	0	0	30	0	other_SNP	other	98
+779312	0	0	0	0	30	0	other_SNP	other	98
+779584	0	0	0	0	0	0	rare_iSNP	other	98
+779587	0	0	0	0	0	0	rare_iSNP	other	98
+779590	0	0	0	0	0	0	rare_iSNP	other	98
+779599	0	0	0	0	0	0	other_SNP	other	98
+779608	0	0	0	0	0	0	other_SNP	other	98
+779611	0	0	0	0	0	0	other_SNP	other	98
+779614	0	0	0	0	0	0	other_SNP	other	98
+779621	0	0	0	0	0	0	rare_iSNP	other	98
+779701	0	0	0	0	13.3	0	common_iSNP	other	98
+779713	0	0	0	0	13.3	0	common_iSNP	other	98
+779716	0	0	0	0	14.3	0	common_iSNP	other	98
+779719	0	0	0	0	14.3	0	common_iSNP	other	98
+779728	0	0	0	0	20	0	rare_iSNP	other	98
+779729	0	0	0	0	22.2	0	rare_iSNP	other	98
+779730	0	0	0	0	20	0	rare_iSNP	other	98
+779734	0	0	0	0	20	0	rare_iSNP	other	98
+779737	0	0	0	0	22.2	0	rare_iSNP	other	98
+779812	0	0	0	0	2.3	0	rare_iSNP	other	98
+779814	0	0	0	0	7	0	common_iSNP	other	98
+779818	0	0	0	0	4.5	0	common_iSNP	other	98
+779875	0	0	0	0	0.4	0	common_iSNP	other	98
+779877	0	0	0	0	0.9	0	common_iSNP	other	98
+779907	0	0	0	0	0.3	0	common_iSNP	other	98
+780530	2	0	0	0	0.7	0	rare_iSNP	other	98
+780533	2	0	2	0	1.4	0	rare_iSNP	other	98
+780534	0	0	0	0	0	0	rare_iSNP	other	98
+780824	0	0	0	0	0	0	rare_iSNP	other	98
+781217	0	0	0	0	0.4	0	rare_iSNP	other	98
+781325	0	0	0	0	0.6	0	rare_iSNP	other	98
+781359	0	0	0	0	0.6	0	rare_iSNP	other	98
+782210	0	0	0	0	0.3	0	rare_iSNP	other	98
+788493	0	0	0	0	0	0	rare_iSNP	other	98
+790373	100	0	100	0	86.8	-89	other_SNP	other	98
+791841	0	0	0	0	0	0	rare_iSNP	other	98
+792727	0	0	0	0	0.3	0	rare_iSNP	other	98
+797165	0	0	0	0	0.5	0	rare_iSNP	other	98
+799797	87.8	0	88.4	0	100	0	common_iSNP	other	98
+799802	96	0	88.6	-1	100	0	other_SNP	other	98
+799805	86.3	0	83.3	0	100	0	common_iSNP	other	98
+799813	92.5	0	89.7	0	99.9	1	rare_iSNP	other	98
+804189	0	0	0	0	0.6	0	rare_iSNP	other	98
+804208	0	0	0	0	0.5	0	rare_iSNP	other	98
+804264	0	0	0	0	0.3	0	rare_iSNP	other	98
+805567	0	0	0	0	0.1	0	other_SNP	other	98
+805746	0	0	0	0	0	0	rare_iSNP	other	98
+806097	0	0	0	0	0.1	0	rare_iSNP	other	98
+807967	0.6	0	0	0	0	0	other_SNP	other	98
+808251	0	0	0	0	0.7	0	rare_iSNP	other	98
+809844	100	0	89.5	0	100	0	rare_iSNP	other	98
+809861	100	0	87.5	0	100	0	rare_iSNP	other	98
+809865	100	0	87.5	0	100	0	rare_iSNP	other	98
+809875	100	0	88.2	0	99.7	0	rare_iSNP	other	98
+809887	100	0	85.7	0	100	0	rare_iSNP	other	98
+809905	100	0	86.7	0	100	0	rare_iSNP	other	98
+810454	0	0	0	0	0.2	0	other_SNP	other	98
+810670	0	0	0	0	0.3	0	rare_iSNP	other	98
+811020	0	0	0	0	0	0	rare_iSNP	other	98
+814674	50.6	-78	56.1	-29	53.2	-250	other_SNP	other	98
+816264	0.7	0	0	0	0.3	0	other_SNP	other	98
+818321	100	0	100	0	89.2	-54	other_SNP	other	98
+820468	0	0	0	0	0.1	0	other_SNP	other	98
+821905	89.1	-19	100	0	99.8	0	other_SNP	other	98
+831658	0	0	0	0	0	0	other_SNP	other	98
+831869	50.4	-58	53.6	-13	51.3	-437	other_SNP	other	98
+832019	0	0	0	0	0	0	other_SNP	other	98
+832171	0	0	0	0	0	0	other_SNP	other	98
+832942	0	0	0	0	0.2	0	rare_iSNP	other	98
+833058	0	0	0	0	0.2	0	common_iSNP	other	98
+833179	0	0	0	0	0	0	other_SNP	other	98
+834627	53.4	-132	52.2	-54	53	-1025	other_SNP	other	98
+835620	0	1	0	0	0	10	other_SNP	other	98
+836112	0	0	0	0	0	0	other_SNP	other	98
+836719	0	0	0	0	0	0	rare_iSNP	other	98
+836889	100	0	83.3	-5	99.8	0	other_SNP	other	98
+836959	0	0	0	0	0.4	0	other_SNP	other	98
+838530	0	0	0	0	0.1	0	rare_iSNP	other	98
+843544	0	0	0	0	0	0	rare_iSNP	other	98
+843667	0	0	0	0	0.1	0	rare_iSNP	other	98
+844015	0	0	0	0	0.4	-14	rare_iSNP	other	98
+845129	51.1	-108	51.6	-30	52.5	-905	other_SNP	other	98
+845461	0	0	0	0	0	0	rare_iSNP	other	98
+846592	0	0	0	0	0	0	rare_iSNP	other	98
+846689	0	0	0	0	0	0	rare_iSNP	other	98
+847555	0	0	0	0	0.3	0	rare_iSNP	other	98
+847974	0	0	0	0	0.1	0	rare_iSNP	other	98
+849952	0	0	0	0	0	0	other_SNP	other	98
+853616	0	0	0	0	0	0	rare_iSNP	other	98
+853664	0	0	0	0	0	0	rare_iSNP	other	98
+853834	0	0	0	0	0	0	rare_iSNP	other	98
+854229	87.2	0	89.9	0	99.8	0	common_iSNP	other	98
+858971	0	0	0	0	0	0	rare_iSNP	other	98
+859348	51.6	-162	52.6	-37	51.5	-3348	other_SNP	other	98
+859511	0	0	0	0	0	0	rare_iSNP	other	98
+859656	0	0	0	0	0.1	0	rare_iSNP	other	98
+859750	0	0	0	0	0	0	other_SNP	other	98
+859758	0	0	0	0	0.1	0	rare_iSNP	other	98
+860085	0	0	0	0	0.1	0	common_iSNP	other	98
+860286	0	0	0	0	0	0	rare_iSNP	other	98
+860356	0	0	0	0	0	0	rare_iSNP	other	98
+861408	0	0	0	0	0.1	0	rare_iSNP	other	98
+862291	0	0	0	0	0	0	rare_iSNP	other	98
+862360	0	0	0	0	0.1	0	rare_iSNP	other	98
+862516	0	0	0	0	0	0	rare_iSNP	other	98
+862681	0	0	0	0	0.1	0	rare_iSNP	other	98
+862755	0	0	0	0	0.1	0	other_SNP	other	98
+862819	100	0	87.5	0	99.9	0	other_SNP	other	98
+862839	100	0	87.5	0	100	0	other_SNP	other	98
+867200	100	0	80.4	-10	100	0	other_SNP	other	98
+872978	96	0	88.6	0	99.8	0	rare_iSNP	other	98
+872984	95	0	88.9	0	100	0	rare_iSNP	other	98
+873012	93.9	0	87.9	0	99.9	0	rare_iSNP	other	98
+873023	97.8	0	89.2	0	100	0	rare_iSNP	other	98
+873032	93.1	0	87.2	0	99.7	-1	rare_iSNP	other	98
+873038	92.8	0	87.8	0	99.8	0	rare_iSNP	other	98
+873043	90	0	86	0	100	0	common_iSNP	other	98
+873053	88.1	0	89.6	0	100	0	common_iSNP	other	98
+874803	25.6	-438	25.5	-108	25.8	-2652	other_SNP	other	98
+874806	NA	147	0	36	66.7	894	other_SNP	other	98
+875880	0	0	2.1	0	0.1	-3	rare_iSNP	other	98
+876275	88.5	0	93.3	0	99.9	0	common_iSNP	other	98
+881016	0	0	0	0	0.1	0	rare_iSNP	other	98
+884499	0	0	0	0	0.1	0	rare_iSNP	other	98
+885589	0	0	0	0	0	0	other_SNP	other	98
+890893	0	0	0	0	0	0	rare_iSNP	other	98
+893054	0	0	0	0	0.2	1	other_SNP	other	98
+894717	0	0	0	0	0.1	0	rare_iSNP	other	98
+897326	0	0	0	0	0.1	0	rare_iSNP	other	98
+898073	0	0	0	0	0.1	0	rare_iSNP	other	98
+899057	0	0	0	0	0	0	common_iSNP	other	98
+899244	0	0	0	0	0	0	common_iSNP	other	98
+899510	0	0	0	0	0.1	0	other_SNP	other	98
+901665	0	0	0	0	0.1	0	other_SNP	other	98
+901784	0	0	0	0	0.1	0	other_SNP	other	98
+902249	0	0	0	0	0.2	0	common_iSNP	other	98
+907585	0	0	0	0	0.1	0	rare_iSNP	other	98
+907667	0	0	0	0	0	0	rare_iSNP	other	98
+908027	0	0	0	0	0	0	other_SNP	other	98
+908082	0	0	0	0	0.1	0	other_SNP	other	98
+908183	0	0	0	0	0	1	other_SNP	other	98
+908217	0	0	0	0	0	0	other_SNP	other	98
+909211	0	0	0	0	0	0	other_SNP	other	98
+909312	0	0	0	0	0	0	other_SNP	other	98
+909547	89.9	0	96	0	100	0	common_iSNP	other	98
+909608	0	0	0	0	0	0	other_SNP	other	98
+909620	0	0	0	0	0	0	common_iSNP	other	98
+909754	0	0	0	0	0	0	common_iSNP	other	98
+910105	0	0	0	0	0.1	0	rare_iSNP	other	98
+912395	0	0	0	0	0.1	0	common_iSNP	other	98
+912643	0	0	0	0	0.3	0	rare_iSNP	other	98
+913221	83.9	0	88.6	0	99.9	0	common_iSNP	other	98
+913232	77.7	0	85.1	0	99.9	0	common_iSNP	other	98
+913770	0	0	0	0	0	0	other_SNP	other	98
+915277	89.5	0	86.3	0	99.9	0	common_iSNP	other	98
+915574	87.2	0	84.7	0	99.9	0	common_iSNP	other	98
+916400	0	0	0	0	0.3	0	common_iSNP	other	98
+917129	0	0	0	0	0.2	0	common_iSNP	other	98
+919714	0	0	0	0	0	0	other_SNP	other	98
+921232	0	0	0	0	0.1	0	rare_iSNP	other	98
+929597	100	0	87.5	-7	100	0	other_SNP	other	98
+932419	0	0	0	0	0.1	0	rare_iSNP	other	98
+932471	0	0	0	0	0.1	0	common_iSNP	other	98
+932500	0	0	0	0	0.1	0	common_iSNP	other	98
+934306	0	0	0	0	0	0	other_SNP	other	98
+934541	50.6	-174	50.7	-34	51.3	-820	other_SNP	other	98
+935270	28.7	0	100	0	99.9	0	rare_iSNP	other	98
+937697	0	0	0	0	0.2	0	rare_iSNP	other	98
+939166	0	0	0	0	0.3	0	other_SNP	other	98
+940972	50.4	-130	50.9	-28	50.9	-529	other_SNP	other	98
+941009	0	0	0	0	0.2	0	rare_iSNP	other	98
+941075	0	0	0	0	0.2	0	rare_iSNP	other	98
+941583	0	0	0	0	0.4	0	rare_iSNP	other	98
+941606	0	0	0	0	0.7	0	rare_iSNP	other	98
+945524	0	0	0	0	0.1	0	common_iSNP	other	98
+945695	99.3	-1	86.3	-10	99.9	0	other_SNP	other	98
+948543	0	0	0	0	0.1	0	rare_iSNP	other	98
+955064	100	0	100	0	89.2	-170	other_SNP	other	98
+955255	0	0	0	0	0	0	rare_iSNP	other	98
+955574	0	0	0	0	0.1	0	common_iSNP	other	98
+955611	0	0	0	0	0.1	0	common_iSNP	other	98
+955804	0	0	0	0	0.1	0	common_iSNP	other	98
+955841	0	0	0	0	0.1	0	rare_iSNP	other	98
+955881	0	0	1.7	0	0.2	-2	common_iSNP	other	98
+956103	0	0	0	0	0	0	common_iSNP	other	98
+957059	0	0	0	0	0.4	0	other_SNP	other	98
+957282	0	0	0	0	0.2	0	other_SNP	other	98
+959750	93.7	0	89.9	0	99.9	0	common_iSNP	other	98
+961214	0	0	1.5	0	0.1	0	rare_iSNP	other	98
+961710	0	0	0	0	0	0	rare_iSNP	other	98
+961740	0	0	0	0	0	0	rare_iSNP	other	98
+961778	0	0	0	0	0	0	rare_iSNP	other	98
+961801	0	0	0	0	0	0	rare_iSNP	other	98
+961843	0	0	0	0	0	0	rare_iSNP	other	98
+961891	0	0	0	0	0	0	rare_iSNP	other	98
+962529	0	0	0	0	0.4	0	rare_iSNP	other	98
+966879	87.4	0	88	0	100	0	common_iSNP	other	98
+966883	86	0	77.6	0	100	0	common_iSNP	other	98
+966887	93.1	0	89.6	0	99.9	0	rare_iSNP	other	98
+966890	93.7	-1	87.2	0	100	0	rare_iSNP	other	98
+966898	89.3	1	77.8	0	100	0	common_iSNP	other	98
+966899	92.9	0	88.6	0	100	0	rare_iSNP	other	98
+966903	93.5	0	84.1	0	100	0	rare_iSNP	other	98
+966926	94.3	0	83.7	0	100	0	rare_iSNP	other	98
+966933	96.1	0	84.1	0	100	0	rare_iSNP	other	98
+966984	52.4	-110	54.3	-32	52.7	-579	other_SNP	other	98
+973027	100	0	90	0	100	0	other_SNP	other	98
+977200	0	0	0	0	0.1	0	common_iSNP	other	98
+980687	0	0	0	0	0	0	other_SNP	other	98
+984086	0	0	0	0	0.2	0	other_SNP	other	98
+985682	0	0	0	0	0	0	other_SNP	other	98
+987113	0	0	0	0	0.3	0	rare_iSNP	other	98
+991877	85.2	0	88.3	0	100	0	common_iSNP	other	98
+991886	89.4	0	89.7	0	99.9	1	common_iSNP	other	98
+991891	96.1	0	89.1	-1	99.9	0	other_SNP	other	98
+991903	89.9	0	89.3	-2	100	0	rare_iSNP	other	98
+994574	0	0	0	0	0.2	0	other_SNP	other	98
+995730	0	0	0	0	0.1	0	other_SNP	other	98
+1000870	0	0	0	0	0.1	0	other_SNP	other	98
+1001508	0	0	0	0	0	0	other_SNP	other	98
+1001963	0	0	0	0	0.1	0	common_iSNP	other	98
+1003581	0	0	0	0	0	0	other_SNP	other	98
+1003781	0	0	0	0	0.2	0	rare_iSNP	other	98
+1005968	0	0	0	0	0.2	0	rare_iSNP	other	98
+1010535	0	0	0	0	0.1	0	other_SNP	other	98
+1010634	0	0	0	0	0	0	rare_iSNP	other	98
+1012609	0	0	0	0	0	0	other_SNP	other	98
+1013625	0	0	0	0	0	0	rare_iSNP	other	98
+1013635	0	0	0	0	0	0	other_SNP	other	98
+1015539	0	0	0	0	0.2	0	common_iSNP	other	98
+1015812	100	0	100	0	84.6	-178	other_SNP	other	98
+1017575	0.6	0	0	0	0.2	0	rare_iSNP	other	98
+1019608	0	0	0	0	0	0	rare_iSNP	other	98
+1019812	0	0	0	0	0	0	rare_iSNP	other	98
+1020001	0	0	0	0	0	0	rare_iSNP	other	98
+1024247	0	0	0	0	0	2	rare_iSNP	other	98
+1024274	0	0	0	0	0	0	common_iSNP	other	98
+1024707	0	0	0	0	0.1	0	rare_iSNP	other	98
+1024722	0	0	0	0	0	0	common_iSNP	other	98
+1024963	0	0	0	0	0.1	0	common_iSNP	other	98
+1024964	0	0	0	0	0	0	rare_iSNP	other	98
+1025202	0	0	0	0	0	0	rare_iSNP	other	98
+1025440	0	0	0	0	0	0	rare_iSNP	other	98
+1025496	0	0	0	0	0.2	0	common_iSNP	other	98
+1025578	50.4	-113	50	-22	51.2	-882	other_SNP	other	98
+1025807	0	0	0	0	0	0	rare_iSNP	other	98
+1025816	100	0	100	0	83.3	-605	other_SNP	other	98
+1025819	0	0	0	0	0.5	0	rare_iSNP	other	98
+1025839	0	0	0	0	0	0	rare_iSNP	other	98
+1025840	0	0	0	0	0	1	rare_iSNP	other	98
+1025850	0	0	0	0	0	0	rare_iSNP	other	98
+1025909	0.5	0	1.4	0	0	0	rare_iSNP	other	98
+1026107	0	0	0	0	0	9	rare_iSNP	other	98
+1026131	0	0	0	0	0.1	0	rare_iSNP	other	98
+1026167	0	0	0	0	0	0	rare_iSNP	other	98
+1026191	0	0	0	0	0	0	rare_iSNP	other	98
+1026209	0.8	0	0	0	0	0	rare_iSNP	other	98
+1026223	0	0	0	0	0	0	rare_iSNP	other	98
+1026299	0	0	0	0	0.1	-1	rare_iSNP	other	98
+1026353	0	0	0	0	0	0	rare_iSNP	other	98
+1026359	0	0	0	0	0	1	rare_iSNP	other	98
+1026483	0	0	0	0	0.1	0	rare_iSNP	other	98
+1026551	0	0	0	0	0	0	common_iSNP	other	98
+1026554	0	0	0	0	0	0	common_iSNP	other	98
+1026578	0	0	0	0	0	0	common_iSNP	other	98
+1026596	0	0	0	0	0	0	rare_iSNP	other	98
+1026608	0	0	0	0	0	0	rare_iSNP	other	98
+1026611	0	0	0	0	0	0	rare_iSNP	other	98
+1026616	0	0	0	0	0	0	rare_iSNP	other	98
+1026629	0	0	0	0	0	0	common_iSNP	other	98
+1026653	0	0	0	0	0	0	rare_iSNP	other	98
+1026656	0	0	0	0	0.1	0	common_iSNP	other	98
+1026657	100	0	100	0	35.9	-3447	other_SNP	other	98
+1026661	0.6	0	1.5	0	14.9	0	common_iSNP	other	98
+1026664	8.7	0	7.3	0	80.8	0	common_iSNP	other	98
+1026665	9.5	0	8	0	80.2	0	common_iSNP	other	98
+1026668	0	0	0	0	0.1	0	common_iSNP	other	98
+1026669	7.9	0	6.6	0	77.7	0	common_iSNP	other	98
+1026670	7.5	-105	5.5	-27	23.6	-4950	other_SNP	other	98
+1026725	0	0	0	0	0.1	0	common_iSNP	other	98
+1026752	0	0	0	0	0	0	common_iSNP	other	98
+1026758	0	0	0	0	0	0	common_iSNP	other	98
+1026763	0	0	0	0	0	0	common_iSNP	other	98
+1026764	0	0	0	0	0	0	common_iSNP	other	98
+1026767	0	0	0	0	0.1	0	common_iSNP	other	98
+1026771	0	0	0	0	0	0	common_iSNP	other	98
+1026772	0	0	0	0	0	0	common_iSNP	other	98
+1026785	0	0	0	0	0	0	rare_iSNP	other	98
+1026833	0	0	0	0	0.1	0	rare_iSNP	other	98
+1026857	0	0	0	0	0	0	rare_iSNP	other	98
+1026863	0	0	0	0	0.1	0	rare_iSNP	other	98
+1027103	0	0	0	1	0	4	common_iSNP	other	98
+1027287	0	0	0	0	0.1	0	common_iSNP	other	98
+1027289	0	0	0	0	0.1	0	common_iSNP	other	98
+1027298	0.5	0	0	0	0.1	-2	common_iSNP	other	98
+1027303	26.4	-591	26.8	-150	72.3	-573	other_SNP	other	98
+1027415	0	0	0	0	0.1	0	common_iSNP	other	98
+1027430	0	0	0	0	0.2	0	common_iSNP	other	98
+1027508	0	0	0	0	0	0	common_iSNP	other	98
+1027540	0	0	0	0	0	0	common_iSNP	other	98
+1028103	28.3	-918	28.3	-258	65.7	-1023	other_SNP	other	98
+1028108	0.8	0	0	0	12.5	0	common_iSNP	other	98
+1028110	0.8	-3	0	0	12.6	-60	other_SNP	other	98
+1028112	6.2	0	5.9	0	83.6	0	common_iSNP	other	98
+1028113	6.1	-16	7.3	-6	31.8	-3790	other_SNP	other	98
+1028117	0.6	0	0	0	0.9	-2	common_iSNP	other	98
+1028133	0	0	0	0	0	0	common_iSNP	other	98
+1028334	0	0	0	0	0.1	0	rare_iSNP	other	98
+1028938	0	0	0.7	0	0.2	0	rare_iSNP	other	98
+1028941	0	0	0	0	0.3	0	rare_iSNP	other	98
+1028950	0	0	0	0	0.3	0	common_iSNP	other	98
+1028968	0	0	0	0	0.3	0	common_iSNP	other	98
+1028971	0	0	0	0	0.3	0	rare_iSNP	other	98
+1028977	0	0	0	0	0.3	0	rare_iSNP	other	98
+1029001	0	0	0	0	0.2	0	rare_iSNP	other	98
+1029097	0	0	0	0	0	0	rare_iSNP	other	98
+1029112	0	0	0	0	0.1	0	common_iSNP	other	98
+1029118	0	0	0	0	0.1	0	common_iSNP	other	98
+1029151	0	0	0	0	0	0	common_iSNP	other	98
+1029171	0	0	0	0	0	0	common_iSNP	other	98
+1029181	0	0	0	0	0	0	common_iSNP	other	98
+1029418	0	0	1.4	0	0.4	0	rare_iSNP	other	98
+1029421	0	0	0	0	0.4	0	rare_iSNP	other	98
+1029424	0	0	0	0	0.5	0	rare_iSNP	other	98
+1029430	0	0	0	0	0.5	0	rare_iSNP	other	98
+1029469	0	0	0	0	0	0	common_iSNP	other	98
+1029478	0	0	0	0	0.3	0	common_iSNP	other	98
+1029489	27.9	-111	78.6	-3	60.9	-106	other_SNP	other	98
+1029569	0	0	0	0	0	0	rare_iSNP	other	98
+1029571	0	0	0	0	1.1	0	rare_iSNP	other	98
+1029572	0	0	0	0	1.1	0	rare_iSNP	other	98
+1029577	0	0	0	0	0	0	common_iSNP	other	98
+1029580	2.3	0	0	0	1.6	0	rare_iSNP	other	98
+1029583	0	0	0	0	0.9	-4	rare_iSNP	other	98
+1029586	0	0	0	0	0.4	0	rare_iSNP	other	98
+1029596	0	0	0	0	0.2	0	rare_iSNP	other	98
+1029607	6	0	3.2	0	0.2	0	common_iSNP	other	98
+1029637	0	0	0	0	0.1	0	rare_iSNP	other	98
+1029641	0.8	0	0	0	0.1	0	rare_iSNP	other	98
+1029643	0	0	0	0	0.1	0	rare_iSNP	other	98
+1029892	0	0	0	0	0.1	0	rare_iSNP	other	98
+1030198	0	0	0	0	0.3	0	rare_iSNP	other	98
+1030204	0	0	1.4	0	0.2	0	common_iSNP	other	98
+1030478	0	0	0	0	0.1	0	rare_iSNP	other	98
+1030497	0	0	0	0	0.2	0	rare_iSNP	other	98
+1030571	0	0	0	0	0	0	rare_iSNP	other	98
+1030591	0	0	0	0	0.1	0	rare_iSNP	other	98
+1030662	0	0	0	0	0.1	0	rare_iSNP	other	98
+1030694	0	0	0	0	0.2	0	rare_iSNP	other	98
+1030773	0	0	0	0	0.1	0	rare_iSNP	other	98
+1030783	0	0	0	0	0.2	-1	rare_iSNP	other	98
+1030983	0	0	0	0	0.2	-1	common_iSNP	other	98
+1030996	0	0	0	0	0.1	0	common_iSNP	other	98
+1031106	0	0	0	0	0.1	0	common_iSNP	other	98
+1031172	0.3	-1	0	0	0	0	common_iSNP	other	98
+1031174	0	0	0	0	0	0	common_iSNP	other	98
+1031183	0	0	0	0	0.1	0	common_iSNP	other	98
+1031200	0	0	0	0	0.1	0	common_iSNP	other	98
+1031210	0	0	0	0	0.1	0	common_iSNP	other	98
+1031256	0	0	0	0	0.2	0	common_iSNP	other	98
+1031281	0	0	0	0	0.2	0	common_iSNP	other	98
+1031365	0	0	0	0	0.2	0	rare_iSNP	other	98
+1031368	0	0	0	0	0.5	0	rare_iSNP	other	98
+1031371	0	0	0	0	0.5	0	rare_iSNP	other	98
+1031376	0	0	0	0	0.7	0	rare_iSNP	other	98
+1031378	0	0	0	0	0.5	0	rare_iSNP	other	98
+1031380	0	0	0	0	0.2	0	rare_iSNP	other	98
+1031382	0	0	0	0	0.2	0	rare_iSNP	other	98
+1031386	0	0	0	0	0	0	rare_iSNP	other	98
+1031394	0	0	0	0	0	0	common_iSNP	other	98
+1031395	0	0	0	0	0	0	common_iSNP	other	98
+1031404	0	0	0	0	0.4	0	rare_iSNP	other	98
+1031413	0	0	0	0	0.5	0	rare_iSNP	other	98
+1031425	2.4	0	0	0	0.8	0	rare_iSNP	other	98
+1031485	0	0	0	0	4.5	0	rare_iSNP	other	98
+1031488	0	0	0	0	4	0	rare_iSNP	other	98
+1031501	0	0	0	0	1.7	0	rare_iSNP	other	98
+1031502	0	0	0	0	1.7	0	rare_iSNP	other	98
+1031520	0	0	0	0	1.1	0	rare_iSNP	other	98
+1031524	0	0	0	0	1	0	rare_iSNP	other	98
+1031548	0	0	0	0	0.7	0	common_iSNP	other	98
+1031566	0	0	0	0	0.4	0	common_iSNP	other	98
+1031575	0	0	0	0	0.5	0	common_iSNP	other	98
+1031582	0	0	0	0	0.5	0	common_iSNP	other	98
+1031584	0	0	0	0	0.3	0	common_iSNP	other	98
+1031585	0	0	0	0	0.5	0	common_iSNP	other	98
+1031587	0	0	0	0	0.3	0	common_iSNP	other	98
+1031621	0	0	0	0	0.2	0	common_iSNP	other	98
+1031650	0	0	0	0	0.3	0	common_iSNP	other	98
+1031672	51.4	-301	51.1	-90	51.7	-1001	other_SNP	other	98
+1031721	50.9	-391	50	-117	50.4	-1346	other_SNP	other	98
+1031731	0	0	0	0	0.2	0	common_iSNP	other	98
+1031779	0	0	0	0	0.1	0	rare_iSNP	other	98
+1031780	0	0	0	0	0.2	0	rare_iSNP	other	98
+1031878	0	0	0	0	0.1	0	rare_iSNP	other	98
+1031879	97.6	-4	100	0	87.6	-157	other_SNP	other	98
+1031907	0	0	0	0	0	0	rare_iSNP	other	98
+1031927	0	0	0	0	0.2	0	rare_iSNP	other	98
+1032263	0	0	0	0	0.1	0	common_iSNP	other	98
+1032525	0	0	0	0	0.1	-1	rare_iSNP	other	98
+1032893	0.8	0	0	0	0.2	1	common_iSNP	other	98
+1033617	0	0	0	0	0	0	other_SNP	other	98
+1033764	0	0	0	0	0	1	rare_iSNP	other	98
+1034168	0	0	0	0	0	0	rare_iSNP	other	98
+1034255	0.2	0	0	0	0	0	rare_iSNP	other	98
+1034270	0	0	0	0	0	0	rare_iSNP	other	98
+1034274	0	0	0	0	0	0	rare_iSNP	other	98
+1034279	0	0	0	0	0	0	rare_iSNP	other	98
+1034294	0.2	0	0	0	0.1	0	rare_iSNP	other	98
+1034318	0	0	0	0	0	0	rare_iSNP	other	98
+1034339	0	0	0	0	0	0	rare_iSNP	other	98
+1035302	0	0	0	0	0.1	-1	rare_iSNP	other	98
+1035337	0	0	0	0	0	0	rare_iSNP	other	98
+1035362	17.3	-1668	18.6	-528	17.6	-10750	other_SNP	other	98
+1035374	67.2	0	36	0	50.5	0	common_iSNP	other	98
+1035377	89.7	1	75	0	77.4	0	common_iSNP	other	98
+1039139	0	1	0	0	0	1	common_iSNP	other	98
+1042502	67.4	-42	75	-6	79.6	-114	other_SNP	other	98
+1042503	84.3	-14	93.8	0	62.5	-252	other_SNP	other	98
+1042504	54.6	-59	27.6	-42	31.7	-845	other_SNP	other	98
+1042505	38.8	-104	100	0	24.4	-1045	other_SNP	other	98
+1042506	39.3	-91	37.1	-22	31.4	-556	other_SNP	other	98
+1042507	16.9	-246	17.2	-48	11.5	-1602	other_SNP	other	98
