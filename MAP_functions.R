@@ -558,21 +558,21 @@ SNP_analysis_for_pub <- function(subject_id) {
   R_MAP <- read_MAP(paste0("~/Documents/2021-Fiji-Ct_paper/MAP_results/MAP_files/",subject_id,"R_MAP.txt"),"R") %>%
     #filter(regular > -1 & regular < 1) %>%
     filter(Coverage > cov_cutoff) %>%
-    select(Position,SNP_percent,regular)
+    select(Position,SNP_percent)
   assert_that(nrow(R_MAP) > 0)
   R_bases <- nrow(R_MAP)
   print(paste("Numbers of R bases above cutoff is ",R_bases))
   C_MAP <- read_MAP(paste0("~/Documents/2021-Fiji-Ct_paper/MAP_results/MAP_files/",subject_id,"C_MAP.txt"),"C") %>%
     #filter(regular > -1 & regular < 1) %>%
     filter(Coverage > cov_cutoff) %>%
-    select(Position,SNP_percent,regular)
+    select(Position,SNP_percent)
   assert_that(nrow(C_MAP) > 0)
   C_bases <- nrow(C_MAP)
   print(paste("Numbers of C bases above cutoff is ",C_bases))
   V_MAP <- read_MAP(paste0("~/Documents/2021-Fiji-Ct_paper/MAP_results/MAP_files/",subject_id,"V_MAP.txt"),"V") %>%
     #filter(regular > -1 & regular < 1) %>%
     filter(Coverage > cov_cutoff) %>%
-    select(Position,SNP_percent,regular)
+    select(Position,SNP_percent)
   assert_that(nrow(V_MAP) > 0)
   
   
@@ -583,8 +583,6 @@ SNP_analysis_for_pub <- function(subject_id) {
   
   T1T2_denovo_df_long <- gather(T1T2_denovo_df,"Body_site","SNP_percent",-Position)
  
-  
-  
   library(RColorBrewer)
   cust_pal <- brewer.pal(3,"Accent")
   snps_ref1 <- ggplot(filter(T1T2_denovo_df_long,Body_site == "Endocervix"), aes(x= Position, y= SNP_percent, color = Body_site)) +
@@ -620,15 +618,15 @@ SNP_analysis_for_pub <- function(subject_id) {
   
   CSNP_plot2 <- plot_grid(snps_ref1,snps_ref2,snps_ref3, ncol = 1, align = 'v',labels = c('a', 'b','c'),label_y = 0.95)
   
-  CSNP_plot3 <- plot_grid(snps_ref4, ncol = 1, align = 'v',labels = c('d'),label_y = 0.98,label_x = 0.015) 
+  CSNP_plot3 <- plot_grid(snps_ref4 + coord_flip(), ncol = 1, align = 'v',labels = c('d'),label_y = 0.98,label_x = 0.015) 
   
   #combined_plot <- plot_grid(CSNP_plot2,CSNP_plot3,tryptich1,align = 'v')
   plot_filename = paste0(subject_id,"_combined.jpg")
   #ggsave2(filename=plot_filename,device = "jpeg",dpi = 300,units = "in", width = 8, height = 3)
   
   
-  # return all the plots
-  return(list(CSNP_plot2,CSNP_plot3,tryptich1))
+  # return all the plots (except tryptich)
+  return(list(CSNP_plot2,CSNP_plot3))
   print("")
 } #end SNP_analysis_for_pub function block
 

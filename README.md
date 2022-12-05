@@ -19,12 +19,10 @@ outputs lists of positions that discriminate T1 and T2 clades including ```T1T2_
 ```fastGEAR_ancrestral_recombination``` and ```fastgear_recent_recombination``` pipelines analyse the output of fastGEAR analysis and make plots and gather stats. Als produce the ```fastgear_fiji_recombs``` file of recombinant positions.
 
 ```SNP_pipelines``` analyzes SNPs for each strain
-INputs are ``Pos_count.tsv```, ```fastgear_fiji_recombs```,```MAP_files```, and ```T1T2_denovo_snps```
+INputs are ``Pos_count.tsv```, ```fastgear_fiji_recombs```,```MAP_files```, and ```T1T2_denovo_snps```, and ```2021_08_24-Grand_Summary - MAP_analysis_summary.tsv```. 
 Outputs are ```iSNPs_by_subject``` and ```iSNP_analysis_table```., and various plots
 
 ```SNP_analysis_figures``` is similar to SNP_pipelines but updated figures for publications.
-
-```make_iSNP_table```: inputs are ```/iSNP_analysis_table``` and ```2021_08_24-Grand_Summary - MAP_analysis_summary.tsv```.  Make supplemental figures and analysis plots. Looks at the effect of coverage on iSNP calling.
 
 ```common_iSNPs.Rmd```: Makes some plots.
 inputs are ```/iSNPs_by_subject/```.
