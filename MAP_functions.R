@@ -509,7 +509,9 @@ SNP_analysis_pipeline <- function(subject_id, rare_cutoff = 3,cov_cutoff = 10) {
 
 
 SNP_analysis_for_pub <- function(subject_id) {
+  cov_cutoff <- 10
   print(paste("SUBJECT_ID is",subject_id))
+  print(paste("Coverage cutoff =",cov_cutoff))
  
   ## replace with the table created from the above function 
   library(tidyverse)
@@ -521,35 +523,35 @@ SNP_analysis_for_pub <- function(subject_id) {
   assert_that(nrow(Total_iSNPs) > 0)
   print(paste("Number of iSNP positions = ",nrow(Total_iSNPs)))
   
-  #Tryptich 1
-  library(cowplot)
-  RCplot <- ggplot(filter(Total_iSNPs,!(R_percent > 90 & C_percent > 90)), aes(x=R_percent, y=C_percent, color = SNP)) + 
-    geom_point() +
-    xlab("Ref allele % rectal") +
-    ylab("Ref allele % cervical") +
-    xlim(0,100) + 
-    scale_color_manual(values = c("gainsboro","orange","red","blue")) +
-    theme_bw() 
-  RVplot <- ggplot(filter(Total_iSNPs,!(R_percent > 90 & V_percent > 90)), aes(x=R_percent, y=V_percent, color = SNP)) + 
-    geom_point() +
-    xlab("Ref allele % rectal") +
-    ylab("Ref allele % vaginal") +
-    xlim(0,100) +
-    scale_color_manual(values = c("gainsboro","orange","red","blue")) +
-    theme_bw() 
-  VCplot <- ggplot(filter(Total_iSNPs,!(V_percent > 90 & C_percent > 90)), aes(x=V_percent, y=C_percent, color = SNP)) + 
-    geom_point() +
-    xlab("Ref allele % vaginal") +
-    ylab("Ref allele % cervical") +
-    xlim(0,100) +
-    scale_color_manual(values = c("gainsboro","orange","red","blue")) +
-    theme_bw() 
-  try1_title <- ggdraw() +
-    theme(plot.margin = margin(0, 0, 0, 7))
-  tryptich1 <- plot_grid(
-    RCplot, RVplot, VCplot,
-    labels = c("e","f","g")
-  )
+  # #Tryptich 1
+  # library(cowplot)
+  # RCplot <- ggplot(filter(Total_iSNPs,!(R_percent > 90 & C_percent > 90)), aes(x=R_percent, y=C_percent, color = SNP)) + 
+  #   geom_point() +
+  #   xlab("Ref allele % rectal") +
+  #   ylab("Ref allele % cervical") +
+  #   xlim(0,100) + 
+  #   scale_color_manual(values = c("gainsboro","orange","red","blue")) +
+  #   theme_bw() 
+  # RVplot <- ggplot(filter(Total_iSNPs,!(R_percent > 90 & V_percent > 90)), aes(x=R_percent, y=V_percent, color = SNP)) + 
+  #   geom_point() +
+  #   xlab("Ref allele % rectal") +
+  #   ylab("Ref allele % vaginal") +
+  #   xlim(0,100) +
+  #   scale_color_manual(values = c("gainsboro","orange","red","blue")) +
+  #   theme_bw() 
+  # VCplot <- ggplot(filter(Total_iSNPs,!(V_percent > 90 & C_percent > 90)), aes(x=V_percent, y=C_percent, color = SNP)) + 
+  #   geom_point() +
+  #   xlab("Ref allele % vaginal") +
+  #   ylab("Ref allele % cervical") +
+  #   xlim(0,100) +
+  #   scale_color_manual(values = c("gainsboro","orange","red","blue")) +
+  #   theme_bw() 
+  # try1_title <- ggdraw() +
+  #   theme(plot.margin = margin(0, 0, 0, 7))
+  # tryptich1 <- plot_grid(
+  #   RCplot, RVplot, VCplot,
+  #   labels = c("e","f","g")
+  # )
   
   
   #canonical SNP analysis
@@ -582,6 +584,7 @@ SNP_analysis_for_pub <- function(subject_id) {
   colnames(T1T2_denovo_df) <- c("Position","Rectum","Vagina","Endocervix")
   
   T1T2_denovo_df_long <- gather(T1T2_denovo_df,"Body_site","SNP_percent",-Position)
+  #write_tsv(T1T2_denovo_df_long,file = "T1T2_denovo_df_long.tsv")
  
   library(RColorBrewer)
   cust_pal <- brewer.pal(3,"Accent")
@@ -609,16 +612,16 @@ SNP_analysis_for_pub <- function(subject_id) {
     theme_bw()+
     theme(axis.text = element_text(size=9))
   
-  snps_ref4 <- ggplot(T1T2_denovo_df_long, aes(x=SNP_percent,color = Body_site)) +
+  snps_ref4 <- ggplot(T1T2_denovo_df_long, aes(y=SNP_percent,x=Body_site,color = Body_site)) +
     geom_boxplot() + 
     scale_color_brewer(palette = "Accent") +
-    xlab("Percent_cDenovo_reference") +
+    scale_y_continuous(name="% ref", limits=c(0, 100)) +
     theme_bw() +
-    theme(axis.text.y = element_blank())
+    theme(legend.position="none") 
   
   CSNP_plot2 <- plot_grid(snps_ref1,snps_ref2,snps_ref3, ncol = 1, align = 'v',labels = c('a', 'b','c'),label_y = 0.95)
   
-  CSNP_plot3 <- plot_grid(snps_ref4 + coord_flip(), ncol = 1, align = 'v',labels = c('d'),label_y = 0.98,label_x = 0.015) 
+  CSNP_plot3 <- plot_grid(snps_ref4, ncol = 2, nrow=2, align = 'v',labels = c('d'),label_y = 0.98,label_x = 0.015) 
   
   #combined_plot <- plot_grid(CSNP_plot2,CSNP_plot3,tryptich1,align = 'v')
   plot_filename = paste0(subject_id,"_combined.jpg")

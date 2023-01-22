@@ -1,0 +1,66 @@
+---
+title: "Untitled"
+output: html_document
+date: "2023-01-09"
+---
+
+```{r}
+library(tidyverse)
+source("MAP_functions.R")
+```
+
+```{r}
+T1T2_denovo_df_long <- read.delim("~/GitHub/Ct_MAP_analysis/T1T2_denovo_df_long.tsv")
+```
+
+```{r}
+library(RColorBrewer)
+  cust_pal <- brewer.pal(3,"Accent")
+  snps_ref1 <- ggplot(filter(T1T2_denovo_df_long,Body_site == "Endocervix"), aes(x= Position, y= SNP_percent, color = Body_site)) +
+    geom_point(alpha = 0.7, size = 0.5) + 
+    scale_color_manual(values = cust_pal[1]) +
+    xlim(1,1042504)+
+    ylab("% ref") +
+    theme_bw() +
+    theme(axis.text = element_text(size=9))
+  
+  snps_ref2 <- ggplot(filter(T1T2_denovo_df_long,Body_site == "Rectum"), aes(x= Position, y= SNP_percent, color = Body_site)) +
+    geom_point(alpha = 0.7, size = 0.5) + 
+    scale_color_manual(values = cust_pal[2]) +
+    xlim(1,1042504)+
+    labs(y = "% ref") +
+    theme_bw() +
+    theme(axis.text = element_text(size=9))
+  
+  snps_ref3 <- ggplot(filter(T1T2_denovo_df_long,Body_site == "Vagina"), aes(x= Position, y= SNP_percent, color = Body_site)) +
+    geom_point(alpha = 0.7, size = 0.5) + 
+    scale_color_manual(values = cust_pal[3]) +
+    xlim(1,1042504)+
+    labs(y = "% ref") +
+    theme_bw()+
+    theme(axis.text = element_text(size=9))
+```
+
+
+
+```{r}
+snps_ref4 <- ggplot(T1T2_denovo_df_long, aes(y=SNP_percent,x=Body_site,color = Body_site)) +
+    geom_boxplot() + 
+    scale_color_brewer(palette = "Accent") +
+    scale_y_continuous(name="% ref", limits=c(0, 100)) +
+    theme_bw() +
+    theme(legend.position="none") 
+snps_ref4
+```
+
+```{r}
+library(cowplot)
+CSNP_plot2 <- plot_grid(snps_ref1,snps_ref2,snps_ref3, ncol = 1, align = 'v',labels = c('a', 'b','c'),label_y = 0.95)
+CSNP_plot2 
+```
+
+```{r}
+CSNP_plot3 <- plot_grid(snps_ref4, ncol = 2, nrow=2, align = 'v',labels = c('d'),label_y = 0.98,label_x = 0.015) 
+CSNP_plot3
+```
+
